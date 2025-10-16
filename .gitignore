@@ -15,16 +15,31 @@ mame/manuals/**/*
 
 icons/**/*
 
+video/previews/**/*
+
 images/boxes/a2600/*
-images/boxes/**/*
+images/boxes/nes/*
+
+images/boxes/**/a*
+images/boxes/**/b*
+images/boxes/**/c*
+images/boxes/**/d*
+images/boxes/**/e*
+images/boxes/**/f*
+images/boxes/**/g*
+images/boxes/**/h*
+images/boxes/**/i*
+images/boxes/**/j*
+images/boxes/**/k*
+images/boxes/**/l*
+images/boxes/**/m*
+images/boxes/**/n*
 
 images/logos/a2600/*
 images/logos/nes/*
 
 images/bezels/a2600/*
 images/bezels/nes/*
-
-video/previews/**/*
 
 # Exclude MAME all ROMs and disks
 # NOTE: Multiple versions of romsets as assemblies may vary in MAME version
