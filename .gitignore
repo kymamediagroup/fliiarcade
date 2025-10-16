@@ -16,7 +16,27 @@ mame/manuals/**/*
 icons/**/*
 
 images/boxes/**/*
-images/cabinets/*
+images/cabinets/a*
+images/cabinets/b*
+images/cabinets/c*
+images/cabinets/d*
+images/cabinets/e*
+images/cabinets/f*
+images/cabinets/g*
+images/cabinets/h*
+images/cabinets/i*
+images/cabinets/j*
+images/cabinets/k*
+images/cabinets/l*
+images/cabinets/m*
+images/cabinets/n*
+images/cabinets/o*
+images/cabinets/p*
+images/cabinets/q*
+images/cabinets/r*
+images/cabinets/s*
+images/cabinets/t*
+images/cabinets/u*
 
 images/logos/a2600/*
 images/logos/nes/*
