@@ -1,0 +1,9 @@
+{
+	"preferredVersion": ".219",
+	"romsetTypes": {
+	    ".219": "merged",
+	    ".244": "split",
+	    ".277": "merged"
+	},
+	"externalEmulatorLocation": "https://archive.org/download/emularity_engine_v1"
+}

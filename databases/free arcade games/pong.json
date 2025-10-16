@@ -1,0 +1,1 @@
+{"name":"pong","description":"Pong","system":"mame","parentSystem":"pong","roms":["pong"],"biosFiles":[],"hasSamples":false,"nativeResolution":[454,262],"players":2,"controls":{"1":{"type":"paddle"},"2":{"type":"paddle"}},"genre":"Ball & Paddle","manufacturer":"Atari","year":1972,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":"72d5e4fe"}

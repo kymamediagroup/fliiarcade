@@ -1,0 +1,27 @@
+/* Gorf has one extra (theme) image */
+
+/* Initially rise from bottom of screen and then hover forever */
+
+.decoration {
+    animation: hoverX 6s 1s ease-in-out infinite, hoverY 5s 1s ease-in-out infinite, flyInFromBottom 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+}
+
+/* Initially rise from bottom of screen */
+
+/* #extra img {
+    position: fixed;
+    width: 703px;
+    height: 720px;
+    bottom: -720px;
+    transition: opacity 1s ease-in, bottom 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    opacity: 0;
+}*/
+
+/* Then hover forever (initially delayed) */
+
+/*.ready #extra img {
+    opacity: 1;
+    bottom: 0;
+
+    animation: hoverX 6s 1s ease-in-out infinite, hoverY 5s 1s ease-in-out infinite;
+}*/

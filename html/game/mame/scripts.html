@@ -1,0 +1,596 @@
+<!-- Emularity (first one is a polyfill, which shouldn't be needed) -->
+
+<script src="../scripts/es6-promise.js"></script>
+<script src="../scripts/browserfs.min.js"></script>
+<script src="../scripts/loader.js"></script>
+
+<!-- Common script -->
+
+<script src="../scripts/common.js"></script>
+
+<!-- Three module (for future use)  -->
+
+<script type="module">
+    // const source = 'scripts/three.js';
+
+    // import * as THREE from source;
+</script>
+
+<script>
+    // Will reference the current MAMELoader object
+
+    let loader;
+    let started = false;
+
+    function onPreferenceInput({ target }) {
+        const preferenceType = target.dataset.type;
+
+        switch(preferenceType) {
+        case 'command':
+            // FIXME: get extra arguments in start
+
+            restart(getExtraArguments(target.form));
+
+            break;
+        case 'class':
+            const elGame = getCanvas().parentElement;
+
+            Array.from(target.form.elements).filter(el => el.dataset.type == 'class').forEach(el => {
+                elGame[el.checked ? 'add' : 'remove' ](target.name + '-' + target.value);
+            });
+
+            break;
+        default:
+            console.warn('Invalid preference type!');
+        }
+    }
+
+    // Extra arguments are for things like scan lines and upscaling to be toggled in UI
+
+    const extraArguments = {
+        // TODO: Can also use bgfx to load a scan lines shader
+
+        /* video: {
+            normal: [],
+            scanlines: ['-hlsl'],
+            upscaled: ['-video', 'bgfx']
+        }, */
+        scaling: {
+            integer: ['-nounevenstretch']
+        }
+    };
+
+    function getExtraArguments({ elements }) {
+        // let result = [];
+
+        let result = Array.from(elements).filter(el => el.dataset.type == 'command' && el.checked).flatMap(el => extraArguments[el.name][el.value]);
+
+        return result;
+    }
+
+    function start(extraArguments = []) {
+        function ensureDirectoriesExist(filePath) {
+            // Gracefully handle cases where the FS object might not be defined.
+            const FS_API = typeof FS !== 'undefined' ? FS : (typeof Module !== 'undefined' ? Module.FS : null);
+            
+            if (!FS_API) {
+                console.warn("FS object not available globally. Cannot create directories.");
+                return;
+            }
+
+            // 1. Split the path. The filter removes empty strings from leading/trailing slashes.
+            // e.g., "/a/b" -> ["", "a", "b"] -> ["a", "b"]
+            const parts = filePath.split('/').filter(p => p.length > 0);
+
+            // 2. Check if the last part is a file (contains a dot after the last slash).
+            const lastPart = parts[parts.length - 1];
+            const isFile = lastPart && lastPart.includes('.') && lastPart.lastIndexOf('.') > -1;
+            
+            if (isFile) {
+                parts.pop(); // Remove the filename to process only the directory structure
+            }
+
+            let currentPath = '';
+            
+            // Iterate over each directory part (e.g., "artwork", then "genhorizontal")
+            parts.forEach(dirName => {
+                
+                // FIX: The path separator MUST be prepended to the directory name.
+                // This correctly constructs paths like: /artwork, then /artwork/genhorizontal
+                currentPath += '/' + dirName;
+                
+                try {
+                    // Check for directory existence using FS.stat().
+                    // If it exists, FS.stat succeeds and we move to the next iteration.
+                    FS_API.stat(currentPath);
+                } catch (e) {
+                    // If stat fails with ENOENT (Error No Entry, often 44), create the directory.
+                    if (e.errno === 44 || e.code === 'ENOENT') {
+                        FS_API.mkdir(currentPath, 0o777);
+                        console.log(`Created directory: ${ currentPath }`);
+                    } else if (e.errno === 47 /* EEXIST */) {
+                        // If mkdir somehow throws EEXIST, we ignore it.
+                        return;
+                    } else {
+                        // Log all other unexpected errors
+                        console.error(`Unexpected FS error for ${currentPath} (errno: ${e.errno}):`, e);
+                    }
+                }
+            });
+        }
+
+        const game = {{ json }}; // Templated
+
+        const { name, version } = game;
+
+        if (pixelcadeAddress) {
+            setPixelcadeGameMarquee(game.system, game.name);
+        }
+
+        // Always use these command line arguments
+
+        const generalExtraArgs = [];
+
+        // If controls include analog(s) that may be controlled my mouse input...
+
+        if (game.controls['1'].type == 'trackball' || game.controls['1'].type == 'positional' || game.controls['1'].type == 'paddle' || game.controls['1'].type == 'dial' || game.controls['1'].type == 'lightgun') {
+            generalExtraArgs.push('-mouse');
+
+            analogControls = true;
+        }
+
+        // If controls include light gun(s)
+
+        if (game.controls['1'].type == 'lightgun') {
+            // Enable dual light guns
+
+            generalExtraArgs.push('-multimouse');
+
+            lightGuns = true;
+        }
+
+        // If disk-based (CHD file) game...
+
+        if (game.disks) {
+            generalExtraArgs.push('-nodrc')
+        }
+
+        // TODO: Audit controls (other analogs?)
+        // TODO: Combine shaders in Gimp
+        // TODO: eslint exclusions
+
+        // TODO: Test arrows on tabs (add home and end)
+        // TODO: Title mutation listener
+
+        // TODO: Localize these
+
+        const progressCaptions = {
+            'artwork': {
+                success: 'Hanging artwork…',
+                failure: 'Failed to acquire artwork!'
+            },
+            'sounds': {
+                success: 'Sampling sounds…',
+                failure: 'Couldn\'t hear sounds!'
+            },
+            'memory': {
+                success: 'Flashing memory…',
+                failure: 'Lost memory!'
+            },
+            'config': {
+                success: 'Configuring game…',
+                failure: 'Failed to acquire game configuration!'
+            },
+            'machine': {
+                success: 'Building machine…',
+                failure: 'Machine wasn\'t delivered!'
+            },
+            'disk': {
+                success: 'Inserting disk…',
+                failure: 'Failed to acquire disk!'
+            },
+            'cartridge': {
+                success: 'Inserting cartridge…',
+                failure: 'Failed to acquire cartridge!'
+            },
+            'layout': {
+                success: 'Framing viewport…',
+                failure: 'Failed to frame viewport!'
+            },
+            'other': {
+                success: 'Loading other stuff…',
+                failure: 'Failed to load other stuff!'
+            }
+        };
+
+        const emulatorLocation = game.externalEmulatorLocation || '../mame';
+
+        const romLocation = game.externalLocation || '../mame/roms';
+
+        const roms = game.roms.map((rom, i) => ({
+            name: `${ rom }.zip`,
+            url: `${ romLocation }/${ rom }.zip`
+            // sha1: game.romHashes[i]
+        }));
+
+        let joysticks = 0;
+        let analogControls = false;
+        let analogStick = false;
+        let lightGuns = false;
+
+        const player1Controls = game.controls ? game.controls['1'] : {};
+
+        if (player1Controls.ways) {
+            if (player1Controls.type == 'doublejoy') {
+                joysticks = 2;
+            } else {
+                joysticks = 1;
+            }
+        } else if (player1Controls.type == 'stick') { // Stick without ways is an analog stick
+            joysticks = 1;
+
+            analogStick = true;
+            analogControls = true;
+        }
+
+        // TODO: Prune unneeded buttons and directions and color remaining if color data exists for game
+
+        const canvas = getCanvas();
+        const canvasFrame = canvas.parentElement;
+
+        if (joysticks) {
+            // TODO: addGameClass()
+
+            canvasFrame.classList.add('game-joystick');
+
+            if (joysticks == 2) {
+                canvasFrame.classList.add('game-joysticks');
+            }
+        }
+
+        if (analogControls) {
+            canvasFrame.classList.add('game-analog-controls');
+        }
+
+        if (lightGuns) {
+            canvasFrame.classList.add('game-light-guns');
+        }
+
+        if (!game.nativeResolution || game.nativeResolution[0] >= game.nativeResolution[1]) {
+            canvasFrame.classList.add('game-horizontal');
+        } else {
+            canvasFrame.classList.add('game-vertical');
+        }
+
+        let wasmFilename = game.parentSystem == game.cloneOf ? name : game.parentSystem;
+
+        // NOTE: The check for these two odd clones will be factored out in next DB revision
+
+        if (['gradius', 'crimfghtu', 'cyberbalt'].includes(name)) {
+            wasmFilename = game.cloneOf;
+        }
+
+        // const wasmFilename = game.parentSystem || game.name;
+
+        // TODO: Add  ports, peripherals, etc. as needed for console, handheld and computer games
+
+        const softwareArguments = [];
+
+        if (game.software) {
+            softwareArguments.push('-cart'); // TODO: varies by software type
+            softwareArguments.push(`./${ encodeURIComponent(name) }/${ game.software[0] }`);
+        }
+
+        const config = {
+            canvas,
+            mame_driver: game.name,
+            bios_files: game.biosFiles,
+            files: roms,
+            extra_mame_args: generalExtraArgs.concat(extraArguments),
+            emulatorJS: `${ emulatorLocation }/mame${ wasmFilename }.js.gz`,
+            emulatorWASM: `${ emulatorLocation }/mame${ wasmFilename }.wasm.gz`,
+            nativeResolution: { height: game.nativeResolution[1], width: game.nativeResolution[0] },
+            keep_aspect: true
+        };
+
+        loader = new MAMELoader(config);
+
+        // Reference Emulator tab content
+
+        const el = document.getElementById('emulator');
+
+        // Reference progress bar contained within
+
+        const elProgress = el.querySelector('[role="progressbar"]');
+
+        // Reference element that labels progress bar
+
+        const elCaption = document.getElementById(elProgress.getAttribute('aria-labelledby'));
+
+        el.classList.add('loading'); // TODO: accessibility
+
+        // TODO: localize
+
+        elCaption.textContent = 'Loading emulator…';
+
+        const emulator = new Emulator(canvas, {
+            before_init: () => {
+                console.log('Before init!');
+
+                // TODO: localize
+
+                elCaption.textContent = 'Loading game…';
+
+                // If there was a WASM program name variation (not the same as WASM file)...
+
+                if (game.wasmProgramName) {
+                    // Set alternate entry point
+
+                    Module.thisProgram = game.wasmProgramName;
+                }
+
+                console.log('Loading dependencies...');
+
+                let disks;
+
+                if (game.disks) {
+                    disks = game.disks.map((rom, i) => ({
+                        name: `${ name }/${ rom }`,
+                        url: `${ romLocation }/${ encodeURIComponent(name) }/${ encodeURIComponent(rom) }`
+                        // sha1: game.diskHashes[i]
+                    }));
+                } else {
+                    disks = [];
+                }
+                
+                // Clone the roms array and tack on any disks
+
+                const files = roms.slice().concat(disks);
+                
+                if (game.hasSamples) {
+                    files.push({
+                        name: `samples/${ name }.zip`,
+                        url: `../mame/samples/${ encodeURIComponent(name) }.zip`
+                    });
+                }
+
+                if (game.artworkFiles) {
+                    game.artworkFiles.forEach(file => {
+                        files.push({
+                            name: `artwork/${ game.artworkName || name }/${ file }`,
+                            url: `../mame/artwork/${ encodeURIComponent(game.artworkName || name) }/${ encodeURIComponent(file) }`
+                        });
+                    });
+                } else {
+                    // Add generic artwork files
+
+                    /* files.push({
+                        name: 'artwork/genhorizontal/default.lay',
+                        url: '../mame/artwork/genhorizontal/default.lay'
+                    });
+
+                    files.push({
+                        name: 'artwork/genhorizontal/bezel.png',
+                        url: '../mame/artwork/genhorizontal/bezel.png'
+                    });
+
+                    files.push({
+                        name: 'artwork/genvertical/default.lay',
+                        url: '../mame/artwork/genvertical/default.lay'
+                    });
+
+                    files.push({
+                        name: 'artwork/genvertical/bezel.png',
+                        url: '../mame/artwork/genvertical/bezel.png'
+                    }); */
+                }
+
+                if (game.nvramFiles) {
+                    game.nvramFiles.forEach(file => {
+                        files.push({
+                            name: `nvram/${ name }/${ file }`,
+                            url: `../mame/nvram/${ encodeURIComponent(name) }/${ encodeURIComponent(file) }`
+                        });
+                    });
+                }
+
+                if (game.hasCfgFile) {
+                    files.push({
+                        name: `cfg/${ name }.cfg`,
+                        url: `../mame/cfg/${ encodeURIComponent(name) }.cfg`
+                    });
+                }
+
+                if (game.software) {
+                    game.software.forEach(file => {
+                        files.push({
+                            name: `${ name }/${ file }`,
+                            url: `${ romLocation }/${ encodeURIComponent(name) }/${ encodeURIComponent(file) }`,
+                            // sha1: game.softwareHashes[i]
+                        });
+                    });
+                }
+
+                // TODO: Push ctrlr file once created
+
+                // 1. Registering Run Dependencies
+
+                files.forEach(file => {
+                    Module.addRunDependency(file.name);
+                });
+
+                let count = files.length;
+
+                // 2. File Preparation and Preloading
+
+                files.forEach(file => {
+                    // If has a path (i.e. not in the root)...
+
+                    if (file.name.includes('/')) {
+                        // Create directories if needed
+
+                        ensureDirectoriesExist(file.name);
+                    }
+
+                    let progressCaption, failureCaption, fileType;
+
+                    if (file.name.includes('.png')) {
+                        fileType = 'artwork';
+                    } else if (file.name.includes('.lay')) {
+                        fileType = 'layout';
+                    } else if (file.name.includes('samples/')) {
+                        fileType = 'sounds';
+                    } else if (file.name.includes('nvram/')) {
+                        fileType = 'memory';
+                    } else if (game.disks && game.disks.includes(file.name.split('/').slice(-1))) {
+                        if (file.name.includes('.chd')) {
+                            fileType = 'disk';
+                        } else {
+                            fileType = 'other';
+                        }
+                    } else if (file.name.includes('.cfg')) {
+                        fileType = 'config';
+                    } else if (game.roms.includes(file.name.replace(/\.[^.]*$/, ''))) {
+                        fileType = 'machine';
+                    } else if (game.software && game.software.includes(file.name.split('/').slice(-1))) {
+                        fileType = game.softwareType || 'cartridge';
+                    } else {
+                        // Should never happen
+
+                        debugger;
+                    }
+
+                    progressCaption = progressCaptions[fileType].success;
+                    failureCaption = progressCaptions[fileType].failure;
+                    
+                    // 3. Queue the download and mount the file in the virtual file system
+
+                    Module.FS_createPreloadedFile(
+                        '/',
+                        file.name, 
+                        file.url, 
+                        true, // Read permission
+                        true, // Write permission
+                        // Success callback
+                        () => { 
+                            console.log(`Downloaded ${ file.name }`);
+
+                            Module.removeRunDependency(file.name);
+
+                            count--;
+
+                            if (!count) {
+                                el.classList.remove('loading');
+                            }
+
+                            elCaption.textContent = progressCaption;
+                        }, 
+                        // Error callback
+                        (e) => {
+                            console.error(e);
+
+                            console.warn(`Failed to download! ${ file.name }`);
+
+                            Module.removeRunDependency(file.name);
+
+                            count--;
+
+                            if (!count) {
+                                el.classList.remove('loading');
+                            }
+
+                            elCaption.textContent = failureCaption;
+                        } 
+                    );
+                });
+            },
+            before_emulator: () => {
+                console.log('Before emulator');
+            },
+            before_run: () => {
+                console.log('Before run');
+
+                el.classList.add('running');
+            }
+        }, loader);
+
+        emulator.start();
+    }
+
+    function stop() {
+        const el = getCanvas();
+        const parent = el.parentElement;
+
+        // Clone the CANVAS element
+
+        elClone = el.cloneNode();
+
+        // Remove the CANVAS element
+
+        el.remove();
+
+        // Create a new CANVAS element
+        // Old CANVAS element will be garbage collected, stopping the old emulation
+
+        el = document.createElement('canvas');
+
+        // Add the clone to the document
+
+        parent.appendChild(elClone);
+    }
+
+    function restart() {
+        stop();
+
+        start();
+    }
+
+    // If canvas displayed...
+
+    /* if (canvas.offsetHeight) {
+        // Start the game
+
+        start();
+    } else {
+        // Canvas is NOT displayed (e.g. in an alternate tab panel)
+
+        console.log('Game start deferred, as canvas not visible. Call start() when ready.');
+    } */
+
+    // Called when presenting a section
+
+    function onLayout(section) {
+        // If presenting emulator section...
+
+        if (section == 'emulator') {
+            // If first time...
+
+            if (!started) {
+                // Start emulator
+
+                start();
+
+                started = true;
+            }
+
+            // Adjust size of bezel to match canvas
+
+            scaleBezel();
+        }
+    }
+
+    function onFullscreenChange() {
+        scaleBezel();
+    }
+
+    function onResize() {
+        // Adjust size of bezel to match canvas
+
+        scaleBezel();
+    }
+
+    // Adds a class to the body that causes script-dependent elements (e.g. buttons) to present or enable
+    // and performs auto-focus if needed
+
+    initialize();
+</script>

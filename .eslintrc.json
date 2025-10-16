@@ -1,0 +1,65 @@
+{
+    "extends": "eslint:recommended",
+    "env": {
+        "es6": true,
+        "node": true,
+        "browser": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2022 // For object spread operator
+    },
+    "ignorePatterns": ["node_modules/*"],
+    "rules": {
+        "no-unused-vars": "warn",
+        "semi": [
+            "error",
+            "always"
+        ],
+        "spaced-comment": "error",
+        "no-trailing-spaces": "error",
+        "complexity": [
+            "error",
+            170
+        ],
+        "brace-style": "error",
+        "curly": "error",
+        "keyword-spacing": "error",
+        "no-multiple-empty-lines": [
+            "error",
+            {
+                "max": 1,
+                "maxEOF": 1
+            }
+        ],
+        "no-useless-return": "error",
+        "consistent-return": "error",
+        "no-warning-comments": [
+            "warn",
+            {
+                "terms": [
+                    "fixme"
+                ]
+            }
+        ],
+        "handle-callback-err": "error",
+        "indent": [
+            "warn",
+            4
+        ],
+        "newline-after-var": "error",
+        "space-infix-ops": "error",
+        "comma-spacing": [
+            "error",
+            {
+                "before": false,
+                "after": true
+            }
+        ],
+        "prefer-arrow-callback": "error",
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "no-debugger": "warn"
+    }
+}

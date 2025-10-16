@@ -1,0 +1,52 @@
+<!-- Emularity (first one is a polyfill, which shouldn't be needed) -->
+
+<script src="../scripts/es6promise.js"></script>
+<script src="../scripts/browserfs.min.js"></script>
+<script src="../scripts/loader.js"></script>
+
+<!-- Common game script -->
+
+<script src="../scripts/common.js"></script>
+
+<!-- Three module (for future use)  -->
+
+<script type="module">
+    // const source = 'scripts/three.js';
+
+    // import * as THREE from source;
+</script>
+
+<script>
+    const game = {{ json }};
+
+    // externalLocation can be used to load ROMs from other servers
+
+    const romLocation = game.externalLocation || `../dosbox/roms`;
+    const emulatorLocation = game.externalEmulatorLocation || '../dosbox';
+
+    const dosboxEmulator = '{{ dosbox-emulator }}';
+
+    const element = document.getElementById('game');
+    
+    const config = {
+        element,
+        
+        // DOSBox uses a single WASM file for all games.
+
+        wasm_file: `${ emulatorLocation }/${ dosboxEmulator }.wasm.gz`,
+
+        games: [
+            { file: `../dosbox/roms/${ game.name }.zip` }
+        ],
+        
+        // This is the command that starts the game inside DOSBox. Otherwise will need to be run from prompt.
+
+        startup_script: game.exeName || '',
+    };
+
+    const loader = new DosBoxLoader(config);
+    
+    loader.start();
+
+    initialize();
+</script>

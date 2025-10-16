@@ -1,0 +1,684 @@
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.75);
+    background-blend-mode: lighten;
+    color: #333;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* These don't inherit from BODY by default */
+
+button, pre {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+button[disabled] {
+    opacity: 0.75;
+}
+
+canvas {
+    background-color: #000;
+    display: block;
+    aspect-ratio: 16 / 9;
+    min-width: 0;
+    min-height: 0;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+video {
+    object-fit: contain;
+}
+
+section {
+    display: flex;
+    flex-grow: 1;
+    animation: fade 0.5s ease-in both;
+}
+
+section[hidden] {
+    display: none;
+}
+
+h1 {
+    font-size: 2em;
+    padding: .5em;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.full-screen header {
+    display: none;
+}
+
+footer {
+    display: flex;
+    padding: 0 0.5em 0.5em 0.5em;
+    margin-top: 10em;
+    transition: margin-top 1s ease-in-out;
+}
+
+footer div:first-child {
+    flex: 1;
+    align-content: center;
+}
+
+.full-screen footer {
+    display: none;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    overflow: auto;
+    background: url(../images/space.png);
+    background-repeat: repeat-x;
+    animation: scrollX 240s linear infinite;
+    animation-direction: normal;
+    padding: 0 10em;
+    transition: padding-top 1s ease-in-out;
+}
+
+pre {
+    flex-grow: 1;
+    text-wrap: auto;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 1em;
+}
+
+table {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+td {
+    padding: 0.5em;
+}
+
+#extra {
+    perspective: 1000px;
+}
+
+#info {
+    flex-direction: column;
+}
+
+#emulator {
+    justify-content: center;
+
+    position: relative;
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+}
+
+#video[hidden] {
+    display: none;
+}
+
+.full-screen #extra {
+    display: none;
+}
+
+.full-screen main {
+    padding: 0;
+}
+
+/* tabstrip */
+
+[role="tablist"] {
+    display: flex;
+    border-bottom: 2px solid #ddd;
+    padding: 0;
+    margin: 0;
+}
+
+[role="tab"] {
+    background-color: #f9f9f9;
+    border: none;
+    padding: 1em 1.25em;
+    flex-grow: 1;
+    text-align: center;
+    transition: background-color 0.25s, color 0.25s;
+    text-transform: capitalize;
+}
+
+[role="tab"]:hover {
+    background-color: #efefef;
+}
+
+[role="tab"][aria-selected="true"] {
+    background-color: #fff;
+    border-bottom: 2px solid #007bff;
+    color: #007bff;
+}
+
+.fullscreen-toggle {
+    width: 3em;
+    height: 3em;
+    background-color: transparent;
+    border: 2px dashed #333;
+    border-radius: 1em;
+    transition: transform 0.25s ease-in-out, border-color 0.25s ease-in-out;
+    z-index: 1;
+}
+
+.fullscreen-toggle:hover {
+    transform: scale(1.1);
+    color: #000;
+}
+
+.full-screen .fullscreen-toggle {
+    position: fixed;
+    right: 1em;
+    bottom: 1em;
+    color: #eee;
+}
+
+.full-screen .fullscreen-toggle:hover {
+    color: #fff;
+}
+
+.avatar {
+    background-color: rgba(0, 0, 0, 0.95);
+    display: flex;
+    justify-content: center;
+}
+
+.avatar img {
+    object-fit: contain;
+    height: 20em;
+}
+
+/* For use with "extra" template HTML to create system and game-specific theming (like HyperSpin) */
+
+.decoration {
+    position: fixed;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out
+}
+
+.decoration-1 {
+    animation: hoverX 6s 1s ease-in-out infinite, hoverY 5s 1s ease-in-out infinite, flyInFromLeft 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+    width: 20em;
+    height: auto;
+    left: 0;
+    top: 50vh;
+}
+
+.decoration-2 {
+    animation: hoverX 6s 1s ease-in-out infinite, hoverY 5s 1s ease-in-out infinite, flyInFromRight 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+    width: 20em;
+    height: auto;
+    right: 0;
+    top: 50vh;
+}
+
+.decoration-3 {
+    height: 20em;
+    width: auto;
+    bottom: 0;
+    left: 50vw;
+}
+
+.decoration-4 {
+    height: 20em;
+    width: auto;
+    top: 0;
+    left: 50vw;
+}
+
+html[dir="rtl"] .decoration-1 {
+    left: 0;
+    right: auto;
+}
+
+html[dir="rtl"] .decoration-2 {
+    right: 0;
+    left: auto;
+}
+
+@media (max-width: 100em) {
+    .decoration-1, .decoration-2 {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    main {
+        padding: 0;
+    }
+}
+
+@media (max-height: 100em) {
+    .decoration-3, .decoration-4 {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    footer {
+        margin-top: .5em;
+    }
+}
+
+@keyframes scrollX {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 0;
+    }
+}
+
+@keyframes hoverX {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(20px); }
+    50% { transform: translateX(-15px); }
+    75% { transform: translateX(10px); }
+    100% { transform: translateX(0); }
+}
+
+@keyframes hoverY {
+    0% { transform: translateY(0); }
+    30% { transform: translateY(-10px); }
+    60% { transform: translateY(15px); }
+    100% { transform: translateY(0); }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* bounce 2s cubic-bezier(0.6, 0.05, 0.45, 1.25) infinite */
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(0) scaleY(1);
+    }
+    40% {
+        transform: translateY(0) scaleY(0.8);
+    }
+    50% {
+        transform: translateY(-500px);
+    }
+    70% {
+        transform: translateY(0) scaleY(0.9);
+    }
+    75% {
+        transform: translateY(0) scaleY(0.8);
+    }
+    80% {
+        transform: translateY(-200px);
+    }
+    90% {
+        transform: translateY(0) scaleY(0.9);
+    }
+    95% {
+        transform: translateY(0) scaleY(0.8);
+    }
+    100% {
+        transform: translateY(0) scaleY(1);
+    }
+}
+
+@keyframes bounce-shadow-size {
+    0% {
+        transform: translateX(-50%) scale(1);
+        opacity: 0.6;
+    }
+    30% {
+        transform: translateX(-50%) scale(1);
+        opacity: 0.6;
+    }
+    40% {
+        transform: translateX(-50%) scale(0.6);
+        opacity: 0.4;
+    }
+    50% {
+        transform: translateX(-50%) scale(0.2);
+        opacity: 0.2;
+    }
+    70% {
+        transform: translateX(-50%) scale(0.6);
+        opacity: 0.4;
+    }
+    80% {
+        transform: translateX(-50%) scale(0.4);
+        opacity: 0.3;
+    }
+    90% {
+        transform: translateX(-50%) scale(0.6);
+        opacity: 0.4;
+    }
+    95% {
+        transform: translateX(-50%) scale(0.4);
+        opacity: 0.3;
+    }
+    100% {
+        transform: translateX(-50%) scale(1);
+        opacity: 0.6;
+    }
+}
+
+/*
+.firework-example {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(circle, #feca57, #ff6b6b);
+    border-radius: 50%;
+    animation: firework-animation 3s cubic-bezier(0.65, 0.05, 0.36, 1) infinite;
+    filter: drop-shadow(0 0 10px #feca57);
+}
+*/
+
+@keyframes firework {
+    /* Start: Invisible at the bottom */
+    0% {
+        transform: translateY(0) scale(0);
+        opacity: 0;
+    }
+
+    /* Ascent: Quick, graceful upward motion */
+    50% {
+        transform: translateY(-80vh) scale(1);
+        opacity: 1;
+    }
+
+    /* Peak & Burst: Element reaches top, and scales up for the "burst" effect */
+    55% {
+        transform: translateY(-80vh) scale(1.5);
+        opacity: 0.9;
+    }
+
+    /* Descent: Slow, graceful fall and fade out */
+    100% {
+        transform: translateY(0) scale(0);
+        opacity: 0;
+    }
+}
+
+@keyframes glow {
+    0% { box-shadow: 0 0 10px 5px rgba(59, 130, 246, 0.4); }
+    25% { box-shadow: 0 0 20px 8px rgba(59, 130, 246, 0.6); }
+    50% { box-shadow: 0 0 15px 7px rgba(59, 130, 246, 0.5); }
+    75% { box-shadow: 0 0 25px 10px rgba(59, 130, 246, 0.7); }
+    100% { box-shadow: 0 0 10px 5px rgba(59, 130, 246, 0.4); }
+}
+
+@keyframes shimmer {
+    0% {
+        box-shadow: 0 0 10px 5px rgba(59, 130, 246, 0.4);
+    }
+    5% {
+        box-shadow: 0 0 30px 10px rgba(59, 130, 246, 0.7);
+    }
+    10% {
+        box-shadow: 0 0 10px 5px rgba(59, 130, 246, 0.4);
+    }
+    100% {
+        box-shadow: 0 0 10px 5px rgba(59, 130, 246, 0.4);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    5% {
+        transform: scale(1.1);
+    }
+    10% {
+        transform: scale(1);
+    }
+    15% {
+        transform: scale(1.1);
+    }
+    20% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes pixelate {
+    0% {
+        filter: blur(5px);
+    }
+    100% {
+        filter: blur(0px);
+    }
+}
+
+@keyframes grow {
+    0% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes rainfall {
+    0% {
+        transform: translateX(0) translateY(-100px);
+    }
+    50% {
+        transform: translateX(50px) translateY(50vh);
+    }
+    100% {
+        transform: translateX(-50px) translateY(calc(100vh + 100px));
+    }
+}
+
+@keyframes flyInFromLeft {
+    0% {
+        transform: translateX(-100vw);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes flyInFromAbove {
+    0% {
+        transform: translateY(-100vh);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes flyInFromBelow {
+    0% {
+        transform: translateY(100vw);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes flyInFromRight {
+    0% {
+        transform: translateX(100vw);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes flyInFromLeftAndOffRight {
+    0% {
+        transform: translateX(-100vw);
+    }
+    100% {
+        transform: translateX(100vw);
+    }
+}
+
+@keyframes flyInFromRightAndOffLeft {
+    0% {
+        transform: translateX(100vw);
+    }
+    100% {
+        transform: translateX(-100vw);
+    }
+}
+
+@keyframes flyInFromAboveAndOffBelow {
+    0% {
+        transform: translateY(-100vh);
+    }
+    100% {
+        transform: translateY(100vh);
+    }
+}
+
+@keyframes flyInFromBelowAndOffAbove {
+    0% {
+        transform: translateY(100vh);
+    }
+    100% {
+        transform: translateY(-100vh);
+    }
+}
+
+@keyframes rotateCardX {
+    0% {
+        transform: rotateX(0deg);
+    }
+    100% {
+        transform: rotateX(360deg);
+    }
+}
+
+@keyframes rotateCardY {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+@keyframes flash {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes jiggle {
+    0% { transform: rotate(-0.5deg); }
+    50% { transform: rotate(0.5deg); }
+    100% { transform: rotate(-0.5deg); }
+}
+
+@keyframes dangle {
+    0% { transform: rotate(-3deg); }
+    50% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@keyframes springOutFromBackground {
+    0% { 
+        opacity: 0; 
+        transform: rotateX(-90deg) scale(0.5) translateY(-500px); 
+    }
+    70% { 
+        opacity: 1; 
+        transform: rotateX(10deg) scale(1.1) translateY(20px); 
+    }
+    100% { 
+        opacity: 1; 
+        transform: rotateX(0deg) scale(1) translateY(0); 
+    }
+}
+
+@keyframes spinAndLand {
+    0% { 
+        opacity: 0; 
+        transform: rotateX(-90deg) rotateZ(180deg) scale(2.5); 
+    }
+    70% { 
+        opacity: 1; 
+        transform: rotateX(10deg) rotateZ(0deg) scale(1.1) translateY(20px); 
+    }
+    100% { 
+        opacity: 1; 
+        transform: rotateX(0deg) rotateZ(0deg) scale(1) translateY(0); 
+    }
+}
+
+@keyframes land {
+    0% {
+        transform: scale(2.5) translateY(-500px); 
+    }
+    70% { 
+        transform: scale(1.1) translateY(20px); 
+    }
+    100% { 
+        transform: scale(1) translateY(0); 
+    }
+}
+
+@keyframes land2 {
+    0% {
+        transform: scale(2.5);
+    }
+    100% { 
+        transform: scale(1);
+    }
+}
+
+.emularity-splash-screen {
+    display: none;
+}

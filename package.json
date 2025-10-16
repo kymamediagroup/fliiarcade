@@ -1,0 +1,39 @@
+{
+  "name": "flii-arcade",
+  "version": "1.0.0",
+  "description": "Flii Arcade",
+  "main": "start.js",
+  "scripts": {
+    "build": "node build",
+    "build-arcade-games": "node build \"arcade games\"",
+    "build-free-arcade-games": "node build \"free arcade games\"",
+    "build-staff-picks": "node build \"staff picks\"",
+    "build-pc-games": "node build \"pc games\"",
+    "build-and-start": "node build && npm run start",
+    "build-spanish": "node build all es",
+    "build-hindi": "node build all hi",
+    "build-arabic": "node build all ar",
+    "start": "node start",
+    "launch": "node launch",
+    "launch-venture": "node launch-game venture mame",
+    "launch-code-for-venture": "node generate-game-launch-code venture mame"
+  },
+  "keywords": [
+    "retro",
+    "games",
+    "ai"
+  ],
+  "author": "Mila",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "fkill-cli": "^8.0.0",
+    "html-entities": "^2.6.0",
+    "http-server": "^14.1.1",
+    "image-size": "^1.2.1",
+    "qrcode": "^1.5.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

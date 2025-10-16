@@ -1,0 +1,1 @@
+{"name":"breakout","description":"Breakout","system":"mame","parentSystem":"pong","roms":[],"biosFiles":[],"hasSamples":false,"nativeResolution":[252,896],"players":2,"controls":{"1":{"buttons":1,"type":"paddle"},"2":{"type":"paddle"}},"genre":"Breakout","manufacturer":"Atari","year":1976,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

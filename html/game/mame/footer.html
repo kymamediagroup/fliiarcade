@@ -1,0 +1,21 @@
+<div>{{ resource-copyright }} © {{ yearCurrent }} {{ author }}</div>
+<div id="status"></div>
+<form oninput="onPreferenceInput(event)" data-id="preferences" hidden>
+    <fieldset>
+        <legend>Effects</legend>
+        <label><input type="radio" name="shader" value="normal" data-type="class" checked>Normal</label>
+        <label><input type="radio" name="shader" value="scanlines" data-type="class">Scanlines</label>
+        <label><input type="radio" name="shader" value="aperature-grille" data-type="class">Aperature Grille</label>
+        <label><input type="radio" name="shader" value="shadow-mask" data-type="class">Shadow Mask</label>
+        <!--<label><input type="radio" name="video" value="upscaled">Upscaled</label>-->
+    </fieldset>
+    <fieldset hidden>
+        <legend>Scaling</legend>
+        <label hidden><input type="radio" name="scaling" value="normal" data-type="command" checked>Normal</label>
+        <label hidden><input type="radio" name="scaling" value="integer" data-type="command">Integer</label>
+    </fieldset>
+</form>
+<div class="buttons">
+    <button type="button" class="reboot" disabled onclick="restart()" title="Reboot" hidden>Reboot</button>
+    <button type="button" class="fullscreen-toggle" disabled onclick="toggleFullscreen()" title="Toggle full-screen"></button>
+</div>
