@@ -9,9 +9,11 @@ mame/samples/twotiger.zip
 
 # Temporary to avoid Github server timeout on initial pushes
 
-mame/artwork/**/b*.png
+# TODO: Break up, as there are too many bezel.png files for GitHub to process at once
 
 mame/manuals/**/*
+
+# Exclude all preview videos
 
 video/previews/**/*
 
