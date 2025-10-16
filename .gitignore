@@ -14,11 +14,6 @@ mame/artwork/**/b*.png
 mame/manuals/**/*
 
 icons/**/a*
-
-
-icons/**/q*
-icons/**/r*
-icons/**/s*
 icons/**/t*
 
 video/previews/**/*
