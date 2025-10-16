@@ -17,23 +17,10 @@ icons/**/*
 
 video/previews/**/*
 
+# Console systems not in use yet
+
 images/boxes/a2600/*
 images/boxes/nes/*
-
-images/boxes/**/a*
-images/boxes/**/b*
-images/boxes/**/c*
-images/boxes/**/d*
-images/boxes/**/e*
-images/boxes/**/f*
-images/boxes/**/g*
-images/boxes/**/h*
-images/boxes/**/i*
-images/boxes/**/j*
-images/boxes/**/k*
-images/boxes/**/l*
-images/boxes/**/m*
-images/boxes/**/n*
 
 images/logos/a2600/*
 images/logos/nes/*
@@ -76,7 +63,7 @@ mame/roms/.219/trs80m3/**/*
 
 dosbox/roms/**/*.zip
 
-# Free or licensed whitelist
+# Include free or licensed MAME ROMs
 
 !mame/roms/.219/alienar.zip
 !mame/roms/.219/carpolo.zip
