@@ -12,24 +12,6 @@ mame/manuals/**/*
 
 mame/samples/twotiger.*
 
-mame/d*.wasm.gz
-mame/e*.wasm.gz
-mame/f*.wasm.gz
-mame/g*.wasm.gz
-mame/h*.wasm.gz
-mame/j*.wasm.gz
-mame/k*.wasm.gz
-mame/l*.wasm.gz
-mame/mamea*.wasm.gz
-mame/mameb*.wasm.gz
-mame/mamec*.wasm.gz
-mame/mamed*.wasm.gz
-mame/mamee*.wasm.gz
-mame/n*.wasm.gz
-mame/p*.wasm.gz
-mame/s*.wasm.gz
-mame/t*.wasm.gz
-
 icons/**/*
 
 images/backgrounds/*
