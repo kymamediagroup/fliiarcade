@@ -1,0 +1,62 @@
+<!-- bezel.lay -->
+<mamelayout version="2"><element name="cabinet"><image file="../../cabinets/dragrace.png"/></element><element name="marquee"><image file="../../marquees/dragrace.png"/></element><element name="flyer"><image file="../../flyers/dragrace.png"/></element>
+<element name="bezel">
+<image file="bezel.png"/>
+</element>
+<element name="overlay">
+<image file="dragrace_overlay.png"/>
+</element>
+<element name="circle_overlay">
+		<disk>
+			<bounds left="0" top="0" right="108" bottom="109"/>
+			<color red="0.95" green="0.08" blue="0.13"/>
+		</disk>
+		<disk>
+			<bounds left="121" top="0" right="227" bottom="109"/>
+			<color red="0.16" green="0.58" blue="0.25"/>
+		</disk>
+		<disk>
+			<bounds left="241" top="0" right="348" bottom="109"/>
+			<color red="1.0" green="0.97" blue="0.31"/>
+		</disk>
+		<disk>
+			<bounds left="360" top="0" right="467" bottom="109"/>
+			<color red="1.0" green="0.97" blue="0.31"/>
+		</disk>
+		<disk>
+			<bounds left="481" top="0" right="589" bottom="109"/>
+			<color red="1.0" green="0.97" blue="0.31"/>
+		</disk>
+	</element>
+	<element name="red_overlay">
+		<rect>
+			<color red="0.95" green="0.08" blue="0.13"/>
+		</rect>
+	</element>
+	<element name="yellow_overlay">
+		<rect>
+			<color red="1.0" green="0.97" blue="0.31"/>
+		</rect>
+	</element>
+<view name="Bezel Artwork">
+<bezel element="bezel">
+<bounds left="0" top="0" right="16" bottom="9"/>
+</bezel>
+<screen index="0">
+<bounds left="2" top="0" right="14" bottom="9"/>
+</screen>
+<element ref="overlay">
+<bounds left="2" top="0" right="14" bottom="9"/>
+</element>
+<bezel element="circle_overlay">
+			<bounds left="2.8" right="6.4" top="5.1" bottom="5.75"/>
+			<color alpha=".25"/>
+		</bezel>
+		<overlay element="red_overlay">
+			<bounds left="0" right="16" bottom="5" top="1.875"/>
+		</overlay>
+		<overlay element="yellow_overlay">
+			<bounds left="0" right="16" bottom="9" top="6.1"/>
+		</overlay>
+</view>
+<view name="Flyer_Only"><element ref="flyer"><bounds x="0" y="0" width="1102" height="850"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="1200" height="330"/></marquee></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="600" height="900"/></element></view></mamelayout>

@@ -5,7 +5,7 @@ public/**
 
 # Temporary to avoid Github server timeout on first push
 
-mame/artwork/**/*
+mame/artwork/**/*.png
 mame/manuals/**/*
 
 # This one is too big for GitHub (needs LFS)

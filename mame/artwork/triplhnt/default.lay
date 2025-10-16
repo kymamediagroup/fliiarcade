@@ -1,0 +1,86 @@
+<!-- triplhnt.lay -->
+
+<mamelayout version="2"><element name="cabinet"><image file="../../cabinets/triplhnt.png"/></element><element name="flyer"><image file="../../flyers/triplhnt.png"/></element><element name="marquee"><image file="../../marquees/triplhnt.png"/></element>
+	<element name="bezel_w">
+		<image file="triplehunt_witch_bezel.png"/>
+	</element>
+	<element name="bezel_b">
+		<image file="triplehunt_bear_bezel.png"/>
+	</element>
+	<element name="bezel_r">
+		<image file="triplehunt_raccoon_bezel.png"/>
+	</element>
+	<element name="backdrop_w">
+		<image file="triplehunt_witch_backdrop.png"/>
+	</element>
+	<element name="backdrop_w2">
+		<image file="triplehunt_witch_back_backdrop.png" alphafile="triplehunt_witch_mask.png"/>
+	</element>
+	<element name="backdrop_b">
+		<image file="triplehunt_bear_backdrop.png"/>
+	</element>
+	<element name="backdrop_b2">
+		<image file="triplehunt_bear_back_backdrop.png" alphafile="triplehunt_bear_mask.png"/>
+	</element>
+	<view name="Upright_Artwork_Witch">
+		<screen index="0">
+			<bounds x="700" y="1018" width="2600" height="1950"/>
+		</screen>
+		<bezel element="bezel_w">
+			<bounds x="0" y="0" width="4000" height="3692"/>
+		</bezel>
+		<backdrop element="backdrop_w2">
+			<bounds x="46" y="793" width="3600" height="2640"/>
+			<color alpha="0.6"/>
+		</backdrop>
+		<backdrop element="backdrop_w">
+			<bounds x="46" y="793" width="3600" height="2640"/>
+			<color alpha="0.6"/>
+		</backdrop>
+	</view>
+	<view name="Upright_Artwork_Bear">
+		<screen index="0">
+			<bounds x="700" y="1208" width="2600" height="1950"/>
+		</screen>
+		<bezel element="bezel_b">
+			<bounds x="0" y="0" width="4000" height="3805"/>
+		</bezel>
+		<backdrop element="backdrop_b2">
+			<bounds x="136" y="790" width="3600" height="2637"/>
+			<color alpha="0.6"/>
+		</backdrop>
+		<backdrop element="backdrop_b">
+			<bounds x="136" y="790" width="3600" height="2637"/>
+			<color alpha="0.6"/>
+		</backdrop>
+	</view>
+	<view name="Upright_Artwork_Racoon">
+		<screen index="0">
+			<bounds x="700" y="1208" width="2600" height="1950"/>
+		</screen>
+		<bezel element="bezel_r">
+			<bounds x="0" y="0" width="4000" height="3805"/>
+		</bezel>
+		<backdrop element="backdrop_b2">
+			<bounds x="136" y="790" width="3600" height="2637"/>
+			<color alpha="0.6"/>
+		</backdrop>
+		<backdrop element="backdrop_b">
+			<bounds x="136" y="790" width="3600" height="2637"/>
+			<color alpha="0.6"/>
+		</backdrop>
+	</view>
+<view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="1200" height="365"/></marquee></view><view name="Flyer_Only"><element ref="flyer"><bounds x="0" y="0" width="850" height="1097"/></element></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="222" height="320"/></element></view></mamelayout>
+
+<!--
+
+- Artwork type: Bezel, Backdrop
+- Scanned Witch Hunt pieces provided by TheGuru
+- Scanned Shoot the Bear bezel provided by Andy Welburn
+- Scanned Shoot the Bear backdrop provided by Aaron Giles
+- Raccoon Hunt bezel based on Shoot the Bear bezel, also using TAFA flyer as reference
+- Shoot the Bear back backdrop based on photo found by Kiltron
+- All cleaned for MAME by Kiltron
+- Lay file by Mr. Do
+
+-->

@@ -1,0 +1,24 @@
+<!-- radikalb.lay -->
+
+<mamelayout version="2"><element name="fanart"><image file="../../fanart/radikalb.png"/></element><element name="cabinet"><image file="../../cabinets/radikalb.png"/></element><element name="marquee"><image file="../../marquees/radikalb.png"/></element><element name="flyer"><image file="../../flyers/radikalb.png"/></element>
+	<element name="inst_card">
+		<image file="rad_bikers_inst.png"/>
+	</element>
+	<view name="Inst_Card">
+		<screen index="0">
+			<bounds x="0" y="0" width="2500" height="1875"/>
+		</screen>
+		<bezel element="inst_card">
+			<bounds x="500" y="1925" width="1500" height="303"/>
+		</bezel>		
+	</view>	
+<view name="Flyer_Only"><element ref="flyer"><bounds x="0" y="0" width="847" height="1200"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="1200" height="372"/></marquee></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="725" height="1200"/></element></view><view name="Fanart_Only"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view></mamelayout>
+
+<!--
+
+- Artwork type: Inst. Card
+- Photographed instruction card provided by Stephen Herman
+- Converted for MAME by Mr. Do
+- Lay file by Mr. Do
+
+-->

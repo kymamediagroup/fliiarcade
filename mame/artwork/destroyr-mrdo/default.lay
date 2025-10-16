@@ -1,0 +1,108 @@
+<!-- destroyer.lay -->
+<mamelayout version="2">
+	<element name="backdrop">
+		<image file="destroyer_background.png" />
+	</element>
+	<element name="foreground">
+		<image file="destroyer_foreground.png" />
+	</element>
+	<element name="bezel">
+		<image file="destroyer_bezel.png" />
+	</element>
+	<element name="shifter" defstate="0">
+		<image file="destroyer_lever_up.png" state="0" />
+		<image file="destroyer_lever_down.png" state="1" />
+	</element>
+	<element name="volcano" defstate="0">
+		<image file="volcano_alum_off.png"  state="0" />
+		<image file="volcano_alum_on.png"  state="1" />
+	</element>
+	<element name="overlay">
+		<rect>
+			<bounds left="0" top="0" right="224" bottom="260" />
+			<color red="1" green="1" blue="1" />
+		</rect>
+		<rect>
+			<bounds left="0" top="85" right="224" bottom="260" />
+			<color red="0.125" green="0.125" blue="1" />
+		</rect>
+	</element>
+	<element name="crop">
+		<rect>
+			<color red="0" green="0" blue="0" />
+		</rect>
+	</element>
+
+	<view name="Upright_Artwork">
+		<backdrop element="backdrop">	
+			<bounds x="-1200" y="240" width="5700" height="2300" />
+			<color alpha="0.5" />
+		</backdrop>
+		<bezel element="foreground">	
+			<bounds x="450" y="1700" width="2400" height="1400" />
+		</bezel>
+		<screen index="0">
+			<bounds x="940" y="910" width="1350" height="1200" />
+		</screen>
+		<overlay element="overlay">
+			<bounds x="940" y="960" width="1350" height="1200" />
+		</overlay>
+		<cpanel element="bezel">
+			<bounds x="0" y="0" width="3222" height="4000" />			
+		</cpanel>
+		<cpanel element="shifter" inputtag="IN1" inputmask="0x02">
+			<bounds x="880" y="3306" width="403" height="403" />
+		</cpanel>
+		<cpanel element="volcano" name="led0">
+			<bounds x="1535" y="3650" width="150" height="150" />
+		</cpanel>
+		<cpanel element="crop">
+			<bounds x="-1200" y="0" width="1200" height="4000" />
+		</cpanel>
+		<cpanel element="crop">
+			<bounds x="3222" y="0" width="1400" height="4000" />
+		</cpanel>
+	</view>
+	<view name="Upright_Artwork_(Cropped)">
+		<bounds x="0" y="950" width="3222" height="3050" />
+		<backdrop element="backdrop">	
+			<bounds x="-1200" y="240" width="5700" height="2300" />
+			<color alpha="0.5" />
+		</backdrop>
+		<bezel element="foreground">	
+			<bounds x="450" y="1700" width="2400" height="1400" />
+		</bezel>
+		<screen index="0">
+			<bounds x="940" y="910" width="1350" height="1200" />
+		</screen>
+		<overlay element="overlay">
+			<bounds x="940" y="960" width="1350" height="1200" />
+		</overlay>
+		<cpanel element="bezel">
+			<bounds x="0" y="0" width="3222" height="4000" />			
+		</cpanel>
+		<cpanel element="shifter" inputtag="IN1" inputmask="0x02">
+			<bounds x="880" y="3306" width="403" height="403" />
+		</cpanel>
+		<cpanel element="volcano" name="led0">
+			<bounds x="1535" y="3650" width="150" height="150" />
+		</cpanel>
+		<cpanel element="crop">
+			<bounds x="-1200" y="0" width="1200" height="4000" />
+		</cpanel>
+		<cpanel element="crop">
+			<bounds x="3222" y="0" width="1400" height="4000" />
+		</cpanel>
+	</view>
+</mamelayout>
+
+<!--
+
+- Artwork type: Backdrop; Overlay; Bezel; Control Panel; Marquee
+- Scanned artwork (background, foreground, marquee) provided by TrevEB
+- Bezel reproduced by Comboman
+- Lever by Mr. Do
+- Volcano button by SteelTiger
+- Lay file by Comboman and Mr. Do
+
+-->

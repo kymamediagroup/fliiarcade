@@ -1,0 +1,133 @@
+<!-- bezel.lay -->
+<mamelayout version="2">
+
+<element name="bezel6">
+	<image file="Apple IIe.png" />
+</element>
+
+<element name="bezel5">
+	<image file="Apple II Night.png" />
+</element>
+
+<element name="bezel4">
+	<image file="Apple II.png" />
+</element>
+
+<element name="bezel3">
+	<image file="apple2c.png" />
+</element>
+
+<element name="bezel2">
+	<image file="apple2e.png" />
+</element>
+
+<element name="bezel">
+	<image file="bezel.png" />
+</element>
+
+<element name="map">
+	<image file="map.png" />
+</element>
+
+<element name="reference">
+	<image file="reference.png" />
+</element>
+
+<element name="marquee">
+	<image file="../../marquees/apple2.png"/>
+</element>
+
+<element name="cabinet">
+	<image file="../../cabinets/apple2c.png"/>
+</element>
+
+<element name="flyer">
+	<image file="../../flyers/apple2c.png"/>
+</element>
+
+<element name="fanart">
+	<image file="../../fanart/apple2c.png"/>
+</element>
+
+<view name="Apple II">
+	<bezel element="bezel4">
+		<bounds left="0" top="0" right="16" bottom="9" />
+	</bezel>
+
+	<screen index="0">
+		<bounds left="3.125" top=".875" right="8.125" bottom="4.625" />
+	</screen>
+</view>
+
+<view name="Apple II (Night)">
+	<bezel element="bezel5">
+		<bounds left="0" top="0" right="16" bottom="9" />
+	</bezel>
+
+	<screen index="0">
+		<bounds left="3.125" top=".875" right="8.125" bottom="4.625" />
+	</screen>
+</view>
+
+<view name="Apple IIc">
+	<bezel element="bezel3">
+		<bounds left="0" top="0" right="16" bottom="9" />
+	</bezel>
+	<screen index="0">
+		<bounds left="5.2" top="2.5" right="10.8" bottom="6.8" />
+	</screen>
+</view>
+
+<view name="Apple IIe">
+	<bezel element="bezel2">
+		<bounds left="0" top="0" right="2238" bottom="2876" />
+	</bezel>
+
+	<screen index="0">
+		<!--<bounds left="314" top="311" right="1656" bottom="1264" />-->
+		<bounds left="454" top="356" right="1578.9" bottom="1176.35" />
+	</screen>
+</view>
+
+<view name="Apple IIe Bezel">
+	<bezel element="bezel6">
+		<bounds left="0" top="0" right="16" bottom="9" />
+	</bezel>
+
+	<screen index="0">
+		<bounds left="3.25" top="1" right="12.75" bottom="8.125" />
+	</screen>
+</view>
+
+<view name="System Bezel">
+	<bezel element="bezel">
+		<bounds left="0" top="0" right="16" bottom="9" />
+	</bezel>
+
+	<screen index="0">
+		<bounds left="2.25" top=".25" right="13.75" bottom="8.875" />
+	</screen>
+</view>
+
+<view name="Game Map">
+	<bezel element="map">
+		<bounds left="0" top="0" right="16" bottom="9" />
+	</bezel>
+</view>
+
+<view name="Game Reference">
+	<bezel element="reference">
+		<bounds left="0" top="0" right="16" bottom="9" />
+	</bezel>
+</view>
+
+
+<view name="Cabinet"><marquee element="cabinet"><bounds x="0" y="0" width="667" height="628"/></marquee>
+</view>
+<view name="Flyer"><marquee element="flyer"><bounds x="0" y="0" width="620" height="877"/></marquee>
+</view>
+<view name="Marquee"><marquee element="marquee"><bounds x="0" y="0" width="500" height="238"/></marquee>
+</view>
+<view name="Fanart"><marquee element="fanart"><bounds x="0" y="0" width="1920" height="1080"/></marquee>
+</view>
+</mamelayout>

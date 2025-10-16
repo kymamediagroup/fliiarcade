@@ -1,0 +1,55 @@
+<!-- spnchout.lay -->
+
+<mamelayout version="2"><element name="fanart"><image file="../../fanart/spnchout.png"/></element><element name="cabinet"><image file="../../cabinets/spnchout.png"/></element><element name="marquee"><image file="../../marquees/spnchout.png"/></element><element name="flyer"><image file="../../flyers/spnchout.png"/></element>
+	<element name="crop">
+		<rect>
+			<bounds x="0" y="0" width="1" height="1"/>
+			<color red="0" green="0" blue="0"/>
+		</rect>
+	</element>
+	<element name="wbezel">
+		<image file="punch169.png"/>
+	</element>
+	<view name="Hausjam_Artwork">
+		<bezel element="wbezel">
+			<bounds x="0" y="0" width="2833" height="1600"/>
+		</bezel>
+		<screen index="0">
+			<bounds x="887" y="5" width="1060" height="795"/>
+		</screen>
+		<screen index="1">
+			<bounds x="887" y="800" width="1060" height="795"/>
+		</screen>
+	</view>
+	<view name="MainScreen_w_Score">
+	<bounds x="0" y="-0.64" width="5.96" height="3.64"/>
+		<screen index="0">
+			<bounds x="0" y="-3" width="4" height="3"/>
+		</screen>
+		<screen index="0">
+			<bounds x="2.98" y=".64" width="4" height="3"/>
+		</screen>
+		<bezel element="crop">
+			<bounds x="4" y=".64" width="4" height=".62"/>
+		</bezel>
+		<screen index="1">
+			<bounds x="0" y="0" width="4" height="3"/>
+		</screen>
+	</view>
+	<view name="MainScreen_w_Meter">
+	<bounds x="0" y="-0.64" width="4" height="3.64"/>
+		<screen index="0">
+			<bounds x="0" y="-3" width="4" height="3"/>
+		</screen>
+		<screen index="1">
+			<bounds x="0" y="0" width="4" height="3"/>
+		</screen>
+	</view>
+<view name="Flyer_Only"><element ref="flyer"><bounds x="0" y="0" width="850" height="1122"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="500" height="85"/></marquee></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="659" height="1200"/></element></view><view name="Fanart_Only"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view></mamelayout>
+
+<!--
+
+- Artwork type: Other
+- Lay file by Mr. Do
+
+-->

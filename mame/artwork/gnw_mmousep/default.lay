@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<mamelayout version="2"><element name="fanart"><image file="../../fanart/gnw_mmousep.png"/></element><element name="cabinet"><image file="../../cabinets/gnw_mmousep.png"/></element><element name="marquee"><image file="../../marquees/gnw_mmousep.png"/></element>
+
+<!-- Game & Watch: Mickey Mouse Panorama -->
+<!-- Layout by Lee Robson (hydef) -->
+
+    <element name="black"><rect><color red="0" green="0" blue="0"/></rect></element>
+	<element name="Backdrop"><image file="Backdrop.png"/></element>
+	<element name="Background"><image file="Background.png"/></element>
+	<element name="Reflection"><image file="Reflection.png"/></element>
+	<element name="Unit"><image file="Unit.png"/></element>
+	<element name="Gradient"><image file="Gradient.png"/></element>
+	<element name="Gradient2"><image file="Gradient2.png"/></element>
+	<element name="Dust"><image file="Dust.png"/></element>
+
+    <element name="Left-Flat" defstate="1"><image file="Animation/Left-Flat.png" state="1"/></element>
+    <element name="Right-Flat" defstate="1"><image file="Animation/Right-Flat.png" state="1"/></element>
+	<element name="Grey-Flat-1" defstate="1"><image file="Animation/Grey-Flat-1.png" state="1"/></element>
+	<element name="Grey-Flat-2" defstate="1"><image file="Animation/Grey-Flat-2.png" state="1"/></element>
+	<element name="Grey-Flat-3" defstate="1"><image file="Animation/Grey-Flat-3.png" state="1"/></element>
+
+<view name="Unit Only">
+
+    <!-- cache animations -->
+	<element ref="Left-Flat" name="dummy">		<bounds x="0" y="0" width="2548" height="3625"/></element>
+	<element ref="Right-Flat" name="dummy">		<bounds x="0" y="0" width="2548" height="3625"/></element>
+	<element ref="Grey-Flat-1" name="dummy">	<bounds x="0" y="0" width="2548" height="3625"/></element>
+	<element ref="Grey-Flat-2" name="dummy">	<bounds x="0" y="0" width="2548" height="3625"/></element>
+	<element ref="Grey-Flat-3" name="dummy">	<bounds x="0" y="0" width="2548" height="3625"/></element>
+    <element ref="black" inputtag="IN.0" inputmask="0x00" inputraw="1"><bounds x="0" y="0" width="2548" height="3625"/></element>
+
+	<element ref="black">						<bounds x="620" y="1100" width="1308" height="680"/></element>
+	<screen index="0">							<bounds x="603" y="1064" width="1360" height="751"/></screen>
+	<element ref="Reflection" blend="multiply">	<bounds x="623" y="1106" width="1306" height="674"/></element>
+	<screen index="0" blend="add">				<bounds x="597" y="1069" width="1360" height="751"/></screen>
+	<element ref="Background" blend="multiply">	<bounds x="623" y="1106" width="1306" height="674"/></element>
+	<element ref="Gradient">					<bounds x="620" y="1113" width="1308" height="671"/></element>
+	<element ref="Gradient2" blend="add">		<bounds x="620" y="1113" width="1308" height="671"/></element>
+	<element ref="Unit">						<bounds x="0" y="0" width="2548" height="3625"/></element>
+	
+	<element ref="Left-Flat" inputtag="IN.0" inputmask="0x04">		<bounds x="0" y="0" width="2548" height="3625"/></element>
+	<element ref="Right-Flat" inputtag="IN.0" inputmask="0x02">		<bounds x="0" y="0" width="2548" height="3625"/></element>
+	<element ref="Grey-Flat-1" inputtag="IN.1" inputmask="0x04">	<bounds x="0" y="0" width="2548" height="3625"/></element>
+	<element ref="Grey-Flat-2" inputtag="IN.1" inputmask="0x02">	<bounds x="0" y="0" width="2548" height="3625"/></element>
+	<element ref="Grey-Flat-3" inputtag="IN.1" inputmask="0x01">	<bounds x="0" y="0" width="2548" height="3625"/></element>
+
+</view>
+
+<view name="Unit and Backdrop">
+
+	<bounds x="480" y="0" width="2880" height="2160"/>
+	
+    <!-- cache animations -->
+	<element ref="Left-Flat" name="dummy">		<bounds x="1197" y="51" width="1446" height="2059"/></element>
+	<element ref="Right-Flat" name="dummy">		<bounds x="1197" y="51" width="1446" height="2059"/></element>
+	<element ref="Grey-Flat-1" name="dummy">	<bounds x="1197" y="51" width="1446" height="2059"/></element>
+	<element ref="Grey-Flat-2" name="dummy">	<bounds x="1197" y="51" width="1446" height="2059"/></element>
+	<element ref="Grey-Flat-3" name="dummy">	<bounds x="1197" y="51" width="1446" height="2059"/></element>
+    <element ref="black" inputtag="IN.0" inputmask="0x00" inputraw="1"><bounds x="1197" y="51" width="1446" height="2059"/></element>
+
+	<element ref="Backdrop">					<bounds x="0" y="0" width="3840" height="2160"/></element>
+
+	<element ref="black">						<bounds x="1549" y="683" width="742" height="382"/></element>
+	<screen index="0">							<bounds x="1539" y="655" width="773" height="427"/></screen>
+	<element ref="Reflection" blend="multiply">	<bounds x="1551" y="679" width="739" height="383"/></element>
+	<screen index="0" blend="add">				<bounds x="1535" y="658" width="773" height="427"/></screen>
+	<element ref="Background" blend="multiply">	<bounds x="1551" y="679" width="739" height="383"/></element>
+	<element ref="Gradient">					<bounds x="1549" y="682" width="742" height="382"/></element>
+	<element ref="Gradient2" blend="add">		<bounds x="1549" y="682" width="742" height="382"/></element>
+	<element ref="Unit">						<bounds x="1197" y="51" width="1446" height="2059"/></element>
+	<element ref="Dust">						<bounds x="1197" y="51" width="1446" height="2059"/><color alpha="0.2"/></element>
+	
+	<element ref="Left-Flat" inputtag="IN.0" inputmask="0x04">		<bounds x="1197" y="51" width="1446" height="2059"/></element>
+	<element ref="Right-Flat" inputtag="IN.0" inputmask="0x02">		<bounds x="1197" y="51" width="1446" height="2059"/></element>
+	<element ref="Grey-Flat-1" inputtag="IN.1" inputmask="0x04">	<bounds x="1197" y="51" width="1446" height="2059"/></element>
+	<element ref="Grey-Flat-2" inputtag="IN.1" inputmask="0x02">	<bounds x="1197" y="51" width="1446" height="2059"/></element>
+	<element ref="Grey-Flat-3" inputtag="IN.1" inputmask="0x01">	<bounds x="1197" y="51" width="1446" height="2059"/></element>
+
+</view>
+
+<view name="Unit and Backdrop (Partial Zoom)">
+
+	<bounds x="840" y="180" width="2160" height="1620"/>
+	
+    <!-- cache animations -->
+	<element ref="Left-Flat" name="dummy">		<bounds x="1197" y="51" width="1446" height="2059"/></element>
+	<element ref="Right-Flat" name="dummy">		<bounds x="1197" y="51" width="1446" height="2059"/></element>
+	<element ref="Grey-Flat-1" name="dummy">	<bounds x="1197" y="51" width="1446" height="2059"/></element>
+	<element ref="Grey-Flat-2" name="dummy">	<bounds x="1197" y="51" width="1446" height="2059"/></element>
+	<element ref="Grey-Flat-3" name="dummy">	<bounds x="1197" y="51" width="1446" height="2059"/></element>
+    <element ref="black" inputtag="IN.0" inputmask="0x00" inputraw="1"><bounds x="1197" y="51" width="1446" height="2059"/></element>
+
+	<element ref="Backdrop">					<bounds x="0" y="0" width="3840" height="2160"/></element>
+
+	<element ref="black">						<bounds x="1549" y="683" width="742" height="382"/></element>
+	<screen index="0">							<bounds x="1539" y="655" width="773" height="427"/></screen>
+	<element ref="Reflection" blend="multiply">	<bounds x="1551" y="679" width="739" height="383"/></element>
+	<screen index="0" blend="add">				<bounds x="1535" y="658" width="773" height="427"/></screen>
+	<element ref="Background" blend="multiply">	<bounds x="1551" y="679" width="739" height="383"/></element>
+	<element ref="Gradient">					<bounds x="1549" y="682" width="742" height="382"/></element>
+	<element ref="Gradient2" blend="add">		<bounds x="1549" y="682" width="742" height="382"/></element>
+	<element ref="Unit">						<bounds x="1197" y="51" width="1446" height="2059"/></element>
+	<element ref="Dust">						<bounds x="1197" y="51" width="1446" height="2059"/><color alpha="0.2"/></element>
+	
+	<element ref="Left-Flat" inputtag="IN.0" inputmask="0x04">		<bounds x="1197" y="51" width="1446" height="2059"/></element>
+	<element ref="Right-Flat" inputtag="IN.0" inputmask="0x02">		<bounds x="1197" y="51" width="1446" height="2059"/></element>
+	<element ref="Grey-Flat-1" inputtag="IN.1" inputmask="0x04">	<bounds x="1197" y="51" width="1446" height="2059"/></element>
+	<element ref="Grey-Flat-2" inputtag="IN.1" inputmask="0x02">	<bounds x="1197" y="51" width="1446" height="2059"/></element>
+	<element ref="Grey-Flat-3" inputtag="IN.1" inputmask="0x01">	<bounds x="1197" y="51" width="1446" height="2059"/></element>
+
+</view>
+
+<view name="Background Only">
+
+	<bounds x="0" y="0" width="1626" height="882"/>
+	
+	<screen index="0">							<bounds x="-26" y="-58" width="1701" height="984"/></screen>
+	<element ref="Reflection" blend="multiply">	<bounds x="0" y="0" width="1626" height="882"/></element>
+
+	<screen index="0" blend="add">				<bounds x="-34" y="-50" width="1701" height="984"/></screen>
+	<element ref="Background" blend="multiply">	<bounds x="0" y="0" width="1626" height="882"/></element>
+	
+	<element ref="Gradient">					<bounds x="0" y="0" width="1626" height="882"/></element>
+	<element ref="Gradient2" blend="add">		<bounds x="0" y="0" width="1626" height="882"/></element>
+
+</view>
+
+<view name="Background Only (No Reflection)">
+
+	<bounds x="0" y="0" width="1626" height="882"/>
+
+	<screen index="0" blend="add">				<bounds x="-34" y="-50" width="1701" height="984"/></screen>
+	<element ref="Background" blend="multiply">	<bounds x="0" y="0" width="1626" height="882"/></element>
+
+</view>
+
+<!-- Game & Watch: Mickey Mouse Panorama -->
+
+<view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="9167" height="6883"/></marquee></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="3492" height="2250"/></element></view><view name="Fanart_Only"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view></mamelayout>

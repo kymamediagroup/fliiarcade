@@ -1,0 +1,24 @@
+<!-- greatgun.lay -->
+
+<mamelayout version="2">
+	<element name="bezel">
+		<image file="bezel.png" />
+	</element>
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="399" y="1034" width="3200" height="2400" />
+		</screen>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="4000" height="3484" />
+		</bezel>
+	</view>
+</mamelayout>
+
+<!--
+
+- Artwork type: Bezel
+- Scanned bezel provided by Aaron Giles
+- Converted for MAME by Ad_Enuff
+- Lay file by Mr. Do
+
+-->

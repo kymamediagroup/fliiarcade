@@ -1,0 +1,137 @@
+<!-- gorf.lay -->
+
+<mamelayout version="2">
+
+<!-- Define Elements -->
+
+	<element name="bezel">
+		<image file="gorf_bezel.png" />
+	</element>
+	<element name="marquee">
+		<image file="gorf_marquee.png" />
+	</element>
+	<element name="cpo">
+		<image file="gorf_cpo.png" />
+	</element>
+	<element name="circle">
+		<image file="gorf_center_circle.png" />
+	</element>
+	<element name="light_cadet" defstate="0">
+		<image file="light_cadet.png"  state="1" />
+	</element>
+	<element name="light_captain" defstate="0">
+		<image file="light_captain.png"  state="1" />
+	</element>
+	<element name="light_colonel" defstate="0">
+		<image file="light_colonel.png" state="1" />
+	</element>
+	<element name="light_general" defstate="0">
+		<image file="light_general.png" state="1" />
+	</element>
+	<element name="light_warrior" defstate="0">
+		<image file="light_warrior.png" state="1" />
+	</element>
+	<element name="light_avenger" defstate="0">
+		<image file="light_avenger.png" state="1" />
+	</element>
+	<element name="joystick" defstate="0x00">
+		<image file="gorf_joystick_OFF_center.png" state="0x1f" />
+		<image file="gorf_joystick_OFF_u.png" state="0x1e" />
+		<image file="gorf_joystick_OFF_d.png" state="0x1d" />
+		<image file="gorf_joystick_OFF_l.png" state="0x1b" />
+		<image file="gorf_joystick_OFF_r.png" state="0x17" />
+		<image file="gorf_joystick_OFF_ul.png" state="0x1a" />
+		<image file="gorf_joystick_OFF_ur.png" state="0x16" />
+		<image file="gorf_joystick_OFF_dl.png" state="0x19" />
+		<image file="gorf_joystick_OFF_dr.png" state="0x15" />
+		<image file="gorf_joystick_ON_center.png" state="0x0f" />
+		<image file="gorf_joystick_ON_u.png" state="0x0e" />
+		<image file="gorf_joystick_ON_d.png" state="0x0d" />
+		<image file="gorf_joystick_ON_l.png" state="0x0b" />
+		<image file="gorf_joystick_ON_r.png" state="0x07" />
+		<image file="gorf_joystick_ON_ul.png" state="0x0a" />
+		<image file="gorf_joystick_ON_ur.png" state="0x06" />
+		<image file="gorf_joystick_ON_dl.png" state="0x09" />
+		<image file="gorf_joystick_ON_dr.png" state="0x05" />
+	</element>
+	<element name="button" defstate="0">
+		<image file="button_white.png" state="0" />
+		<image file="button_white_pressed.png" state="1" />
+	</element>
+	<element name="nothing" defstate="0">
+		<text string=" " />
+	</element>
+
+<!-- Define Groups -->
+
+	<group name="cpanel">
+		<element ref="cpo">
+			<bounds x="0" y="0" width="4000" height="1448" />
+		</element>
+		<element ref="circle">
+			<bounds x="1818" y="487" width="362" height="362" />
+		</element>
+		<element ref="button" inputtag="P1HANDLE" inputmask="0x10">
+			<bounds x="3279" y="317" width="283" height="283" />
+		</element>
+		<element ref="button" inputtag="P1HANDLE" inputmask="0x20">
+			<bounds x="3279" y="861" width="283" height="283" />
+		</element>
+<!-- putting this before the element prevents the user from clicking on it when MAME is in windowed mode; mask=0, raw=1 -->
+		<element ref="nothing" blend="add" inputtag="P3HANDLE" inputmask="0x00" inputraw="1">
+			<bounds x="1200" y="1037" width="366" height="403" />
+		</element>
+		<element ref="joystick" inputtag="P3HANDLE" inputmask="0x1f" inputraw="1">
+			<bounds x="1456" y="-143" width="1350" height="1420" />
+		</element>
+	</group>
+
+<!-- Define Views -->
+
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="859" y="428" width="2280" height="3040" />
+		</screen>
+		<collection name="Marquee">
+			<element ref="marquee">
+				<bounds x="0" y="-1300" width="4000" height="1300" />
+			</element>
+		</collection>
+		<element name="lamp0" ref="light_cadet">
+			<bounds x="3319" y="2171" width="272" height="383" />
+		</element>
+		<element name="lamp1" ref="light_captain">
+			<bounds x="3634" y="2171" width="273" height="383" />
+		</element>
+		<element name="lamp2" ref="light_colonel">
+			<bounds x="3319" y="2578" width="272" height="383" />
+		</element>
+		<element name="lamp3" ref="light_general">
+			<bounds x="3634" y="2578" width="273" height="383" />
+		</element>
+		<element name="lamp4" ref="light_warrior">
+			<bounds x="3319" y="2986" width="272" height="382" />
+		</element>
+		<element name="lamp5" ref="light_avenger">
+			<bounds x="3634" y="2986" width="273" height="382" />
+		</element>
+		<element ref="bezel">
+			<bounds x="0" y="0" width="4000" height="3732" />
+		</element>
+		<collection name="Control_Panel">
+			<group ref="cpanel">
+				<bounds x="0" y="3600" width="4000" height="1591" />
+			</group>
+		</collection>
+	</view>
+</mamelayout>
+
+<!--
+
+- Artwork type: Bezel; Lamps
+- Scanned bezel provided by Aaron Giles
+- Vectorized by zorg; color corrected by Mr. Do
+- Lamps by Mr. Do
+- Lay file by Mr. Do
+
+-->

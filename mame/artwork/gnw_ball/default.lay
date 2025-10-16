@@ -1,0 +1,214 @@
+<!-- gnw_ball.lay -->
+
+<mamelayout version="2"><element name="fanart"><image file="../../fanart/gnw_ball.png"/></element><element name="marquee"><image file="../../marquees/gnw_ball.png"/></element><element name="cabinet"><image file="../../cabinets/gnw_ball.png"/></element>
+
+<!-- Define Elements -->
+
+	<element name="Backdrop"><image file="Backdrop.png"/></element>
+	<element name="Background"><image file="Background.png"/></element>
+	<element name="Background2"><image file="Background2.png"/></element>
+	<element name="Bubbles"><image file="Bubbles.png"/></element>
+	<element name="Blur"><image file="Blur.png"/></element>
+	<element name="Gradient"><image file="Gradient.png"/></element>
+	<element name="AC-01"><image file="AC-01.png"/></element>
+	<element name="ColorBG"><image file="ColorBG.png"/></element>
+	<element name="BallBG"><image file="ballbg.png"/></element>
+    <element name="Left-Flat" defstate="0"><image file="Animation/Left-Flat.png" state="1"/></element>
+    <element name="Right-Flat" defstate="0"><image file="Animation/Right-Flat.png" state="1"/></element>
+    <element name="Grey-Flat-1" defstate="0"><image file="Animation/Grey-Flat-1.png" state="1"/></element>
+    <element name="Grey-Flat-2" defstate="0"><image file="Animation/Grey-Flat-2.png" state="1"/></element>
+    <element name="Grey-Flat-3" defstate="0"><image file="Animation/Grey-Flat-3.png" state="1"/></element>
+
+<!-- Define Groups -->
+
+	<group name="controls">
+		<element ref="Left-Flat" inputtag="B" inputmask="0x01">
+			<bounds x="373" y="144" width="1175" height="791"/>
+		</element>
+		<element ref="Right-Flat" inputtag="BA" inputmask="0x01">
+			<bounds x="373" y="144" width="1175" height="791"/>
+		</element>
+		<element ref="Grey-Flat-1" inputtag="IN.0" inputmask="0x04">
+			<bounds x="373" y="144" width="1175" height="791"/>
+		</element>
+		<element ref="Grey-Flat-2" inputtag="IN.0" inputmask="0x02">
+			<bounds x="373" y="144" width="1175" height="791"/>
+		</element>
+		<element ref="Grey-Flat-3" inputtag="IN.0" inputmask="0x01">
+			<bounds x="373" y="144" width="1175" height="791"/>
+		</element>
+	</group>
+
+<!-- Define Views -->
+	<view name="DarthMarino_Artwork">
+		
+			<element ref="Backdrop">
+				<bounds x="0" y="0" width="1920" height="1080"/>
+			</element>
+		
+		<element ref="ColorBG">
+			<bounds x="700" y="328" width="519" height="340"/>
+		</element>
+		
+			<screen index="0" blend="alpha">
+				<bounds x="692" y="320" width="544" height="365"/>
+				<color alpha="0.05"/>
+			</screen>
+		
+		<screen index="0" blend="multiply">
+			<bounds x="688" y="314" width="544" height="365"/>
+		</screen>
+		
+			<element ref="Blur">
+				<bounds x="373" y="144" width="1175" height="791"/>
+			</element>
+		
+		<element ref="ColorBG">
+			<bounds x="700" y="328" width="519" height="340"/>
+			<color alpha="0.1"/>
+		</element>
+		
+			<element ref="Bubbles">
+				<bounds x="701" y="328" width="517" height="349"/>
+				<color alpha="0.8"/>
+			</element>
+		
+		<element ref="AC-01">
+			<bounds x="373" y="144" width="1175" height="791"/>
+		</element>
+		
+			<element ref="Bubbles">
+				<bounds x="701" y="328" width="517" height="349"/>
+				<color alpha="0.1"/>
+			</element>
+			<element ref="Gradient">
+				<bounds x="700" y="329" width="517" height="347"/>
+				<color alpha="0.15"/>
+			</element>
+		
+		<group ref="controls">
+			<bounds x="373" y="144" width="1175" height="791"/>
+		</group>
+	</view>
+
+	<view name="Handheld_Game_Artwork">
+			<element ref="Backdrop">
+				<bounds x="0" y="0" width="1920" height="1080"/>
+			</element>
+		<element ref="Background">
+			<bounds x="701" y="328" width="517" height="349"/>
+		</element>
+			<screen index="0" blend="alpha">
+				<bounds x="678" y="325" width="564" height="365"/>
+				<color alpha="0.05"/>
+			</screen>
+		<screen index="0" blend="multiply">
+			<bounds x="674" y="319" width="564" height="365"/>
+		</screen>
+
+			<element ref="Blur">
+				<bounds x="373" y="144" width="1175" height="791"/>
+			</element>
+
+		<element ref="Background">
+			<bounds x="698" y="328" width="526" height="351"/>
+			<color alpha="0.1"/>
+		</element>
+
+			<element ref="Bubbles">
+				<bounds x="701" y="328" width="517" height="349"/>
+				<color alpha="0.8"/>
+			</element>
+		<element ref="AC-01">
+			<bounds x="373" y="144" width="1175" height="791"/>
+		</element>
+
+			<element ref="Bubbles">
+				<bounds x="701" y="328" width="517" height="349"/>
+				<color alpha="0.1"/>
+			</element>
+			<element ref="Gradient">
+				<bounds x="700" y="329" width="517" height="347"/>
+				<color alpha="0.15"/>
+			</element>
+		<group ref="controls">
+			<bounds x="373" y="144" width="1175" height="791"/>
+		</group>
+	</view>
+	<view name="Backdrop_Only">
+	<bounds x="0" y="0" width="2000" height="1292"/>
+		<element ref="Background">
+			<bounds x="0" y="0" width="2000" height="1292"/>
+		</element>
+		
+			<screen index="0" blend="multiply">
+				<bounds x="-121" y="-69" width="2242" height="1449"/>
+				<color alpha="0.05"/>
+			</screen>
+		
+		<element ref="Background">
+			<bounds x="0" y="0" width="2000" height="1292"/>
+			<color alpha="0.8"/>
+		</element>
+		<screen index="0" blend="multiply">
+			<bounds x="-132" y="-86" width="2242" height="1449"/>
+		</screen>
+		<element ref="Background">
+			<bounds x="0" y="0" width="2000" height="1292"/>
+			<color alpha="0.1"/>
+		</element>
+		
+			<element ref="Bubbles">
+				<bounds x="0" y="0" width="2000" height="1292"/>
+				<color alpha="0.8"/>
+			</element>
+		
+		<element ref="Background2">
+			<bounds x="0" y="0" width="2000" height="1292"/>
+		</element>
+		<element ref="Bubbles">
+			<bounds x="0" y="0" width="2000" height="1292"/>
+			<color alpha="0.2"/>
+		</element>
+	</view>
+	<view name="DarthMarino_Backdrop_Only">
+	<bounds x="0" y="0" width="2000" height="1292"/>
+		<element ref="BallBG">
+			<bounds x="0" y="0" width="2000" height="1292"/>
+		</element>
+		
+			<screen index="0" blend="multiply">
+				<bounds x="-121" y="-69" width="2242" height="1449"/>
+				<color alpha="0.05"/>
+			</screen>
+		
+		<element ref="BallBG">
+			<bounds x="0" y="0" width="2000" height="1292"/>
+			<color alpha="0.8"/>
+		</element>
+		<screen index="0" blend="multiply">
+			<bounds x="-132" y="-86" width="2242" height="1449"/>
+		</screen>
+		<element ref="BallBG">
+			<bounds x="0" y="0" width="2000" height="1292"/>
+			<color alpha="0.1"/>
+		</element>
+
+			<element ref="Bubbles">
+				<bounds x="0" y="0" width="2000" height="1292"/>
+				<color alpha="0.8"/>
+			</element>
+	</view>
+<view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="3966" height="2250"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="4352" height="1004"/></marquee></view>
+<view name="Fanart_Only"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view></mamelayout>
+
+<!--
+
+- Artwork type: Handheld game
+- Handheld donated by Ryan Holtz
+- Scanned handheld backdrop artwork provided by Sean Riddle
+- Game & Watch design, layout, and artwork (backdrop cleanup, case, buttons, screen effects) by Lee Robson
+- Color background by Darth Marino
+- Lay file by Lee Robson; converted to new layout format by Mr. Do
+
+-->

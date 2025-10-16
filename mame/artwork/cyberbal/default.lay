@@ -1,0 +1,107 @@
+<!-- cyberbal.lay -->
+
+<mamelayout version="2"><element name="fanart"><image file="../../fanart/cyberbal.png"/></element><element name="cabinet"><image file="../../cabinets/cyberbal.png"/></element><element name="marquee"><image file="../../marquees/cyberbal.png"/></element><element name="flyer"><image file="../../flyers/cyberbal.png"/></element>
+	<element name="inst">
+		<image file="cyberball_inst.png"/>
+	</element>
+	<element name="xbla_widescreen">
+		<image file="cyberball2072_xbla_ws.png" alphafile="mask_852_480_horiz.png"/>
+	</element>
+	<element name="mao">
+		<image file="tourcyberball_mao.png" alphafile="mao_mask_horizontal.png"/>
+	</element>
+	<element name="lego">
+		<image file="CYBERBALL_NXG.png" alphafile="lego_mask.png"/>
+	</element>
+	<element name="lego_border">
+		<image file="BORDERA_NXG.png"/>
+	</element>
+	<element name="lego_overlay">
+		<image file="bordera_green.png"/>
+	</element>
+	<view name="Bezel Artwork">
+		<bezel element="lego">
+			<bounds x="0" y="0" width="2833" height="1600"/>
+		</bezel>
+		<bezel element="inst">
+			<bounds x="475" y="95" width="400" height="1410"/>
+		</bezel>
+		<screen index="0">
+			<bounds x="887" y="90" width="1060" height="710"/>
+		</screen>
+		<screen index="1">
+			<bounds x="887" y="800" width="1060" height="710"/>
+		</screen>
+	</view>
+	<view name="Inst_Card">
+		<screen index="0">
+			<bounds x="-2714" y="0" width="2664" height="1998"/>
+		</screen>
+		<screen index="1">
+			<bounds x="1121" y="0" width="2664" height="1998"/>
+		</screen>
+		<bezel element="inst">
+			<bounds x="0" y="0" width="1071" height="4000"/>
+		</bezel>
+	</view>
+	<view name="XBLA_Widescreen">
+		<bezel element="xbla_widescreen">
+			<bounds x="0" y="0" width="852" height="480"/>
+		</bezel>
+		<screen index="0">
+			<bounds x="162" y="42" width="528" height="396"/>
+		</screen> 
+	</view>
+	<view name="MAO_Artwork">
+		<screen index="0">
+			<bounds x="348" y="81" width="1224" height="918"/>
+		</screen>
+		<bezel element="mao">
+			<bounds x="0" y="0" width="1920" height="1080"/>
+		</bezel>
+	</view>
+	<view name="LDM_Artwork">
+		<screen index="0">
+			<bounds x="320" y="60" width="1280" height="960"/>
+		</screen>
+		<bezel element="lego">
+			<bounds x="0" y="0" width="1920" height="1080"/>
+		</bezel>
+		<bezel element="lego_border">
+			<bounds x="0" y="0" width="1920" height="1080"/>
+		</bezel>
+		<bezel element="lego_overlay">
+			<bounds x="0" y="0" width="1920" height="1080"/>
+			<color alpha="0.3"/>
+		</bezel>
+	</view>
+	<view name="Inst_Card_Left_Only">
+		<screen index="0">
+			<bounds x="-4050" y="0" width="4000" height="3000"/>
+		</screen>
+		<bezel element="inst">
+			<bounds x="0" y="0" width="803" height="3000"/>
+		</bezel>
+	</view>
+	<view name="Inst_Card_Right_Only">
+		<screen index="1">
+			<bounds x="853" y="0" width="4000" height="3000"/>
+		</screen>
+		<bezel element="inst">
+			<bounds x="0" y="0" width="803" height="3000"/>
+		</bezel>
+	</view>
+<view name="Flyer_Only"><element ref="flyer"><bounds x="0" y="0" width="560" height="720"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="1200" height="387"/></marquee></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="200" height="360"/></element></view><view name="Fanart_Only"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view></mamelayout>
+
+<!--
+
+- Artwork type: Inst. Card
+- Scanned instruction card provided by Mr. Do
+- Cleaned for MAME by Kiltron
+- Artwork type: Arcade Compilation
+- From XBox Live Arcade for XBox 360
+- From Midway Arcade Origins for XBox 360
+- From Lego Dimensions Midway DLC for XBox 360
+- Lay file by Mr. Do
+
+-->

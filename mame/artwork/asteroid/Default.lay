@@ -1,0 +1,119 @@
+<!-- bezel.lay -->
+<mamelayout version="2"><element name="fanart"><image file="../../fanart/asteroid.png"/></element><element name="cabinet"><image file="../../cabinets/asteroid.png"/></element><element name="marquee"><image file="../../marquees/asteroid.png"/></element><element name="flyer"><image file="../../flyers/asteroid.png"/></element>
+<element name="bezel">
+<image file="bezel.png"/>
+</element>
+
+<element name="bezel2">
+	<image file="asteroids_bezel.png"/>
+</element>
+<element name="inner">
+		<image file="asteroids_internal.png"/>
+	</element>
+	<element name="marquee2">
+		<image file="asteroids_marquee.png"/>
+	</element>
+	<element name="cpo">
+		<image file="asteroids_cpo.png"/>
+	</element>
+	<element name="button_w" defstate="0">
+		<image file="button_white.png" state="0"/>
+		<image file="button_white_pressed.png" state="1"/>
+	</element>
+	<element name="volcano" defstate="0">
+		<image file="volcano_alum_off.png" state="0"/>
+		<image file="volcano_alum_on.png" state="1"/>
+	</element>
+	<element name="cocktail">
+		<image file="asteroids_cocktail.png"/>
+	</element>
+	<element name="wood">
+		<image file="atari_cocktail_wood.png"/>
+	</element>
+	<element name="xbla_widescreen">
+		<image file="asteroids_xbla_ws.png" alphafile="mask_1280_720_horiz.png"/>
+	</element>
+	<element name="acc">
+		<image file="asteroids_acc.png"/>
+	</element>
+	<element name="button1" defstate="0">
+		<image file="asteroids_acc_button_1_off.png" state="0"/>
+		<image file="asteroids_acc_button_1_on.png" state="1"/>
+	</element>
+	<element name="button2" defstate="0">
+		<image file="asteroids_acc_button_2_off.png" state="0"/>
+		<image file="asteroids_acc_button_2_on.png" state="1"/>
+	</element>
+	<element name="button1press" defstate="0">
+		<image file="asteroids_acc_button_1_press.png" state="1"/>
+	</element>
+	<element name="button2press" defstate="0">
+		<image file="asteroids_acc_button_2_press.png" state="1"/>
+	</element>
+	<element name="accback">
+		<image file="asteroids_acc_backdrop.png"/>
+	</element>
+	<element name="3d">
+		<image file="asteroid_3d.png"/>
+	</element>
+	<element name="inner_pencil">
+		<image file="asteroids_internal_pencil.png"/>
+	</element>
+	<element name="starmap">
+		<image file="starmap_g4k_cropped.png"/>
+	</element>
+<view name="Bezel Artwork">
+<bezel element="bezel">
+<bounds left="0" top="0" right="16" bottom="9"/>
+</bezel>
+<screen index="0">
+<bounds left="2" top="0" right="14" bottom="9"/>
+</screen>
+</view>
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="672" y="673" width="2656" height="1992"/>
+		</screen>
+
+		<!--<element ref="marquee2">
+			<bounds x="0" y="-1371" width="4000" height="1371" />
+		</element>-->
+
+		<element ref="inner">
+			<bounds x="0" y="0" width="4000" height="2977"/>
+		</element>
+		<element ref="bezel2">
+			<bounds x="0" y="0" width="4000" height="3361"/>
+		</element>
+		
+		<!--<group ref="cpanel">
+			<bounds x="0" y="3200" width="4000" height="2050" />
+		</group>-->
+
+		<element ref="cpo">
+			<bounds x="0" y="3200" width="4000" height="2050"/>
+		</element>
+		<element name="led0" ref="volcano">
+			<bounds x="1690" y="3297" width="193" height="193"/>
+		</element>
+		<element name="led1" ref="volcano">
+			<bounds x="2107" y="3297" width="193" height="193"/>
+		</element>
+		<element ref="button_w" inputtag="IN1" inputmask="0x80">
+			<bounds x="1131" y="3729" width="270" height="270"/>
+		</element>
+		<element ref="button_w" inputtag="IN1" inputmask="0x40">
+			<bounds x="1448" y="3729" width="270" height="270"/>
+		</element>
+		<element ref="button_w" inputtag="IN0" inputmask="0x08">
+			<bounds x="1867" y="4044" width="270" height="270"/>
+		</element>
+		<element ref="button_w" inputtag="IN1" inputmask="0x20">
+			<bounds x="2286" y="3729" width="270" height="270"/>
+		</element>
+		<element ref="button_w" inputtag="IN0" inputmask="0x10">
+			<bounds x="2603" y="3729" width="270" height="270"/>
+		</element>
+
+	</view>
+<view name="Flyer_Only"><element ref="flyer"><bounds x="0" y="0" width="472" height="662"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="1200" height="354"/></marquee></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="600" height="900"/></element></view><view name="Fanart_Only"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view></mamelayout>

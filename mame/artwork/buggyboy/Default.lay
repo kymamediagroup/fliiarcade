@@ -1,0 +1,70 @@
+<!-- bezel.lay -->
+<mamelayout version="2"><element name="cabinet"><image file="../../cabinets/buggyboy.png"/></element><element name="marquee"><image file="../../marquees/buggyboy.png"/></element><element name="flyer"><image file="../../flyers/buggyboy.png"/></element>
+<element name="bezel">
+<image file="bezel.png"/>
+</element>
+<element name="shifter" defstate="0">
+		<rect>
+			<bounds left="0" right="32" top="0" bottom="64"/>
+			<color red="0.8" green="0.0" blue="0.0"/>
+		</rect>
+		<rect>
+			<bounds left="2" right="30" top="2" bottom="62"/>
+			<color red="0.0" green="0.0" blue="0.0"/>
+		</rect>
+		<rect>
+			<bounds left="14" right="18" top="15" bottom="49"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</rect>
+		<disk>
+			<bounds left="14" right="18" top="13" bottom="17"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</disk>
+		<disk>
+			<bounds left="14" right="18" top="47" bottom="51"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</disk>
+		<text string="LOW" state="1">
+			<bounds left="3" right="29" top="2" bottom="12"/>
+			<color red="1.0" green="1.0" blue="0.0"/>
+		</text>
+		<text string="LOW" state="0">
+			<bounds left="3" right="29" top="2" bottom="12"/>
+			<color red="1.0" green="1.0" blue="1.0"/>
+		</text>
+
+		<text string="HIGH" state="1">
+			<bounds left="3" right="29" top="52" bottom="62"/>
+			<color red="1.0" green="1.0" blue="1.0"/>
+		</text>
+		<text string="HIGH" state="0">
+			<bounds left="3" right="29" top="52" bottom="62"/>
+			<color red="1.0" green="1.0" blue="0.0"/>
+		</text>
+		<disk state="1">
+			<bounds left="9" right="23" top="14" bottom="28"/>
+			<color red="0.8" green="0.0" blue="0.0"/>
+		</disk>
+		<disk state="0">
+			<bounds left="9" right="23" top="36" bottom="50"/>
+			<color red="0.8" green="0.0" blue="0.0"/>
+		</disk>
+	</element>
+<view name="Bezel Artwork">
+<bezel element="bezel">
+<bounds left="0" top="0" right="16" bottom="7"/>
+</bezel>
+<bezel element="shifter" inputtag="soundbrd:PPI_PORTA" inputmask="0x40">
+<bounds x=".25" y="4" width="1" height="2"/>
+</bezel>
+<screen index="0">
+<bounds left="2" top="1.75" right="6" bottom="5.25"/>
+</screen>
+<screen index="1">
+<bounds left="6" top="1.75" right="10" bottom="5.25"/>
+</screen>
+<screen index="2">
+<bounds left="10" top="1.75" right="14" bottom="5.25"/>
+</screen>
+</view>
+<view name="Flyer_Only"><element ref="flyer"><bounds x="0" y="0" width="850" height="1197"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="500" height="200"/></marquee></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="513" height="620"/></element></view></mamelayout>

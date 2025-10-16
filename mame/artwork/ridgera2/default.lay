@@ -1,0 +1,30 @@
+<!-- ridgera2.lay -->
+
+<mamelayout version="2"><element name="fanart"><image file="../../fanart/ridgera2.png"/></element><element name="cabinet"><image file="../../cabinets/ridgera2.png"/></element><element name="marquee"><image file="../../marquees/ridgera2.png"/></element><element name="flyer"><image file="../../flyers/ridgera2.png"/></element>
+
+<!-- Define Elements -->
+
+	<element name="bezel">
+		<image file="bezel.png"/>
+	</element>
+
+<!-- Define Views -->
+
+	<view name="Cockpit_Artwork">
+		<screen index="0">
+			<bounds x="522" y="254" width="870" height="653"/>
+		</screen>
+		<element ref="bezel">
+			<bounds x="0" y="0" width="1920" height="1080"/>
+		</element>
+	</view>
+<view name="Flyer_Only"><element ref="flyer"><bounds x="0" y="0" width="850" height="1110"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="1200" height="489"/></marquee></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="700" height="900"/></element></view><view name="Fanart_Only"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view></mamelayout>
+
+<!--
+
+- Artwork type: Bezel
+- Cabinet bezel rendered by Orionsangel
+- Touchup by Mr. Do
+- Lay file by Mr. Do
+
+-->

@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<mamelayout version="2"><element name="fanart"><image file="../../fanart/gnw_boxing.png"/></element><element name="marquee"><image file="../../marquees/gnw_boxing.png"/></element><element name="cabinet"><image file="../../cabinets/gnw_boxing.png"/></element>
+
+<!-- Game & Watch: Boxing -->
+<!-- Layout by Lee Robson (hydef) -->
+
+	<element name="Background"><image file="Background.png"/></element>
+	<element name="BackgroundNS"><image file="BackgroundNS.png"/></element>
+	<element name="Backdrop"><image file="Backdrop.png"/></element>
+	<element name="Backdrop2"><image file="Backdrop2.png"/></element>
+	<element name="Unit"><image file="Unit.png"/></element>
+	<element name="Unit2"><image file="Unit2.png"/></element>
+	<element name="Gradient1"><image file="Gradient1.png"/></element>
+	<element name="Gradient2"><image file="Gradient2.png"/></element>
+	
+    <element name="1-Flat" defstate="2"><image file="Animation/1-Flat.png" state="1"/></element>
+    <element name="2-Flat" defstate="2"><image file="Animation/2-Flat.png" state="1"/></element>
+    <element name="3-Flat" defstate="2"><image file="Animation/3-Flat.png" state="1"/></element>
+	
+    <element name="1-Flatb" defstate="2"><image file="Animation/1-Flatb.png" state="1"/></element>
+    <element name="2-Flatb" defstate="2"><image file="Animation/2-Flatb.png" state="1"/></element>
+    <element name="3-Flatb" defstate="2"><image file="Animation/3-Flatb.png" state="1"/></element>
+
+<view name="Unit Only (No Shadow)">
+
+	<element ref="BackgroundNS">			<bounds x="278" y="172" width="918" height="285"/></element>
+	<screen index="0" blend="multiply">		<bounds x="291" y="182" width="896" height="251"/></screen>
+	<element ref="BackgroundNS">			<bounds x="278" y="172" width="918" height="285"/><color alpha="0.1"/></element>
+
+	<element ref="Unit">					<bounds x="0" y="0" width="1474" height="807"/></element>
+	
+	<element ref="1-Flat" inputtag="IN.6" inputmask="0x04">	<bounds x="0" y="0" width="1474" height="807"/></element>
+	<element ref="2-Flat" inputtag="IN.6" inputmask="0x02">	<bounds x="0" y="0" width="1474" height="807"/></element>
+	<element ref="3-Flat" inputtag="IN.6" inputmask="0x01">	<bounds x="0" y="0" width="1474" height="807"/></element>
+
+</view>
+
+<view name="Unit and Backdrop">
+
+<bounds x="240" y="0" width="1440" height="1080"/>
+
+	<element ref="Background">				<bounds x="501" y="233" width="919" height="285"/></element>
+	<screen index="0" blend="alpha">		<bounds x="518" y="249" width="896" height="251"/><color alpha="0.05"/></screen>
+	<screen index="0" blend="multiply">		<bounds x="515" y="243" width="896" height="251"/></screen>
+	<element ref="Background">				<bounds x="501" y="233" width="919" height="285"/><color alpha="0.1"/></element>
+
+	<element ref="Backdrop">				<bounds x="0" y="0" width="1920" height="1080"/></element>
+	
+	<element ref="Gradient1">				<bounds x="513" y="240" width="896" height="259"/><color alpha="0.15"/></element>
+	<element ref="Gradient2">				<bounds x="513" y="240" width="896" height="259"/><color alpha="0.15"/></element>
+	
+	<element ref="1-Flatb" inputtag="IN.6" inputmask="0x04">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="2-Flatb" inputtag="IN.6" inputmask="0x02">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="3-Flatb" inputtag="IN.6" inputmask="0x01">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+
+</view>
+
+<view name="Unit and Backdrop (No Shadow)">
+
+<bounds x="240" y="0" width="1440" height="1080"/>
+
+	<element ref="BackgroundNS">			<bounds x="501" y="233" width="919" height="285"/></element>
+	<screen index="0" blend="multiply">		<bounds x="515" y="243" width="896" height="251"/></screen>
+	<element ref="BackgroundNS">			<bounds x="501" y="233" width="919" height="285"/><color alpha="0.1"/></element>
+
+	<element ref="Backdrop">				<bounds x="0" y="0" width="1920" height="1080"/></element>
+	
+	<element ref="1-Flatb" inputtag="IN.6" inputmask="0x04">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="2-Flatb" inputtag="IN.6" inputmask="0x02">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="3-Flatb" inputtag="IN.6" inputmask="0x01">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+
+</view>
+
+<view name="Unit Only">
+
+	<element ref="Background">				<bounds x="278" y="172" width="918" height="285"/></element>
+	<screen index="0" blend="alpha">		<bounds x="294" y="188" width="896" height="251"/><color alpha="0.05"/></screen>
+	<screen index="0" blend="multiply">		<bounds x="291" y="182" width="896" height="251"/></screen>
+	<element ref="Background">				<bounds x="278" y="172" width="918" height="285"/><color alpha="0.1"/></element>
+
+	<element ref="Unit">					<bounds x="0" y="0" width="1474" height="807"/></element>
+	
+	<element ref="Gradient1">				<bounds x="289" y="179" width="897" height="259"/><color alpha="0.15"/></element>
+	<element ref="Gradient2">				<bounds x="289" y="179" width="897" height="259"/><color alpha="0.15"/></element>
+	
+	<element ref="1-Flat" inputtag="IN.6" inputmask="0x04">	<bounds x="0" y="0" width="1474" height="807"/></element>
+	<element ref="2-Flat" inputtag="IN.6" inputmask="0x02">	<bounds x="0" y="0" width="1474" height="807"/></element>
+	<element ref="3-Flat" inputtag="IN.6" inputmask="0x01">	<bounds x="0" y="0" width="1474" height="807"/></element>
+
+</view>
+
+<view name="Unit and Backdrop (Punch-Out!!)">
+
+<bounds x="240" y="0" width="1440" height="1080"/>
+
+	<element ref="Background">				<bounds x="501" y="233" width="919" height="285"/></element>
+	<screen index="0" blend="alpha">		<bounds x="518" y="249" width="896" height="251"/><color alpha="0.05"/></screen>
+	<screen index="0" blend="multiply">		<bounds x="515" y="243" width="896" height="251"/></screen>
+	<element ref="Background">				<bounds x="501" y="233" width="919" height="285"/><color alpha="0.1"/></element>
+
+	<element ref="Backdrop2">				<bounds x="0" y="0" width="1920" height="1080"/></element>
+	
+	<element ref="Gradient1">				<bounds x="513" y="240" width="896" height="259"/><color alpha="0.15"/></element>
+	<element ref="Gradient2">				<bounds x="513" y="240" width="896" height="259"/><color alpha="0.15"/></element>
+	
+	<element ref="1-Flatb" inputtag="IN.6" inputmask="0x04">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="2-Flatb" inputtag="IN.6" inputmask="0x02">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="3-Flatb" inputtag="IN.6" inputmask="0x01">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+
+</view>
+
+<view name="Unit and Backdrop (Punch-Out!!) (No Shadow)">
+
+<bounds x="240" y="0" width="1440" height="1080"/>
+
+	<element ref="BackgroundNS">			<bounds x="501" y="233" width="919" height="285"/></element>
+	<screen index="0" blend="multiply">		<bounds x="515" y="243" width="896" height="251"/></screen>
+	<element ref="BackgroundNS">			<bounds x="501" y="233" width="919" height="285"/><color alpha="0.1"/></element>
+
+	<element ref="Backdrop2">				<bounds x="0" y="0" width="1920" height="1080"/></element>
+	
+	<element ref="1-Flatb" inputtag="IN.6" inputmask="0x04">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="2-Flatb" inputtag="IN.6" inputmask="0x02">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="3-Flatb" inputtag="IN.6" inputmask="0x01">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+
+</view>
+
+<view name="Unit Only (Punch-Out!!)">
+
+	<element ref="Background">				<bounds x="278" y="172" width="918" height="285"/></element>
+	<screen index="0" blend="alpha">		<bounds x="294" y="188" width="896" height="251"/><color alpha="0.05"/></screen>
+	<screen index="0" blend="multiply">		<bounds x="291" y="182" width="896" height="251"/></screen>
+	<element ref="Background">				<bounds x="278" y="172" width="918" height="285"/><color alpha="0.1"/></element>
+
+	<element ref="Unit2">					<bounds x="0" y="0" width="1474" height="807"/></element>
+	
+	<element ref="Gradient1">				<bounds x="289" y="179" width="897" height="259"/><color alpha="0.15"/></element>
+	<element ref="Gradient2">				<bounds x="289" y="179" width="897" height="259"/><color alpha="0.15"/></element>
+	
+	<element ref="1-Flat" inputtag="IN.6" inputmask="0x04">	<bounds x="0" y="0" width="1474" height="807"/></element>
+	<element ref="2-Flat" inputtag="IN.6" inputmask="0x02">	<bounds x="0" y="0" width="1474" height="807"/></element>
+	<element ref="3-Flat" inputtag="IN.6" inputmask="0x01">	<bounds x="0" y="0" width="1474" height="807"/></element>
+
+</view>
+
+<view name="Unit Only (Punch-Out!!) (No Shadow)">
+
+	<element ref="BackgroundNS">			<bounds x="278" y="172" width="918" height="285"/></element>
+	<screen index="0" blend="multiply">		<bounds x="291" y="182" width="896" height="251"/></screen>
+	<element ref="BackgroundNS">			<bounds x="278" y="172" width="918" height="285"/><color alpha="0.1"/></element>
+
+	<element ref="Unit2">					<bounds x="0" y="0" width="1474" height="807"/></element>
+	
+	<element ref="1-Flat" inputtag="IN.6" inputmask="0x04">	<bounds x="0" y="0" width="1474" height="807"/></element>
+	<element ref="2-Flat" inputtag="IN.6" inputmask="0x02">	<bounds x="0" y="0" width="1474" height="807"/></element>
+	<element ref="3-Flat" inputtag="IN.6" inputmask="0x01">	<bounds x="0" y="0" width="1474" height="807"/></element>
+
+</view>
+
+<view name="Background Only">
+
+	<bounds x="0" y="0" width="2347" height="730"/>
+
+	<element ref="Background">				<bounds x="0" y="0" width="2347" height="730"/></element>
+	<screen index="0" blend="multiply">		<bounds x="39" y="38" width="2291" height="643"/></screen>
+		<element ref="Background">			<bounds x="0" y="0" width="2347" height="730"/><color alpha="0.9"/></element>
+	<screen index="0" blend="multiply">		<bounds x="33" y="26" width="2291" height="643"/></screen>
+		<element ref="Background">				<bounds x="0" y="0" width="2347" height="730"/><color alpha="0.1"/></element>
+
+
+</view>
+
+<view name="Background Only (No Shadow)">
+
+	<bounds x="0" y="0" width="2347" height="730"/>
+
+	<element ref="BackgroundNS">			<bounds x="0" y="0" width="2347" height="730"/></element>
+	<screen index="0" blend="multiply">		<bounds x="33" y="26" width="2291" height="643"/></screen>
+		<element ref="BackgroundNS">		<bounds x="0" y="0" width="2347" height="730"/><color alpha="0.1"/></element>
+
+</view>
+
+<view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="1200" height="812"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="5703" height="1764"/></marquee></view><view name="Fanart_Only"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view></mamelayout>

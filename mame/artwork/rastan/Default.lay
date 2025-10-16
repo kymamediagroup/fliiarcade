@@ -1,0 +1,14 @@
+<!-- bezel.lay -->
+<mamelayout version="2"><element name="fanart"><image file="../../fanart/rastan.png"/></element><element name="cabinet"><image file="../../cabinets/rastan.png"/></element><element name="marquee"><image file="../../marquees/rastan.png"/></element>
+<element name="bezel">
+<image file="bezel.png"/>
+</element>
+<view name="Bezel Artwork">
+<bezel element="bezel">
+<bounds left="0" top="0" right="16" bottom="9"/>
+</bezel>
+<screen index="0">
+<bounds left="2" top="0" right="14" bottom="9"/>
+</screen>
+</view>
+<view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="1200" height="363"/></marquee></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="600" height="900"/></element></view><view name="Fanart_Only"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view></mamelayout>

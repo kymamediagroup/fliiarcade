@@ -1,0 +1,20 @@
+<!-- bezel.lay -->
+<mamelayout version="2"><element name="marquee"><image file="../../marquees/circus.png"/></element><element name="cabinet"><image file="../../cabinets/circus.png"/></element><element name="flyer"><image file="../../flyers/circus.png"/></element>
+<element name="bezel">
+<image file="bezel.png"/>
+</element>
+<element name="tintover">
+<image file="tintover.png"/>
+</element>
+<view name="Bezel Artwork">
+<bezel element="bezel">
+<bounds left="0" top="0" right="16" bottom="9"/>
+</bezel>
+<screen index="0">
+<bounds left="2" top=".25" right="14" bottom="9"/>
+</screen>
+<element ref="tintover" blend="multiply">
+<bounds left="0" top="0" right="16" bottom="9"/>
+</element>
+</view>
+<view name="Flyer_Only"><element ref="flyer"><bounds x="0" y="0" width="850" height="1102"/></element></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="600" height="900"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="500" height="154"/></marquee></view></mamelayout>

@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<mamelayout version="2"><element name="fanart"><image file="../../fanart/gnw_smb.png"/></element><element name="marquee"><image file="../../marquees/gnw_smb.png"/></element><element name="cabinet"><image file="../../cabinets/gnw_smb.png"/></element>
+
+<!-- Game & Watch: Super Mario Bros. Crystal Screen -->
+<!-- Layout by Lee Robson (hydef) -->
+
+    <element name="black"><rect><color red="0" green="0" blue="0"/></rect></element>
+	<element name="Backdrop"><image file="Backdrop.png"/></element>
+	<element name="Background"><image file="Background.png"/></element>
+	<element name="BackgroundNS"><image file="BackgroundNS.png"/></element>
+	<element name="Unit"><image file="Unit.png"/></element>
+	<element name="Gradient"><image file="Gradient.png"/></element>
+	<element name="Gradient2"><image file="Gradient2.png"/></element>
+	
+	<element name="Time" defstate="1"><image file="Animation/Time.png" state="1"/></element>
+	<element name="Game" defstate="1"><image file="Animation/Game.png" state="1"/></element>
+	<element name="Up" defstate="1"><image file="Animation/Up.png" state="1"/></element>
+	<element name="Down" defstate="1"><image file="Animation/Down.png" state="1"/></element>
+	<element name="Left" defstate="1"><image file="Animation/Left.png" state="1"/></element>
+	<element name="Right" defstate="1"><image file="Animation/Right.png" state="1"/></element>
+	<element name="Jump" defstate="1"><image file="Animation/Jump.png" state="1"/></element>
+	
+	<element name="TimeB" defstate="1"><image file="Animation/TimeB.png" state="1"/></element>
+	<element name="GameB" defstate="1"><image file="Animation/GameB.png" state="1"/></element>
+	<element name="UpB" defstate="1"><image file="Animation/UpB.png" state="1"/></element>
+	<element name="DownB" defstate="1"><image file="Animation/DownB.png" state="1"/></element>
+	<element name="LeftB" defstate="1"><image file="Animation/LeftB.png" state="1"/></element>
+	<element name="RightB" defstate="1"><image file="Animation/RightB.png" state="1"/></element>
+	<element name="JumpB" defstate="1"><image file="Animation/JumpB.png" state="1"/></element>
+
+<view name="Unit Only (No Shadow)">
+
+    <!-- cache animations -->
+	<element ref="Time" name="dummy">		<bounds x="0" y="0" width="3273" height="1398"/></element>
+	<element ref="Game" name="dummy">		<bounds x="0" y="0" width="3273" height="1398"/></element>
+	<element ref="Up" name="dummy">			<bounds x="0" y="0" width="3273" height="1398"/></element>
+	<element ref="Down" name="dummy">		<bounds x="0" y="0" width="3273" height="1398"/></element>	
+	<element ref="Left" name="dummy">		<bounds x="0" y="0" width="3273" height="1398"/></element>
+	<element ref="Right" name="dummy">		<bounds x="0" y="0" width="3273" height="1398"/></element>
+	<element ref="Jump" name="dummy">		<bounds x="0" y="0" width="3273" height="1398"/></element>
+    <element ref="black" inputtag="IN.0" inputmask="0x00" inputraw="1"><bounds x="0" y="0" width="3273" height="1398"/></element>
+
+	<element ref="BackgroundNS">		<bounds x="930" y="265" width="1414" height="864"/></element>
+	<screen index="0" blend="multiply">	<bounds x="891" y="247" width="1503" height="924"/></screen>
+	<element ref="BackgroundNS">		<bounds x="930" y="265" width="1414" height="864"/><color alpha="0.1"/></element>
+	<element ref="Unit">				<bounds x="0" y="0" width="3273" height="1398"/></element>
+	<element ref="Gradient">			<bounds x="896" y="229" width="1487" height="939"/><color alpha="0.05"/></element>
+	<element ref="Gradient2">			<bounds x="896" y="229" width="1487" height="939"/><color alpha="0.1"/></element>
+	
+	<element ref="Time" inputtag="IN.0" inputmask="0x01">		<bounds x="0" y="0" width="3273" height="1398"/></element>
+	<element ref="Game" inputtag="IN.0" inputmask="0x02">		<bounds x="0" y="0" width="3273" height="1398"/></element>
+	<element ref="Up" inputtag="IN.1" inputmask="0x01">			<bounds x="0" y="0" width="3273" height="1398"/></element>
+	<element ref="Down" inputtag="IN.1" inputmask="0x04">		<bounds x="0" y="0" width="3273" height="1398"/></element>
+	<element ref="Left" inputtag="IN.1" inputmask="0x08">		<bounds x="0" y="0" width="3273" height="1398"/></element>
+	<element ref="Right" inputtag="IN.1" inputmask="0x02">		<bounds x="0" y="0" width="3273" height="1398"/></element>
+	<element ref="Jump" inputtag="IN.2" inputmask="0x01">		<bounds x="0" y="0" width="3273" height="1398"/></element>
+
+</view>
+
+<view name="Unit and Backdrop">
+
+	<bounds x="240" y="0" width="1440" height="1080"/>
+	
+    <!-- cache animations -->
+	<element ref="TimeB" name="dummy">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="GameB" name="dummy">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="UpB" name="dummy">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="DownB" name="dummy">		<bounds x="0" y="0" width="1920" height="1080"/></element>	
+	<element ref="LeftB" name="dummy">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="RightB" name="dummy">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="JumpB" name="dummy">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+    <element ref="black" inputtag="IN.0" inputmask="0x00" inputraw="1"><bounds x="0" y="0" width="1920" height="1080"/></element>
+
+	<element ref="Background">			<bounds x="642" y="344" width="636" height="389"/></element>
+	<screen index="0" blend="alpha">	<bounds x="629" y="344" width="674" height="415"/><color alpha="0.05"/></screen>
+	<screen index="0" blend="multiply">	<bounds x="626" y="334" width="674" height="415"/></screen>
+	<element ref="Background">			<bounds x="642" y="344" width="636" height="389"/><color alpha="0.1"/></element>
+	<element ref="Backdrop">			<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="Gradient">			<bounds x="628" y="329" width="668" height="422"/><color alpha="0.05"/></element>
+	<element ref="Gradient2">			<bounds x="628" y="329" width="668" height="422"/><color alpha="0.1"/></element>
+	
+	<element ref="TimeB" inputtag="IN.0" inputmask="0x01">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="GameB" inputtag="IN.0" inputmask="0x02">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="UpB" inputtag="IN.1" inputmask="0x01">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="DownB" inputtag="IN.1" inputmask="0x04">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="LeftB" inputtag="IN.1" inputmask="0x08">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="RightB" inputtag="IN.1" inputmask="0x02">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="JumpB" inputtag="IN.2" inputmask="0x01">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+
+</view>
+
+<view name="Unit and Backdrop (No Shadow)">
+
+	<bounds x="240" y="0" width="1440" height="1080"/>
+
+    <!-- cache animations -->
+	<element ref="TimeB" name="dummy">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="GameB" name="dummy">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="UpB" name="dummy">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="DownB" name="dummy">		<bounds x="0" y="0" width="1920" height="1080"/></element>	
+	<element ref="LeftB" name="dummy">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="RightB" name="dummy">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="JumpB" name="dummy">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+    <element ref="black" inputtag="IN.0" inputmask="0x00" inputraw="1"><bounds x="0" y="0" width="1920" height="1080"/></element>
+
+	<element ref="BackgroundNS">		<bounds x="642" y="344" width="636" height="389"/></element>
+	<screen index="0" blend="multiply">	<bounds x="626" y="334" width="674" height="415"/></screen>
+	<element ref="BackgroundNS">		<bounds x="642" y="344" width="636" height="389"/><color alpha="0.1"/></element>	
+	<element ref="Backdrop">			<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="Gradient">			<bounds x="628" y="329" width="668" height="422"/><color alpha="0.05"/></element>
+	<element ref="Gradient2">			<bounds x="628" y="329" width="668" height="422"/><color alpha="0.1"/></element>
+	
+	<element ref="TimeB" inputtag="IN.0" inputmask="0x01">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="GameB" inputtag="IN.0" inputmask="0x02">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="UpB" inputtag="IN.1" inputmask="0x01">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="DownB" inputtag="IN.1" inputmask="0x04">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="LeftB" inputtag="IN.1" inputmask="0x08">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="RightB" inputtag="IN.1" inputmask="0x02">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="JumpB" inputtag="IN.2" inputmask="0x01">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+
+</view>
+
+<view name="Unit Only">
+
+    <!-- cache animations -->
+	<element ref="Time" name="dummy">		<bounds x="0" y="0" width="3273" height="1398"/></element>
+	<element ref="Game" name="dummy">		<bounds x="0" y="0" width="3273" height="1398"/></element>
+	<element ref="Up" name="dummy">			<bounds x="0" y="0" width="3273" height="1398"/></element>
+	<element ref="Down" name="dummy">		<bounds x="0" y="0" width="3273" height="1398"/></element>	
+	<element ref="Left" name="dummy">		<bounds x="0" y="0" width="3273" height="1398"/></element>
+	<element ref="Right" name="dummy">		<bounds x="0" y="0" width="3273" height="1398"/></element>
+	<element ref="Jump" name="dummy">		<bounds x="0" y="0" width="3273" height="1398"/></element>
+    <element ref="black" inputtag="IN.0" inputmask="0x00" inputraw="1"><bounds x="0" y="0" width="3273" height="1398"/></element>
+
+	<element ref="Background">			<bounds x="930" y="265" width="1414" height="864"/></element>
+	<screen index="0" blend="alpha">	<bounds x="898" y="269" width="1503" height="924"/><color alpha="0.05"/></screen>
+	<screen index="0" blend="multiply">	<bounds x="891" y="247" width="1503" height="924"/></screen>
+	<element ref="Background">			<bounds x="930" y="265" width="1414" height="864"/><color alpha="0.1"/></element>
+	<element ref="Unit">				<bounds x="0" y="0" width="3273" height="1398"/></element>
+	<element ref="Gradient">			<bounds x="896" y="229" width="1487" height="939"/><color alpha="0.05"/></element>
+	<element ref="Gradient2">			<bounds x="896" y="229" width="1487" height="939"/><color alpha="0.1"/></element>
+	
+	<element ref="Time" inputtag="IN.0" inputmask="0x01">		<bounds x="0" y="0" width="3273" height="1398"/></element>
+	<element ref="Game" inputtag="IN.0" inputmask="0x02">		<bounds x="0" y="0" width="3273" height="1398"/></element>
+	<element ref="Up" inputtag="IN.1" inputmask="0x01">			<bounds x="0" y="0" width="3273" height="1398"/></element>
+	<element ref="Down" inputtag="IN.1" inputmask="0x04">		<bounds x="0" y="0" width="3273" height="1398"/></element>
+	<element ref="Left" inputtag="IN.1" inputmask="0x08">		<bounds x="0" y="0" width="3273" height="1398"/></element>
+	<element ref="Right" inputtag="IN.1" inputmask="0x02">		<bounds x="0" y="0" width="3273" height="1398"/></element>
+	<element ref="Jump" inputtag="IN.2" inputmask="0x01">		<bounds x="0" y="0" width="3273" height="1398"/></element>
+	
+</view>
+
+<view name="Background Only">
+
+	<bounds x="0" y="0" width="1508" height="914"/>
+
+	<element ref="Background">			<bounds x="0" y="0" width="1508" height="914"/></element>
+	 <screen index="0" blend="multiply"><bounds x="-35" y="-5" width="1603" height="979"/></screen>
+	 <element ref="Background">			<bounds x="0" y="0" width="1508" height="914"/><color alpha="0.9"/></element>
+	<screen index="0" blend="multiply">	<bounds x="-41" y="-25" width="1603" height="979"/></screen>
+	<element ref="Background">			<bounds x="0" y="0" width="1508" height="914"/><color alpha="0.1"/></element>
+
+</view>
+
+<view name="Background Only (No Shadow)">
+
+	<bounds x="0" y="0" width="1508" height="914"/>
+
+	<element ref="BackgroundNS">		<bounds x="0" y="0" width="1508" height="914"/></element>
+	<screen index="0" blend="multiply">	<bounds x="-41" y="-25" width="1603" height="979"/></screen>
+	<element ref="BackgroundNS">		<bounds x="0" y="0" width="1508" height="914"/><color alpha="0.1"/></element>
+
+</view>
+
+<!-- Game & Watch: Super Mario Bros. Crystal Screen -->
+
+<view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="4000" height="1952"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="7199" height="1109"/></marquee></view><view name="Fanart_Only"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view></mamelayout>

@@ -1,0 +1,5 @@
+How to Manage Game Artwork Layouts
+
+Per game bezel images (e.g. with box art, etc.) must be PNG format and named "bezel-[name]". They should have a 16:9 aspect ratio.
+
+Per game layout templates are named "template-[name]" the same and use the LAY extension.

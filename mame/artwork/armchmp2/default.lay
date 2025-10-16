@@ -1,0 +1,13 @@
+<mamelayout version="2"><element name="marquee"><image file="../../marquees/armchmp2.png"/></element><element name="flyer"><image file="../../flyers/armchmp2.png"/></element>
+<element name="bezel">
+<image file="../genvertical/mame_nebula_vertical.png"/>
+</element>
+<view name="Generic_Artwork_Vertical">
+		<screen index="0">
+			<bounds x="1110" y="0" width="1620" height="2160" />
+		</screen>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="3840" height="2160" />
+		</bezel>
+	</view>
+<view name="Flyer_Only"><element ref="flyer"><bounds x="0" y="0" width="850" height="1114"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="1200" height="345"/></marquee></view></mamelayout>

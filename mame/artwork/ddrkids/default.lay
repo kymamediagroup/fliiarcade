@@ -1,0 +1,51 @@
+<!-- ddra NMVA.lay -->	   
+	   
+<mamelayout version="2"><element name="marquee"><image file="../../marquees/ddrkids.png"/></element><element name="fanart"><image file="../../fanart/ddrkids.png"/></element>
+	<element name="nmva_widescreen">
+		<image file="ddra_nmva_ws.png" alphafile="mask_1280_720_horiz.png"/>
+	</element>
+
+	<element name="nmva_widescreen1" defstate="1">
+		<image file="ddra_nmva_ws1.png" alphafile="mask_1280_720_horiz.png"/>
+        </element>
+
+	<element name="nmva_widescreen2" defstate="1">
+		<image file="ddra_nmva_ws2.png" alphafile="mask_1280_720_horiz.png"/>
+        </element>
+
+	<view name="Bezel Artwork">
+		<bezel element="nmva_widescreen1">
+			<bounds x="0" y="0" width="1280" height="720"/>
+		</bezel>
+		<screen index="0">
+			<bounds x="382" y="184" width="507" height="380"/>
+		</screen> 
+	</view>
+
+	<view name="Bezel Artwork with Monitor Screen">
+		<bezel element="nmva_widescreen">
+			<bounds x="0" y="0" width="1280" height="720"/>
+		</bezel>
+		<screen index="0">
+			<!--<bounds x="232" y="54" width="816" height="612" />-->
+			<bounds x="382" y="184" width="507" height="400"/>
+		</screen> 
+	</view>
+
+	<view name="Cabinet Artwork">
+		<bezel element="nmva_widescreen2">
+			<bounds x="0" y="0" width="1280" height="720"/>
+		</bezel>
+		<screen index="0">
+			<!--<bounds x="232" y="54" width="816" height="612" />-->
+			<bounds x="382" y="184" width="507" height="400"/>
+		</screen> 
+	</view>
+<view name="Fanart_Only"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="460" height="215"/></marquee></view></mamelayout>
+
+<!--
+
+- Artwork type: NMVA
+- Lay file by Orionsangel
+
+-->

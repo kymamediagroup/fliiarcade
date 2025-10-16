@@ -1,0 +1,45 @@
+<!-- bezel.lay -->
+<mamelayout version="2"><element name="cabinet"><image file="../../cabinets/spacezap.png"/></element><element name="marquee"><image file="../../marquees/spacezap.png"/></element><element name="flyer"><image file="../../flyers/spacezap.png"/></element>
+<element name="bezel">
+	<image file="bezel.png"/>
+</element>
+<element name="overlay">
+	<image file="space_zap_overlay.png" />
+</element>
+<element name="bezel2">
+	<image file="spacezap_bezel.png" />
+</element>
+<element name="overlay2">
+	<image file="space_zap_overlay.png" />
+</element>
+<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="720" y="318" width="2552" height="1914" />
+		</screen>
+		<bezel element="overlay2">
+			<bounds x="718" y="316" width="2556" height="1917" />
+			<color alpha="0.1" />
+		</bezel>
+		<overlay element="overlay2">
+			<bounds x="718" y="316" width="2556" height="1917" />
+		</overlay>
+		<bezel element="bezel2">
+			<bounds x="0" y="0" width="4000" height="2568" />
+		</bezel>
+	</view>
+<view name="Bezel Artwork">
+<bezel element="bezel">
+<bounds left="0" top="0" right="16" bottom="9" />
+</bezel>
+<screen index="0">
+	<bounds left="2" top="0" right="14" bottom="9" />
+</screen>
+<bezel element="overlay">
+	<bounds left="2" top="0" right="14" bottom="9" />
+	<color alpha="0.1" />
+</bezel>
+<overlay element="overlay">
+	<bounds left="2" top="0" right="14" bottom="9" />
+</overlay>
+</view>
+<view name="Flyer_Only"><element ref="flyer"><bounds x="0" y="0" width="850" height="1102"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="1200" height="275"/></marquee></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="600" height="900"/></element></view></mamelayout>

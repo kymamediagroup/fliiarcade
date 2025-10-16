@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<mamelayout version="2">
+
+<!-- define elements -->
+
+	<element name="monitor"><image file="trs80.png"/></element>
+	<element name="marquee">
+		<image file="../../marquees/trs80m3.png" />
+	</element>
+	<element name="cabinet">
+		<image file="../../cabinets/trs80m3.png" />
+	</element>
+<!-- build screen -->
+	<view name="Monitor">
+	<screen index="0">
+		<bounds x="440" y="230" width="1570" height="1250" />
+	</screen>
+	<bezel element="monitor">
+		<bounds x="0" y="0" width="3053" height="2110" />
+	</bezel>
+	</view>
+	<view name="Marquee Only">
+		<element ref="marquee">
+			<bounds x="0" y="0" width="500" height="480" />
+		</element>
+	</view>
+	<view name="Cabinet Only">
+		<element ref="cabinet">
+			<bounds x="0" y="0" width="600" height="562" />
+		</element>
+	</view>
+</mamelayout>
+
+<!-- TRS-80 Model 1 MESS layout
+- lay file and photo by Comboman 
+-->

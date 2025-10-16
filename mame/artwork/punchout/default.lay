@@ -1,0 +1,58 @@
+<!-- punchout.lay -->
+
+<mamelayout version="2"><element name="fanart"><image file="../../fanart/punchout.png"/></element>
+<element name="cabinet"><image file="../../cabinets/punchout.png"/></element>
+<element name="marquee"><image file="../../marquees/punchout.png"/></element>
+	<element name="wbezel">
+		<image file="punch169.png"/>
+	</element>
+	<view name="Hausjam_Artwork">
+		<bezel element="wbezel">
+			<bounds x="0" y="0" width="2833" height="1600"/>
+		</bezel>
+		<screen index="0">
+			<bounds x="887" y="5" width="1060" height="795"/>
+		</screen>
+		<screen index="1">
+			<bounds x="887" y="800" width="1060" height="795"/>
+		</screen>
+	</view>
+	<view name="MainScreen_w_Score">
+	<bounds x="0" y="-0.64" width="5.96" height="3.64"/>
+		<screen index="0">
+			<bounds x="0" y="-3" width="4" height="3"/>
+		</screen>
+		<screen index="0">
+			<bounds x="2.98" y=".64" width="4" height="3"/>
+		</screen>
+		<screen index="1">
+			<bounds x="0" y="0" width="4" height="3"/>
+		</screen>
+	</view>
+	<view name="MainScreen_w_Meter">
+	<bounds x="0" y="-0.64" width="4" height="3.64"/>
+		<screen index="0">
+			<bounds x="0" y="-3" width="4" height="3"/>
+		</screen>
+		<screen index="1">
+			<bounds x="0" y="0" width="4" height="3"/>
+		</screen>
+	</view>
+<view name="Marquee_Only">
+	<element ref="marquee">
+		<bounds x="0" y="0" width="1200" height="269"/>
+	</element>
+</view>
+<view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="600" height="900"/></element></view>
+<view name="Fanart_Only"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view></mamelayout>
+
+<!--
+
+- Artwork type: Other
+- Lay file by Mr. Do
+- Artwork type: Arcade Widescreen
+- Widescreen graphics by hausjam
+- Based on graphics in official arcade artwork
+- Lay file by hausjam
+
+-->

@@ -1,0 +1,24 @@
+<!-- hitme.lay -->
+
+<mamelayout version="2"><element name="cabinet"><image file="../../cabinets/hitme.png"/></element><element name="flyer"><image file="../../flyers/hitme.png"/></element>
+	<element name="bezel">
+		<image file="hitme_bezel.png"/>
+	</element>
+	<view name="Upright_Artwork">
+		<bounds x="0" y="0" width="2000" height="1723"/>
+		<screen index="0">
+			<bounds x="345" y="420" width="1250" height="1000"/>
+		</screen>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="2000" height="1723"/>
+		</bezel>
+	</view>
+<view name="Flyer_Only"><element ref="flyer"><bounds x="0" y="0" width="850" height="1102"/></element></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="600" height="900"/></element></view></mamelayout>
+
+<!--
+
+- Artwork type: Bezel
+- Bezel created from flyer art by Comboman
+- Lay file by Comboman
+
+-->

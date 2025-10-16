@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<mamelayout version="2"><element name="fanart"><image file="../../fanart/gnw_sbuster.png"/></element><element name="marquee"><image file="../../marquees/gnw_sbuster.png"/></element><element name="cabinet"><image file="../../cabinets/gnw_sbuster.png"/></element>
+
+<!-- Game & Watch: SafeBuster -->
+<!-- Layout by Lee Robson (hydef) -->
+
+    <element name="black"><rect><color red="0" green="0" blue="0"/></rect></element>
+	<element name="Unit"><image file="Unit.png"/></element>
+	<element name="Backdrop"><image file="Backdrop.png"/></element>
+	<element name="Background-Top"><image file="Background-Top.png"/></element>
+	<element name="Background-TopNS"><image file="Background-TopNS.png"/></element>
+	<element name="Background-Bottom"><image file="Background-Bottom.png"/></element>
+	<element name="Background-BottomNS"><image file="Background-BottomNS.png"/></element>
+	<element name="Gradient"><image file="Gradient.png"/></element>
+	
+	<element name="Fix-Top"><image file="Fix-Top.png"/></element>
+	<element name="Fix-Bottom"><image file="Fix-Bottom.png"/></element>
+	
+    <element name="Grey-Flat-1" defstate="1"><image file="Animation/Grey-Flat-1.png" state="1"/></element>
+    <element name="Grey-Flat-2" defstate="1"><image file="Animation/Grey-Flat-2.png" state="1"/></element>
+    <element name="Grey-Flat-3" defstate="1"><image file="Animation/Grey-Flat-3.png" state="1"/></element>
+
+    <element name="Grey-Flat-1b" defstate="1"><image file="Animation/Grey-Flat-1b.png" state="1"/></element>
+    <element name="Grey-Flat-2b" defstate="1"><image file="Animation/Grey-Flat-2b.png" state="1"/></element>
+    <element name="Grey-Flat-3b" defstate="1"><image file="Animation/Grey-Flat-3b.png" state="1"/></element>
+	
+    <element name="Left-Flat" defstate="1"><image file="Animation/Left-Flat.png" state="1"/></element>
+    <element name="Right-Flat" defstate="1"><image file="Animation/Right-Flat.png" state="1"/></element>
+
+    <element name="Left-Flatb" defstate="1"><image file="Animation/Left-Flatb.png" state="1"/></element>
+    <element name="Right-Flatb" defstate="1"><image file="Animation/Right-Flatb.png" state="1"/></element>
+
+<view name="Unit Only (No Shadow)">
+
+    <!-- cache animations -->
+	<element ref="Grey-Flat-1" name="dummy">	<bounds x="0" y="0" width="1767" height="2199"/></element>
+	<element ref="Grey-Flat-2" name="dummy">	<bounds x="0" y="0" width="1767" height="2199"/></element>
+	<element ref="Grey-Flat-3" name="dummy">	<bounds x="0" y="0" width="1767" height="2199"/></element>
+	<element ref="Left-Flat" name="dummy">		<bounds x="0" y="0" width="1767" height="2199"/></element>
+	<element ref="Right-Flat" name="dummy">		<bounds x="0" y="0" width="1767" height="2199"/></element>
+    <element ref="black" inputtag="IN.0" inputmask="0x00" inputraw="1"><bounds x="0" y="0" width="1767" height="2199"/></element>
+
+	<element ref="Background-TopNS">		<bounds x="464" y="290" width="837" height="551"/></element>
+	<screen index="0" blend="multiply">		<bounds x="423" y="285" width="925" height="601"/></screen>
+	
+	<element ref="Background-BottomNS">		<bounds x="464" y="1332" width="837" height="551"/></element>
+	<screen index="1" blend="multiply">		<bounds x="419" y="1323" width="925" height="611"/></screen>
+	
+	<element ref="Fix-Top">					<bounds x="464" y="290" width="837" height="551"/></element>
+	<element ref="Fix-Bottom">				<bounds x="464" y="1332" width="837" height="551"/></element>
+	
+	<element ref="Unit">					<bounds x="0" y="0" width="1767" height="2199"/></element>
+	
+	<element ref="Grey-Flat-1" inputtag="IN.1" inputmask="0x04">	<bounds x="0" y="0" width="1767" height="2199"/></element>
+	<element ref="Grey-Flat-2" inputtag="IN.1" inputmask="0x02">	<bounds x="0" y="0" width="1767" height="2199"/></element>
+	<element ref="Grey-Flat-3" inputtag="IN.1" inputmask="0x01">	<bounds x="0" y="0" width="1767" height="2199"/></element>
+	
+	<element ref="Left-Flat" inputtag="IN.0" inputmask="0x01">		<bounds x="0" y="0" width="1767" height="2199"/></element>
+	<element ref="Right-Flat" inputtag="IN.0" inputmask="0x02">		<bounds x="0" y="0" width="1767" height="2199"/></element>
+
+</view>
+			
+<view name="Unit and Backdrop">
+
+<bounds x="240" y="0" width="1440" height="1080"/>
+
+    <!-- cache animations -->
+	<element ref="Grey-Flat-1b" name="dummy">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="Grey-Flat-2b" name="dummy">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="Grey-Flat-3b" name="dummy">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="Left-Flatb" name="dummy">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="Right-Flatb" name="dummy">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+    <element ref="black" inputtag="IN.0" inputmask="0x00" inputraw="1"><bounds x="0" y="0" width="1920" height="1080"/></element>
+
+	<element ref="Background-Top">			<bounds x="759" y="151" width="401" height="264"/></element>
+	<screen index="0" blend="alpha">		<bounds x="740" y="152" width="444" height="288"/><color alpha="0.09"/></screen>
+	<screen index="0" blend="multiply">		<bounds x="739" y="150" width="444" height="288"/></screen>
+	<element ref="Gradient">				<bounds x="759" y="151" width="401" height="264"/><color alpha="0.15"/></element>
+	
+	<element ref="Background-Bottom">		<bounds x="759" y="652" width="401" height="264"/></element>
+	<screen index="1" blend="multiply">		<bounds x="739" y="650" width="444" height="293"/></screen>
+	<element ref="Background-Bottom">		<bounds x="759" y="652" width="401" height="264"/><color alpha="0.91"/></element>
+	<screen index="1" blend="multiply">		<bounds x="738" y="648" width="444" height="293"/></screen>
+	<element ref="Gradient">				<bounds x="759" y="652" width="401" height="264"/><orientation rotate="180"/><color alpha="0.15"/></element>
+
+	<element ref="Fix-Top">					<bounds x="759" y="151" width="401" height="264"/></element>
+	<element ref="Fix-Bottom">				<bounds x="759" y="652" width="401" height="264"/></element>
+	
+	<element ref="Backdrop">				<bounds x="0" y="0" width="1920" height="1080"/></element>
+	
+	<element ref="Grey-Flat-1b" inputtag="IN.1" inputmask="0x04">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="Grey-Flat-2b" inputtag="IN.1" inputmask="0x02">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="Grey-Flat-3b" inputtag="IN.1" inputmask="0x01">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+	
+	<element ref="Left-Flatb" inputtag="IN.0" inputmask="0x01">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="Right-Flatb" inputtag="IN.0" inputmask="0x02"><bounds x="0" y="0" width="1920" height="1080"/></element>
+
+</view>
+
+<view name="Unit and Backdrop (No Shadow)">
+
+<bounds x="240" y="0" width="1440" height="1080"/>
+
+    <!-- cache animations -->
+	<element ref="Grey-Flat-1b" name="dummy">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="Grey-Flat-2b" name="dummy">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="Grey-Flat-3b" name="dummy">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="Left-Flatb" name="dummy">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="Right-Flatb" name="dummy">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+    <element ref="black" inputtag="IN.0" inputmask="0x00" inputraw="1"><bounds x="0" y="0" width="1920" height="1080"/></element>
+
+	<element ref="Background-TopNS">		<bounds x="759" y="151" width="401" height="264"/></element>
+	<screen index="0" blend="multiply">		<bounds x="739" y="150" width="444" height="288"/></screen>
+	
+	<element ref="Background-BottomNS">		<bounds x="759" y="652" width="401" height="264"/></element>
+	<screen index="1" blend="multiply">		<bounds x="738" y="648" width="444" height="293"/></screen>
+	
+	<element ref="Fix-Top">					<bounds x="759" y="151" width="401" height="264"/></element>
+	<element ref="Fix-Bottom">				<bounds x="759" y="652" width="401" height="264"/></element>
+	
+	<element ref="Backdrop">				<bounds x="0" y="0" width="1920" height="1080"/></element>
+	
+	<element ref="Grey-Flat-1b" inputtag="IN.1" inputmask="0x04">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="Grey-Flat-2b" inputtag="IN.1" inputmask="0x02">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="Grey-Flat-3b" inputtag="IN.1" inputmask="0x01">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+	
+	<element ref="Left-Flatb" inputtag="IN.0" inputmask="0x01">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="Right-Flatb" inputtag="IN.0" inputmask="0x02"><bounds x="0" y="0" width="1920" height="1080"/></element>
+
+</view>
+
+<view name="Unit Only">
+
+    <!-- cache animations -->
+	<element ref="Grey-Flat-1" name="dummy">	<bounds x="0" y="0" width="1767" height="2199"/></element>
+	<element ref="Grey-Flat-2" name="dummy">	<bounds x="0" y="0" width="1767" height="2199"/></element>
+	<element ref="Grey-Flat-3" name="dummy">	<bounds x="0" y="0" width="1767" height="2199"/></element>
+	<element ref="Left-Flat" name="dummy">		<bounds x="0" y="0" width="1767" height="2199"/></element>
+	<element ref="Right-Flat" name="dummy">		<bounds x="0" y="0" width="1767" height="2199"/></element>
+    <element ref="black" inputtag="IN.0" inputmask="0x00" inputraw="1"><bounds x="0" y="0" width="1767" height="2199"/></element>
+
+	<element ref="Background-Top">			<bounds x="464" y="290" width="837" height="551"/></element>
+	<screen index="0" blend="alpha">		<bounds x="425" y="290" width="925" height="601"/><color alpha="0.09"/></screen>
+	<screen index="0" blend="multiply">		<bounds x="423" y="285" width="925" height="601"/></screen>
+	<element ref="Gradient">				<bounds x="464" y="290" width="837" height="551"/><color alpha="0.15"/></element>
+	
+	<element ref="Background-Bottom">		<bounds x="464" y="1332" width="837" height="551"/></element>
+	<screen index="1" blend="alpha">		<bounds x="421" y="1328" width="925" height="611"/><color alpha="0.09"/></screen>
+	<screen index="1" blend="multiply">		<bounds x="419" y="1323" width="925" height="611"/></screen>
+	<element ref="Gradient">				<bounds x="464" y="1332" width="837" height="551"/><orientation rotate="180"/><color alpha="0.15"/></element>
+	
+	<element ref="Fix-Top">					<bounds x="464" y="290" width="837" height="551"/></element>
+	<element ref="Fix-Bottom">				<bounds x="464" y="1332" width="837" height="551"/></element>
+	
+	<element ref="Unit">					<bounds x="0" y="0" width="1767" height="2199"/></element>
+	
+	<element ref="Grey-Flat-1" inputtag="IN.1" inputmask="0x04">	<bounds x="0" y="0" width="1767" height="2199"/></element>
+	<element ref="Grey-Flat-2" inputtag="IN.1" inputmask="0x02">	<bounds x="0" y="0" width="1767" height="2199"/></element>
+	<element ref="Grey-Flat-3" inputtag="IN.1" inputmask="0x01">	<bounds x="0" y="0" width="1767" height="2199"/></element>
+	
+	<element ref="Left-Flat" inputtag="IN.0" inputmask="0x01">		<bounds x="0" y="0" width="1767" height="2199"/></element>
+	<element ref="Right-Flat" inputtag="IN.0" inputmask="0x02">		<bounds x="0" y="0" width="1767" height="2199"/></element>
+
+</view>
+
+<view name="Backgrounds Only">
+
+<bounds x="0" y="0" width="1290" height="1673"/>
+	
+	<element ref="Background-Top">				<bounds x="0" y="0" width="1290" height="854"/></element>
+	<screen index="0" blend="multiply">			<bounds x="-64" y="5" width="1423" height="924"/></screen>
+	<element ref="Background-Top">				<bounds x="0" y="0" width="1290" height="854"/><color alpha="0.91"/></element>
+	<screen index="0" blend="multiply">			<bounds x="-68" y="-3" width="1423" height="924"/></screen>
+	
+	<element ref="Background-Bottom">			<bounds x="0" y="819" width="1290" height="854"/></element>
+	<screen index="1" blend="multiply">			<bounds x="-64" y="819" width="1423" height="940"/></screen>
+	<element ref="Background-Bottom">			<bounds x="0" y="819" width="1290" height="854"/><color alpha="0.91"/></element>
+	<screen index="1" blend="multiply">			<bounds x="-68" y="811" width="1423" height="940"/></screen>
+
+	<element ref="Fix-Top">						<bounds x="0" y="0" width="1290" height="854"/></element>
+	<element ref="Fix-Bottom">					<bounds x="0" y="819" width="1290" height="854"/></element>
+
+</view>
+
+<view name="Backgrounds Only (No Shadow)">
+
+<bounds x="0" y="0" width="1290" height="1673"/>
+	
+	<element ref="Background-TopNS">			<bounds x="0" y="0" width="1290" height="854"/></element>
+	<screen index="0" blend="multiply">			<bounds x="-68" y="-3" width="1423" height="924"/></screen>
+	
+	<element ref="Background-BottomNS">			<bounds x="0" y="819" width="1290" height="854"/></element>
+	<screen index="1" blend="multiply">			<bounds x="-68" y="811" width="1423" height="940"/></screen>
+	
+	<element ref="Fix-Top">						<bounds x="0" y="0" width="1290" height="854"/></element>
+	<element ref="Fix-Bottom">					<bounds x="0" y="819" width="1290" height="854"/></element>
+
+</view>
+
+<!-- Game & Watch: SafeBuster -->
+
+<view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="3956" height="2250"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="9167" height="1433"/></marquee></view><view name="Fanart_Only"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view></mamelayout>

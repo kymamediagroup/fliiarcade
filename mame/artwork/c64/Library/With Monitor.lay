@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<mamelayout version="2">
+	<element name="bezel_monitor">
+		<image file="Monitor.png" />
+	</element>
+
+	<view name="Commodore 1702">
+		<screen index="0">
+			<bounds x="125" y="120" width="768" height="576" />
+		</screen>
+		<bezel element="bezel_monitor">
+			<bounds x="0" y="0" width="1020" height="976" />
+		</bezel>
+	</view>
+</mamelayout>
+
+<!--
+
+- Artwork for MESS by The Flying Ape
+- Lay file by The Flying Ape and AntioPISA
+
+-->

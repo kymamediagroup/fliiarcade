@@ -1,0 +1,39 @@
+<!-- bezel.lay -->
+<mamelayout version="2"><element name="fanart"><image file="../../fanart/starcas.png"/></element><element name="cabinet"><image file="../../cabinets/starcas.png"/></element><element name="marquee"><image file="../../marquees/starcas.png"/></element><element name="flyer"><image file="../../flyers/starcas.png"/></element>
+<element name="bezel">
+<image file="bezel.png"/>
+</element>
+<element name="overlay">
+		<rect>
+			<bounds left="0" top="0.125" right="1" bottom="0.875"/>
+			<color red="0.0" green="0.25" blue="1.0"/>
+		</rect>
+		<disk>
+			<bounds left="0.3775" top="0.3775" right="0.6225" bottom="0.6225"/>
+			<color red="1.0" green="0.125" blue="0.125"/>
+		</disk>
+		<disk>
+			<bounds left="0.4050" top="0.4050" right="0.5950" bottom="0.5950"/>
+			<color red="1.0" green="0.5" blue="0.0625"/>
+		</disk>
+		<disk>
+			<bounds left="0.4275" top="0.4275" right="0.5725" bottom="0.5725"/>
+			<color red="1.0" green="1.0" blue="0.125"/>
+		</disk>
+	</element>
+<view name="Bezel Artwork">
+<bezel element="bezel">
+<bounds left="0" top="0" right="16" bottom="9"/>
+</bezel>
+<screen index="0">
+<bounds left="2" top="0" right="14" bottom="9"/>
+</screen>
+<overlay element="overlay">
+			<bounds left="2" top="0" right="14" bottom="9"/>
+		</overlay>
+		<bezel element="overlay">
+			<bounds left="2" top="0" right="14" bottom="9"/>
+			<color alpha=".1"/>
+		</bezel>
+</view>
+<view name="Flyer_Only"><element ref="flyer"><bounds x="0" y="0" width="850" height="1105"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="1200" height="354"/></marquee></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="600" height="900"/></element></view><view name="Fanart_Only"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view></mamelayout>

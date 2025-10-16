@@ -1,0 +1,395 @@
+<!-- spyhunt.lay -->
+
+<mamelayout version="2"><element name="fanart"><image file="../../fanart/spyhunt.png"/></element><element name="cabinet"><image file="../../cabinets/spyhunt.png"/></element><element name="flyer"><image file="../../flyers/spyhunt.png"/></element>
+	<element name="bezel">
+		<image file="spyhunt_bezel.png"/>
+	</element>
+	<element name="oil" defstate="0">
+		<image file="lamp_oil.png" state="1"/>
+	</element>
+	<element name="missile" defstate="0">
+		<image file="lamp_missiles.png" state="1"/>
+	</element>
+	<element name="van_bz" defstate="0">
+		<image file="lamp_van_bz.png" state="1"/>
+	</element>
+	<element name="smoke" defstate="0">
+		<image file="lamp_smoke.png" state="1"/>
+	</element>
+	<element name="guns" defstate="0">
+		<image file="lamp_guns.png" state="1"/>
+	</element>
+	<element name="van" defstate="0">
+		<image file="lamp_van.png" state="1"/>
+	</element>
+	<element name="marquee" defstate="0">
+		<image file="../../marquees/spyhunt.png"/>
+	</element>
+	<element name="marquee_cp" defstate="0">
+		<image file="spyhunter_marquee_cockpit.png"/>
+	</element>
+	<element name="cpo" defstate="0">
+		<image file="spyhunter_cpo.png"/>
+	</element>
+	<element name="yoke" defstate="0">
+		<image file="spyhunt_yoke.png"/>
+	</element>
+	<element name="plate" defstate="0">
+		<image file="spyhunt_shift_plate.png"/>
+	</element>
+	<element name="shifter2" defstate="0" >
+		<image file="spyhunt_lo.png" state="0" />
+		<image file="spyhunt_hi.png" state="1" />
+	</element>
+<element name="shifter" defstate="0">
+		<rect>
+			<bounds left="0" right="32" top="0" bottom="64"/>
+			<color red="0.8" green="0.0" blue="0.0"/>
+		</rect>
+		<rect>
+			<bounds left="2" right="30" top="2" bottom="62"/>
+			<color red="0.0" green="0.0" blue="0.0"/>
+		</rect>
+		<rect>
+			<bounds left="14" right="18" top="15" bottom="49"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</rect>
+		<disk>
+			<bounds left="14" right="18" top="13" bottom="17"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</disk>
+		<disk>
+			<bounds left="14" right="18" top="47" bottom="51"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</disk>
+		<text string="LOW" state="1">
+			<bounds left="3" right="29" top="2" bottom="12"/>
+			<color red="1.0" green="1.0" blue="0.0"/>
+		</text>
+		<text string="LOW" state="0">
+			<bounds left="3" right="29" top="2" bottom="12"/>
+			<color red="1.0" green="1.0" blue="1.0"/>
+		</text>
+
+		<text string="HIGH" state="1">
+			<bounds left="3" right="29" top="52" bottom="62"/>
+			<color red="1.0" green="1.0" blue="1.0"/>
+		</text>
+		<text string="HIGH" state="0">
+			<bounds left="3" right="29" top="52" bottom="62"/>
+			<color red="1.0" green="1.0" blue="0.0"/>
+		</text>
+		<disk state="0">
+			<bounds left="9" right="23" top="14" bottom="28"/>
+			<color red="0.8" green="0.0" blue="0.0"/>
+		</disk>
+		<disk state="1">
+			<bounds left="9" right="23" top="36" bottom="50"/>
+			<color red="0.8" green="0.0" blue="0.0"/>
+		</disk>
+	</element>
+
+	<element name="bezel_esp">
+		<image file="spy_hunter_bezel_ESP.png"/>
+	</element>
+	<element name="oil_esp" defstate="0">
+		<image file="lamp_aceite.png" state="1"/>
+	</element>
+	<element name="missile_esp" defstate="0">
+		<image file="lamp_misiles.png" state="1"/>
+	</element>
+	<element name="van_bz_esp" defstate="0">
+		<image file="lamp_camion.png" state="1"/>
+	</element>
+	<element name="smoke_esp" defstate="0">
+		<image file="lamp_humo.png" state="1"/>
+	</element>
+	<element name="guns_esp" defstate="0">
+		<image file="lamp_ametralladora.png" state="1"/>
+	</element>
+	<element name="van_esp" defstate="0">
+		<image file="lamp_camion_off.png" state="0"/>
+		<image file="lamp_camion_on.png" state="1"/>
+	</element>
+	<element name="mao">
+		<image file="spyhunter_mao.png" alphafile="mao_mask_vertical.png"/>
+	</element>
+	<element name="wbezel">
+		<image file="spyhu169.png"/>
+	</element>		
+	<element name="woil" defstate="0">
+		<image file="woil.png" state="1"/>
+	</element>	
+	<element name="wmissile" defstate="0">
+		<image file="wmiss.png" state="1"/>
+	</element>	
+	<element name="wvan" defstate="0">
+		<image file="wvan.png" state="1"/>
+	</element>	
+	<element name="wsmoke" defstate="0">
+		<image file="wsmoke.png" state="1"/>
+	</element>	
+	<element name="wguns" defstate="0">
+		<image file="wguns.png" state="1"/>
+	</element>
+	<element name="lego">
+		<image file="SPYHUNTER_NXG.png" alphafile="lego_mask.png"/>
+	</element>
+	<element name="lego_border">
+		<image file="BORDERA_NXG.png"/>
+	</element>
+	<element name="lego_overlay">
+		<image file="bordera_green.png"/>
+	</element>
+	<element name="lego_weapons">
+		<image file="lego_weapons.png"/>
+	</element>
+	<element name="lego_machinegun" defstate="0">
+		<image file="lego_machinegun.png" state="1"/>
+	</element>
+	<element name="lego_smokescreen" defstate="0">
+		<image file="lego_smokescreen.png" state="1"/>
+	</element>
+	<element name="lego_van" defstate="0">
+		<image file="lego_van.png" state="1"/>
+	</element>
+	<element name="lego_missiles" defstate="0">
+		<image file="lego_missiles" state="1"/>
+	</element>
+	<element name="lego_oilslick" defstate="0">
+		<image file="lego_oilslick.png" state="1"/>
+	</element>
+	<element name="lego_highgear" defstate="0">
+		<image file="lego_highgear.png" state="1"/>
+	</element>
+	<element name="lego_highgear_f" defstate="0">
+		<image file="lego_highgear_fixed.png" state="1"/>
+	</element>
+	<view name="Hausjam_Artwork">
+		<screen index="0">
+			<bounds x="832" y="20" width="1170" height="1560"/>
+		</screen>
+		<bezel element="wbezel">
+			<bounds x="0" y="0" width="2833" height="1600"/>
+		</bezel>		
+		<bezel name="lamp0" element="woil">
+			<bounds x="551" y="1392" width="224" height="144"/>
+		</bezel>		
+		<bezel name="lamp1" element="wmissile">
+			<bounds x="96" y="1392" width="224" height="111"/>
+		</bezel>		
+		<bezel name="lamp2" element="wvan">
+			<bounds x="2326" y="1044" width="209" height="137"/>
+		</bezel>		
+		<bezel name="lamp3" element="wsmoke">
+			<bounds x="2058" y="1392" width="247" height="127"/>
+		</bezel>		
+		<bezel name="lamp4" element="wguns">
+			<bounds x="2506" y="1392" width="237" height="129"/>
+		</bezel>
+		<bezel element="shifter" inputtag="ssio:IP0" inputmask="0x10">
+			<bounds x="330" y="774" width="120" height="246"/>
+		</bezel>
+	</view>
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="914" y="289" width="2172" height="2896"/>
+		</screen>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="4000" height="3992"/>
+		</bezel>
+		<bezel name="lamp0" element="oil">
+			<bounds x="1023" y="3509" width="364" height="226"/>
+		</bezel>
+		<bezel name="lamp1" element="missile">
+			<bounds x="489" y="3509" width="364" height="226"/>
+		</bezel>
+		<bezel name="lamp2" element="van_bz">
+			<bounds x="1820" y="3509" width="364" height="226"/>
+		</bezel>
+		<bezel name="lamp3" element="smoke">
+			<bounds x="2619" y="3509" width="364" height="226"/>
+		</bezel>
+		<bezel name="lamp4" element="guns">
+			<bounds x="3128" y="3509" width="364" height="226"/>
+		</bezel>
+		<cpanel element="plate">
+			<bounds x="3429" y="4917" width="182" height="432"/>
+		</cpanel>
+		<cpanel element="cpo">
+			<bounds x="0" y="3937" width="4000" height="2246"/>
+		</cpanel>
+		<cpanel element="shifter2" inputtag="ssio:IP0" inputmask="0x10">
+			<bounds x="3473" y="4576" width="393" height="1112"/>
+		</cpanel>
+		<cpanel element="yoke">
+			<bounds x="320" y="3736" width="2898" height="2006"/>
+		</cpanel>
+		<cpanel name="lamp2" element="van">
+			<bounds x="1558" y="5284" width="390" height="220"/>
+		</cpanel>
+		<marquee element="marquee">
+			<bounds x="0" y="-1712" width="4000" height="1712"/>
+		</marquee>
+	</view>
+	<view name="Cockpit_Artwork">
+		<screen index="0">
+			<bounds x="914" y="289" width="2172" height="2896"/>
+		</screen>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="4000" height="3992"/>
+		</bezel>
+		<bezel name="lamp0" element="oil">
+			<bounds x="1023" y="3509" width="364" height="226"/>
+		</bezel>
+		<bezel name="lamp1" element="missile">
+			<bounds x="489" y="3509" width="364" height="226"/>
+		</bezel>
+		<bezel name="lamp2" element="van_bz">
+			<bounds x="1820" y="3509" width="364" height="226"/>
+		</bezel>
+		<bezel name="lamp3" element="smoke">
+			<bounds x="2619" y="3509" width="364" height="226"/>
+		</bezel>
+		<bezel name="lamp4" element="guns">
+			<bounds x="3128" y="3509" width="364" height="226"/>
+		</bezel>
+		<cpanel element="plate">
+			<bounds x="3429" y="4917" width="182" height="432"/>
+		</cpanel>
+		<cpanel element="cpo">
+			<bounds x="0" y="3937" width="4000" height="2246"/>
+		</cpanel>
+		<cpanel element="shifter2" inputtag="ssio:IP0" inputmask="0x10">
+			<bounds x="3473" y="4576" width="393" height="1112"/>
+		</cpanel>
+		<cpanel element="yoke">
+			<bounds x="320" y="3736" width="2898" height="2006"/>
+		</cpanel>
+		<cpanel name="lamp2" element="van">
+			<bounds x="1558" y="5284" width="390" height="220"/>
+		</cpanel>
+		<marquee element="marquee_cp">
+			<bounds x="0" y="-1157" width="4000" height="1157"/>
+		</marquee>
+	</view>
+	<view name="Upright_Artwork_ESP">
+		<screen index="0">
+			<bounds x="926" y="303" width="2148" height="2864"/>
+		</screen>
+		<bezel element="bezel_esp">
+			<bounds x="0" y="0" width="4000" height="3992"/>
+		</bezel>
+		<bezel name="lamp0" element="oil_esp">
+			<bounds x="948" y="3478" width="500" height="264"/>
+		</bezel>
+		<bezel name="lamp1" element="missile_esp">
+			<bounds x="409" y="3478" width="498" height="264"/>
+		</bezel>
+		<bezel name="lamp2" element="van_bz_esp">
+			<bounds x="1756" y="3478" width="500" height="264"/>
+		</bezel>
+		<bezel name="lamp3" element="smoke_esp">
+			<bounds x="2557" y="3478" width="500" height="264"/>
+		</bezel>
+		<bezel name="lamp4" element="guns_esp">
+			<bounds x="3084" y="3478" width="500" height="264"/>
+		</bezel>
+		<cpanel element="plate">
+			<bounds x="3429" y="4917" width="182" height="432"/>
+		</cpanel>
+		<cpanel element="cpo">
+			<bounds x="0" y="3937" width="4000" height="2246"/>
+		</cpanel>
+		<cpanel element="shifter2" inputtag="ssio:IP0" inputmask="0x10">
+			<bounds x="3473" y="4576" width="393" height="1112"/>
+		</cpanel>
+		<cpanel element="yoke">
+			<bounds x="320" y="3736" width="2898" height="2006"/>
+		</cpanel>
+		<cpanel name="lamp2" element="van_esp">
+			<bounds x="1558" y="5284" width="390" height="220"/>
+		</cpanel>
+		<marquee element="marquee">
+			<bounds x="0" y="-1712" width="4000" height="1712"/>
+		</marquee>
+	</view>
+	<view name="MAO_Artwork">
+		<screen index="0">
+			<bounds x="608" y="70" width="705" height="940"/>
+		</screen>
+		<bezel element="mao">
+			<bounds x="0" y="0" width="1920" height="1080"/>
+		</bezel>
+	</view>
+	<view name="LDM_Artwork">
+		<screen index="0">
+			<bounds x="600" y="60" width="720" height="960"/>
+		</screen>
+		<bezel element="lego">
+			<bounds x="0" y="0" width="1920" height="1080"/>
+		</bezel>
+		<bezel element="lego_border">
+			<bounds x="0" y="0" width="1920" height="1080"/>
+		</bezel>
+		<bezel element="lego_overlay">
+			<bounds x="0" y="0" width="1920" height="1080"/>
+			<color alpha="0.3"/>
+		</bezel>
+		<bezel element="lego_weapons">
+			<bounds x="320" y="60" width="280" height="960"/>
+		</bezel>
+		<bezel name="lamp4" element="lego_machinegun">
+			<bounds x="320" y="60" width="280" height="190"/>
+		</bezel>
+		<bezel name="lamp3" element="lego_smokescreen">
+			<bounds x="320" y="250" width="280" height="130"/>
+		</bezel>
+		<bezel name="lamp2" element="lego_van">
+			<bounds x="320" y="380" width="280" height="150"/>
+		</bezel>
+		<bezel name="lamp1" element="lego_missiles">
+			<bounds x="320" y="530" width="280" height="110"/>
+		</bezel>
+		<bezel name="lamp0" element="lego_oilslick">
+			<bounds x="320" y="640" width="280" height="134"/>
+		</bezel>		
+		<bezel element="lego_highgear_f" inputtag="ssio:IP0" inputmask="0x10">
+			<bounds x="320" y="774" width="280" height="246"/>
+		</bezel>
+	</view>
+	<view name="Marquee_Only_Upright">
+		<marquee element="marquee">
+			<bounds x="0" y="0" width="4000" height="1712"/>
+		</marquee>
+	</view>
+	<view name="Marquee_Only_Cockpit">
+		<marquee element="marquee_cp">
+			<bounds x="0" y="0" width="4000" height="1157"/>
+		</marquee>
+	</view>
+<view name="Flyer_Only"><element ref="flyer"><bounds x="0" y="0" width="850" height="1095"/></element></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="800" height="900"/></element></view><view name="Fanart_Only"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view></mamelayout>
+
+<!-- For MAO version, still need to add lamps -->
+<!-- For LDM version, the High Gear in the actual game was badly drawn, resulting in a jerky motion when switching gears.  A "fixed" version is included and enabled by default.  To go back to the jerky original version, remove the "_f" from that element in the "LDM_Artwork" view. -->
+
+<!--
+
+- Artwork type: Bezel, Lamps
+- Scanned bezel provided by Mr. Do
+- On loan from Gene at www.vintagearcade.net
+- Vectored by zorg
+- CPO and Marquees courtesy of BYOAC/CAG Artwork
+- Add'l cleanup by Mr. Do
+- Yoke and shifter photoedit by Comboman
+- Add'l Cleanup by Mr. Do
+- Lamps by Mr. Do
+- Artwork type: Arcade Compilation
+- From Midway Arcade Origins for XBox 360
+- From Lego Dimensions Midway DLC for XBox 360
+- Artwork type: Arcade Widescreen
+- Widescreen graphics by hausjam
+- Based on graphics in official arcade artwork
+- Lay file by Mr. Do
+
+-->

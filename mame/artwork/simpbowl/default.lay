@@ -1,0 +1,48 @@
+<!-- simpbowl.lay -->
+
+<mamelayout version="2"><element name="fanart"><image file="../../fanart/simpbowl.png"/></element>
+	<element name="bezel">
+		<image file="bezel.png"/>
+	</element>
+	<element name="marquee">
+		<image file="../../marquees/simpbowl.png"/>
+	</element>
+	<element name="flyer">
+		<image file="../../flyers/simpbowl.png"/>
+	</element>
+	<element name="cabinet">
+		<image file="../../cabinets/simpbowl.png"/>
+	</element>
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="760" y="1160" width="2480" height="1860"/>
+		</screen>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="4000" height="4000"/>
+		</bezel>
+	</view>
+	<view name="Marquee_Only">
+		<element ref="marquee">
+			<bounds x="0" y="0" width="1200" height="352"/>
+		</element>
+	</view>
+	<view name="Flyer_Only">
+		<element ref="flyer">
+			<bounds x="0" y="0" width="850" height="1100"/>
+		</element>
+	</view>
+	<view name="Cabinet_Only">
+		<element ref="cabinet">
+			<bounds x="0" y="0" width="518" height="800"/>
+		</element>
+	</view>
+<view name="Fanart_Only"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view></mamelayout>
+
+<!--
+
+- Artwork type: Bezel
+- Graphics used thanks to CAG / BYOAC Artworkd
+- Homebrew bezel created for MAME by Mr. Do
+- Lay file by Mr. Do
+
+-->

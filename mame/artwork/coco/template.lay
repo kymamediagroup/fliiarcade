@@ -1,0 +1,39 @@
+<!-- coco.lay -->
+
+<mamelayout version="2">
+	<element name="bezel">
+		<image file="CoCo 3.png" />
+	</element>
+
+	<element name="bezel2">
+		<image file="Tandy_Color_Monitor_8_Bezel-R3.png" />
+	</element>
+
+	<!-- Elements -->
+
+	<!-- Game Bezel View -->
+
+	<view name="Monitor">
+		<screen index="0">
+			<bounds x="131" y="131" width="640" height="480" />
+		</screen>
+
+		<element ref="bezel2">
+			<bounds x="0" y="0" width="900" height="818" />
+		</element>
+	</view>
+
+	<view name="System Bezel">
+		<screen index="0">
+			<bounds x="4" y="1" width="8" height="7" />
+		</screen>
+
+		<element ref="bezel">
+			<bounds x="0" y="0" width="16" height="9" />
+		</element>
+	</view>
+
+	<!-- Other Views -->
+
+	<!-- Other Game Views -->
+</mamelayout>

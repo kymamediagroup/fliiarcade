@@ -1,0 +1,45 @@
+<!-- coco3.lay -->
+
+<mamelayout version="2">
+	<element name="bezel">
+		<image file="Tandy_Color_Monitor_8_Bezel-R3.png" />
+	</element>
+	<element name="marquee">
+		<image file="../../marquees/coco.png" />
+	</element>
+	<element name="cabinet">
+		<image file="../../cabinets/coco2.png" />
+	</element>
+	<element name="flyer">
+		<image file="../../flyers/coco2.png" />
+	</element>
+	<view name="CM-8">
+		<element ref="bezel">
+			<bounds x="0" y="0" width="900" height="818" />
+		</element>
+		<screen index="0">
+			<bounds x="131" y="131" width="640" height="480" />
+		</screen>
+	</view>
+	<view name="Marquee Only">
+		<element ref="marquee">
+			<bounds x="0" y="0" width="500" height="330" />
+		</element>
+	</view>
+	<view name="Flyer Only">
+		<element ref="flyer">
+			<bounds x="0" y="0" width="627" height="900" />
+		</element>
+	</view>
+	<view name="Cabinet Only">
+		<element ref="cabinet">
+			<bounds x="0" y="0" width="800" height="557" />
+		</element>
+	</view>
+</mamelayout>
+
+<!--
+- Artwork type: Bezel
+- Scanned bezel provided by Tom Harron
+- Lay file by tim lindner
+-->

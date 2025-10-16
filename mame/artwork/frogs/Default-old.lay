@@ -1,0 +1,21 @@
+<!-- bezel.lay -->
+<mamelayout version="2"><element name="cabinet"><image file="../../cabinets/frogs.png"/></element><element name="marquee"><image file="../../marquees/frogs.png"/></element><element name="flyer"><image file="../../flyers/frogs.png"/></element>
+<element name="bezel">
+<image file="bezel.png"/>
+</element>
+<element name="background">
+<image file="frogsbg.png"/>
+</element>
+<view name="Bezel Artwork">
+<bounds left="0" top="0" right="16" bottom="9"/>
+<bezel element="bezel">
+<bounds left="0" top="0" right="16" bottom="9"/>
+</bezel>
+<screen index="0" blend="add">
+<bounds left="2" top=".25" right="14" bottom="8.75"/>
+</screen>
+<element ref="background" blend="add">
+<bounds left="0" top="0" right="16" bottom="9"/>
+</element>
+</view>
+<view name="Flyer_Only"><element ref="flyer"><bounds x="0" y="0" width="850" height="1102"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="500" height="150"/></marquee></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="600" height="900"/></element></view></mamelayout>

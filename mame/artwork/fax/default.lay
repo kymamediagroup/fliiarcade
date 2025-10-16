@@ -1,0 +1,299 @@
+<!-- default.lay -->
+
+<mamelayout version="2"><element name="marquee"><image file="../../marquees/fax.png"/></element><element name="cabinet"><image file="../../cabinets/fax.png"/></element>
+	<element name="bezel">
+		<image file="fax_bezel.png"/>
+	</element>
+	<element name="flyer">
+		<image file="fax_flyer.png"/>
+	</element>
+	<element name="speakers">
+		<image file="fax_speakers.png"/>
+	</element>
+	<element name="kickplate">
+		<image file="fax_kickplate.png"/>
+	</element>
+	<element name="button_a">
+		<image file="fax_a_off.png" state="0"/>
+		<image file="fax_a_on.png" state="1"/>
+	</element>
+	<element name="button_a_press">
+		<image file="fax_a_press.png" state="1"/>
+	</element>
+	<element name="button_b">
+		<image file="fax_b_off.png" state="0"/>
+		<image file="fax_b_on.png" state="1"/>
+	</element>
+	<element name="button_b_press">
+		<image file="fax_b_press.png" state="1"/>
+	</element>
+	<element name="button_c">
+		<image file="fax_c_off.png" state="0"/>
+		<image file="fax_c_on.png" state="1"/>
+	</element>
+	<element name="button_c_press">
+		<image file="fax_c_press.png" state="1"/>
+	</element>
+	<element name="button_d">
+		<image file="fax_d_off.png" state="0"/>
+		<image file="fax_d_on.png" state="1"/>
+	</element>
+	<element name="button_d_press">
+		<image file="fax_d_press.png" state="1"/>
+	</element>
+	<element name="button_one">
+		<image file="fax_one_off.png" state="0"/>
+		<image file="fax_one_on.png" state="1"/>
+	</element>
+	<element name="button_one_press">
+		<image file="fax_one_press.png" state="1"/>
+	</element>
+	<element name="button_two">
+		<image file="fax_two_off.png" state="0"/>
+		<image file="fax_two_on.png" state="1"/>
+	</element>
+	<element name="button_two_press">
+		<image file="fax_two_press.png" state="1"/>
+	</element>
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="560" y="996" width="2080" height="1560"/>
+		</screen>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="3200" height="4000"/>
+		</bezel>
+		<bezel name="lamp0" element="button_a">
+			<bounds x="3250" y="1149" width="406" height="269"/>
+		</bezel>
+		<bezel element="button_a_press" inputtag="IN4" inputmask="0x80">
+			<bounds x="3250" y="1149" width="406" height="269"/>
+		</bezel>
+		<bezel name="lamp1" element="button_b">
+			<bounds x="3250" y="1508" width="406" height="269"/>
+		</bezel>
+		<bezel element="button_b_press" inputtag="IN4" inputmask="0x40">>
+			<bounds x="3250" y="1508" width="406" height="269"/>
+		</bezel>
+		<bezel name="lamp2" element="button_c">
+			<bounds x="3250" y="1867" width="406" height="269"/>
+		</bezel>
+		<bezel element="button_c_press" inputtag="IN4" inputmask="0x20">>
+			<bounds x="3250" y="1867" width="406" height="269"/>
+		</bezel>
+		<bezel name="lamp3" element="button_d">
+			<bounds x="3250" y="2226" width="406" height="269"/>
+		</bezel>
+		<bezel element="button_d_press" inputtag="IN4" inputmask="0x10">>
+			<bounds x="3250" y="2226" width="406" height="269"/>
+		</bezel>
+		<bezel name="lamp4" element="button_two">
+			<bounds x="3250" y="3310" width="406" height="269"/>
+		</bezel>
+		<bezel element="button_two_press" inputtag="IN3" inputmask="0x01">>
+			<bounds x="3250" y="3310" width="406" height="269"/>
+		</bezel>
+		<bezel name="lamp5" element="button_a">
+			<bounds x="-456" y="1149" width="406" height="269"/>
+		</bezel>
+		<bezel element="button_a_press" inputtag="IN3" inputmask="0x80">
+			<bounds x="-456" y="1149" width="406" height="269"/>
+		</bezel>
+		<bezel name="lamp6" element="button_b">
+			<bounds x="-456" y="1508" width="406" height="269"/>
+		</bezel>
+		<bezel element="button_b_press" inputtag="IN3" inputmask="0x40">>
+			<bounds x="-456" y="1508" width="406" height="269"/>
+		</bezel>
+		<bezel name="lamp7" element="button_c">
+			<bounds x="-456" y="1867" width="406" height="269"/>
+		</bezel>
+		<bezel element="button_c_press" inputtag="IN3" inputmask="0x20">>
+			<bounds x="-456" y="1867" width="406" height="269"/>
+		</bezel>
+		<bezel name="lamp8" element="button_d">
+			<bounds x="-456" y="2226" width="406" height="269"/>
+		</bezel>
+		<bezel element="button_d_press" inputtag="IN3" inputmask="0x10">>
+			<bounds x="-456" y="2226" width="406" height="269"/>
+		</bezel>
+		<bezel name="lamp9" element="button_one">
+			<bounds x="-456" y="3310" width="406" height="269"/>
+		</bezel>
+		<bezel element="button_one_press" inputtag="IN3" inputmask="0x02">>
+			<bounds x="-456" y="3310" width="406" height="269"/>
+		</bezel>
+	</view>
+	<view name="Full_Cabinet">
+		<bounds x="-670" y="-3000" width="5341" height="9480"/>
+		<screen index="0">
+			<bounds x="700" y="1245" width="2600" height="1950"/>
+		</screen>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="4000" height="5000"/>
+		</bezel>
+		<marquee element="speakers">
+			<bounds x="-670" y="-3000" width="5341" height="3000"/>
+		</marquee>
+		<marquee element="flyer">
+			<bounds x="1400" y="-3000" width="1200" height="2000"/>
+		</marquee>
+		<bezel name="lamp0" element="button_a">
+			<bounds x="4063" y="1436" width="508" height="336"/>
+		</bezel>
+		<bezel element="button_a_press" inputtag="IN4" inputmask="0x80">
+			<bounds x="4063" y="1436" width="508" height="336"/>
+		</bezel>
+		<bezel name="lamp1" element="button_b">
+			<bounds x="4063" y="1885" width="508" height="336"/>
+		</bezel>
+		<bezel element="button_b_press" inputtag="IN4" inputmask="0x40">>
+			<bounds x="4063" y="1885" width="508" height="336"/>
+		</bezel>
+		<bezel name="lamp2" element="button_c">
+			<bounds x="4063" y="2334" width="508" height="336"/>
+		</bezel>
+		<bezel element="button_c_press" inputtag="IN4" inputmask="0x20">>
+			<bounds x="4063" y="2334" width="508" height="336"/>
+		</bezel>
+		<bezel name="lamp3" element="button_d">
+			<bounds x="4063" y="2783" width="508" height="336"/>
+		</bezel>
+		<bezel element="button_d_press" inputtag="IN4" inputmask="0x10">>
+			<bounds x="4063" y="2783" width="508" height="336"/>
+		</bezel>
+		<bezel name="lamp4" element="button_two">
+			<bounds x="4063" y="4138" width="508" height="336"/>
+		</bezel>
+		<bezel element="button_two_press" inputtag="IN3" inputmask="0x01">>
+			<bounds x="4063" y="4138" width="508" height="336"/>
+		</bezel>
+		<bezel name="lamp5" element="button_a">
+			<bounds x="-570" y="1436" width="508" height="336"/>
+		</bezel>
+		<bezel element="button_a_press" inputtag="IN3" inputmask="0x80">
+			<bounds x="-570" y="1436" width="508" height="336"/>
+		</bezel>
+		<bezel name="lamp6" element="button_b">
+			<bounds x="-570" y="1885" width="508" height="336"/>
+		</bezel>
+		<bezel element="button_b_press" inputtag="IN3" inputmask="0x40">>
+			<bounds x="-570" y="1885" width="508" height="336"/>
+		</bezel>
+		<bezel name="lamp7" element="button_c">
+			<bounds x="-570" y="2334" width="508" height="336"/>
+		</bezel>
+		<bezel element="button_c_press" inputtag="IN3" inputmask="0x20">>
+			<bounds x="-570" y="2334" width="508" height="336"/>
+		</bezel>
+		<bezel name="lamp8" element="button_d">
+			<bounds x="-570" y="2783" width="508" height="336"/>
+		</bezel>
+		<bezel element="button_d_press" inputtag="IN3" inputmask="0x10">>
+			<bounds x="-570" y="2783" width="508" height="336"/>
+		</bezel>
+		<bezel name="lamp9" element="button_one">
+			<bounds x="-570" y="4138" width="508" height="336"/>
+		</bezel>
+		<bezel element="button_one_press" inputtag="IN3" inputmask="0x02">>
+			<bounds x="-570" y="4138" width="508" height="336"/>
+		</bezel>
+		<cpanel element="kickplate">
+			<bounds x="-670" y="5001" width="5341" height="1684"/>
+		</cpanel>
+	</view>
+	<view name="Full_Cabinet_Lit">
+		<bounds x="-670" y="-3000" width="5341" height="9480"/>
+		<screen index="0">
+			<bounds x="700" y="1245" width="2600" height="1950"/>
+		</screen>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="4000" height="5000"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</bezel>
+		<marquee element="speakers">
+			<bounds x="-670" y="-3000" width="5341" height="3000"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</marquee>
+		<marquee element="flyer">
+			<bounds x="1400" y="-3000" width="1200" height="2000"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</marquee>
+		<bezel name="lamp0" element="button_a">
+			<bounds x="4063" y="1436" width="508" height="336"/>
+		</bezel>
+		<bezel element="button_a_press" inputtag="IN4" inputmask="0x80">
+			<bounds x="4063" y="1436" width="508" height="336"/>
+		</bezel>
+		<bezel name="lamp1" element="button_b">
+			<bounds x="4063" y="1885" width="508" height="336"/>
+		</bezel>
+		<bezel element="button_b_press" inputtag="IN4" inputmask="0x40">>
+			<bounds x="4063" y="1885" width="508" height="336"/>
+		</bezel>
+		<bezel name="lamp2" element="button_c">
+			<bounds x="4063" y="2334" width="508" height="336"/>
+		</bezel>
+		<bezel element="button_c_press" inputtag="IN4" inputmask="0x20">>
+			<bounds x="4063" y="2334" width="508" height="336"/>
+		</bezel>
+		<bezel name="lamp3" element="button_d">
+			<bounds x="4063" y="2783" width="508" height="336"/>
+		</bezel>
+		<bezel element="button_d_press" inputtag="IN4" inputmask="0x10">>
+			<bounds x="4063" y="2783" width="508" height="336"/>
+		</bezel>
+		<bezel name="lamp4" element="button_two">
+			<bounds x="4063" y="4138" width="508" height="336"/>
+		</bezel>
+		<bezel element="button_two_press" inputtag="IN3" inputmask="0x01">>
+			<bounds x="4063" y="4138" width="508" height="336"/>
+		</bezel>
+		<bezel name="lamp5" element="button_a">
+			<bounds x="-570" y="1436" width="508" height="336"/>
+		</bezel>
+		<bezel element="button_a_press" inputtag="IN3" inputmask="0x80">
+			<bounds x="-570" y="1436" width="508" height="336"/>
+		</bezel>
+		<bezel name="lamp6" element="button_b">
+			<bounds x="-570" y="1885" width="508" height="336"/>
+		</bezel>
+		<bezel element="button_b_press" inputtag="IN3" inputmask="0x40">>
+			<bounds x="-570" y="1885" width="508" height="336"/>
+		</bezel>
+		<bezel name="lamp7" element="button_c">
+			<bounds x="-570" y="2334" width="508" height="336"/>
+		</bezel>
+		<bezel element="button_c_press" inputtag="IN3" inputmask="0x20">>
+			<bounds x="-570" y="2334" width="508" height="336"/>
+		</bezel>
+		<bezel name="lamp8" element="button_d">
+			<bounds x="-570" y="2783" width="508" height="336"/>
+		</bezel>
+		<bezel element="button_d_press" inputtag="IN3" inputmask="0x10">>
+			<bounds x="-570" y="2783" width="508" height="336"/>
+		</bezel>
+		<bezel name="lamp9" element="button_one">
+			<bounds x="-570" y="4138" width="508" height="336"/>
+		</bezel>
+		<bezel element="button_one_press" inputtag="IN3" inputmask="0x02">>
+			<bounds x="-570" y="4138" width="508" height="336"/>
+		</bezel>
+		<cpanel element="kickplate">
+			<bounds x="-670" y="5001" width="5341" height="1684"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</cpanel>
+	</view>
+<view name="Flyer_Only"><element ref="flyer"><bounds x="0" y="0" width="850" height="1109"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="1200" height="343"/></marquee></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="600" height="900"/></element></view></mamelayout>
+
+<!--
+
+- Artwork type: 9x16
+- Scanned Fax bezel provided by Mr. Do
+- Cleaned for MAME by Ad_Enuff
+- Fax buttons provided by ranger lennier
+- Cleaned for MAME by Kiltron; add'l work by Mr. Do
+- Cabinet artwork by Nightvoice
+- Flyer from The Arcade Flyer Archive
+- Lay file by Mr. Do/Nightvoice
+
+-->

@@ -1,0 +1,20 @@
+<!-- bezel.lay -->
+<mamelayout version="2"><element name="fanart"><image file="../../fanart/darius.png"/></element><element name="cabinet"><image file="../../cabinets/darius.png"/></element><element name="marquee"><image file="../../marquees/darius.png"/></element><element name="flyer"><image file="../../flyers/darius.png"/></element>
+<element name="bezel">
+<image file="bezel.png"/>
+</element>
+<view name="Bezel Artwork">
+<bezel element="bezel">
+<bounds left="0" top="0" right="16" bottom="9"/>
+</bezel>
+<screen index="0">
+<bounds left="0" top="2.5" right="5.3" bottom="6.375"/>
+</screen>
+<screen index="1">
+<bounds left="5.3" top="2.5" right="10.6" bottom="6.375"/>
+</screen>
+<screen index="2">
+<bounds left="10.6" top="2.5" right="15.9" bottom="6.375"/>
+</screen>
+</view>
+<view name="Flyer_Only"><element ref="flyer"><bounds x="0" y="0" width="1092" height="1400"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="1200" height="256"/></marquee></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="600" height="900"/></element></view><view name="Fanart_Only"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view></mamelayout>

@@ -1,0 +1,322 @@
+<!-- astdelux.lay -->
+
+<mamelayout version="2">
+
+<!-- Define Elements -->
+
+	<element name="backdrop">
+		<image file="astdelux_backdrop.png" />
+	</element>
+	<element name="backdrop_rev1">
+		<image file="astdelux_backdrop_rev1.png" />
+	</element>
+	<element name="bezel">
+		<image file="astdelux_bezel.png" />
+	</element>
+	<element name="marquee">
+		<image file="astdelux_marquee.png" />
+	</element>
+	<element name="cpo">
+		<image file="astdelux_cpo.png" />
+	</element>
+	<element name="button_w" defstate="0">
+		<image file="button_white.png"  state="0" />
+		<image file="button_white_pressed.png" state="1" />
+	</element>
+	<element name="volcano" defstate="0">
+		<image file="volcano_alum_off.png" state="0" />
+		<image file="volcano_alum_on.png" state="1" />
+	</element>
+	<element name="cocktail">
+		<image file="astdeluxe_cocktail.png" />
+	</element>
+	<element name="wood">
+		<image file="atari_cocktail_wood.png" />
+	</element>
+	<element name="overlay">
+		<rect>
+			<color red="0.5333" green="1.0" blue="1.0" />
+		</rect>
+	</element>
+	<element name="xbla_widescreen">
+		<image file="asteroids_xbla_ws.png" alphafile="mask_1280_720_horiz.png" />
+	</element>
+	<element name="acc">
+		<image file="astdeluxe_acc.png" />
+	</element>
+	<element name="button1" defstate="0">
+		<image file="astdeluxe_acc_button_1_off.png" state="0" />
+		<image file="astdeluxe_acc_button_1_on.png" state="1" />
+	</element>
+	<element name="button2" defstate="0">
+		<image file="astdeluxe_acc_button_2_off.png" state="0" />
+		<image file="astdeluxe_acc_button_2_on.png" state="1" />
+	</element>
+	<element name="button1press" defstate="0">
+		<image file="astdeluxe_acc_button_1_press.png" state="1" />
+	</element>
+	<element name="button2press" defstate="0">
+		<image file="astdeluxe_acc_button_2_press.png" state="1" />
+	</element>
+	<element name="accback">
+		<image file="astdeluxe_acc_backdrop.png" />
+	</element>
+	<element name="backdrop_3d">
+		<image file="astdelux_3d.png" />
+	</element>
+	<element name="3d">
+		<image file="astdxbzl_3d.png" />
+	</element>
+	<element name="backdrop_pencil">
+		<image file="astdelux_pencil.png" />
+	</element>
+	<element name="bezel_pencil">
+		<image file="asteroids_deluxe_bezel_pencil.png" />
+	</element>
+	<element name="atariart">
+		<image file="astdelux_atariart.png" />
+	</element>
+	<element name="overlay_y">
+		<rect>
+			<color red="1.0" green="0.894" blue="0.341" />
+		</rect>
+	</element>
+	<element name="wbezel">
+		<image file="astdx169.png" />
+	</element>
+
+<!-- Define Groups -->
+
+	<group name="cpanel">
+		<element ref="cpo">
+			<bounds x="0" y="0" width="4000" height="1850" />
+		</element>
+		<element name="led0" ref="volcano">
+			<bounds x="571" y="373" width="160" height="160" />
+		</element>
+		<element name="led1" ref="volcano">
+			<bounds x="571" y="698" width="160" height="160" />
+		</element>
+		<element ref="button_w" inputtag="IN1" inputmask="0x80">
+			<bounds x="1308" y="338" width="230" height="230" />
+		</element>
+		<element ref="button_w" inputtag="IN1" inputmask="0x40">
+			<bounds x="1551" y="338" width="230" height="230" />
+		</element>
+		<element ref="button_w" inputtag="IN0" inputmask="0x08">
+			<bounds x="1887" y="595" width="230" height="230" />
+		</element>
+		<element ref="button_w" inputtag="IN1" inputmask="0x20">
+			<bounds x="2223" y="338" width="230" height="230" />
+		</element>
+		<element ref="button_w" inputtag="IN0" inputmask="0x10">
+			<bounds x="2465" y="338" width="230" height="230" />
+		</element>
+	</group>
+
+<!-- Define Views -->
+
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="720" y="260" width="2560" height="1920" />
+		</screen>
+		<collection name="Overlay">
+			<element ref="overlay" blend="multiply">
+				<bounds x="720" y="260" width="2560" height="1920" />
+			</element>
+		</collection>
+		<collection name="Backdrop">
+			<element ref="backdrop" blend="add">
+				<bounds x="379" y="145" width="3242" height="2027" />
+				<color alpha="0.3" />
+			</element>
+		</collection>
+		<collection name="Marquee">
+			<element ref="marquee">
+				<bounds x="0" y="-1189" width="4000" height="1189" />
+			</element>
+		</collection>
+		<collection name="Bezel">
+			<element ref="bezel">
+				<bounds x="0" y="0" width="4000" height="3030" />
+			</element>
+		</collection>
+		<collection name="Control_Panel">
+			<group ref="cpanel">
+				<bounds x="0" y="3010" width="4000" height="1850" />
+			</group>
+		</collection>
+	</view>
+	<view name="Upright_Artwork_Rev1">
+		<screen index="0">
+			<bounds x="720" y="260" width="2560" height="1920" />
+		</screen>
+		<collection name="Overlay">
+			<element ref="overlay" blend="multiply">
+				<bounds x="720" y="260" width="2560" height="1920" />
+			</element>
+		</collection>
+		<collection name="Backdrop">
+			<element ref="backdrop_rev1" blend="add">
+				<bounds x="379" y="93" width="3242" height="2131" />
+				<color alpha="0.3" />
+			</element>
+		</collection>
+		<collection name="Marquee">
+			<element ref="marquee">
+				<bounds x="0" y="-1189" width="4000" height="1189" />
+			</element>
+		</collection>
+		<collection name="Bezel">
+			<element ref="bezel">
+				<bounds x="0" y="0" width="4000" height="3030" />
+			</element>
+		</collection>
+		<collection name="Control_Panel">
+			<group ref="cpanel">
+				<bounds x="0" y="3010" width="4000" height="1850" />
+			</group>
+		</collection>
+	</view>
+	<view name="Cocktail_Artwork">
+		<screen index="0">
+			<bounds x="1200" y="912" width="1600" height="1200" />
+		</screen>
+		<element ref="wood">
+			<bounds x="0" y="0" width="4000" height="2990" />
+		</element>
+		<element ref="cocktail">
+			<bounds x="0" y="0" width="4000" height="2990" />
+		</element>
+	</view>
+	<view name="XBLA_Artwork">
+		<screen index="0">
+			<bounds x="232" y="54" width="816" height="612" />
+		</screen> 
+		<element ref="overlay" blend="multiply">
+			<bounds x="232" y="54" width="816" height="612" />
+		</element>
+		<element ref="xbla_widescreen">
+			<bounds x="0" y="0" width="1280" height="720" />
+		</element>
+	</view>
+	<view name="Atari_Classics_Artwork">
+		<screen index="0">
+			<bounds x="140" y="28" width="1000" height="750" />
+		</screen>
+		<element ref="overlay" blend="multiply">
+			<bounds x="140" y="28" width="1000" height="750" />
+		</element>
+		<element ref="acc" blend="add">
+			<bounds x="0" y="0" width="1280" height="1024" />
+		</element>
+		<element name="led0" ref="button1">
+            <bounds x="107" y="903" width="130" height="105" />
+		</element>
+		<element name="led1" ref="button2">
+            <bounds x="232" y="903" width="130" height="105" />
+		</element>
+		<element ref="button1press" inputtag="IN1" inputmask="0x08">
+            <bounds x="107" y="903" width="130" height="105" />
+		</element>
+		<element ref="button2press" inputtag="IN1" inputmask="0x10">
+            <bounds x="232" y="903" width="130" height="105" />
+		</element>
+	</view>
+	<view name="Atari_Classics_Backdrop">
+		<screen index="0">
+			<bounds x="40" y="62" width="1200" height="900" />
+		</screen>
+		<element ref="overlay" blend="multiply">
+			<bounds x="40" y="62" width="1200" height="900" />
+		</element>
+		<element ref="accback" blend="add">
+			<bounds x="0" y="0" width="1280" height="1024" />
+		</element>
+	</view>
+	<view name="3-D_Artwork">
+		<screen index="0">
+			<bounds x="400" y="140" width="1200" height="900" />
+		</screen>
+		<element ref="overlay" blend="multiply">
+			<bounds x="0" y="0" width="2000" height="1505" />
+		</element>
+		<element ref="backdrop_3d" blend="add">
+			<bounds x="0" y="50" width="2000" height="1250" />
+			<color alpha=".5" />
+		</element>
+		<element ref="3d">
+			<bounds x="0" y="0" width="2080" height="1505" />
+		</element>
+	</view>
+	<view name="Pencil_Artwork">
+		<screen index="0">
+			<bounds x="720" y="260" width="2560" height="1920" />
+		</screen>
+		<element ref="backdrop_pencil" blend="add">
+			<bounds x="379" y="145" width="3242" height="2027" />
+			<color alpha=".3" />
+		</element>
+		<element ref="bezel_pencil">
+			<bounds x="0" y="0" width="4000" height="3030" />
+		</element>
+	</view>
+	<view name="Art_of_Atari">
+		<screen index="0">
+			<bounds x="720" y="180" width="2400" height="1800" />
+		</screen>
+		<element ref="overlay_y" blend="multiply">
+			<bounds x="720" y="180" width="2400" height="1800" />
+		</element>
+		<element ref="atariart">
+			<bounds x="0" y="50" width="3840" height="2160" />
+			<color alpha=".3" />
+		</element>
+	</view>
+	<view name="Hausjam_Artwork">
+		<screen index="0">
+			<bounds x="605" y="3" width="1624" height="1218" />
+		</screen>
+		<element ref="overlay" blend="multiply">
+			<bounds x="0" y="0" width="2500" height="1505" />
+		</element>
+		<element ref="backdrop" blend="add">
+			<bounds x="270" y="0" width="2293" height="1600" />
+			<color alpha=".3" />
+		</element>
+		<element ref="wbezel">
+			<bounds x="0" y="0" width="2833" height="1600" />
+		</element>
+	</view>
+</mamelayout>
+
+<!--
+
+- Artwork type:  Bezel, Backdrop, Overlay, Marquee, CPanel
+- Photographed backdrop (astdelu1) provided by Nathan Strum
+- Photographed backdrop (astdelux) provided by Julian Eggebrecht
+- Converted for MAME by Nathan Strum
+- Scanned upright bezel provided by CAG / BYOAC Artwork
+- Converted for MAME by Mr. Do
+- Marquee courtesy of BYOAC/CAG
+- Converted for MAME by Mr. Do
+- Vectored control panel by zorg; color correction by Mr. Do
+- Scanned Atari cocktail frame provided by Mr. Do
+- On loan from Gene at www.vintagearcade.net
+- Vectored by jcroach
+- Scanned cocktail corner graphics provided by CAG / BYOAC Artwork
+- Converted for MAME by Mr. Do
+- Overlay based on visuals by Aaron Giles
+- Artwork Type:  Arcade Compilation
+- From XBox Live Arcade
+- From Atari Arcade Classics for PC
+- Artwork Type:  Other
+- 3-D artwork created by MarbleMad, based on official artwork
+- Pencil artwork created by Mr. Do, based on official artwork; inspired by MetroDuck
+- Artwork type: Arcade Widescreen
+- Widescreen graphics by hausjam
+- Based on graphics in official arcade artwork
+- Add'l artwork from Art of Atari
+- Lay file by Mr. Do
+
+-->

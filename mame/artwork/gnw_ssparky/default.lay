@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<mamelayout version="2"><element name="fanart"><image file="../../fanart/gnw_ssparky.png"/></element><element name="marquee"><image file="../../marquees/gnw_ssparky.png"/></element><element name="cabinet"><image file="../../cabinets/gnw_ssparky.png"/></element>
+
+<!-- Game & Watch: Spitball Sparky -->
+<!-- Layout by Lee Robson (hydef) -->
+
+	<element name="Backdrop"><image file="Backdrop.png"/></element>
+	<element name="Background"><image file="Background.png"/></element>
+	<element name="Overlay"><image file="Overlay.png"/></element>
+	<element name="Subtract"><image file="Subtract.png"/></element>
+	<element name="Lines"><image file="Lines.png"/></element>
+	<element name="Frame"><image file="Frame.png"/></element>
+	<element name="Unit"><image file="Unit.png"/></element>
+	<element name="Gradient"><image file="Gradient.png"/></element>
+	<element name="Gradient2"><image file="Gradient2.png"/></element>
+	<element name="Gradient3"><image file="Gradient3.png"/></element>
+
+<view name="Unit Only (No Shadow)">
+
+	<element ref="Background">					<bounds x="188" y="444" width="622" height="1023"/></element>
+	<screen index="0" blend="multiply">			<bounds x="207" y="452" width="584" height="1004"/></screen>
+	<element ref="Gradient3">					<bounds x="188" y="444" width="622" height="1023"/><color alpha="0.9"/></element>
+	<element ref="Gradient">					<bounds x="188" y="444" width="622" height="1023"/></element>
+	<element ref="Subtract" blend="multiply">	<bounds x="188" y="444" width="622" height="1023"/></element>
+	<element ref="Overlay" blend="add">			<bounds x="188" y="444" width="622" height="1023"/></element>
+	<element ref="Lines">						<bounds x="188" y="444" width="622" height="1023"/></element>
+	<element ref="Gradient2" blend="add">		<bounds x="188" y="444" width="622" height="1023"/><color alpha="0.3"/></element>
+	<element ref="Frame">						<bounds x="188" y="444" width="622" height="1023"/></element>
+	<element ref="Unit">						<bounds x="0" y="0" width="997" height="2094"/></element>
+
+</view>
+	
+<view name="Unit and Backdrop">
+
+	<bounds x="240" y="0" width="1440" height="1080"/>
+
+	<element ref="Background">					<bounds x="809" y="246" width="302" height="498"/></element>
+	<screen index="0" blend="multiply">			<bounds x="819" y="252" width="284" height="488"/></screen>
+	<element ref="Background">					<bounds x="809" y="246" width="302" height="498"/><color alpha="0.8"/></element>
+	<screen index="0" blend="multiply">			<bounds x="818" y="251" width="284" height="488"/></screen>
+	<element ref="Gradient3">					<bounds x="809" y="246" width="302" height="498"/><color alpha="0.9"/></element>
+	<element ref="Gradient">					<bounds x="809" y="246" width="302" height="498"/></element>
+	<element ref="Subtract" blend="multiply">	<bounds x="809" y="246" width="302" height="498"/></element>
+	<element ref="Overlay" blend="add">			<bounds x="809" y="246" width="302" height="498"/></element>	
+	<element ref="Lines">						<bounds x="809" y="246" width="302" height="498"/></element>
+	<element ref="Gradient2" blend="add">		<bounds x="809" y="246" width="302" height="498"/><color alpha="0.3"/></element>
+	<element ref="Frame">						<bounds x="809" y="246" width="302" height="498"/></element>
+	<element ref="Backdrop">					<bounds x="0" y="0" width="1920" height="1080"/></element>
+
+</view>
+
+<view name="Unit and Backdrop (No Shadow)">
+
+	<bounds x="240" y="0" width="1440" height="1080"/>
+
+	<element ref="Background">					<bounds x="809" y="246" width="302" height="498"/></element>
+	<screen index="0" blend="multiply">			<bounds x="818" y="251" width="284" height="488"/></screen>
+	<element ref="Gradient3">					<bounds x="809" y="246" width="302" height="498"/><color alpha="0.9"/></element>
+	<element ref="Gradient">					<bounds x="809" y="246" width="302" height="498"/></element>
+	<element ref="Subtract" blend="multiply">	<bounds x="809" y="246" width="302" height="498"/></element>
+	<element ref="Overlay" blend="add">			<bounds x="809" y="246" width="302" height="498"/></element>
+	<element ref="Lines">						<bounds x="809" y="246" width="302" height="498"/></element>
+	<element ref="Gradient2" blend="add">		<bounds x="809" y="246" width="302" height="498"/><color alpha="0.3"/></element>
+	<element ref="Frame">						<bounds x="809" y="246" width="302" height="498"/></element>
+	<element ref="Backdrop">					<bounds x="0" y="0" width="1920" height="1080"/></element>
+
+</view>
+
+<view name="Unit Only">
+
+	<element ref="Background">					<bounds x="188" y="444" width="622" height="1023"/></element>
+	<screen index="0" blend="multiply">			<bounds x="208" y="455" width="584" height="1004"/></screen>
+	<element ref="Background">					<bounds x="192" y="449" width="622" height="1023"/><color alpha="0.8"/></element>
+	<screen index="0" blend="multiply">			<bounds x="207" y="452" width="584" height="1004"/></screen>
+	<element ref="Gradient3">					<bounds x="188" y="444" width="622" height="1023"/><color alpha="0.9"/></element>
+	<element ref="Gradient">					<bounds x="188" y="444" width="622" height="1023"/></element>
+	<element ref="Subtract" blend="multiply">	<bounds x="188" y="444" width="622" height="1023"/></element>
+	<element ref="Overlay" blend="add">			<bounds x="188" y="444" width="622" height="1023"/></element>
+	<element ref="Lines">						<bounds x="188" y="444" width="622" height="1023"/></element>
+	<element ref="Gradient2" blend="add">		<bounds x="188" y="444" width="622" height="1023"/><color alpha="0.3"/></element>
+	<element ref="Frame">						<bounds x="188" y="444" width="622" height="1023"/></element>
+	<element ref="Unit">						<bounds x="0" y="0" width="997" height="2094"/></element>
+
+</view>
+<view name="Background Only">
+
+	<element ref="Background">					<bounds x="0" y="0" width="1069" height="1761"/></element>
+	<screen index="0" blend="multiply">			<bounds x="35" y="21" width="1003" height="1728"/></screen>
+	<element ref="Background">					<bounds x="0" y="0" width="1069" height="1761"/><color alpha="0.8"/></element>
+	<screen index="0" blend="multiply">			<bounds x="32" y="15" width="1003" height="1728"/></screen>
+	<element ref="Gradient3">					<bounds x="0" y="0" width="1069" height="1761"/><color alpha="0.9"/></element>
+	<element ref="Gradient">					<bounds x="0" y="0" width="1069" height="1761"/></element>
+	<element ref="Subtract" blend="multiply">	<bounds x="0" y="0" width="1069" height="1761"/></element>
+	<element ref="Overlay" blend="add">			<bounds x="0" y="0" width="1069" height="1761"/></element>
+	<element ref="Lines">						<bounds x="0" y="0" width="1069" height="1761"/></element>
+	<element ref="Gradient2" blend="add">		<bounds x="0" y="0" width="1069" height="1761"/><color alpha="0.3"/></element>
+	<element ref="Frame">						<bounds x="0" y="0" width="1069" height="1761"/></element>
+	
+</view>
+
+<view name="Background Only (No Shadow)">
+
+	<element ref="Background">					<bounds x="0" y="0" width="1069" height="1761"/></element>
+	<screen index="0" blend="multiply">			<bounds x="32" y="15" width="1003" height="1728"/></screen>
+	<element ref="Gradient3">					<bounds x="0" y="0" width="1069" height="1761"/><color alpha="0.9"/></element>
+	<element ref="Gradient">					<bounds x="0" y="0" width="1069" height="1761"/></element>
+	<element ref="Subtract" blend="multiply">	<bounds x="0" y="0" width="1069" height="1761"/></element>
+	<element ref="Overlay" blend="add">			<bounds x="0" y="0" width="1069" height="1761"/></element>	
+	<element ref="Lines">						<bounds x="0" y="0" width="1069" height="1761"/></element>
+	<element ref="Gradient2" blend="add">		<bounds x="0" y="0" width="1069" height="1761"/><color alpha="0.3"/></element>
+	<element ref="Frame">						<bounds x="0" y="0" width="1069" height="1761"/></element>
+	
+</view>
+
+<!-- Game & Watch: Spitball Sparky -->
+
+<view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="2066" height="4000"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="5993" height="1905"/></marquee></view><view name="Fanart_Only"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view></mamelayout>

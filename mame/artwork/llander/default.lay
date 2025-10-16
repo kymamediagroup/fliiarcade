@@ -1,0 +1,128 @@
+<!-- llander.lay -->
+
+<mamelayout version="2"><element name="cabinet"><image file="../../cabinets/llander.png"/></element><element name="marquee"><image file="../../marquees/llander.png"/></element><element name="flyer"><image file="../../flyers/llander.png"/></element>	
+	<element name="bezel">
+		<image file="bezel.png"/>
+	</element>
+	<element name="lunaroff">
+		<image file="lunaroff.png"/>
+	</element>	
+	<element name="lunarins" defstate="0">
+		<image file="lunaron.png" alphafile="lunarins.png" state="1"/>
+	</element>	
+	<element name="lunartrn" defstate="0">
+		<image file="lunaron.png" alphafile="lunartrn.png" state="1"/>
+	</element>	
+	<element name="lunarcad" defstate="0">
+		<image file="lunaron.png" alphafile="lunarcad.png" state="1"/>
+	</element>	
+	<element name="lunarprm" defstate="0">
+		<image file="lunaron.png" alphafile="lunarprm.png" state="1"/>
+	</element>	
+	<element name="lunarcom" defstate="0">
+		<image file="lunaron.png" alphafile="lunarcom.png" state="1"/>
+	</element>
+	<element name="acc">
+		<image file="llander_acc.png"/>
+	</element>
+	<element name="button1" defstate="0">
+		<image file="llander_acc_button_1_off.png" state="0"/>
+		<image file="llander_acc_button_1_on.png" state="1"/>
+	</element>
+	<element name="button2" defstate="0">
+		<image file="llander_acc_button_2_off.png" state="0"/>
+		<image file="llander_acc_button_2_on.png" state="1"/>
+	</element>
+	<element name="button1press" defstate="0">
+		<image file="llander_acc_button_1_press.png" state="1"/>
+	</element>
+	<element name="button2press" defstate="0">
+		<image file="llander_acc_button_2_press.png" state="1"/>
+	</element>
+	<element name="lamp1" defstate="0">
+		<image file="llander_acc_lamp1_off.png" state="0"/>
+		<image file="llander_acc_lamp1_on.png" state="1"/>
+	</element>
+	<element name="lamp2" defstate="0">
+		<image file="llander_acc_lamp2_off.png" state="0"/>
+		<image file="llander_acc_lamp2_on.png" state="1"/>
+	</element>
+	<element name="lamp3" defstate="0">
+		<image file="llander_acc_lamp3_off.png" state="0"/>
+		<image file="llander_acc_lamp3_on.png" state="1"/>
+	</element>
+	<element name="lamp4" defstate="0">
+		<image file="llander_acc_lamp4_off.png" state="0"/>
+		<image file="llander_acc_lamp4_on.png" state="1"/>
+	</element>
+	<view name="Upright_Artwork">
+		<bezel element="bezel">
+			<bounds left="-0.12" top="0" right="1.12" bottom="0.75"/>
+		</bezel>
+		<screen index="0" blend="add">
+			<bounds left=".05" top="0" right=".95" bottom="0.75"/>
+		</screen>		
+
+		<bezel element="lunaroff" blend="add">
+			<bounds left="-0.12" top="0.75" right="1.12" bottom="0.9525"/>
+		</bezel>		
+		<bezel name="lamp0" element="lunarins">
+			<bounds left="-0.12" top="0.75" right="1.12" bottom="0.9525"/>
+		</bezel>		
+		<bezel name="lamp1" element="lunartrn">
+			<bounds left="-0.12" top="0.75" right="1.12" bottom="0.9525"/>
+		</bezel>		
+		<bezel name="lamp2" element="lunarcad">
+			<bounds left="-0.12" top="0.75" right="1.12" bottom="0.9525"/>
+		</bezel>		
+		<bezel name="lamp3" element="lunarprm">
+			<bounds left="-0.12" top="0.75" right="1.12" bottom="0.9525"/>
+		</bezel>		
+		<bezel name="lamp4" element="lunarcom">
+			<bounds left="-0.12" top="0.75" right="1.12" bottom="0.9525"/>
+		</bezel>
+	</view>
+	<view name="Atari_Classics_Artwork">
+		<backdrop element="acc">
+			<bounds x="0" y="0" width="1280" height="1024"/>
+		</backdrop>
+		<bezel name="lamp5" element="button1">
+            <bounds x="260" y="896" width="53" height="43"/>
+		</bezel>
+		<bezel name="lamp0" element="button2">
+            <bounds x="418" y="896" width="53" height="43"/>
+		</bezel>
+		<bezel element="button1press" inputtag="IN1" inputmask="0x10">
+            <bounds x="260" y="896" width="53" height="43"/>
+		</bezel>
+		<bezel element="button2press" inputtag="IN1" inputmask="0x01">
+            <bounds x="418" y="896" width="53" height="43"/>
+		</bezel>
+		<bezel name="lamp1" element="lamp1">
+            <bounds x="407" y="804" width="150" height="69"/>
+		</bezel>
+		<bezel name="lamp2" element="lamp2">
+            <bounds x="557" y="804" width="150" height="69"/>
+		</bezel>
+		<bezel name="lamp3" element="lamp3">
+            <bounds x="707" y="804" width="150" height="69"/>
+		</bezel>
+		<bezel name="lamp4" element="lamp4">
+            <bounds x="857" y="804" width="150" height="69"/>
+		</bezel>
+		<screen index="0">
+			<bounds x="120" y="16" width="1040" height="780"/>
+		</screen> 
+	</view>
+<view name="Flyer_Only"><element ref="flyer"><bounds x="0" y="0" width="850" height="1103"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="1200" height="330"/></marquee></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="600" height="900"/></element></view></mamelayout>
+
+<!--
+
+- Artwork type: Control Panel
+- Photographed control panel provided by Nathan Strum
+- Converted for MAME by Nathan Strum
+- Artwork type: Arcade Compilation
+- From Atari Arcade Classics for PC
+- Lay file by Aaron Giles
+
+-->

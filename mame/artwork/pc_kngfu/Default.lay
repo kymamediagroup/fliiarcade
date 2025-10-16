@@ -1,0 +1,17 @@
+<!-- bezel.lay -->
+<mamelayout version="2"><element name="fanart"><image file="../../fanart/pc_kngfu.png"/></element><element name="cabinet"><image file="../../cabinets/pc_kngfu.png"/></element><element name="marquee"><image file="../../marquees/pc_kngfu.png"/></element>
+<element name="bezel">
+<image file="bezel.png"/>
+</element>
+<view name="Bezel Artwork">
+<bezel element="bezel">
+<bounds left="0" top="0" right="16" bottom="9"/>
+</bezel>
+<screen index="1">
+<bounds left="5" top="0" right="11" bottom="4.5"/>
+</screen>
+<screen index="0">
+<bounds left="5" top="4.5" right="11" bottom="9"/>
+</screen>
+</view>
+<view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="1200" height="602"/></marquee></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="163" height="320"/></element></view><view name="Fanart_Only"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view></mamelayout>

@@ -1,0 +1,41 @@
+<mamelayout version="2">
+	<element name="bezel">
+		<image file="bezel.png" />
+	</element>
+	<element name="marquee">
+		<image file="../../marquees/astrocde.png" />
+	</element>
+	<element name="flyer">
+		<image file="../../flyers/astrocde.png" />
+	</element>
+	<element name="cabinet">
+		<image file="../../cabinets/astrocde.png" />
+	</element>
+	<element name="fanart">
+		<image file="../../fanart/astrocde.png" />
+	</element>
+	<view name="Bezel_Artwork">
+		<screen index="0">
+			<bounds x="480" y="0" width="2880" height="2160" />
+		</screen>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="3840" height="2160" />
+		</bezel>
+	</view>
+	<view name="Marquee">
+		<element ref="marquee">
+			<bounds x="0" y="0" width="1000" height="246" />
+		</element>
+	</view>
+	<view name="Flyer">
+		<element ref="flyer">
+			<bounds x="0" y="0" width="899" height="1200" />
+		</element>
+	</view>
+	<view name="Cabinet">
+		<element ref="cabinet">
+			<bounds x="0" y="0" width="700" height="475" />
+		</element>
+	</view>
+	<view name="Fanart"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view>
+</mamelayout>

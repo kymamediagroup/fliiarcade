@@ -1,0 +1,50 @@
+<!-- bezel.lay -->
+<mamelayout version="2">
+<element name="light_avenger" defstate="0">
+<image file="light_avenger.png" state="1" />
+</element>
+<element name="light_cadet" defstate="0">
+<image file="light_cadet.png" state="1" />
+</element>
+<element name="light_captain" defstate="0">
+<image file="light_captain.png" state="1" />
+</element>
+<element name="light_colonel" defstate="0">
+<image file="light_colonel.png" state="1" />
+</element>
+<element name="light_general" defstate="0">
+<image file="light_general.png" state="1" />
+</element>
+<element name="light_warrior" defstate="0">
+<image file="light_warrior.png" state="1" />
+</element>
+<element name="bezel">
+<image file="bezel.png" />
+</element>
+<view name="Bezel Artwork">
+<bezel element="bezel">
+<bounds left="0" top="0" right="16" bottom="9" />
+</bezel>
+<screen index="0">
+<bounds left="4.625" top="0" right="11.375" bottom="8.9" />
+</screen>
+<bezel name="lamp0" element="light_cadet">
+<bounds left="13.1" top="6.2" right="14" bottom="7" />
+</bezel>
+<bezel name="lamp1" element="light_captain">
+<bounds left="14.25" top="6.2" right="15.1" bottom="7" />
+</bezel>
+<bezel name="lamp2" element="light_colonel">
+<bounds left="13.1" top="7.1" right="14" bottom="7.9" />
+</bezel>
+<bezel name="lamp3" element="light_general">
+<bounds left="14.25" top="7.1" right="15.1" bottom="7.9" />
+</bezel>
+<bezel name="lamp4" element="light_warrior">
+<bounds left="13.1" top="7.9" right="14" bottom="8.7" />
+</bezel>
+<bezel name="lamp5" element="light_avenger">
+<bounds left="14.25" top="7.9" right="15.1" bottom="8.7" />
+</bezel>
+</view>
+</mamelayout>

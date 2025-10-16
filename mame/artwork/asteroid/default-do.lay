@@ -1,0 +1,219 @@
+<!-- asteroid.lay -->
+
+<mamelayout version="2">
+
+<!-- Define Elements -->
+
+	<element name="bezel">
+		<image file="asteroids_bezel.png" />
+	</element>
+	<element name="inner">
+		<image file="asteroids_internal.png" />
+	</element>
+	<element name="marquee">
+		<image file="asteroids_marquee.png" />
+	</element>
+	<element name="cpo">
+		<image file="asteroids_cpo.png" />
+	</element>
+	<element name="button_w" defstate="0">
+		<image file="button_white.png"  state="0" />
+		<image file="button_white_pressed.png"  state="1" />
+	</element>
+	<element name="volcano" defstate="0">
+		<image file="volcano_alum_off.png"  state="0" />
+		<image file="volcano_alum_on.png"  state="1" />
+	</element>
+	<element name="cocktail">
+		<image file="asteroids_cocktail.png" />
+	</element>
+	<element name="wood">
+		<image file="atari_cocktail_wood.png" />
+	</element>
+	<element name="xbla_widescreen">
+		<image file="asteroids_xbla_ws.png" alphafile="mask_1280_720_horiz.png" />
+	</element>
+	<element name="acc">
+		<image file="asteroids_acc.png" />
+	</element>
+	<element name="button1" defstate="0">
+		<image file="asteroids_acc_button_1_off.png"  state="0" />
+		<image file="asteroids_acc_button_1_on.png"  state="1" />
+	</element>
+	<element name="button2" defstate="0">
+		<image file="asteroids_acc_button_2_off.png"  state="0" />
+		<image file="asteroids_acc_button_2_on.png"  state="1" />
+	</element>
+	<element name="button1press" defstate="0">
+		<image file="asteroids_acc_button_1_press.png"  state="1" />
+	</element>
+	<element name="button2press" defstate="0">
+		<image file="asteroids_acc_button_2_press.png"  state="1" />
+	</element>
+	<element name="accback">
+		<image file="asteroids_acc_backdrop.png" />
+	</element>
+	<element name="3d">
+		<image file="asteroid_3d.png" />
+	</element>
+	<element name="inner_pencil">
+		<image file="asteroids_internal_pencil.png" />
+	</element>
+	<element name="starmap">
+		<image file="starmap_g4k_cropped.png" />
+	</element>
+
+<!-- Define Groups -->
+
+	<group name="cpanel">
+		<element ref="cpo">
+			<bounds x="0" y="0" width="4000" height="2050" />
+		</element>
+		<element name="led0" ref="volcano">
+			<bounds x="1690" y="97" width="193" height="193" />
+		</element>
+		<element name="led1" ref="volcano">
+			<bounds x="2107" y="97" width="193" height="193" />
+		</element>
+		<element ref="button_w" inputtag="IN1" inputmask="0x80">
+			<bounds x="1131" y="529" width="270" height="270" />
+		</element>
+		<element ref="button_w" inputtag="IN1" inputmask="0x40">
+			<bounds x="1448" y="529" width="270" height="270" />
+		</element>
+		<element ref="button_w" inputtag="IN0" inputmask="0x08">
+			<bounds x="1867" y="844" width="270" height="270" />
+		</element>
+		<element ref="button_w" inputtag="IN1" inputmask="0x20">
+			<bounds x="2286" y="529" width="270" height="270" />
+		</element>
+		<element ref="button_w" inputtag="IN0" inputmask="0x10">
+			<bounds x="2603" y="529" width="270" height="270" />
+		</element>
+	</group>
+
+<!-- Define Views -->
+
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="672" y="673" width="2656" height="1992" />
+		</screen>
+		<collection name="Marquee">
+			<element ref="marquee">
+				<bounds x="0" y="-1371" width="4000" height="1371" />
+			</element>
+		</collection>
+		<element ref="inner">
+			<bounds x="0" y="0" width="4000" height="2977" />
+		</element>
+		<element ref="bezel">
+			<bounds x="0" y="0" width="4000" height="3361" />
+		</element>
+		<collection name="Control_Panel">
+			<group ref="cpanel">
+				<bounds x="0" y="3200" width="4000" height="2050" />
+			</group>
+		</collection>
+	</view>
+	<view name="Cocktail_Artwork">
+		<screen index="0">
+			<bounds x="1200" y="912" width="1600" height="1200" />
+		</screen>
+		<element ref="wood">
+			<bounds x="0" y="0" width="4000" height="2990" />
+		</element>
+		<element ref="cocktail">
+			<bounds x="0" y="0" width="4000" height="2990" />
+		</element>
+	</view>
+	<view name="XBLA_Artwork">
+		<screen index="0">
+			<bounds x="232" y="54" width="816" height="612" />
+		</screen>
+		<element ref="xbla_widescreen">
+			<bounds x="0" y="0" width="1280" height="720" />
+		</element>
+	</view>
+	<view name="Atari_Classics_Artwork">
+		<screen index="0">
+			<bounds x="234" y="166" width="800" height="600" />
+		</screen>
+		<element ref="acc" blend="add">
+			<bounds x="0" y="0" width="1280" height="1024" />
+		</element>
+		<element name="led0" ref="button1">
+            <bounds x="429.95" y="892" width="140" height="132" />
+		</element>
+		<element name="led1" ref="button2">
+            <bounds x="710.1" y="892" width="140" height="132" />
+		</element>
+		<element ref="button1press" inputtag="IN1" inputmask="0x08">
+            <bounds x="429.95" y="892" width="140" height="132" />
+		</element>
+		<element ref="button2press" inputtag="IN1" inputmask="0x10">
+            <bounds x="710.1" y="892" width="140" height="132" />
+		</element>
+	</view>
+	<view name="Atari_Classics_Backdrop">
+		<screen index="0">
+			<bounds x="40" y="62" width="1200" height="900" />
+		</screen> 
+		<element ref="accback" blend="add">
+			<bounds x="0" y="0" width="1280" height="1024" />
+		</element>
+	</view>
+	<view name="3-D_Artwork">
+		<screen index="0">
+			<bounds x="296" y="280" width="1081" height="810.75" />
+		</screen>
+		<element ref="3d">
+			<bounds left="0" top="0" right="1682" bottom="1252" />
+		</element>
+	</view>
+	<view name="Pencil_Artwork">
+		<screen index="0">
+			<bounds x="672" y="673" width="2656" height="1992" />
+		</screen>
+		<element ref="inner_pencil">
+			<bounds x="0" y="0" width="4000" height="2977" />
+		</element>
+		<element ref="bezel">
+			<bounds x="0" y="0" width="4000" height="3361" />
+		</element>
+	</view>
+	<view name="Widescreen_Starmap">
+		<screen index="0">
+           	<bounds x="378" y="0" width="2267" height="1700" />
+		</screen>
+		<element ref="starmap" blend="add">
+			<bounds x="0" y="0" width="3022" height="1700" />
+		</element>
+	</view>
+	<view name="Marquee_Only">
+		<element ref="marquee">
+			<bounds x="0" y="-1371" width="4000" height="1371" />
+		</element>
+	</view>
+</mamelayout>
+
+<!--
+
+- Artwork type: Bezel, Marquee, CPanel
+- Scanned inner bezel provided by CADweazle
+- Flat scans reconstructed into bezel by MarbleMad, www.kinetic-arts.co.uk
+- Add'l cleanup by Mr. Do
+- Outer bezel and marquee courtesy of BYOAC/CAG
+- Converted for MAME by Mr. Do
+- Vectored control panel by zorg; color correction by Mr. Do
+- Scanned Atari cocktail frame and Asteroids graphics provided by Mr. Do
+- On loan from Gene at www.vintagearcade.net
+- Vectored by jcroach
+- Artwork Type:  Arcade Compilation
+- From XBox Live Arcade
+- From Atari Arcade Classics for PC
+- Artwork Type:  Other
+- 3-D artwork created by MarbleMad, based on official artwork
+- Pencil artwork created by Mr. Do, based on official artwork; inspired by MetroDuck
+- Lay file by Mr. Do
+
+-->

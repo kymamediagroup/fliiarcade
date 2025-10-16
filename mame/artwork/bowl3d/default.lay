@@ -1,0 +1,13 @@
+<mamelayout version="2"><element name="marquee"><image file="../../marquees/bowl3d.png"/></element><element name="cabinet"><image file="../../cabinets/bowl3d.png"/></element><element name="flyer"><image file="../../flyers/bowl3d.png"/></element>
+<element name="bezel">
+<image file="../genvertical/mame_nebula_vertical.png"/>
+</element>
+<view name="Generic_Artwork_Vertical">
+	<screen index="0">
+		<bounds x="1110" y="0" width="1620" height="2160"/>
+	</screen>
+	<bezel element="bezel">
+		<bounds x="0" y="0" width="3840" height="2160"/>
+	</bezel>
+</view>
+<view name="Flyer_Only"><element ref="flyer"><bounds x="0" y="0" width="850" height="1101"/></element></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="482" height="835"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="400" height="51"/></marquee></view></mamelayout>

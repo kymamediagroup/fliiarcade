@@ -1,0 +1,204 @@
+<!-- dragrace.lay -->
+
+<mamelayout version="2">
+<element name="cabinet"><image file="../../cabinets/dragrace.png"/></element><element name="marquee"><image file="../../marquees/dragrace.png"/></element><element name="flyer"><image file="../../flyers/dragrace.png"/></element>
+	<element name="overlay_text">
+		<image file="dragrace_overlay.png" />
+	</element>
+	<element name="inner_bezel">
+		<image file="dragrace_inner_bezel.png" />
+	</element>
+	<element name="outer_bezel">
+		<image file="dragrace_bezel.png" />
+	</element>
+	<element name="cpanel">
+		<image file="dragrace_cpanel.png" />
+	</element>
+	<element name="start_button" defstate="0">
+		<image file="atari_old_start_off.png" state="0" />
+		<image file="atari_old_start_on.png" state="1" />
+	</element>
+	<element name="shifter" defstate="0">
+		<image file="dragrace_shifter_n.png" state="0" />
+		<image file="dragrace_shifter_1.png" state="1" />
+		<image file="dragrace_shifter_2.png" state="2" />
+		<image file="dragrace_shifter_3.png" state="3" />
+		<image file="dragrace_shifter_4.png" state="4" />
+	</element>
+	<element name="circle_overlay">
+		<disk>
+			<bounds left="0" top="0" right="108" bottom="109" />
+			<color red="0.95" green="0.08" blue="0.13" />
+		</disk>
+		<disk>
+			<bounds left="121" top="0" right="227" bottom="109" />
+			<color red="0.16" green="0.58" blue="0.25" />
+		</disk>
+		<disk>
+			<bounds left="241" top="0" right="348" bottom="109" />
+			<color red="1.0" green="0.97" blue="0.31" />
+		</disk>
+		<disk>
+			<bounds left="360" top="0" right="467" bottom="109" />
+			<color red="1.0" green="0.97" blue="0.31" />
+		</disk>
+		<disk>
+			<bounds left="481" top="0" right="589" bottom="109" />
+			<color red="1.0" green="0.97" blue="0.31" />
+		</disk>
+	</element>
+	<element name="red_overlay">
+		<rect>
+			<color red="0.95" green="0.08" blue="0.13" />
+		</rect>
+	</element>
+	<element name="yellow_overlay">
+		<rect>
+			<color red="1.0" green="0.97" blue="0.31" />
+		</rect>
+	</element>
+	<element name="marquee_trim">
+		<rect>
+			<color red="0" green="0" blue="0" />
+		</rect>
+	</element>
+	<element name="tach" defstate="0">
+		<image file="tach_01.png" state="0" />
+		<image file="tach_01.png" state="1" />
+		<image file="tach_02.png" state="2" />
+		<image file="tach_03.png" state="3" />
+		<image file="tach_04.png" state="4" />
+		<image file="tach_05.png" state="5" />
+		<image file="tach_06.png" state="6" />
+		<image file="tach_07.png" state="7" />
+		<image file="tach_08.png" state="8" />
+		<image file="tach_09.png" state="9" />
+		<image file="tach_10.png" state="10" />
+		<image file="tach_11.png" state="11" />
+		<image file="tach_12.png" state="12" />
+		<image file="tach_13.png" state="13" />
+		<image file="tach_14.png" state="14" />
+		<image file="tach_15.png" state="15" />
+		<image file="tach_16.png" state="16" />
+		<image file="tach_17.png" state="17" />
+		<image file="tach_18.png" state="18" />
+		<image file="tach_19.png" state="19" />
+		<image file="tach_20.png" state="20" />
+		<image file="tach_21.png" state="21" />
+		<image file="tach_22.png" state="22" />
+		<image file="tach_23.png" state="23" />
+		<image file="tach_24.png" state="24" />
+		<image file="tach_25.png" state="25" />
+		<image file="tach_26.png" state="26" />
+		<image file="tach_27.png" state="27" />
+		<image file="tach_28.png" state="28" />
+		<image file="tach_29.png" state="29" />
+		<image file="tach_30.png" state="30" />
+		<image file="tach_31.png" state="31" />
+		<image file="tach_31.png" state="32" />
+		<image file="tach_01.png" state="33" />
+		<image file="tach_02.png" state="34" />
+		<image file="tach_02.png" state="35" />
+		<image file="tach_02.png" state="36" />
+		<image file="tach_03.png" state="37" />
+		<image file="tach_03.png" state="38" />
+		<image file="tach_03.png" state="39" />
+		<image file="tach_04.png" state="40" />
+		<image file="tach_04.png" state="41" />
+		<image file="tach_04.png" state="42" />
+		<image file="tach_05.png" state="43" />
+		<image file="tach_05.png" state="44" />
+		<image file="tach_05.png" state="45" />
+		<image file="tach_06.png" state="46" />
+		<image file="tach_06.png" state="47" />
+		<image file="tach_06.png" state="48" />
+		<image file="tach_07.png" state="49" />
+		<image file="tach_07.png" state="50" />
+		<image file="tach_07.png" state="51" />
+		<image file="tach_08.png" state="52" />
+		<image file="tach_08.png" state="53" />
+		<image file="tach_08.png" state="54" />
+		<image file="tach_09.png" state="55" />
+		<image file="tach_09.png" state="56" />
+		<image file="tach_10.png" state="57" />
+		<image file="tach_11.png" state="58" />
+		<image file="tach_12.png" state="59" />
+		<image file="tach_13.png" state="60" />
+	</element>
+	<view name="Upright_Artwork">
+		<bezel element="circle_overlay">
+			<bounds x="1154" y="1198" width="589" height="109" />
+			<color alpha=".2" />
+		</bezel>
+		<bezel element="red_overlay">
+			<bounds x="1030" y="660" width="1928" height="518" />
+			<color alpha=".2" />
+		</bezel>
+		<bezel element="yellow_overlay">
+			<bounds x="1030" y="1332" width="1928" height="495" />
+			<color alpha=".2" />
+		</bezel>
+		<overlay element="circle_overlay">
+			<bounds x="1154" y="1198" width="589" height="109" />
+		</overlay>
+		<overlay element="red_overlay">
+			<bounds x="1030" y="660" width="1928" height="518" />
+		</overlay>
+		<overlay element="yellow_overlay">
+			<bounds x="1030" y="1332" width="1928" height="495" />
+		</overlay>
+		<bezel element="inner_bezel">
+			<bounds x="0" y="0" width="4000" height="2079" />
+		</bezel>
+		<bezel element="overlay_text">
+			<bounds x="1030" y="379" width="1928" height="1446" />
+		</bezel>
+		<bezel element="outer_bezel" >
+			<bounds x="0" y="-770" width="4000" height="2919" />
+		</bezel>
+		<cpanel element="cpanel">
+			<bounds x="0" y="2100" width="4000" height="869" />
+		</cpanel>
+		<cpanel name="tachometer2" element="tach" >
+			<bounds x="210" y="2190" width="595" height="591" />
+		</cpanel>
+		<cpanel name="tachometer" element="tach" >
+			<bounds x="2300" y="2190" width="595" height="591" />
+		</cpanel>
+		<cpanel name="led1" element="start_button" >
+			<bounds x="1071" y="2310" width="450" height="450" />
+		</cpanel>
+		<cpanel name="led0" element="start_button" >
+			<bounds x="3265" y="2310" width="450" height="450" />
+		</cpanel>
+		<cpanel element="shifter" name="P1gear" >
+			<bounds x="4100" y="2300" width="526" height="526" />
+		</cpanel>
+		<cpanel element="shifter" name="P2gear" >
+			<bounds x="-626" y="2300" width="526" height="526" />
+		</cpanel>
+		<screen index="0">
+           		<bounds x="1030" y="379" width="1928" height="1446" />
+		</screen>
+	</view>
+	<!--<view name="Marquee_Only">
+		<bounds x="0" y="0" width="4000" height="800" />
+		<marquee element="outer_bezel">
+			<bounds x="0" y="0" width="4000" height="2919" />
+		</marquee>
+		<marquee element="marquee_trim">
+			<bounds x="0" y="800" width="4000" height="2119" />
+		</marquee>
+	</view>-->
+<view name="Flyer_Only"><element ref="flyer"><bounds x="0" y="0" width="1102" height="850"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="1200" height="330"/></marquee></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="600" height="900"/></element></view>
+</mamelayout>
+
+<!-- 
+- Artwork type: Bezel, Overlay, Control Panel
+- Inner bezel and overlay recreated by Mr. Do based on photographs by Bobby Tribble
+- Control panel & tachometer recreated by Comboman
+- Outer bezel scanned by TrevEB, cleaned by Comboman, Mr. Do
+- Gear shift photos by blindog
+- Lay file by Mr. Do & Comboman
+
+-->

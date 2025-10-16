@@ -1,0 +1,173 @@
+<!-- crash.lay -->
+
+<mamelayout version="2"><element name="fanart"><image file="../../fanart/crash.png"/></element><element name="cabinet"><image file="../../cabinets/crash.png"/></element>
+	<element name="marquee"><image file="../../marquees/crash.png"/></element>
+	<element name="bezel">
+		<image file="crash_bez1.png"/>
+	</element>
+	<element name="bezel2">
+		<image file="crash_bez2.png"/>
+	</element>
+	<element name="bezel3">
+		<image file="smash_bezel.png"/>
+	</element>
+	<element name="cpanel">
+		<image file="crash_panel.png"/>
+	</element>
+	<element name="kickplate">
+		<image file="white_kickplate.png"/>
+	</element>
+	<element name="sideart">
+		<image file="crash_sideart.png"/>
+	</element>
+	<element name="flyer">
+		<image file="crash_flyer.png"/>
+	</element>
+	<element name="overlay_new">
+		<image file="crash_overlay.png"/>
+	</element>
+
+	<element name="overlay">
+		<rect>
+			<bounds x="0" y="0" width="1" height="1"/>
+			<color red="0.0" green="0.4" blue="1.0"/>
+		</rect>
+		<rect>
+			<bounds x="0.35" y="0.34" width="0.3" height="0.325"/>
+			<color red="1.0" green="1.0" blue="0"/>
+		</rect>
+	</element>
+
+	<element name="green">
+		<rect>
+			<bounds left="0" top="0" right="248" bottom="62.5"/>
+			<color red="0.125" green="1" blue="0.125"/>
+		</rect>
+	</element>
+	<view name="Full_Cabinet">
+		<bounds x="0" y="-1775" width="4000" height="7100"/>
+		<screen index="0">
+			<bounds x="1000" y="1070" width="2000" height="1500"/>
+		</screen>
+		<overlay element="overlay_new">
+			<bounds x="1000" y="1070" width="2000" height="1500"/>
+		</overlay>
+<!--
+		<bezel element="overlay">
+			<bounds x="1000" y="1070" width="2000" height="1500" />
+			<color alpha="0.0" />
+		</bezel>
+-->
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="4000" height="4000"/>
+		</bezel>
+		<cpanel element="cpanel">
+			<bounds x="0" y="4020" width="4000" height="1300"/>
+		</cpanel>
+		<cpanel element="kickplate">
+			<bounds x="0" y="5340" width="4000" height="5276"/>
+		</cpanel>
+		<marquee element="flyer">
+			<bounds x="1319" y="-1775" width="1363" height="1775"/>
+		</marquee>
+		<marquee element="sideart">
+			<bounds x="120" y="-1398" width="1079" height="1010"/>
+		</marquee>
+		<marquee element="sideart">
+			<bounds x="2801" y="-1398" width="1079" height="1010"/>
+		</marquee>
+	</view>
+	<view name="Full_Cabinet_Lit">
+		<bounds x="0" y="-1775" width="4000" height="7100"/>
+		<screen index="0">
+			<bounds x="1000" y="1070" width="2000" height="1500"/>
+		</screen>
+		<overlay element="overlay_new">
+			<bounds x="1000" y="1070" width="2000" height="1500"/>
+		</overlay>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="4000" height="4000"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</bezel>
+		<cpanel element="cpanel">
+			<bounds x="0" y="4020" width="4000" height="1300"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</cpanel>
+		<cpanel element="kickplate">
+			<bounds x="0" y="5340" width="4000" height="5276"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</cpanel>
+		<marquee element="flyer">
+			<bounds x="1315" y="-1775" width="1370" height="1775"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</marquee>
+		<marquee element="sideart">
+			<bounds x="120" y="-1398" width="1079" height="1010"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</marquee>
+		<marquee element="sideart">
+			<bounds x="2801" y="-1398" width="1079" height="1010"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</marquee>
+	</view>
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="1000" y="1070" width="2000" height="1500"/>
+		</screen>
+		<overlay element="overlay">
+			<bounds x="1000" y="1070" width="2000" height="1500"/>
+			<color alpha="0.5"/>
+		</overlay>
+<!--
+		<bezel element="overlay">
+			<bounds x="1000" y="1070" width="2000" height="1500" />
+			<color alpha="0.1" />
+		</bezel>
+-->
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="4000" height="4000"/>
+		</bezel>
+	</view>
+	<view name="Upright_Artwork_(Crash_Europe)">
+		<screen index="0">
+			<bounds x="658" y="998" width="2200" height="1650"/>
+		</screen>
+		<overlay element="green">
+			<bounds x="658" y="998" width="2200" height="1650"/>
+		</overlay>
+		<bezel element="green">
+			<bounds x="658" y="998" width="2200" height="1650"/>
+			<color alpha="0.1"/>
+		</bezel>
+		<bezel element="bezel2">
+			<bounds x="0" y="0" width="3508" height="3100"/>
+		</bezel>
+	</view>
+	<view name="Upright_Artwork_(Smash)">
+		<screen index="0">
+			<bounds x="658" y="998" width="2200" height="1650"/>
+		</screen>
+		<overlay element="overlay">
+			<bounds x="658" y="998" width="2200" height="1650"/>
+		</overlay>
+		<bezel element="overlay">
+			<bounds x="658" y="998" width="2200" height="1650"/>
+			<color alpha="0.1"/>
+		</bezel>
+		<bezel element="bezel3">
+			<bounds x="0" y="0" width="3508" height="4000"/>
+		</bezel>
+	</view>
+<view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="500" height="94"/></marquee></view>
+<view name="Flyer_Only"><element ref="flyer"><bounds x="0" y="0" width="850" height="1101"/></element></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="600" height="900"/></element></view><view name="Fanart_Only"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view></mamelayout>
+
+<!--
+
+- Artwork type: 9x16
+- Scanned artwork provided by TrevEB
+- Smash converted for MAME by Mr. Do
+- Euro version vectorized by Spinnhacker
+- Exidy US version cleaned up by Comboman
+- Lay file by Mr. Do & Comboman/Nightvoice
+
+-->

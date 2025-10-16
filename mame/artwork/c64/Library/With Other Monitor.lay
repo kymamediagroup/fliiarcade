@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<mamelayout version="2">
+	<element name="bezel_monitor">
+		<image file="1084.png" />
+	</element>
+
+	<view name="Commodore 1084">
+		<screen index="0">
+			<bounds x="140" y="124" width="800" height="600" />
+		</screen>
+		<bezel element="bezel_monitor">
+			<bounds x="0" y="0" width="1070" height="931" />
+		</bezel>
+	</view>
+</mamelayout>
+
+<!--
+
+- Artwork for MESS by AntoPISA
+- Lay file and photo-editing by AntoPISA (05/11/2015)
+
+-->

@@ -1,0 +1,40 @@
+<!-- bezel.lay -->
+<mamelayout version="2">
+<element name="bezel_monitor">
+		<image file="Monitor.png" />
+	</element>
+<element name="bezel">
+<image file="bezel.png"/>
+</element>
+<element name="marquee">
+<image file="../../marquees/c64.png"/>
+</element>
+<element name="flyer">
+<image file="../../flyers/c64.png"/>
+</element>
+<element name="fanart">
+<image file="../../fanart/c64.png"/>
+</element>
+<view name="Bezel Artwork">
+<bezel element="bezel">
+<bounds left="0" top="0" right="16" bottom="9"/>
+</bezel>
+<screen index="0">
+<bounds left="2" top="0" right="14" bottom="9"/>
+</screen>
+</view>
+	<view name="Commodore 1702">
+		<screen index="0">
+			<bounds x="125" y="120" width="768" height="576" />
+		</screen>
+		<bezel element="bezel_monitor">
+			<bounds x="0" y="0" width="1020" height="976" />
+		</bezel>
+	</view>
+
+<view name="Flyer_Only"><marquee element="flyer"><bounds x="0" y="0" width="690" height="900"/></marquee>
+</view>
+<view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="2560" height="539"/></marquee>
+</view>
+<view name="Fanart_Only"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view>
+</mamelayout>

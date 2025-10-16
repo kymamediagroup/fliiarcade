@@ -1,0 +1,74 @@
+//
+//	[artname]:
+//		file       = [filename]
+//		alphafile  = [alphafilename]
+//		layer      = [backdrop|overlay|bezel|marquee|panel|side|flyer]
+//		position   = [left],[top],[right],[bottom]
+//		priority   = [priority]
+//		visible    = [visible]
+//		alpha      = [alpha]
+//		brightness = [brightness]
+//
+
+// Thanks to Nathan Strum for the artwork!
+leftbezel:
+	file		= gorfleft.png
+	layer		= bezel
+	priority	= 2
+	visible		= 1
+	position	= 0.0,-0.35,1.0,0.0
+
+rightbezel:
+	file		= gorfoff.png
+	layer		= bezel
+	priority	= 2
+	visible		= 1
+	position	= 0.0,1.0,1.0,1.35
+
+lamp0:
+	file		= gorfon.png
+	alphafile	= gorfcadt.png
+	layer		= bezel
+	priority	= 3
+	visible		= 0
+	position	= 0.0,1.0,1.0,1.35
+
+lamp1:
+	file		= gorfon.png
+	alphafile	= gorfcapt.png
+	layer		= bezel
+	priority	= 3
+	visible		= 0
+	position	= 0.0,1.0,1.0,1.35
+
+lamp2:
+	file		= gorfon.png
+	alphafile	= gorfclnl.png
+	layer		= bezel
+	priority	= 3
+	visible		= 0
+	position	= 0.0,1.0,1.0,1.35
+	
+lamp3:
+	file		= gorfon.png
+	alphafile	= gorfgenl.png
+	layer		= bezel
+	priority	= 3
+	visible		= 0
+	position	= 0.0,1.0,1.0,1.35
+
+lamp4:
+	file		= gorfon.png
+	alphafile	= gorfwarr.png
+	layer		= bezel
+	priority	= 3
+	visible		= 0
+	position	= 0.0,1.0,1.0,1.35
+
+lamp5:
+	file		= gorfon.png
+	alphafile	= gorfaven.png
+	layer		= bezel
+	priority	= 3
+	visible		= 0
+	position	= 0.0,1.0,1.0,1.35

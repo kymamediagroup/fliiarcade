@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<mamelayout version="2"><element name="fanart"><image file="../../fanart/gnw_mario.png"/></element><element name="cabinet"><image file="../../cabinets/gnw_mario.png"/></element><element name="marquee"><image file="../../marquees/gnw_mario.png"/></element>
+
+<!-- Game & Watch: Mario Bros. -->
+<!-- Layout by Lee Robson (hydef) -->
+
+	<element name="Backdrop"><image file="Backdrop.png"/></element>
+	<element name="Unit"><image file="Unit.png"/></element>
+	<element name="Background-Left"><image file="Background-Left.png"/></element>
+	<element name="Background-Right"><image file="Background-Right.png"/></element>
+	<element name="Background-LeftNS"><image file="Background-LeftNS.png"/></element>
+	<element name="Background-RightNS"><image file="Background-RightNS.png"/></element>
+	<element name="Fix-Left"><image file="Fix-Left.png"/></element>
+	<element name="Fix-Right"><image file="Fix-Right.png"/></element>
+	<element name="Gradient"><image file="Gradient.png"/></element>
+	<element name="Dust"><image file="Dust.jpg"/></element>
+
+<view name="Unit Only (No Shadow)">
+
+	<element ref="Background-LeftNS">	<bounds x="215" y="207" width="631" height="422"/></element>
+	<screen index="0" blend="multiply">	<bounds x="231" y="224" width="601" height="387"/></screen>
+	<element ref="Background-LeftNS">	<bounds x="215" y="207" width="631" height="422"/><color alpha="0.15"/></element>
+	<element ref="Fix-Left">			<bounds x="215" y="207" width="631" height="422"/></element>
+
+	<element ref="Background-RightNS">	<bounds x="1224" y="207" width="631" height="422"/></element>
+	<screen index="1" blend="multiply">	<bounds x="1240" y="221" width="596" height="392"/></screen>
+	<element ref="Background-RightNS">	<bounds x="1224" y="207" width="631" height="422"/><color alpha="0.15"/></element>
+	<element ref="Fix-Right">			<bounds x="1224" y="207" width="631" height="422"/></element>
+	
+	<element ref="Dust" blend="add">	<bounds x="215" y="207" width="631" height="422"/><color alpha="0.1"/></element>
+	<element ref="Dust" blend="add">	<bounds x="1224" y="207" width="631" height="422"/><orientation flipx="yes" flipy="yes"/><color alpha="0.1"/></element>
+
+	<element ref="Unit">				<bounds x="0" y="0" width="2068" height="1146"/></element>
+	
+	<element ref="Gradient">			<bounds x="215" y="207" width="631" height="422"/><color alpha="0.1"/></element>
+	<element ref="Gradient">			<bounds x="1224" y="207" width="631" height="422"/><color alpha="0.1"/></element>
+
+</view>
+
+<view name="Unit and Backdrop">
+
+<bounds x="240" y="0" width="1440" height="1080"/>
+
+	<element ref="Background-Left">		<bounds x="346" y="266" width="473" height="317"/></element>
+	<screen index="0" blend="alpha">	<bounds x="359" y="281" width="451" height="291"/><color alpha="0.09"/></screen>
+	<screen index="0" blend="multiply">	<bounds x="358" y="278" width="451" height="291"/></screen>
+	<element ref="Background-Left">		<bounds x="346" y="266" width="473" height="317"/><color alpha="0.15"/></element>
+	<element ref="Fix-Left">			<bounds x="346" y="266" width="473" height="317"/></element>
+
+	<element ref="Background-Right">	<bounds x="1103" y="266" width="473" height="317"/></element>
+	<screen index="1" blend="alpha">	<bounds x="1116" y="279" width="447" height="294"/><color alpha="0.09"/></screen>
+	<screen index="1" blend="multiply">	<bounds x="1115" y="276" width="447" height="294"/></screen>
+	<element ref="Background-Right">	<bounds x="1103" y="266" width="473" height="317"/><color alpha="0.15"/></element>
+	<element ref="Fix-Right">			<bounds x="1103" y="266" width="473" height="317"/></element>
+
+	<element ref="Dust" blend="add">	<bounds x="346" y="266" width="473" height="317"/><color alpha="0.1"/></element>
+	<element ref="Dust" blend="add">	<bounds x="1103" y="266" width="473" height="317"/><orientation flipx="yes" flipy="yes"/><color alpha="0.1"/></element>
+
+	<element ref="Backdrop">			<bounds x="0" y="0" width="1920" height="1080"/></element>
+
+	<element ref="Gradient">			<bounds x="346" y="266" width="473" height="317"/><color alpha="0.1"/></element>
+	<element ref="Gradient">			<bounds x="1103" y="266" width="473" height="317"/><color alpha="0.1"/></element>
+
+</view>
+
+<view name="Unit and Backdrop (No Shadow)">
+
+<bounds x="240" y="0" width="1440" height="1080"/>
+
+	<element ref="Background-LeftNS">	<bounds x="346" y="266" width="473" height="317"/></element>
+	<screen index="0" blend="multiply">	<bounds x="358" y="278" width="451" height="291"/></screen>
+	<element ref="Background-LeftNS">	<bounds x="346" y="266" width="473" height="317"/><color alpha="0.15"/></element>
+	<element ref="Fix-Left">			<bounds x="346" y="266" width="473" height="317"/></element>
+
+	<element ref="Background-RightNS">	<bounds x="1103" y="266" width="473" height="317"/></element>
+	<screen index="1" blend="multiply">	<bounds x="1115" y="276" width="447" height="294"/></screen>
+	<element ref="Background-RightNS">	<bounds x="1103" y="266" width="473" height="317"/><color alpha="0.15"/></element>
+	<element ref="Fix-Right">			<bounds x="1103" y="266" width="473" height="317"/></element>
+	
+	<element ref="Dust" blend="add">	<bounds x="346" y="266" width="473" height="317"/><color alpha="0.1"/></element>
+	<element ref="Dust" blend="add">	<bounds x="1103" y="266" width="473" height="317"/><orientation flipx="yes" flipy="yes"/><color alpha="0.1"/></element>
+	
+	<element ref="Backdrop">			<bounds x="0" y="0" width="1920" height="1080"/></element>
+	
+	<element ref="Gradient">			<bounds x="346" y="266" width="473" height="317"/><color alpha="0.1"/></element>
+	<element ref="Gradient">			<bounds x="1103" y="266" width="473" height="317"/><color alpha="0.1"/></element>
+
+</view>
+
+<view name="Unit Only">
+
+	<element ref="Background-Left">		<bounds x="215" y="207" width="631" height="422"/></element>
+	<screen index="0" blend="alpha">	<bounds x="233" y="228" width="601" height="387"/><color alpha="0.09"/></screen>
+	<screen index="0" blend="multiply">	<bounds x="231" y="224" width="601" height="387"/></screen>
+	<element ref="Background-Left">		<bounds x="215" y="207" width="631" height="422"/><color alpha="0.15"/></element>
+	<element ref="Fix-Left">			<bounds x="215" y="207" width="631" height="422"/></element>
+
+	<element ref="Background-Right">	<bounds x="1224" y="207" width="631" height="422"/></element>
+	<screen index="1" blend="alpha">	<bounds x="1242" y="225" width="596" height="392"/><color alpha="0.09"/></screen>
+	<screen index="1" blend="multiply">	<bounds x="1240" y="221" width="596" height="392"/></screen>
+	<element ref="Background-Right">	<bounds x="1224" y="207" width="631" height="422"/><color alpha="0.15"/></element>
+	<element ref="Fix-Right">			<bounds x="1224" y="207" width="631" height="422"/></element>
+	
+	<element ref="Dust" blend="add">	<bounds x="215" y="207" width="631" height="422"/><color alpha="0.1"/></element>
+	<element ref="Dust" blend="add">	<bounds x="1224" y="207" width="631" height="422"/><orientation flipx="yes" flipy="yes"/><color alpha="0.1"/></element>
+
+	<element ref="Unit">				<bounds x="0" y="0" width="2068" height="1146"/></element>
+	
+	<element ref="Gradient">			<bounds x="215" y="207" width="631" height="422"/><color alpha="0.1"/></element>
+	<element ref="Gradient">			<bounds x="1224" y="207" width="631" height="422"/><color alpha="0.1"/></element>
+
+</view>
+
+<view name="Backgrounds Only">
+
+<bounds x="0" y="0" width="2545" height="854"/>
+	
+	<element ref="Background-Left">		<bounds x="0" y="0" width="1290" height="854"/></element>
+	 <screen index="0" blend="multiply"><bounds x="25" y="36" width="1241" height="791"/></screen>
+	 <element ref="Background-Left">	<bounds x="0" y="0" width="1290" height="854"/><color alpha="0.9"/></element>
+	<screen index="0" blend="multiply">	<bounds x="21" y="28" width="1241" height="791"/></screen>
+	<element ref="Background-Left">		<bounds x="0" y="0" width="1290" height="854"/><color alpha="0.1"/></element>
+	<element ref="Fix-Left">			<bounds x="0" y="0" width="1290" height="854"/></element>
+	<element ref="Dust" blend="add">	<bounds x="0" y="0" width="1290" height="854"/><color alpha="0.1"/></element>
+	
+	<element ref="Background-Right">	<bounds x="1255" y="0" width="1290" height="854"/></element>
+	 <screen index="1" blend="multiply"><bounds x="1289" y="34" width="1229" height="795"/></screen>
+	 <element ref="Background-Right">	<bounds x="1255" y="0" width="1290" height="854"/><color alpha="0.9"/></element>
+	<screen index="1" blend="multiply">	<bounds x="1285" y="26" width="1229" height="795"/></screen>
+	<element ref="Background-Right">	<bounds x="1255" y="0" width="1290" height="854"/><color alpha="0.1"/></element>
+	<element ref="Fix-Right">			<bounds x="1255" y="0" width="1290" height="854"/></element>
+	<element ref="Dust" blend="add">	<bounds x="1255" y="0" width="1290" height="854"/><orientation flipx="yes" flipy="yes"/><color alpha="0.1"/></element>
+
+</view>
+
+<view name="Backgrounds Only (No Shadow)">
+
+<bounds x="0" y="0" width="2545" height="854"/>
+	
+	<element ref="Background-LeftNS">	<bounds x="0" y="0" width="1290" height="854"/></element>
+	<screen index="0" blend="multiply">	<bounds x="21" y="28" width="1241" height="791"/></screen>
+	<element ref="Background-LeftNS">	<bounds x="0" y="0" width="1290" height="854"/><color alpha="0.1"/></element>
+	<element ref="Fix-Left">			<bounds x="0" y="0" width="1290" height="854"/></element>
+	<element ref="Dust" blend="add">	<bounds x="0" y="0" width="1290" height="854"/><color alpha="0.1"/></element>
+	
+	<element ref="Background-RightNS">	<bounds x="1255" y="0" width="1290" height="854"/></element>
+	<screen index="1" blend="multiply">	<bounds x="1285" y="26" width="1229" height="795"/></screen>
+	<element ref="Background-RightNS">	<bounds x="1255" y="0" width="1290" height="854"/><color alpha="0.1"/></element>
+	<element ref="Fix-Right">			<bounds x="1255" y="0" width="1290" height="854"/></element>
+	<element ref="Dust" blend="add">	<bounds x="1255" y="0" width="1290" height="854"/><orientation flipx="yes" flipy="yes"/><color alpha="0.1"/></element>
+
+</view>
+
+<!-- Game & Watch: Mario Bros. -->
+
+<view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="3212" height="2559"/></marquee></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="2654" height="2250"/></element></view><view name="Fanart_Only"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view></mamelayout>

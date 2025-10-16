@@ -1,0 +1,113 @@
+<!-- default.lay -->
+
+<mamelayout version="2"><element name="fanart"><image file="../../fanart/gtsers8.png"/></element><element name="marquee"><image file="../../marquees/gtsers8.png"/></element>
+	<element name="bezel">
+		<image file="gtsers_bezel.png"/>
+	</element>
+	<element name="flyer">
+		<image file="gtsers_flyer.png"/>
+	</element>
+	<element name="wood">
+		<image file="woodbg.png"/>
+	</element>
+	<element name="cpanel">
+		<image file="gtsers_panel.png"/>
+	</element>
+	<element name="button_white" defstate="0">
+		<image file="button_off.png" state="0"/>
+		<image file="button_on.png" state="1"/>
+	</element>
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="962" y="1338" width="2077" height="1558"/>
+		</screen>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="4000" height="4065"/>
+		</bezel>
+	</view>
+	<view name="Full_Cabinet">
+		<bounds x="0" y="-2000" width="4000" height="7100"/>
+		<screen index="0">
+			<bounds x="962" y="1338" width="2077" height="1558"/>
+		</screen>
+		<marquee element="wood">
+			<bounds x="0" y="-2000" width="4000" height="2000"/>
+		</marquee>
+		<marquee element="flyer">
+			<bounds x="461" y="-2000" width="3077" height="2000"/>
+		</marquee>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="4000" height="4065"/>
+		</bezel>
+		<cpanel element="cpanel">
+			<bounds x="0" y="4057" width="4000" height="1199"/>
+		</cpanel>
+		<cpanel element="button_white" inputtag="IN1" inputmask="0x01">
+	                <bounds x="1133" y="4293" width="322" height="213"/>
+		</cpanel>
+		<cpanel element="button_white" inputtag="IN1" inputmask="0x02">
+	                <bounds x="1489" y="4293" width="322" height="213"/>
+		</cpanel>
+		<cpanel element="button_white" inputtag="IN1" inputmask="0x04">
+	                <bounds x="1838" y="4293" width="322" height="213"/>
+		</cpanel>
+		<cpanel element="button_white" inputtag="IN1" inputmask="0x08">
+	                <bounds x="2188" y="4293" width="322" height="213"/>
+		</cpanel>
+		<cpanel element="button_white" inputtag="IN1" inputmask="0x10">
+	                <bounds x="2538" y="4293" width="322" height="213"/>
+		</cpanel>
+	</view>
+	<view name="Full_Cabinet_Lit">
+		<bounds x="0" y="-2000" width="4000" height="7100"/>
+		<screen index="0">
+			<bounds x="962" y="1338" width="2077" height="1558"/>
+		</screen>
+		<marquee element="wood">
+			<bounds x="0" y="-2000" width="4000" height="2000"/>
+			<color red="0.6" green="0.6" blue="0.6"/>
+		</marquee>
+		<marquee element="flyer">
+			<bounds x="461" y="-2000" width="3077" height="2000"/>
+			<color red="0.6" green="0.6" blue="0.6"/>
+		</marquee>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="4000" height="4065"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</bezel>
+		<cpanel element="cpanel">
+			<bounds x="0" y="4057" width="4000" height="1199"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</cpanel>
+		<cpanel element="button_white" inputtag="IN1" inputmask="0x01">
+	                <bounds x="1133" y="4293" width="322" height="213"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</cpanel>
+		<cpanel element="button_white" inputtag="IN1" inputmask="0x02">
+	                <bounds x="1489" y="4293" width="322" height="213"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</cpanel>
+		<cpanel element="button_white" inputtag="IN1" inputmask="0x04">
+	                <bounds x="1838" y="4293" width="322" height="213"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</cpanel>
+		<cpanel element="button_white" inputtag="IN1" inputmask="0x08">
+	                <bounds x="2188" y="4293" width="322" height="213"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</cpanel>
+		<cpanel element="button_white" inputtag="IN1" inputmask="0x10">
+	                <bounds x="2538" y="4293" width="322" height="213"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</cpanel>
+	</view>
+<view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="446" height="127"/></marquee></view><view name="Fanart_Only"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view></mamelayout>
+
+<!--
+
+- Artwork type: 9x16
+- Scanned bezel provided by Mr. Do
+- Control panel by Nightvoice
+- Flyer from The Arcade Flyer Archive
+- Lay file by Nightvoice
+
+-->

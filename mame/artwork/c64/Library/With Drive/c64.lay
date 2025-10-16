@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<mamelayout version="2">
+	<element name="console">
+		<image file="c64_panel.png" />
+	</element>
+	<element name="console_gs">
+		<image file="c64_panel_gs.png" />
+	</element>
+	<element name="monitor">
+		<image file="1702.png" />
+	</element>
+	<element name="drive">
+		<image file="1541.png" />
+	</element>
+	<element name="drive_led" defstate="0">
+
+		<image file="led_off.png" state="0"/>
+
+		<image file="led_on.png" state="1"/>
+
+	</element>
+
+	<view name="Console">
+		<screen index="0">
+			<bounds x="0" y="0" width="4000" height="3000" />
+		</screen>
+		<bezel element="console">
+			<bounds x="0" y="3020" width="4000" height="2000" />
+		</bezel>
+	</view>
+	<view name="Monitor_and_Console">
+		<screen index="0">
+			<bounds x="566" y="529" width="2868" height="2161" />
+		</screen>
+		<bezel element="monitor">
+			<bounds x="0" y="0" width="4000" height="3840" />
+		</bezel>
+		<bezel element="console">
+			<bounds x="0" y="3860" width="2500" height="1217" />
+		</bezel>
+		<bezel element="drive">
+			<bounds x="2520" y="3860" width="1480" height="633" />
+		</bezel>
+		<cpanel element="drive_led" name="led1">
+
+			<bounds x="2520" y="3860" width="1480" height="633" />
+
+		</cpanel>
+
+	</view>
+	<view name="Monitor_and_Console_Gunship">
+		<screen index="0">
+			<bounds x="566" y="529" width="2868" height="2161" />
+		</screen>
+		<bezel element="monitor">
+			<bounds x="0" y="0" width="4000" height="3840" />
+		</bezel>
+		<bezel element="console_gs">
+			<bounds x="0" y="3860" width="2500" height="1217" />
+		</bezel>
+		<bezel element="drive">
+			<bounds x="2520" y="3860" width="1480" height="633" />
+		</bezel>
+		<cpanel element="drive_led" name="led1">
+
+			<bounds x="2520" y="3860" width="1480" height="633" />
+
+		</cpanel>
+
+	</view>
+</mamelayout>

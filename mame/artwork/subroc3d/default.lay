@@ -1,0 +1,123 @@
+<!-- subroc3d.lay -->
+
+<mamelayout version="2"><element name="fanart"><image file="../../fanart/subroc3d.png"/></element><element name="cabinet"><image file="../../cabinets/subroc3d.png"/></element><element name="marquee"><image file="../../marquees/subroc3d.png"/></element><element name="flyer"><image file="../../flyers/subroc3d.png"/></element>		
+	<element name="digit" defstate="10">
+		<led7seg>
+			<color red="1.0" green="0.3" blue="0.0"/>
+		</led7seg>
+	</element>	
+	<element name="subroc_panel">
+		<image file="subroc_panel.png"/>
+	</element>
+	<element name="subroc_sight_overlay">
+		<image file="subroc_sight.png"/>
+	</element>
+	<element name="bezel">
+		<image file="bezel.png"/>
+	</element>
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="0" y="680" width="4000" height="2978"/>
+		</screen>
+		<bezel element="subroc_panel">
+			<bounds x="0" y="0" width="4000" height="674"/>
+		</bezel>
+		<bezel element="subroc_sight_overlay">
+			<bounds x="1250" y="1415" width="1500" height="1500"/>
+			<color alpha=".7"/>
+		</bezel>
+		<bezel element="bezel">
+			<bounds x="-600" y="674" width="5200" height="3000"/>
+		</bezel>
+
+<!-- SCORE -->		
+		<bezel name="digit4" element="digit">
+			<bounds x="175" y="339" width="112" height="196"/>
+		</bezel>
+		<bezel name="digit5" element="digit">
+			<bounds x="358" y="339" width="112" height="196"/>
+		</bezel>
+		<bezel name="digit2" element="digit">
+			<bounds x="541" y="339" width="112" height="196"/>
+		</bezel>
+		<bezel name="digit3" element="digit">
+			<bounds x="724" y="339" width="112" height="196"/>
+		</bezel>
+		<bezel name="digit0" element="digit">
+			<bounds x="907" y="339" width="112" height="196"/>
+		</bezel>
+		<bezel name="digit1" element="digit">
+			<bounds x="1090" y="339" width="112" height="196"/>
+		</bezel>
+<!-- 1st -->
+		<bezel name="digit10" element="digit">
+			<bounds x="1453" y="369" width="95" height="166"/>
+		</bezel>
+		<bezel name="digit11" element="digit">
+			<bounds x="1564" y="369" width="95" height="166"/>
+		</bezel>
+		<bezel name="digit8" element="digit">
+			<bounds x="1675" y="369" width="95" height="166"/>
+		</bezel>
+		<bezel name="digit9" element="digit">
+			<bounds x="1786" y="369" width="95" height="166"/>
+		</bezel>
+		<bezel name="digit6" element="digit">
+			<bounds x="1897" y="369" width="95" height="166"/>
+		</bezel>
+		<bezel name="digit7" element="digit">
+			<bounds x="2008" y="369" width="95" height="166"/>
+		</bezel>
+<!-- 2nd -->
+		<bezel name="digit16" element="digit">
+			<bounds x="2330" y="369" width="95" height="166"/>
+		</bezel>
+		<bezel name="digit17" element="digit">
+			<bounds x="2441" y="369" width="95" height="166"/>
+		</bezel>
+		<bezel name="digit14" element="digit">
+			<bounds x="2552" y="369" width="95" height="166"/>
+		</bezel>
+		<bezel name="digit15" element="digit">
+			<bounds x="2663" y="369" width="95" height="166"/>
+		</bezel>
+		<bezel name="digit12" element="digit">
+			<bounds x="2774" y="369" width="95" height="166"/>
+		</bezel>
+		<bezel name="digit13" element="digit">
+			<bounds x="2885" y="369" width="95" height="166"/>
+		</bezel>
+<!-- 3rd -->
+		<bezel name="digit22" element="digit">
+			<bounds x="3207" y="369" width="95" height="166"/>
+		</bezel>
+		<bezel name="digit23" element="digit">
+			<bounds x="3318" y="369" width="95" height="166"/>
+		</bezel>
+		<bezel name="digit20" element="digit">
+			<bounds x="3429" y="369" width="95" height="166"/>
+		</bezel>
+		<bezel name="digit21" element="digit">
+			<bounds x="3540" y="369" width="95" height="166"/>
+		</bezel>
+		<bezel name="digit18" element="digit">
+			<bounds x="3651" y="369" width="95" height="166"/>
+		</bezel>
+		<bezel name="digit19" element="digit">
+			<bounds x="3762" y="369" width="95" height="166"/>
+		</bezel>
+	</view>		
+<view name="Flyer_Only"><element ref="flyer"><bounds x="0" y="0" width="1076" height="1400"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="500" height="132"/></marquee></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="1000" height="1200"/></element></view><view name="Fanart_Only"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view></mamelayout>
+
+<!--
+
+- Artwork type: Bezel; Overlay
+- Score panel recreated for MAME based on Photographs & TAFA by Smitdogg
+- Updated by Mr. Do
+- Photographed gunsight provided by dfrance
+- Additional credit to Stefan Jokish and gregf
+- Converted for MAME by Smitdogg
+- Add'l adjustments by Mr. Do
+- Lay file by Mr. Do
+
+-->

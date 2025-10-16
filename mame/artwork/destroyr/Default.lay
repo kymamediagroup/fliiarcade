@@ -1,0 +1,39 @@
+<!-- bezel.lay -->
+<mamelayout version="2"><element name="cabinet"><image file="../../cabinets/destroyr.png"/></element><element name="marquee"><image file="../../marquees/destroyr.png"/></element><element name="flyer"><image file="../../flyers/destroyr.png"/></element>
+<element name="bezel">
+<image file="bezel.png"/>
+</element>
+<element name="backdrop">
+<image file="destroyr.png"/>
+</element>
+<element name="backdrop2">
+<image file="destroyer_background.png"/>
+</element>
+<element name="foreground">
+<image file="destroyer_foreground.png"/>
+</element>
+<element name="tint">
+<image file="tintover.png"/>
+</element>
+<view name="Bezel Artwork">
+<bounds left="0" top="0" right="16" bottom="9"/>
+<bezel element="bezel">
+<bounds left="0" top="0" right="16" bottom="9"/>
+</bezel>
+<element ref="backdrop">
+<bounds left="2" top="0" right="14" bottom="4"/>
+</element>
+<element ref="backdrop2">
+<bounds left="0" top="0" right="16" bottom="9"/>
+</element>
+<screen index="0" blend="add">
+<bounds left="6" top="2.75" right="9.875" bottom="6.875"/>
+</screen>
+<element ref="tint" blend="multiply">
+<bounds left="2" top="0" right="14" bottom="9"/>
+</element>
+<element ref="foreground">
+<bounds left="2" top="5.25" right="14" bottom="12.5"/>
+</element>
+</view>
+<view name="Flyer_Only"><element ref="flyer"><bounds x="0" y="0" width="850" height="1100"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="1200" height="353"/></marquee></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="600" height="900"/></element></view></mamelayout>

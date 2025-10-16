@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<mamelayout version="2"><element name="fanart"><image file="../../fanart/gnw_pinball.png"/></element><element name="marquee"><image file="../../marquees/gnw_pinball.png"/></element><element name="cabinet"><image file="../../cabinets/gnw_pinball.png"/></element>
+
+<!-- Unit Layout by Lee Robson (hydef), Scans by Henrik Algestam, Background layout and clean-up by DarthMarino, Original Scan alignment by ICEknight -->
+
+	<element name="PB-59"><image file="PB-59.png"/></element>
+	<element name="Backdrop"><image file="Backdrop.png"/></element>
+	<element name="Screen-Top"><image file="Screen-Top.png"/></element>
+	<element name="Screen-TopNS"><image file="Screen-TopNS.png"/></element>
+	<element name="Screen-Bottom"><image file="Screen-Bottom.png"/></element>
+	<element name="Screen-BottomNS"><image file="Screen-BottomNS.png"/></element>
+	<element name="Gradient"><image file="Gradient.png"/></element>
+	<element name="Plastics-Top"><image file="Plastics-Top.png"/></element>
+	<element name="Plastics-Bottom"><image file="Plastics-Bottom.png"/></element>
+	<element name="Fix"><image file="Fix.png"/></element>
+	<element name="GapFix"><image file="GapFix.png"/></element>\
+	<element name="GapFixNS"><image file="GapFixNS.png"/></element>
+
+	<element name="OrigT"><image file="OrigT.png"/></element>
+	<element name="OrigT-s"><image file="OrigT-s.png"/></element>
+	<element name="OrigTp"><image file="OrigTp.png"/></element>
+	<element name="OrigB"><image file="OrigB.png"/></element>
+	<element name="OrigB-s"><image file="OrigB-s.png"/></element>
+	<element name="OrigBp"><image file="OrigBp.png"/></element>
+
+<view name="Unit Only (No Shadow)">
+
+	<element ref="Screen-TopNS">			<bounds x="486" y="310" width="794" height="512"/></element>
+	<screen index="0" blend="multiply">		<bounds x="450" y="288" width="868" height="593"/></screen>
+	<element ref="Plastics-Top">			<bounds x="486" y="310" width="794" height="512"/><color alpha="0.40"/></element>
+
+	<element ref="Screen-BottomNS">			<bounds x="486" y="1353" width="794" height="512"/></element>
+	<screen index="1" blend="multiply">		<bounds x="440" y="1332" width="884" height="598"/></screen>
+	<element ref="Plastics-Bottom">			<bounds x="486" y="1353" width="794" height="512"/><color alpha="0.40"/></element>
+	
+	<element ref="PB-59">					<bounds x="0" y="0" width="1767" height="2199"/></element>
+
+</view>
+
+<view name="Unit and Backdrop">
+
+<bounds x="240" y="0" width="1440" height="1080"/>
+
+	<element ref="Screen-Top">				<bounds x="768" y="155" width="383" height="247"/></element>
+	<screen index="0" blend="multiply">		<bounds x="751" y="144" width="418" height="285"/></screen>
+	<element ref="Plastics-Top">				<bounds x="768" y="155" width="383" height="247"/><color alpha="0.40"/></element>
+	<element ref="Gradient">				<bounds x="768" y="155" width="383" height="247"/><color alpha="0.1"/></element>
+
+	<element ref="Screen-Bottom">			<bounds x="768" y="656" width="383" height="247"/></element>
+	<screen index="1" blend="multiply">		<bounds x="748" y="648" width="426" height="287"/></screen>
+	<element ref="Plastics-Bottom">			<bounds x="768" y="656" width="383" height="247"/><color alpha="0.40"/></element>
+	<element ref="Gradient">				<bounds x="768" y="656" width="383" height="247"/><color alpha="0.05"/></element>
+
+	<element ref="Backdrop">				<bounds x="0" y="0" width="1920" height="1080"/></element>	
+
+</view>
+
+<view name="Unit and Backdrop (No Shadow)">
+
+<bounds x="240" y="0" width="1440" height="1080"/>
+
+	<element ref="Screen-TopNS">			<bounds x="768" y="155" width="383" height="247"/></element>
+	<screen index="0" blend="multiply">		<bounds x="751" y="144" width="418" height="285"/></screen>
+	<element ref="Plastics-Top">			<bounds x="768" y="155" width="383" height="247"/><color alpha="0.40"/></element>
+	<element ref="Gradient">				<bounds x="768" y="155" width="383" height="247"/><color alpha="0.1"/></element>
+
+	<element ref="Screen-BottomNS">			<bounds x="768" y="656" width="383" height="247"/></element>
+	<screen index="1" blend="multiply">		<bounds x="748" y="648" width="426" height="287"/></screen>
+	<element ref="Plastics-Bottom">			<bounds x="768" y="656" width="383" height="247"/><color alpha="0.40"/></element>
+	<element ref="Gradient">				<bounds x="768" y="656" width="383" height="247"/><color alpha="0.05"/></element>
+
+	<element ref="Backdrop">				<bounds x="0" y="0" width="1920" height="1080"/></element>	
+
+</view>
+
+<view name="Unit Only">
+
+	<element ref="Screen-Top">				<bounds x="486" y="310" width="794" height="512"/></element>
+	<screen index="0" blend="multiply">		<bounds x="450" y="288" width="868" height="593"/></screen>
+	<element ref="Plastics-Top">				<bounds x="486" y="310" width="794" height="512"/><color alpha="0.40"/></element>
+
+	<element ref="Screen-Bottom">			<bounds x="486" y="1353" width="794" height="512"/></element>
+	<screen index="1" blend="multiply">		<bounds x="440" y="1332" width="884" height="598"/></screen>
+	<element ref="Plastics-Bottom">			<bounds x="486" y="1353" width="794" height="512"/><color alpha="0.40"/></element>
+	
+	<element ref="PB-59">					<bounds x="0" y="0" width="1767" height="2199"/></element>
+
+</view>
+
+<view name="Backgrounds Only">
+
+<bounds x="32" y="33" width="1296" height="1669"/>
+	
+	<element ref="Screen-Top">				<bounds x="32" y="33" width="1296" height="817"/></element>
+	<screen index="0" blend="multiply">			<bounds x="-32" y="2" width="1425" height="928"/></screen>
+	<element ref="Plastics-Top">				<bounds x="32" y="33" width="1296" height="817"/><color alpha="0.40"/></element>
+	<element ref="Screen-Bottom">				<bounds x="32" y="885" width="1296" height="817"/></element>
+	<screen index="1" blend="multiply">			<bounds x="-39" y="854" width="1438" height="955"/></screen>
+	<element ref="Plastics-Bottom">				<bounds x="32" y="885" width="1296" height="817"/><color alpha="0.40"/></element>
+</view>
+
+<view name="Backgrounds Only (No Shadow)">
+
+<bounds x="32" y="33" width="1296" height="1669"/>
+	
+	<element ref="Screen-TopNS">				<bounds x="32" y="33" width="1296" height="817"/></element>
+	<screen index="0" blend="multiply">			<bounds x="-32" y="2" width="1425" height="928"/></screen>
+	<element ref="Plastics-Top">				<bounds x="32" y="33" width="1296" height="817"/><color alpha="0.5"/></element>
+	<element ref="Screen-BottomNS">				<bounds x="32" y="885" width="1296" height="817"/></element>
+	<screen index="1" blend="multiply">			<bounds x="-39" y="854" width="1438" height="955"/></screen>
+	<element ref="Plastics-Bottom">				<bounds x="32" y="885" width="1296" height="817"/><color alpha="0.5"/></element>
+</view>
+
+
+
+
+
+<view name="Original Scans">
+
+<bounds x="32" y="33" width="1296" height="1669"/>
+	
+	<element ref="OrigT-s">					<bounds x="32" y="33" width="1296" height="817"/></element>
+	<screen index="0" blend="multiply">			<bounds x="-32" y="2" width="1425" height="928"/></screen>
+	<element ref="OrigTp" blend="multiply">			<bounds x="32" y="33" width="1296" height="817"/></element>
+	<element ref="OrigTp">			<bounds x="32" y="33" width="1296" height="817"/><color alpha="0.40"/></element>
+	<element ref="OrigB-s">					<bounds x="32" y="885" width="1296" height="817"/></element>
+	<screen index="1" blend="multiply">			<bounds x="-39" y="854" width="1438" height="955"/></screen>
+	<element ref="OrigBp" blend="multiply">			<bounds x="32" y="885" width="1296" height="817"/></element>
+	<element ref="OrigBp">			<bounds x="32" y="885" width="1296" height="817"/><color alpha="0.40"/></element>
+</view>
+
+<view name="Original Scans (No Shadow)">
+
+<bounds x="32" y="33" width="1296" height="1669"/>
+	
+	<element ref="OrigT">					<bounds x="32" y="33" width="1296" height="817"/></element>
+	<screen index="0" blend="multiply">			<bounds x="-32" y="2" width="1425" height="928"/></screen>
+	<element ref="OrigTp" blend="multiply">			<bounds x="32" y="33" width="1296" height="817"/></element>
+	<element ref="OrigTp">			<bounds x="32" y="33" width="1296" height="817"/><color alpha="0.40"/></element>
+	<element ref="OrigB">					<bounds x="32" y="885" width="1296" height="817"/></element>
+	<screen index="1" blend="multiply">			<bounds x="-39" y="854" width="1438" height="955"/></screen>
+	<element ref="OrigBp" blend="multiply">			<bounds x="32" y="885" width="1296" height="817"/></element>
+	<element ref="OrigBp">			<bounds x="32" y="885" width="1296" height="817"/><color alpha="0.40"/></element>
+</view>
+
+
+
+
+
+<view name="Backgrounds Only (Gap Fix)">
+
+<bounds x="32" y="33" width="1296" height="1669"/>
+	
+	<element ref="Screen-Top">				<bounds x="32" y="33" width="1296" height="817"/></element>
+	<screen index="0" blend="multiply">			<bounds x="-32" y="2" width="1425" height="928"/></screen>
+	<element ref="Plastics-Top">				<bounds x="32" y="33" width="1296" height="817"/><color alpha="0.40"/></element>
+	
+	<element ref="GapFix">				<bounds x="32" y="885" width="1296" height="817"/></element>
+	<screen index="1" blend="multiply">			<bounds x="-39" y="854" width="1438" height="955"/></screen>
+	<element ref="Fix">				<bounds x="32" y="885" width="1296" height="817"/><color alpha="0.40"/></element>
+
+</view>
+
+<view name="Backgrounds Only (Gap Fix-No Shadow)">
+
+<bounds x="32" y="33" width="1296" height="1669"/>
+	
+	<element ref="Screen-TopNS">				<bounds x="32" y="33" width="1296" height="817"/></element>
+	<screen index="0" blend="multiply">			<bounds x="-32" y="2" width="1425" height="928"/></screen>
+	<element ref="Plastics-Top">				<bounds x="32" y="33" width="1296" height="817"/><color alpha="0.40"/></element>
+	
+	<element ref="GapFixNS">				<bounds x="32" y="885" width="1296" height="817"/></element>
+	<screen index="1" blend="multiply">			<bounds x="-39" y="854" width="1438" height="955"/></screen>
+	<element ref="Fix">				<bounds x="32" y="885" width="1296" height="817"/><color alpha="0.40"/></element>
+
+</view>
+
+<view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="3950" height="2250"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="5024" height="3615"/></marquee></view><view name="Fanart_Only"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view></mamelayout>

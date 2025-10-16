@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<mamelayout version="2"><element name="fanart"><image file="../../fanart/gnw_lboat.png"/></element><element name="marquee"><image file="../../marquees/gnw_lboat.png"/></element><element name="cabinet"><image file="../../cabinets/gnw_lboat.png"/></element>
+
+<!-- Game & Watch: LifeBoat -->
+<!-- Layout by Lee Robson (hydef) -->
+
+    <element name="black"><rect><color red="0" green="0" blue="0"/></rect></element>
+	<element name="Backdrop"><image file="Backdrop.png"/></element>
+	<element name="Unit"><image file="Unit.png"/></element>
+	<element name="Background-Left"><image file="Background-Left.png"/></element>
+	<element name="Background-Right"><image file="Background-Right.png"/></element>
+	<element name="Background-LeftNS"><image file="Background-LeftNS.png"/></element>
+	<element name="Background-RightNS"><image file="Background-RightNS.png"/></element>
+	<element name="Fix-Left"><image file="Fix-Left.png"/></element>
+	<element name="Fix-Right"><image file="Fix-Right.png"/></element>
+	<element name="Gradient"><image file="Gradient.png"/></element>
+	<element name="Dust"><image file="Dust.jpg"/></element>
+	
+    <element name="Left-Flat" defstate="1"><image file="Animation/Left-Flat.png" state="1"/></element>
+    <element name="Right-Flat" defstate="1"><image file="Animation/Right-Flat.png" state="1"/></element>
+    <element name="Left-Flatb" defstate="1"><image file="Animation/Left-Flatb.png" state="1"/></element>
+    <element name="Right-Flatb" defstate="1"><image file="Animation/Right-Flatb.png" state="1"/></element>
+
+<view name="Unit Only (No Shadow)">
+
+    <!-- cache animations -->
+	<element ref="Left-Flat" name="dummy">		<bounds x="0" y="0" width="2068" height="1146"/></element>
+	<element ref="Right-Flat" name="dummy">		<bounds x="0" y="0" width="2068" height="1146"/></element>
+    <element ref="black" inputtag="IN.0" inputmask="0x00" inputraw="1"><bounds x="0" y="0" width="2068" height="1146"/></element>
+
+	<element ref="Background-LeftNS">	<bounds x="215" y="207" width="631" height="422"/></element>
+	<screen index="0" blend="multiply">	<bounds x="221" y="211" width="608" height="411"/></screen>
+	<element ref="Background-LeftNS">	<bounds x="215" y="207" width="631" height="422"/><color alpha="0.15"/></element>
+	<element ref="Fix-Left">			<bounds x="215" y="207" width="631" height="422"/></element>
+
+	<element ref="Background-RightNS">	<bounds x="1224" y="207" width="631" height="422"/></element>
+	<screen index="1" blend="multiply">	<bounds x="1230" y="198" width="611" height="425"/></screen>
+	<element ref="Background-RightNS">	<bounds x="1224" y="207" width="631" height="422"/><color alpha="0.15"/></element>
+	<element ref="Fix-Right">			<bounds x="1224" y="207" width="631" height="422"/></element>
+	
+	<element ref="Dust" blend="add">	<bounds x="215" y="207" width="631" height="422"/><color alpha="0.1"/></element>
+	<element ref="Dust" blend="add">	<bounds x="1224" y="207" width="631" height="422"/><orientation flipx="yes" flipy="yes"/><color alpha="0.1"/></element>
+
+	<element ref="Unit">				<bounds x="0" y="0" width="2068" height="1146"/></element>
+	
+	<element ref="Gradient">			<bounds x="215" y="207" width="631" height="422"/><color alpha="0.1"/></element>
+	<element ref="Gradient">			<bounds x="1224" y="207" width="631" height="422"/><color alpha="0.1"/></element>
+	
+	<element ref="Left-Flat" inputtag="IN.0" inputmask="0x01">		<bounds x="0" y="0" width="2068" height="1146"/></element>
+	<element ref="Right-Flat" inputtag="IN.0" inputmask="0x02">		<bounds x="0" y="0" width="2068" height="1146"/></element>
+
+</view>
+
+<view name="Unit and Backdrop">
+
+<bounds x="240" y="0" width="1440" height="1080"/>
+
+    <!-- cache animations -->
+	<element ref="Left-Flatb" name="dummy">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="Right-Flatb" name="dummy">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+    <element ref="black" inputtag="IN.0" inputmask="0x00" inputraw="1"><bounds x="0" y="0" width="1920" height="1080"/></element>
+
+	<element ref="Background-Left">		<bounds x="346" y="266" width="473" height="317"/></element>
+	<screen index="0" blend="alpha">	<bounds x="352" y="272" width="456" height="308"/><color alpha="0.09"/></screen>
+	<screen index="0" blend="multiply">	<bounds x="350" y="269" width="456" height="308"/></screen>
+	<element ref="Background-Left">		<bounds x="346" y="266" width="473" height="317"/><color alpha="0.15"/></element>
+	<element ref="Fix-Left">			<bounds x="346" y="266" width="473" height="317"/></element>
+
+	<element ref="Background-Right">	<bounds x="1103" y="266" width="473" height="317"/></element>
+	<screen index="1" blend="alpha">	<bounds x="1109" y="262" width="458" height="319"/><color alpha="0.09"/></screen>
+	<screen index="1" blend="multiply">	<bounds x="1107" y="259" width="458" height="319"/></screen>
+	<element ref="Background-Right">	<bounds x="1103" y="266" width="473" height="317"/><color alpha="0.15"/></element>
+	<element ref="Fix-Right">			<bounds x="1103" y="266" width="473" height="317"/></element>
+
+	<element ref="Dust" blend="add">	<bounds x="346" y="266" width="473" height="317"/><color alpha="0.1"/></element>
+	<element ref="Dust" blend="add">	<bounds x="1103" y="266" width="473" height="317"/><orientation flipx="yes" flipy="yes"/><color alpha="0.1"/></element>
+
+	<element ref="Backdrop">			<bounds x="0" y="0" width="1920" height="1080"/></element>
+
+	<element ref="Gradient">			<bounds x="346" y="266" width="473" height="317"/><color alpha="0.1"/></element>
+	<element ref="Gradient">			<bounds x="1103" y="266" width="473" height="317"/><color alpha="0.1"/></element>
+	
+	<element ref="Left-Flatb" inputtag="IN.0" inputmask="0x01">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="Right-Flatb" inputtag="IN.0" inputmask="0x02">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+
+</view>
+
+<view name="Unit and Backdrop (No Shadow)">
+
+<bounds x="240" y="0" width="1440" height="1080"/>
+
+    <!-- cache animations -->
+	<element ref="Left-Flatb" name="dummy">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="Right-Flatb" name="dummy">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+    <element ref="black" inputtag="IN.0" inputmask="0x00" inputraw="1"><bounds x="0" y="0" width="1920" height="1080"/></element>
+
+	<element ref="Background-LeftNS">	<bounds x="346" y="266" width="473" height="317"/></element>
+	<screen index="0" blend="multiply">	<bounds x="350" y="269" width="456" height="308"/></screen>
+	<element ref="Background-LeftNS">	<bounds x="346" y="266" width="473" height="317"/><color alpha="0.15"/></element>
+	<element ref="Fix-Left">			<bounds x="346" y="266" width="473" height="317"/></element>
+
+	<element ref="Background-RightNS">	<bounds x="1103" y="266" width="473" height="317"/></element>
+	<screen index="1" blend="multiply">	<bounds x="1107" y="259" width="458" height="319"/></screen>
+	<element ref="Background-RightNS">	<bounds x="1103" y="266" width="473" height="317"/><color alpha="0.15"/></element>
+	<element ref="Fix-Right">			<bounds x="1103" y="266" width="473" height="317"/></element>
+	
+	<element ref="Dust" blend="add">	<bounds x="346" y="266" width="473" height="317"/><color alpha="0.1"/></element>
+	<element ref="Dust" blend="add">	<bounds x="1103" y="266" width="473" height="317"/><orientation flipx="yes" flipy="yes"/><color alpha="0.1"/></element>
+	
+	<element ref="Backdrop">			<bounds x="0" y="0" width="1920" height="1080"/></element>
+	
+	<element ref="Gradient">			<bounds x="346" y="266" width="473" height="317"/><color alpha="0.1"/></element>
+	<element ref="Gradient">			<bounds x="1103" y="266" width="473" height="317"/><color alpha="0.1"/></element>
+	
+	<element ref="Left-Flatb" inputtag="IN.0" inputmask="0x01">		<bounds x="0" y="0" width="1920" height="1080"/></element>
+	<element ref="Right-Flatb" inputtag="IN.0" inputmask="0x02">	<bounds x="0" y="0" width="1920" height="1080"/></element>
+
+</view>
+
+<view name="Unit Only">
+
+    <!-- cache animations -->
+	<element ref="Left-Flat" name="dummy">		<bounds x="0" y="0" width="2068" height="1146"/></element>
+	<element ref="Right-Flat" name="dummy">		<bounds x="0" y="0" width="2068" height="1146"/></element>
+    <element ref="black" inputtag="IN.0" inputmask="0x00" inputraw="1"><bounds x="0" y="0" width="2068" height="1146"/></element>
+
+	<element ref="Background-Left">		<bounds x="215" y="207" width="631" height="422"/></element>
+	<screen index="0" blend="alpha">	<bounds x="223" y="215" width="608" height="411"/><color alpha="0.09"/></screen>
+	<screen index="0" blend="multiply">	<bounds x="221" y="211" width="608" height="411"/></screen>
+	<element ref="Background-Left">		<bounds x="215" y="207" width="631" height="422"/><color alpha="0.15"/></element>
+	<element ref="Fix-Left">			<bounds x="215" y="207" width="631" height="422"/></element>
+
+	<element ref="Background-Right">	<bounds x="1224" y="207" width="631" height="422"/></element>
+	<screen index="1" blend="alpha">	<bounds x="1232" y="202" width="611" height="425"/><color alpha="0.09"/></screen>
+	<screen index="1" blend="multiply">	<bounds x="1230" y="198" width="611" height="425"/></screen>
+	<element ref="Background-Right">	<bounds x="1224" y="207" width="631" height="422"/><color alpha="0.15"/></element>
+	<element ref="Fix-Right">			<bounds x="1224" y="207" width="631" height="422"/></element>
+	
+	<element ref="Dust" blend="add">	<bounds x="215" y="207" width="631" height="422"/><color alpha="0.1"/></element>
+	<element ref="Dust" blend="add">	<bounds x="1224" y="207" width="631" height="422"/><orientation flipx="yes" flipy="yes"/><color alpha="0.1"/></element>
+
+	<element ref="Unit">				<bounds x="0" y="0" width="2068" height="1146"/></element>
+	
+	<element ref="Gradient">			<bounds x="215" y="207" width="631" height="422"/><color alpha="0.1"/></element>
+	<element ref="Gradient">			<bounds x="1224" y="207" width="631" height="422"/><color alpha="0.1"/></element>
+	
+	<element ref="Left-Flat" inputtag="IN.0" inputmask="0x01">		<bounds x="0" y="0" width="2068" height="1146"/></element>
+	<element ref="Right-Flat" inputtag="IN.0" inputmask="0x02">		<bounds x="0" y="0" width="2068" height="1146"/></element>
+
+</view>
+
+<view name="Backgrounds Only">
+
+<bounds x="0" y="0" width="2545" height="854"/>
+	
+	<element ref="Background-Left">		<bounds x="0" y="0" width="1290" height="854"/></element>
+	 <screen index="0" blend="multiply"><bounds x="8" y="4" width="1254" height="847"/></screen>
+	 <element ref="Background-Left">	<bounds x="0" y="0" width="1290" height="854"/><color alpha="0.9"/></element>
+	<screen index="0" blend="multiply">	<bounds x="4" y="-4" width="1254" height="847"/></screen>
+	<element ref="Background-Left">		<bounds x="0" y="0" width="1290" height="854"/><color alpha="0.1"/></element>
+	<element ref="Fix-Left">			<bounds x="0" y="0" width="1290" height="854"/></element>
+	<element ref="Dust" blend="add">	<bounds x="0" y="0" width="1290" height="854"/><color alpha="0.1"/></element>
+	
+	<element ref="Background-Right">	<bounds x="1255" y="0" width="1290" height="854"/></element>
+	 <screen index="1" blend="multiply"><bounds x="1268" y="-24" width="1260" height="877"/></screen>
+	 <element ref="Background-Right">	<bounds x="1255" y="0" width="1290" height="854"/><color alpha="0.9"/></element>
+	<screen index="1" blend="multiply"> <bounds x="1264" y="-32" width="1260" height="877"/></screen>
+	<element ref="Background-Right">	<bounds x="1255" y="0" width="1290" height="854"/><color alpha="0.1"/></element>
+	<element ref="Fix-Right">			<bounds x="1255" y="0" width="1290" height="854"/></element>
+	<element ref="Dust" blend="add">	<bounds x="1255" y="0" width="1290" height="854"/><orientation flipx="yes" flipy="yes"/><color alpha="0.1"/></element>
+
+</view>
+
+<view name="Backgrounds Only (No Shadow)">
+
+<bounds x="0" y="0" width="2545" height="854"/>
+	
+	<element ref="Background-LeftNS">	<bounds x="0" y="0" width="1290" height="854"/></element>
+	<screen index="0" blend="multiply">	<bounds x="4" y="-4" width="1254" height="847"/></screen>
+	<element ref="Background-LeftNS">	<bounds x="0" y="0" width="1290" height="854"/><color alpha="0.1"/></element>
+	<element ref="Fix-Left">			<bounds x="0" y="0" width="1290" height="854"/></element>
+	<element ref="Dust" blend="add">	<bounds x="0" y="0" width="1290" height="854"/><color alpha="0.1"/></element>
+	
+	<element ref="Background-RightNS">	<bounds x="1255" y="0" width="1290" height="854"/></element>
+	<screen index="1" blend="multiply">	<bounds x="1264" y="-32" width="1260" height="877"/></screen>
+	<element ref="Background-RightNS">	<bounds x="1255" y="0" width="1290" height="854"/><color alpha="0.1"/></element>
+	<element ref="Fix-Right">			<bounds x="1255" y="0" width="1290" height="854"/></element>
+	<element ref="Dust" blend="add">	<bounds x="1255" y="0" width="1290" height="854"/><orientation flipx="yes" flipy="yes"/><color alpha="0.1"/></element>
+
+</view>
+
+<!-- Game & Watch: LifeBoat -->
+
+<view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="2654" height="2250"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="5531" height="2619"/></marquee></view><view name="Fanart_Only"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view></mamelayout>

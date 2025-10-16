@@ -1,0 +1,37 @@
+<!-- spacezap.lay -->
+
+<mamelayout version="2">
+	<element name="bezel">
+		<image file="spacezap_bezel.png" />
+	</element>
+	<element name="overlay">
+		<image file="space_zap_overlay.png" />
+	</element>
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="720" y="318" width="2552" height="1914" />
+		</screen>
+		<bezel element="overlay">
+			<bounds x="718" y="316" width="2556" height="1917" />
+			<color alpha="0.1" />
+		</bezel>
+		<overlay element="overlay">
+			<bounds x="718" y="316" width="2556" height="1917" />
+		</overlay>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="4000" height="2568" />
+		</bezel>
+	</view>
+</mamelayout>
+
+<!--
+
+- Artwork type: Bezel, Overlay
+- Scanned bezel provided by Mr. Do
+- On loan from Gene at www.vintagearcade.net
+- Vectorized by zorg; color corrected by Ad_Enuff
+- Scanned overlay provided by Keith's Arcade
+- Converted for MAME by Mr. Do
+- Lay file by Mr. Do
+
+-->

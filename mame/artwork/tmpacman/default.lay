@@ -1,0 +1,273 @@
+<?xml version="1.0"?>
+<mamelayout version="2">
+<element name="bezel"><image file="tmpacman.png"/></element>
+<element name="bg"><image file="bg.png"/></element>
+<element name="e-1.6" defstate="0"><image state="1" file="1.6.png"/></element>
+<element name="e-1.7" defstate="0"><image state="1" file="1.7.png"/></element>
+<element name="e-1.2" defstate="0"><image state="1" file="1.2.png"/></element>
+<element name="e-1.3" defstate="0"><image state="1" file="1.3.png"/></element>
+<element name="e-1.4" defstate="0"><image state="1" file="1.4.png"/></element>
+<element name="e-1.5" defstate="0"><image state="1" file="1.5.png"/></element>
+<element name="e-1.12" defstate="0"><image state="1" file="1.12.png"/></element>
+<element name="e-1.0" defstate="0"><image state="1" file="1.0.png"/></element>
+<element name="e-1.1" defstate="0"><image state="1" file="1.1.png"/></element>
+<element name="e-1.18" defstate="0"><image state="1" file="1.18.png"/></element>
+<element name="e-0.5" defstate="0"><image state="1" file="0.5.png"/></element>
+<element name="e-0.6" defstate="0"><image state="1" file="0.6.png"/></element>
+<element name="e-0.1" defstate="0"><image state="1" file="0.1.png"/></element>
+<element name="e-0.2" defstate="0"><image state="1" file="0.2.png"/></element>
+<element name="e-0.12" defstate="0"><image state="1" file="0.12.png"/></element>
+<element name="e-0.4" defstate="0"><image state="1" file="0.4.png"/></element>
+<element name="e-0.18" defstate="0"><image state="1" file="0.18.png"/></element>
+<element name="e-0.0" defstate="0"><image state="1" file="0.0.png"/></element>
+<element name="e-0.7" defstate="0"><image state="1" file="0.7.png"/></element>
+<element name="e-0.3" defstate="0"><image state="1" file="0.3.png"/></element>
+<element name="e-2.7" defstate="0"><image state="1" file="2.7.png"/></element>
+<element name="e-2.3" defstate="0"><image state="1" file="2.3.png"/></element>
+<element name="e-2.5" defstate="0"><image state="1" file="2.5.png"/></element>
+<element name="e-2.6" defstate="0"><image state="1" file="2.6.png"/></element>
+<element name="e-2.4" defstate="0"><image state="1" file="2.4.png"/></element>
+<element name="e-2.1" defstate="0"><image state="1" file="2.1.png"/></element>
+<element name="e-2.2" defstate="0"><image state="1" file="2.2.png"/></element>
+<element name="e-2.0" defstate="0"><image state="1" file="2.0.png"/></element>
+<element name="e-3.6" defstate="0"><image state="1" file="3.6.png"/></element>
+<element name="e-3.7" defstate="0"><image state="1" file="3.7.png"/></element>
+<element name="e-3.2" defstate="0"><image state="1" file="3.2.png"/></element>
+<element name="e-3.3" defstate="0"><image state="1" file="3.3.png"/></element>
+<element name="e-3.4" defstate="0"><image state="1" file="3.4.png"/></element>
+<element name="e-3.0" defstate="0"><image state="1" file="3.0.png"/></element>
+<element name="e-4.7" defstate="0"><image state="1" file="4.7.png"/></element>
+<element name="e-4.3" defstate="0"><image state="1" file="4.3.png"/></element>
+<element name="e-4.6" defstate="0"><image state="1" file="4.6.png"/></element>
+<element name="e-4.4" defstate="0"><image state="1" file="4.4.png"/></element>
+<element name="e-4.2" defstate="0"><image state="1" file="4.2.png"/></element>
+<element name="e-4.0" defstate="0"><image state="1" file="4.0.png"/></element>
+<element name="e-5.6" defstate="0"><image state="1" file="5.6.png"/></element>
+<element name="e-5.7" defstate="0"><image state="1" file="5.7.png"/></element>
+<element name="e-5.2" defstate="0"><image state="1" file="5.2.png"/></element>
+<element name="e-5.3" defstate="0"><image state="1" file="5.3.png"/></element>
+<element name="e-5.4" defstate="0"><image state="1" file="5.4.png"/></element>
+<element name="e-5.5" defstate="0"><image state="1" file="5.5.png"/></element>
+<element name="e-5.0" defstate="0"><image state="1" file="5.0.png"/></element>
+<element name="e-5.1" defstate="0"><image state="1" file="5.1.png"/></element>
+<element name="e-6.7" defstate="0"><image state="1" file="6.7.png"/></element>
+<element name="e-6.3" defstate="0"><image state="1" file="6.3.png"/></element>
+<element name="e-6.5" defstate="0"><image state="1" file="6.5.png"/></element>
+<element name="e-6.6" defstate="0"><image state="1" file="6.6.png"/></element>
+<element name="e-6.4" defstate="0"><image state="1" file="6.4.png"/></element>
+<element name="e-6.1" defstate="0"><image state="1" file="6.1.png"/></element>
+<element name="e-6.2" defstate="0"><image state="1" file="6.2.png"/></element>
+<element name="e-6.0" defstate="0"><image state="1" file="6.0.png"/></element>
+<element name="e-6.12" defstate="0"><image state="1" file="6.12.png"/></element>
+<element name="e-6.18" defstate="0"><image state="1" file="6.18.png"/></element>
+<element name="e-0.11" defstate="0"><image state="1" file="0.11.png"/></element>
+<element name="e-6.9" defstate="0"><image state="1" file="6.9.png"/></element>
+<element name="e-0.9" defstate="0"><image state="1" file="0.9.png"/></element>
+<element name="e-1.10" defstate="0"><image state="1" file="1.10.png"/></element>
+<element name="e-0.10" defstate="0"><image state="1" file="0.10.png"/></element>
+<element name="e-1.11" defstate="0"><image state="1" file="1.11.png"/></element>
+<element name="e-2.11" defstate="0"><image state="1" file="2.11.png"/></element>
+<element name="e-3.11" defstate="0"><image state="1" file="3.11.png"/></element>
+<element name="e-3.10" defstate="0"><image state="1" file="3.10.png"/></element>
+<element name="e-4.11" defstate="0"><image state="1" file="4.11.png"/></element>
+<element name="e-5.11" defstate="0"><image state="1" file="5.11.png"/></element>
+<element name="e-5.10" defstate="0"><image state="1" file="5.10.png"/></element>
+<element name="e-6.10" defstate="0"><image state="1" file="6.10.png"/></element>
+<element name="e-6.11" defstate="0"><image state="1" file="6.11.png"/></element>
+<element name="e-7.11" defstate="0"><image state="1" file="7.11.png"/></element>
+<element name="e-7.10" defstate="0"><image state="1" file="7.10.png"/></element>
+<element name="e-7.6" defstate="0"><image state="1" file="7.6.png"/></element>
+<element name="e-7.7" defstate="0"><image state="1" file="7.7.png"/></element>
+<element name="e-7.2" defstate="0"><image state="1" file="7.2.png"/></element>
+<element name="e-7.3" defstate="0"><image state="1" file="7.3.png"/></element>
+<element name="e-7.4" defstate="0"><image state="1" file="7.4.png"/></element>
+<element name="e-7.5" defstate="0"><image state="1" file="7.5.png"/></element>
+<element name="e-7.12" defstate="0"><image state="1" file="7.12.png"/></element>
+<element name="e-7.0" defstate="0"><image state="1" file="7.0.png"/></element>
+<element name="e-7.1" defstate="0"><image state="1" file="7.1.png"/></element>
+<element name="e-7.18" defstate="0"><image state="1" file="7.18.png"/></element>
+<element name="e-4.17" defstate="0"><image state="1" file="4.17.png"/></element>
+<element name="e-4.16" defstate="0"><image state="1" file="4.16.png"/></element>
+<element name="e-4.12" defstate="0"><image state="1" file="4.12.png"/></element>
+<element name="e-4.13" defstate="0"><image state="1" file="4.13.png"/></element>
+<element name="e-4.14" defstate="0"><image state="1" file="4.14.png"/></element>
+<element name="e-4.15" defstate="0"><image state="1" file="4.15.png"/></element>
+<element name="e-4.18" defstate="0"><image state="1" file="4.18.png"/></element>
+<element name="e-5.17" defstate="0"><image state="1" file="5.17.png"/></element>
+<element name="e-5.16" defstate="0"><image state="1" file="5.16.png"/></element>
+<element name="e-5.12" defstate="0"><image state="1" file="5.12.png"/></element>
+<element name="e-5.13" defstate="0"><image state="1" file="5.13.png"/></element>
+<element name="e-5.14" defstate="0"><image state="1" file="5.14.png"/></element>
+<element name="e-5.15" defstate="0"><image state="1" file="5.15.png"/></element>
+<element name="e-5.18" defstate="0"><image state="1" file="5.18.png"/></element>
+<element name="e-3.17" defstate="0"><image state="1" file="3.17.png"/></element>
+<element name="e-3.16" defstate="0"><image state="1" file="3.16.png"/></element>
+<element name="e-3.12" defstate="0"><image state="1" file="3.12.png"/></element>
+<element name="e-3.13" defstate="0"><image state="1" file="3.13.png"/></element>
+<element name="e-3.14" defstate="0"><image state="1" file="3.14.png"/></element>
+<element name="e-3.15" defstate="0"><image state="1" file="3.15.png"/></element>
+<element name="e-3.18" defstate="0"><image state="1" file="3.18.png"/></element>
+<element name="e-2.17" defstate="0"><image state="1" file="2.17.png"/></element>
+<element name="e-2.16" defstate="0"><image state="1" file="2.16.png"/></element>
+<element name="e-2.12" defstate="0"><image state="1" file="2.12.png"/></element>
+<element name="e-2.13" defstate="0"><image state="1" file="2.13.png"/></element>
+<element name="e-2.14" defstate="0"><image state="1" file="2.14.png"/></element>
+<element name="e-2.15" defstate="0"><image state="1" file="2.15.png"/></element>
+<element name="e-2.18" defstate="0"><image state="1" file="2.18.png"/></element>
+<element name="e-1.a" defstate="0"><image state="1" file="1.a.png"/></element>
+<element name="e-2.a" defstate="0"><image state="1" file="2.a.png"/></element>
+<element name="e-0.a" defstate="0"><image state="1" file="0.a.png"/></element>
+<element name="e-7.a" defstate="0"><image state="1" file="7.a.png"/></element>
+<element name="e-6.a" defstate="0"><image state="1" file="6.a.png"/></element>
+<element name="e-5.a" defstate="0"><image state="1" file="5.a.png"/></element>
+<element name="e-3.a" defstate="0"><image state="1" file="3.a.png"/></element>
+<element name="e-4.a" defstate="0"><image state="1" file="4.a.png"/></element>
+<element name="e-3.1" defstate="0"><image state="1" file="3.1.png"/></element>
+<element name="e-3.5" defstate="0"><image state="1" file="3.5.png"/></element>
+<element name="e-4.5" defstate="0"><image state="1" file="4.5.png"/></element>
+<element name="e-4.1" defstate="0"><image state="1" file="4.1.png"/></element>
+
+<element name="fanart"><image file="../../fanart/tmpacman.png"/></element><element name="marquee"><image file="../../marquees/tmpacman.png"/></element><element name="cabinet"><image file="../../cabinets/tmpacman.png"/></element>
+<view name="lcd">
+
+  <!--<bezel element="bg">
+    <bounds x="0" y="0" width="634" height="168"/>
+  </bezel>-->
+
+  <bezel element="bezel">
+    <bounds x="0" y="0" width="16" height="9"/>
+  </bezel>
+
+  
+  <!--<bezel name="1.6" element="e-1.6"><bounds x="100" y="102" width="25" height="26"/></bezel>
+  <bezel name="1.7" element="e-1.7"><bounds x="102" y="136" width="20" height="25"/></bezel>
+  <bezel name="1.2" element="e-1.2"><bounds x="126" y="102" width="24" height="26"/></bezel>
+  <bezel name="1.3" element="e-1.3"><bounds x="124" y="136" width="23" height="26"/></bezel>
+  <bezel name="1.4" element="e-1.4"><bounds x="99" y="38" width="25" height="26"/></bezel>
+  <bezel name="1.5" element="e-1.5"><bounds x="102" y="72" width="20" height="26"/></bezel>
+  <bezel name="1.12" element="e-1.12"><bounds x="102" y="8" width="20" height="26"/></bezel>
+  <bezel name="1.0" element="e-1.0"><bounds x="125" y="38" width="24" height="27"/></bezel>
+  <bezel name="1.1" element="e-1.1"><bounds x="123" y="72" width="23" height="26"/></bezel>
+  <bezel name="1.18" element="e-1.18"><bounds x="122" y="9" width="24" height="26"/></bezel>
+  <bezel name="0.5" element="e-0.5"><bounds x="14" y="73" width="25" height="25"/></bezel>
+  <bezel name="0.6" element="e-0.6"><bounds x="17" y="101" width="20" height="26"/></bezel>
+  <bezel name="0.1" element="e-0.1"><bounds x="49" y="73" width="23" height="27"/></bezel>
+  <bezel name="0.2" element="e-0.2"><bounds x="41" y="103" width="23" height="26"/></bezel>
+  <bezel name="0.12" element="e-0.12"><bounds x="13" y="9" width="26" height="26"/></bezel>
+  <bezel name="0.4" element="e-0.4"><bounds x="17" y="38" width="19" height="25"/></bezel>
+  <bezel name="0.18" element="e-0.18"><bounds x="49" y="9" width="23" height="26"/></bezel>
+  <bezel name="0.0" element="e-0.0"><bounds x="41" y="39" width="23" height="26"/></bezel>
+  <bezel name="0.7" element="e-0.7"><bounds x="14" y="136" width="25" height="25"/></bezel>
+  <bezel name="0.3" element="e-0.3"><bounds x="40" y="136" width="23" height="26"/></bezel>
+  <bezel name="2.7" element="e-2.7"><bounds x="176" y="136" width="26" height="26"/></bezel>
+  <bezel name="2.3" element="e-2.3"><bounds x="202" y="135" width="24" height="27"/></bezel>
+  <bezel name="2.5" element="e-2.5"><bounds x="176" y="73" width="25" height="25"/></bezel>
+  <bezel name="2.6" element="e-2.6"><bounds x="179" y="101" width="20" height="26"/></bezel>
+  <bezel name="2.4" element="e-2.4"><bounds x="179" y="38" width="20" height="26"/></bezel>
+  <bezel name="2.1" element="e-2.1"><bounds x="202" y="72" width="24" height="26"/></bezel>
+  <bezel name="2.2" element="e-2.2"><bounds x="200" y="102" width="24" height="26"/></bezel>
+  <bezel name="2.0" element="e-2.0"><bounds x="199" y="39" width="24" height="26"/></bezel>
+  <bezel name="3.6" element="e-3.6"><bounds x="253" y="101" width="26" height="26"/></bezel>
+  <bezel name="3.7" element="e-3.7"><bounds x="255" y="136" width="20" height="25"/></bezel>
+  <bezel name="3.2" element="e-3.2"><bounds x="279" y="102" width="24" height="26"/></bezel>
+  <bezel name="3.3" element="e-3.3"><bounds x="277" y="136" width="24" height="26"/></bezel>
+  <bezel name="3.4" element="e-3.4"><bounds x="252" y="38" width="25" height="26"/></bezel>
+  <bezel name="3.0" element="e-3.0"><bounds x="279" y="38" width="23" height="27"/></bezel>
+  <bezel name="4.7" element="e-4.7"><bounds x="328" y="136" width="25" height="25"/></bezel>
+  <bezel name="4.3" element="e-4.3"><bounds x="354" y="135" width="23" height="26"/></bezel>
+  <bezel name="4.6" element="e-4.6"><bounds x="331" y="101" width="20" height="25"/></bezel>
+  <bezel name="4.4" element="e-4.4"><bounds x="330" y="38" width="20" height="25"/></bezel>
+  <bezel name="4.2" element="e-4.2"><bounds x="352" y="102" width="23" height="26"/></bezel>
+  <bezel name="4.0" element="e-4.0"><bounds x="351" y="38" width="24" height="26"/></bezel>
+  <bezel name="5.6" element="e-5.6"><bounds x="403" y="101" width="25" height="26"/></bezel>
+  <bezel name="5.7" element="e-5.7"><bounds x="405" y="135" width="20" height="26"/></bezel>
+  <bezel name="5.2" element="e-5.2"><bounds x="429" y="101" width="23" height="27"/></bezel>
+  <bezel name="5.3" element="e-5.3"><bounds x="426" y="136" width="24" height="26"/></bezel>
+  <bezel name="5.4" element="e-5.4"><bounds x="401" y="37" width="26" height="26"/></bezel>
+  <bezel name="5.5" element="e-5.5"><bounds x="405" y="72" width="20" height="25"/></bezel>
+  <bezel name="5.0" element="e-5.0"><bounds x="428" y="38" width="23" height="26"/></bezel>
+  <bezel name="5.1" element="e-5.1"><bounds x="425" y="72" width="24" height="26"/></bezel>
+  <bezel name="6.7" element="e-6.7"><bounds x="479" y="135" width="25" height="25"/></bezel>
+  <bezel name="6.3" element="e-6.3"><bounds x="515" y="135" width="24" height="26"/></bezel>
+  <bezel name="6.5" element="e-6.5"><bounds x="479" y="71" width="25" height="26"/></bezel>
+  <bezel name="6.6" element="e-6.6"><bounds x="482" y="101" width="20" height="25"/></bezel>
+  <bezel name="6.4" element="e-6.4"><bounds x="482" y="37" width="19" height="25"/></bezel>
+  <bezel name="6.1" element="e-6.1"><bounds x="514" y="72" width="24" height="26"/></bezel>
+  <bezel name="6.2" element="e-6.2"><bounds x="506" y="102" width="24" height="26"/></bezel>
+  <bezel name="6.0" element="e-6.0"><bounds x="507" y="37" width="23" height="26"/></bezel>
+  <bezel name="6.12" element="e-6.12"><bounds x="479" y="8" width="25" height="26"/></bezel>
+  <bezel name="6.18" element="e-6.18"><bounds x="506" y="7" width="23" height="27"/></bezel>
+  <bezel name="0.11" element="e-0.11"><bounds x="63" y="142" width="13" height="12"/></bezel>
+  <bezel name="6.9" element="e-6.9"><bounds x="528" y="13" width="13" height="12"/></bezel>
+  <bezel name="0.9" element="e-0.9"><bounds x="40" y="18" width="37" height="8"/></bezel>
+  <bezel name="1.10" element="e-1.10"><bounds x="146" y="47" width="9" height="8"/></bezel>
+  <bezel name="0.10" element="e-0.10"><bounds x="41" y="81" width="37" height="9"/></bezel>
+  <bezel name="1.11" element="e-1.11"><bounds x="147" y="110" width="8" height="8"/></bezel>
+  <bezel name="2.11" element="e-2.11"><bounds x="223" y="144" width="9" height="8"/></bezel>
+  <bezel name="3.11" element="e-3.11"><bounds x="300" y="110" width="8" height="9"/></bezel>
+  <bezel name="3.10" element="e-3.10"><bounds x="299" y="47" width="9" height="8"/></bezel>
+  <bezel name="4.11" element="e-4.11"><bounds x="375" y="144" width="8" height="8"/></bezel>
+  <bezel name="5.11" element="e-5.11"><bounds x="450" y="110" width="8" height="8"/></bezel>
+  <bezel name="5.10" element="e-5.10"><bounds x="450" y="47" width="8" height="8"/></bezel>
+  <bezel name="6.10" element="e-6.10"><bounds x="506" y="80" width="37" height="9"/></bezel>
+  <bezel name="6.11" element="e-6.11"><bounds x="507" y="144" width="37" height="8"/></bezel>
+  <bezel name="7.11" element="e-7.11"><bounds x="613" y="110" width="9" height="8"/></bezel>
+  <bezel name="7.10" element="e-7.10"><bounds x="613" y="46" width="8" height="8"/></bezel>
+  <bezel name="7.6" element="e-7.6"><bounds x="566" y="101" width="25" height="25"/></bezel>
+  <bezel name="7.7" element="e-7.7"><bounds x="568" y="134" width="20" height="26"/></bezel>
+  <bezel name="7.2" element="e-7.2"><bounds x="592" y="100" width="23" height="27"/></bezel>
+  <bezel name="7.3" element="e-7.3"><bounds x="589" y="135" width="24" height="26"/></bezel>
+  <bezel name="7.4" element="e-7.4"><bounds x="566" y="37" width="25" height="25"/></bezel>
+  <bezel name="7.5" element="e-7.5"><bounds x="568" y="70" width="20" height="26"/></bezel>
+  <bezel name="7.12" element="e-7.12"><bounds x="568" y="7" width="20" height="26"/></bezel>
+  <bezel name="7.0" element="e-7.0"><bounds x="592" y="37" width="23" height="26"/></bezel>
+  <bezel name="7.1" element="e-7.1"><bounds x="590" y="71" width="23" height="26"/></bezel>
+  <bezel name="7.18" element="e-7.18"><bounds x="589" y="7" width="24" height="26"/></bezel>
+  <bezel name="4.17" element="e-4.17"><bounds x="334" y="4" width="5" height="9"/></bezel>
+  <bezel name="4.16" element="e-4.16"><bounds x="339" y="13" width="22" height="4"/></bezel>
+  <bezel name="4.12" element="e-4.12"><bounds x="337" y="1" width="23" height="5"/></bezel>
+  <bezel name="4.13" element="e-4.13"><bounds x="361" y="1" width="6" height="12"/></bezel>
+  <bezel name="4.14" element="e-4.14"><bounds x="361" y="17" width="6" height="11"/></bezel>
+  <bezel name="4.15" element="e-4.15"><bounds x="337" y="25" width="24" height="5"/></bezel>
+  <bezel name="4.18" element="e-4.18"><bounds x="334" y="17" width="5" height="9"/></bezel>
+  <bezel name="5.17" element="e-5.17"><bounds x="402" y="4" width="5" height="9"/></bezel>
+  <bezel name="5.16" element="e-5.16"><bounds x="408" y="13" width="21" height="4"/></bezel>
+  <bezel name="5.12" element="e-5.12"><bounds x="405" y="1" width="24" height="4"/></bezel>
+  <bezel name="5.13" element="e-5.13"><bounds x="429" y="1" width="6" height="12"/></bezel>
+  <bezel name="5.14" element="e-5.14"><bounds x="429" y="17" width="6" height="11"/></bezel>
+  <bezel name="5.15" element="e-5.15"><bounds x="406" y="24" width="23" height="5"/></bezel>
+  <bezel name="5.18" element="e-5.18"><bounds x="402" y="17" width="5" height="9"/></bezel>
+  <bezel name="3.17" element="e-3.17"><bounds x="266" y="4" width="5" height="9"/></bezel>
+  <bezel name="3.16" element="e-3.16"><bounds x="272" y="13" width="21" height="5"/></bezel>
+  <bezel name="3.12" element="e-3.12"><bounds x="270" y="1" width="23" height="5"/></bezel>
+  <bezel name="3.13" element="e-3.13"><bounds x="293" y="1" width="6" height="12"/></bezel>
+  <bezel name="3.14" element="e-3.14"><bounds x="293" y="17" width="6" height="11"/></bezel>
+  <bezel name="3.15" element="e-3.15"><bounds x="270" y="25" width="23" height="5"/></bezel>
+  <bezel name="3.18" element="e-3.18"><bounds x="266" y="17" width="5" height="9"/></bezel>
+  <bezel name="2.17" element="e-2.17"><bounds x="198" y="5" width="5" height="9"/></bezel>
+  <bezel name="2.16" element="e-2.16"><bounds x="203" y="13" width="22" height="5"/></bezel>
+  <bezel name="2.12" element="e-2.12"><bounds x="201" y="1" width="23" height="5"/></bezel>
+  <bezel name="2.13" element="e-2.13"><bounds x="225" y="2" width="5" height="11"/></bezel>
+  <bezel name="2.14" element="e-2.14"><bounds x="225" y="18" width="5" height="11"/></bezel>
+  <bezel name="2.15" element="e-2.15"><bounds x="201" y="25" width="24" height="5"/></bezel>
+  <bezel name="2.18" element="e-2.18"><bounds x="198" y="18" width="5" height="8"/></bezel>
+  <bezel name="1.a" element="e-1.a"><bounds x="97" y="2" width="64" height="166"/></bezel>
+  <bezel name="2.a" element="e-2.a"><bounds x="173" y="32" width="63" height="136"/></bezel>
+  <bezel name="0.a" element="e-0.a"><bounds x="0" y="2" width="84" height="166"/></bezel>
+  <bezel name="7.a" element="e-7.a"><bounds x="562" y="0" width="72" height="167"/></bezel>
+  <bezel name="6.a" element="e-6.a"><bounds x="477" y="0" width="73" height="167"/></bezel>
+  <bezel name="5.a" element="e-5.a"><bounds x="394" y="0" width="70" height="168"/></bezel>
+  <bezel name="3.a" element="e-3.a"><bounds x="244" y="32" width="66" height="136"/></bezel>
+  <bezel name="4.a" element="e-4.a"><bounds x="322" y="32" width="66" height="136"/></bezel>
+  <bezel name="3.1" element="e-3.1"><bounds x="284" y="72" width="23" height="21"/></bezel>
+  <bezel name="3.5" element="e-3.5"><bounds x="254" y="72" width="25" height="21"/></bezel>
+  <bezel name="4.5" element="e-4.5"><bounds x="325" y="72" width="22" height="21"/></bezel>
+  <bezel name="4.1" element="e-4.1"><bounds x="356" y="72" width="28" height="21"/></bezel>-->
+
+<screen index="0">
+	<bounds left="6.9" top="3" right="9.15" bottom="3.75"/>
+</screen>
+
+</view>
+<view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="400" height="175"/></marquee></view><view name="Fanart_Only"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view>
+<view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="900" height="824"/></element></view></mamelayout>

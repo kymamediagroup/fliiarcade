@@ -1,0 +1,343 @@
+<!-- polepos.lay -->
+
+<mamelayout version="2"><element name="fanart"><image file="../../fanart/polepos2.png"/></element><element name="cabinet"><image file="../../cabinets/polepos2.png"/></element><element name="flyer"><image file="../../flyers/polepos2.png"/></element>
+	<element name="cockpit">
+		<image file="poleposition2_bezel_cockpit.png"/>
+	</element>	
+	<element name="upright">
+		<image file="poleposition2_bezel_upright.png"/>
+	</element>
+	<element name="marquee">
+		<image file="poleposition2_marquee_conversion.png"/>
+	</element>
+		<element name="inner_cockpit">
+		<image file="pp_inner_bezel_cockpit.png"/>
+	</element>
+	<element name="inner_upright">
+		<image file="pp_inner_bezel_upright.png"/>
+	</element>
+	<element name="gearshift" defstate="0">
+		<image file="poleposition_shifter_low.png" state="0"/>
+		<image file="poleposition_shifter_high.png" state="1"/>
+	</element>
+	<element name="cpo_cockpit">
+		<image file="poleposition_cpo_cockpit.png"/>
+	</element>
+	<element name="cpo_upright">
+		<image file="poleposition_cpo_upright.png"/>
+	</element>
+	<element name="gauges">
+		<image file="poleposition_gauges.png"/>
+	</element>
+	<element name="wheel">
+		<image file="poleposition_wheel.png"/>
+	</element>
+	<element name="bolt">
+		<image file="cpo_bolt.png"/>
+	</element>
+	<element name="dedicated">
+		<image file="poleposition2_bezel_dedicated.png"/>
+	</element>
+	<element name="inner_dedicated">
+		<image file="pp2_inner_bezel_dedicated.png"/>
+	</element>
+	<element name="cpo_dedicated">
+		<image file="poleposition2_cpo_dedicated.png"/>
+	</element>
+	<element name="sticker_oil_water">
+		<image file="poleposition2_sticker_oil_water.png"/>
+	</element>
+	<element name="sticker_rpm">
+		<image file="poleposition2_sticker_rpm.png"/>
+	</element>
+	<element name="sticker_tracks">
+		<image file="poleposition2_sticker_tracks.png"/>
+	</element>
+	<element name="marquee_dedicated">
+		<image file="poleposition2_marquee_dedicated.png"/>
+	</element>
+	<element name="cpo_upright_crop">
+		<image file="poleposition_cpo_upright_cropped.png"/>
+	</element>
+	<element name="cpo_cockpit_crop">
+		<image file="poleposition_cpo_cockpit_cropped.png"/>
+	</element>
+	<element name="cpo_dedicated_crop">
+		<image file="poleposition2_cpo_cropped.png"/>
+	</element>
+	<group name="control_panel_upright">
+		<cpanel element="cpo_upright">
+			<bounds x="0" y="0" width="4000" height="2267"/>
+		</cpanel>
+		<cpanel element="gearshift" inputtag="IN0" inputmask="0x02">
+			<bounds x="2885" y="616" width="768" height="1129 "/>
+		</cpanel>
+		<cpanel element="wheel">
+			<bounds x="323" y="-359" width="2399" height="2399"/>
+		</cpanel>
+		<cpanel element="bolt">
+			<bounds x="182" y="246" width="90" height="90"/>
+		</cpanel>
+		<cpanel element="bolt">
+			<bounds x="227" y="1233" width="90" height="90"/>
+		</cpanel>
+		<cpanel element="bolt">
+			<bounds x="3773" y="246" width="90" height="90"/>
+		</cpanel>
+		<cpanel element="bolt">
+			<bounds x="3728" y="1233" width="90" height="90"/>
+		</cpanel>
+	</group>
+	<group name="control_panel_upright_dimmed">
+		<cpanel element="cpo_upright">
+			<bounds x="0" y="0" width="4000" height="2267"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</cpanel>
+		<cpanel element="gearshift" inputtag="IN0" inputmask="0x02">
+			<bounds x="2885" y="616" width="768" height="1129 "/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</cpanel>
+		<cpanel element="wheel">
+			<bounds x="323" y="-359" width="2399" height="2399"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</cpanel>
+		<cpanel element="bolt">
+			<bounds x="182" y="246" width="90" height="90"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</cpanel>
+		<cpanel element="bolt">
+			<bounds x="227" y="1233" width="90" height="90"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</cpanel>
+		<cpanel element="bolt">
+			<bounds x="3773" y="246" width="90" height="90"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</cpanel>
+		<cpanel element="bolt">
+			<bounds x="3728" y="1233" width="90" height="90"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</cpanel>
+	</group>
+	<group name="control_panel_cockpit">
+		<cpanel element="cpo_cockpit">
+			<bounds x="0" y="0" width="4000" height="1993"/>
+		</cpanel>
+		<cpanel element="sticker_oil_water">
+			<bounds x="142" y="772" width="1064" height="665"/>
+		</cpanel>
+		<cpanel element="sticker_rpm">
+			<bounds x="2156" y="772" width="682" height="665"/>
+		</cpanel>
+		<cpanel element="gearshift" inputtag="IN0" inputmask="0x02">
+			<bounds x="2877" y="855" width="699" height="1028 "/>
+		</cpanel>
+		<cpanel element="wheel">
+			<bounds x="647" y="14" width="2000" height="2000"/>
+		</cpanel>
+		<cpanel element="bolt">
+			<bounds x="278" y="809" width="90" height="90"/>
+		</cpanel>
+		<cpanel element="bolt">
+			<bounds x="3596" y="809" width="90" height="90"/>
+		</cpanel>
+	</group>
+	<group name="control_panel_dedicated">
+		<cpanel element="cpo_dedicated">
+			<bounds x="0" y="0" width="4000" height="2855"/>
+		</cpanel>
+		<cpanel element="gearshift" inputtag="IN0" inputmask="0x02">
+			<bounds x="2760" y="996" width="699" height="1028"/>
+		</cpanel>
+		<cpanel element="wheel">
+			<bounds x="542" y="337" width="2000" height="2000"/>
+		</cpanel>
+	</group>
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="680" y="1133" width="2640" height="1980"/>
+		</screen>
+		<bezel element="inner_upright">
+			<bounds x="0" y="0" width="4000" height="3753"/>
+		</bezel>
+		<bezel element="upright">
+			<bounds x="0" y="0" width="4000" height="3753"/>
+		</bezel>
+	</view>
+	<view name="Full_Cabinet">
+		<bounds x="0" y="-1135" width="4000" height="7100"/>
+		<screen index="0">
+			<bounds x="680" y="1133" width="2640" height="1980"/>
+		</screen>
+		<bezel element="inner_upright">
+			<bounds x="0" y="0" width="4000" height="3753"/>
+		</bezel>
+		<bezel element="upright">
+			<bounds x="0" y="0" width="4000" height="3753"/>
+		</bezel>
+		<cpanel element="gauges">
+			<bounds x="200" y="3750" width="3600" height="864"/>
+		</cpanel>
+		<cpanel element="sticker_tracks">
+			<bounds x="200" y="3750" width="3600" height="864"/>
+		</cpanel>
+		<group ref="control_panel_upright">
+			<bounds x="0" y="4250" width="4000" height="2626"/>
+		</group>
+		<marquee element="marquee">
+			<bounds x="0" y="-1135" width="4000" height="1135"/>
+		</marquee>
+	</view>
+	<view name="Full_Cabinet_Lit">
+		<bounds x="0" y="-1135" width="4000" height="7100"/>
+		<screen index="0">
+			<bounds x="680" y="1133" width="2640" height="1980"/>
+		</screen>
+		<bezel element="inner_upright">
+			<bounds x="0" y="0" width="4000" height="3753"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</bezel>
+		<bezel element="upright">
+			<bounds x="0" y="0" width="4000" height="3753"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</bezel>
+		<cpanel element="gauges">
+			<bounds x="200" y="3750" width="3600" height="864"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</cpanel>
+		<cpanel element="sticker_tracks">
+			<bounds x="200" y="3750" width="3600" height="864"/>
+			<color red="0.5" green="0.5" blue="0.5"/>
+		</cpanel>
+		<group ref="control_panel_upright_dimmed">
+			<bounds x="0" y="4250" width="4000" height="2626"/>
+		</group>
+		<marquee element="marquee">
+			<bounds x="0" y="-1135" width="4000" height="1135"/>
+		</marquee>
+	</view>
+	<view name="Cockpit_Artwork">
+		<screen index="0">
+			<bounds x="880" y="951" width="2240" height="1680"/>
+		</screen>
+		<bezel element="inner_cockpit">
+			<bounds x="0" y="0" width="4000" height="3071"/>
+		</bezel>
+		<bezel element="cockpit">
+			<bounds x="0" y="0" width="4000" height="3071"/>
+		</bezel>
+		<group ref="control_panel_cockpit">
+			<bounds x="0" y="3021" width="4000" height="2014"/>
+		</group>
+	</view>
+	<view name="Upright_Artwork_Dedicated">
+		<screen index="0">
+			<bounds x="663" y="737" width="2688" height="2016"/>
+		</screen>
+		<bezel element="inner_dedicated">
+			<bounds x="0" y="0" width="4000" height="3489"/>
+		</bezel>
+		<bezel element="dedicated">
+			<bounds x="0" y="0" width="4000" height="3489"/>
+		</bezel>
+		<group ref="control_panel_dedicated">
+			<bounds x="0" y="3489" width="4000" height="2855"/>
+		</group>
+		<marquee element="marquee_dedicated">
+			<bounds x="0" y="-1079" width="4000" height="1079"/>
+		</marquee>
+	</view>
+	<view name="Upright_Bezel_Shifter_Only">
+		<screen index="0">
+			<bounds x="680" y="1133" width="2640" height="1980"/>
+		</screen>
+		<bezel element="inner_upright">
+			<bounds x="0" y="0" width="4000" height="3753"/>
+		</bezel>
+		<bezel element="upright">
+			<bounds x="0" y="0" width="4000" height="3753"/>
+		</bezel>
+		<cpanel element="cpo_upright_crop">
+			<bounds x="4200" y="2292" width="1466" height="1461"/>
+		</cpanel>
+		<cpanel element="gearshift" inputtag="IN0" inputmask="0x02">
+			<bounds x="4551" y="2520" width="768" height="1129 "/>
+		</cpanel>
+	</view>
+	<view name="Cockpit_Bezel_Shifter_Only">
+		<screen index="0">
+			<bounds x="880" y="951" width="2240" height="1680"/>
+		</screen>
+		<bezel element="inner_cockpit">
+			<bounds x="0" y="0" width="4000" height="3071"/>
+		</bezel>
+		<bezel element="cockpit">
+			<bounds x="0" y="0" width="4000" height="3071"/>
+		</bezel>
+		<cpanel element="cpo_cockpit_crop">
+			<bounds x="4200" y="1988" width="1229" height="1350"/>
+		</cpanel>
+		<cpanel element="gearshift" inputtag="IN0" inputmask="0x02">
+			<bounds x="4466" y="2255" width="699" height="1028 "/>
+		</cpanel>
+	</view>
+	<view name="Dedicated_Bezel_Shifter_Only">
+		<screen index="0">
+			<bounds x="663" y="737" width="2688" height="2016"/>
+		</screen>
+		<bezel element="inner_dedicated">
+			<bounds x="0" y="0" width="4000" height="3489"/>
+		</bezel>
+		<bezel element="dedicated">
+			<bounds x="0" y="0" width="4000" height="3489"/>
+		</bezel>
+		<cpanel element="cpo_dedicated_crop">
+			<bounds x="4200" y="2194" width="1400" height="1295"/>
+		</cpanel>
+		<cpanel element="gearshift" inputtag="IN0" inputmask="0x02">
+			<bounds x="4551" y="2399" width="699" height="1028 "/>
+		</cpanel>
+	</view>
+	<view name="Marquee_Only">
+		<marquee element="marquee">
+			<bounds x="0" y="0" width="4000" height="1135"/>
+		</marquee>
+	</view>
+	<view name="Marquee_Only_Dedicated">
+		<marquee element="marquee_dedicated">
+			<bounds x="0" y="0" width="4000" height="1079"/>
+		</marquee>
+	</view>
+	<view name="CPanel_Only_Upright">
+		<cpanel element="gauges">
+			<bounds x="200" y="0" width="3600" height="864"/>
+		</cpanel>
+		<group ref="control_panel_upright">
+			<bounds x="0" y="814" width="4000" height="2626"/>
+		</group>
+	</view>
+	<view name="CPanel_Only_Cockpit">
+		<group ref="control_panel_cockpit">
+			<bounds x="0" y="0" width="4000" height="2014"/>
+		</group>
+	</view>
+	<view name="CPanel_Only_Dedicated">
+		<group ref="control_panel_dedicated">
+			<bounds x="0" y="0" width="4000" height="2855"/>
+		</group>
+	</view>
+<view name="Flyer_Only"><element ref="flyer"><bounds x="0" y="0" width="850" height="1104"/></element></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="369" height="750"/></element></view><view name="Fanart_Only"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view></mamelayout>
+
+
+<!--
+
+- Artwork type: Bezel, Marquee, Control Panel
+- Cockpit bezel provided by Mr. Do
+- On loan from Vintage Arcade Superstore
+- Cleaned for MAME by Kiltron
+- Upright conversion bezel provided by BYOAC / CAG
+- Upright marquee vectorized by zorg
+- Cleanup on both by Mr. Do
+- Euro version bezel and cpo by Mr. Do, based on photos
+- Photographed gearshifter provided by Mr. Do
+
+-->

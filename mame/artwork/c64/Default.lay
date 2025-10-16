@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<mamelayout version="2">
+	<element name="bezel_monitor">
+		<image file="Monitor.png" />
+	</element>
+
+	<element name="bezel_monitor_1084">
+		<image file="1084.png" />
+	</element>
+
+	<element name="bezel2">
+		<image file="64C.png" />
+	</element>
+
+	<element name="bezel_monitor_1084s">
+		<image file="64C_Monitor.png" />
+	</element>
+
+	<element name="bezel_monitor_monochrome">
+		<image file="64C_Monitor_Monochrome.png" />
+	</element>
+
+	<element name="bezel">
+		<image file="bezel.png"/>
+	</element>
+
+	<element name="bezel-game">
+		<image file="bezel-game.png"/>
+	</element>
+
+	<element name="map">
+		<image file="map.png"/>
+	</element>
+
+	<element name="reference">
+		<image file="reference.png"/>
+	</element>
+
+	<element name="marquee">
+		<image file="../../marquees/c64.png"/>
+	</element>
+
+	<element name="cabinet">
+		<image file="../../cabinets/c64.png"/>
+	</element>
+
+	<element name="flyer">
+		<image file="../../flyers/c64.png"/>
+	</element>
+
+	<element name="fanart">
+		<image file="../../fanart/c64.png"/>
+	</element>
+
+	<element name="console">
+		<image file="c64_panel.png" />
+	</element>
+
+	<element name="console_gs">
+		<image file="c64_panel_gs.png" />
+	</element>
+
+	<element name="monitor">
+		<image file="1702.png" />
+	</element>
+
+	<element name="drive">
+		<image file="1541.png" />
+	</element>
+
+	<element name="drive_led" defstate="0">
+		<image file="led_off.png" state="0"/>
+		<image file="led_on.png" state="1"/>
+	</element>
+
+	<view name="1702 Monitor and Console">
+		<screen index="0">
+			<bounds x="566" y="529" width="2868" height="2161" />
+		</screen>
+		<bezel element="monitor">
+			<bounds x="0" y="0" width="4000" height="3840" />
+		</bezel>
+		<bezel element="console">
+			<bounds x="0" y="3860" width="2500" height="1217" />
+		</bezel>
+		<bezel element="drive">
+			<bounds x="2520" y="3860" width="1480" height="633" />
+		</bezel>
+		<cpanel element="drive_led" name="led1">
+
+			<bounds x="2520" y="3860" width="1480" height="633" />
+
+		</cpanel>
+
+	</view>
+
+	<view name="1702 Monitor and Console Gunship">
+		<screen index="0">
+			<bounds x="566" y="529" width="2868" height="2161" />
+		</screen>
+		<bezel element="monitor">
+			<bounds x="0" y="0" width="4000" height="3840" />
+		</bezel>
+		<bezel element="console_gs">
+			<bounds x="0" y="3860" width="2500" height="1217" />
+		</bezel>
+		<bezel element="drive">
+			<bounds x="2520" y="3860" width="1480" height="633" />
+		</bezel>
+		<cpanel element="drive_led" name="led1">
+
+			<bounds x="2520" y="3860" width="1480" height="633" />
+
+		</cpanel>
+	</view>
+
+	<view name="1702 Monitor">
+		<screen index="0">
+			<bounds x="125" y="120" width="768" height="576" />
+		</screen>
+
+		<bezel element="bezel_monitor">
+			<bounds x="0" y="0" width="1020" height="976" />
+		</bezel>
+	</view>
+
+	<view name="1084 Monitor">
+		<screen index="0">
+			<bounds x="140" y="124" width="800" height="600" />
+		</screen>
+		<bezel element="bezel_monitor_1084">
+			<bounds x="0" y="0" width="1070" height="931" />
+		</bezel>
+	</view>
+
+	<view name="Console">
+		<screen index="0">
+			<bounds x="0" y="0" width="4000" height="3000" />
+		</screen>
+
+		<bezel element="console">
+			<bounds x="0" y="3020" width="4000" height="2000" />
+		</bezel>
+	</view>
+
+	<view name="System Bezel">
+		<bezel element="bezel">
+			<bounds left="0" top="0" right="16" bottom="9"/>
+		</bezel>
+		<screen index="0">
+			<bounds left="2" top="0" right="14" bottom="9"/>
+		</screen>
+	</view>
+
+	<view name="System Bezel 2">
+		<bezel element="bezel2">
+			<bounds left="0" top="0" right="16" bottom="9"/>
+		</bezel>
+		<screen index="0">
+			<bounds left="3" top="0.75" right="13" bottom="8.25"/>
+		</screen>
+	</view>
+
+	<view name="Game Bezel">
+		<bezel element="bezel-game">
+			<bounds left="0" top="0" right="16" bottom="9"/>
+		</bezel>
+		<screen index="0">
+			<bounds left="2" top="0" right="14" bottom="9"/>
+		</screen>
+	</view>
+
+	<view name="Game Map">
+		<bezel element="map">
+			<bounds left="0" top="0" right="16" bottom="9"/>
+		</bezel>
+	</view>
+
+	<view name="Game Reference">
+		<bezel element="reference">
+			<bounds left="0" top="0" right="16" bottom="9"/>
+		</bezel>
+	</view>
+
+	<view name="Cabinet"><marquee element="cabinet"><bounds x="0" y="0" width="1200" height="699"/></marquee></view>
+
+	<view name="Flyer"><marquee element="flyer"><bounds x="0" y="0" width="690" height="900"/></marquee></view>
+
+	<view name="Marquee"><marquee element="marquee"><bounds x="0" y="0" width="2560" height="539"/></marquee></view>
+
+	<view name="Fanart"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view>
+</mamelayout>

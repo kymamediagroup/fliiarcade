@@ -1,0 +1,161 @@
+<!-- bezel.lay -->
+<mamelayout version="2"><element name="fanart"><image file="../../fanart/astdelux.png"/></element><element name="cabinet"><image file="../../cabinets/astdelux.png"/></element><element name="marquee"><image file="../../marquees/astdelux.png"/></element><element name="flyer"><image file="../../flyers/astdelux.png"/></element>
+<element name="bezel">
+<image file="bezel.png"/>
+</element>
+<element name="background">
+<image file="background.png"/>
+</element>
+<element name="backdrop">
+		<image file="astdelux_backdrop.png"/>
+	</element>
+	<element name="backdrop_rev1">
+		<image file="astdelux_backdrop_rev1.png"/>
+	</element>
+	<element name="bezel2">
+		<image file="astdelux_bezel.png"/>
+	</element>
+	<element name="marquee2">
+		<image file="astdelux_marquee.png"/>
+	</element>
+	<element name="cpo">
+		<image file="astdelux_cpo.png"/>
+	</element>
+	<element name="button_w" defstate="0">
+		<image file="button_white.png" state="0"/>
+		<image file="button_white_pressed.png" state="1"/>
+	</element>
+	<element name="volcano" defstate="0">
+		<image file="volcano_alum_off.png" state="0"/>
+		<image file="volcano_alum_on.png" state="1"/>
+	</element>
+	<element name="cocktail">
+		<image file="astdeluxe_cocktail.png"/>
+	</element>
+	<element name="wood">
+		<image file="atari_cocktail_wood.png"/>
+	</element>
+	<element name="overlay">
+		<rect>
+			<color red="0.5333" green="1.0" blue="1.0"/>
+		</rect>
+	</element>
+	<element name="xbla_widescreen">
+		<image file="asteroids_xbla_ws.png" alphafile="mask_1280_720_horiz.png"/>
+	</element>
+	<element name="acc">
+		<image file="astdeluxe_acc.png"/>
+	</element>
+	<element name="button1" defstate="0">
+		<image file="astdeluxe_acc_button_1_off.png" state="0"/>
+		<image file="astdeluxe_acc_button_1_on.png" state="1"/>
+	</element>
+	<element name="button2" defstate="0">
+		<image file="astdeluxe_acc_button_2_off.png" state="0"/>
+		<image file="astdeluxe_acc_button_2_on.png" state="1"/>
+	</element>
+	<element name="button1press" defstate="0">
+		<image file="astdeluxe_acc_button_1_press.png" state="1"/>
+	</element>
+	<element name="button2press" defstate="0">
+		<image file="astdeluxe_acc_button_2_press.png" state="1"/>
+	</element>
+	<element name="accback">
+		<image file="astdeluxe_acc_backdrop.png"/>
+	</element>
+	<element name="backdrop_3d">
+		<image file="astdelux_3d.png"/>
+	</element>
+	<element name="3d">
+		<image file="astdxbzl_3d.png"/>
+	</element>
+	<element name="backdrop_pencil">
+		<image file="astdelux_pencil.png"/>
+	</element>
+	<element name="bezel_pencil">
+		<image file="asteroids_deluxe_bezel_pencil.png"/>
+	</element>
+	<element name="atariart">
+		<image file="astdelux_atariart.png"/>
+	</element>
+	<element name="overlay_y">
+		<rect>
+			<color red="1.0" green="0.894" blue="0.341"/>
+		</rect>
+	</element>
+	<element name="wbezel">
+		<image file="astdx169.png"/>
+	</element>
+
+<view name="Bezel Artwork">
+<bezel element="bezel">
+<bounds left="0" top="0" right="16" bottom="9"/>
+</bezel>
+<screen index="0">
+<bounds left="2" top="0" right="14" bottom="9"/>
+</screen>
+<element ref="overlay" blend="multiply">
+	<bounds left="2" top="0" right="14" bottom="9"/>
+</element>
+<element ref="background" blend="add">
+<bounds left="2" top="0" right="14" bottom="9"/>
+<color alpha="0.3"/>
+</element>
+</view>
+
+<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="720" y="260" width="2560" height="1920"/>
+		</screen>
+
+			<element ref="overlay" blend="multiply">
+				<bounds x="720" y="260" width="2560" height="1920"/>
+			</element>
+
+
+			<element ref="backdrop" blend="add">
+				<bounds x="379" y="145" width="3242" height="2027"/>
+				<color alpha="0.3"/>
+			</element>
+
+
+			<!--<element ref="marquee2">
+				<bounds x="0" y="-1189" width="4000" height="1189" />
+			</element>-->
+
+			<element ref="bezel2">
+				<bounds x="0" y="0" width="4000" height="3030"/>
+			</element>
+
+			<!--<group ref="cpanel">
+				<bounds x="0" y="3010" width="4000" height="1850" />
+			</group>-->
+
+		<element ref="cpo">
+			<bounds x="0" y="3010" width="4000" height="1850"/>
+		</element>
+		<element name="led0" ref="volcano">
+			<bounds x="571" y="3383" width="160" height="160"/>
+		</element>
+		<element name="led1" ref="volcano">
+			<bounds x="571" y="3708" width="160" height="160"/>
+		</element>
+		<element ref="button_w" inputtag="IN1" inputmask="0x80">
+			<bounds x="1308" y="3348" width="230" height="230"/>
+		</element>
+		<element ref="button_w" inputtag="IN1" inputmask="0x40">
+			<bounds x="1551" y="3348" width="230" height="230"/>
+		</element>
+		<element ref="button_w" inputtag="IN0" inputmask="0x08">
+			<bounds x="1887" y="3605" width="230" height="230"/>
+		</element>
+		<element ref="button_w" inputtag="IN1" inputmask="0x20">
+			<bounds x="2223" y="3348" width="230" height="230"/>
+		</element>
+		<element ref="button_w" inputtag="IN0" inputmask="0x10">
+			<bounds x="2465" y="3348" width="230" height="230"/>
+		</element>
+
+	</view>
+
+<view name="Flyer_Only"><element ref="flyer"><bounds x="0" y="0" width="850" height="1098"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="1200" height="357"/></marquee></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="600" height="900"/></element></view><view name="Fanart_Only"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view></mamelayout>

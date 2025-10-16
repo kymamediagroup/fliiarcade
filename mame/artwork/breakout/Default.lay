@@ -1,0 +1,43 @@
+<!-- bezel.lay -->
+<mamelayout version="2"><element name="fanart"><image file="../../fanart/breakout.png"/></element><element name="cabinet"><image file="../../cabinets/breakout.png"/></element><element name="marquee"><image file="../../marquees/breakout.png"/></element><element name="flyer"><image file="../../flyers/breakout.png"/></element>
+<element name="bezel">
+<image file="bezel.png"/>
+</element>
+
+<element name="overlay_m">
+		<rect>
+			<bounds left="0" top="4" right="16" bottom="4.5"/>
+			<color red="1" green="0" blue="0"/>
+		</rect>
+
+		<rect>
+			<bounds left="0" top="4.475" right="16" bottom="5"/>
+			<color red="1" green=".5" blue="0"/>
+		</rect>
+
+		<rect>
+			<bounds left="0" top="4.95" right="16" bottom="5.5"/>
+			<color red="0" green="1" blue="0"/>
+		</rect>
+
+		<rect>
+			<bounds left="0" top="5.425" right="16" bottom="6"/>
+			<color red="1" green="1" blue="0"/>
+		</rect>
+</element>
+<view name="Bezel Artwork">
+<bezel element="bezel">
+	<bounds left="0" top="0" right="16" bottom="9"/>
+</bezel>
+
+<screen index="0">
+	<bounds left="4.625" top="0" right="11.375" bottom="9"/>
+</screen>
+
+<element ref="overlay_m" blend="multiply">
+	<bounds left="0" top="1.67" right="16" bottom="3.1"/>
+</element>
+
+
+</view>
+<view name="Flyer_Only"><element ref="flyer"><bounds x="0" y="0" width="1280" height="978"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="1200" height="369"/></marquee></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="600" height="900"/></element></view><view name="Fanart_Only"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view></mamelayout>

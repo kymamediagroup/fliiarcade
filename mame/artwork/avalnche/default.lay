@@ -1,0 +1,52 @@
+<!-- avalnche.lay -->
+
+<mamelayout version="2">
+	<element name="cabinet"><image file="../../cabinets/avalnche.png"/></element><element name="marquee"><image file="../../marquees/avalnche.png"/></element><element name="flyer"><image file="../../flyers/avalnche.png"/></element>
+	<element name="bezel">
+		<image file="bezel.png" />
+	</element>
+	<element name="overlay">
+		<rect>
+			<bounds left="0" top="0" right="256" bottom="10" />
+			<color red="0.5" green="1" blue="1" />
+		</rect>
+		<rect>
+			<bounds left="0" top="10" right="256" bottom="20" />
+			<color red="0.125" green="0.125" blue="1" />
+		</rect>
+		<rect>
+			<bounds left="0" top="20" right="256" bottom="29" />
+			<color red="1" green="1" blue="0.125" />
+		</rect>
+		<rect>
+			<bounds left="0" top="29" right="256" bottom="40" />
+			<color red="1" green="0.5" blue="0.0627" />
+		</rect>
+		<rect>
+			<bounds left="0" top="40" right="256" bottom="240" />
+			<color red="0.5" green="1" blue="1" />
+		</rect>
+	</element>
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="745" y="1580" width="2420" height="1815" />
+		</screen>
+		<overlay element="overlay">
+			<bounds x="745" y="1580" width="2420" height="1815" />
+		</overlay>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="3944" height="4000" />
+		</bezel>
+	</view>
+	<view name="Flyer_Only"><element ref="flyer"><bounds x="0" y="0" width="850" height="1106"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="1200" height="259"/></marquee></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="600" height="900"/></element></view>
+</mamelayout>
+
+<!--
+
+- Artwork type: Bezel
+- Scanned bezel provided by Aaron Giles
+- Converted for MAME by Ad_Enuff
+- Overlay provided by Aaron Giles
+- Lay file by Mr. Do
+
+-->

@@ -1,0 +1,88 @@
+<!-- tx1.lay -->
+
+<mamelayout version="2"><element name="cabinet"><image file="../../cabinets/tx1.png"/></element><element name="marquee"><image file="../../marquees/tx1.png"/></element><element name="flyer"><image file="../../flyers/tx1.png"/></element>
+
+<!-- Define Elements -->
+
+	<element name="map">
+		<image file="tx1_map.png"/>
+	</element>
+	<element name="panel">
+		<image file="tx1_panel.png"/>
+	</element>
+	<element name="wheel">
+		<image file="poleposition_wheel.png"/>
+	</element>
+	<element name="wheel_base">
+		<image file="poleposition_wheel_base.png"/>
+	</element>
+	<element name="coin">
+		<image file="coin_slot.png"/>
+	</element>
+	<element name="bezel">
+		<image file="bezel.png"/>
+	</element>
+	<element name="shifter" defstate="0">
+		<image file="tx1_low.png" state="1"/>
+		<image file="tx1_high.png" state="0"/>
+	</element>
+
+<!-- Define Views -->
+
+	<view name="Cockpit_Artwork_Atari">
+		<screen index="0">
+			<bounds x="10" y="346" width="1530" height="1148"/>
+		</screen>
+		<screen index="1">
+			<bounds x="1560" y="346" width="1530" height="1148"/>
+		</screen>
+		<screen index="2">
+			<bounds x="3100" y="346" width="1530" height="1148"/>
+		</screen>
+		<element ref="bezel">
+			<bounds x="0" y="0" width="4630" height="1838"/>
+		</element>
+		<!--<collection name="Course_Map">-->
+			<element ref="map">
+				<bounds x="1505" y="-480" width="1620" height="790"/>
+			</element>
+<!--		</collection>-->
+<!--		<collection name="Control_Panel">
+			<element ref="panel">
+				<bounds x="1585" y="1698" width="1460" height="730" />
+			</element>
+			<element ref="wheel_base">
+				<bounds x="1745" y="1493" width="1140" height="1140" />
+			</element>
+			<element ref="wheel">
+				<bounds x="1745" y="1493" width="1140" height="1140" />
+			</element>
+			<element ref="coin">
+				<bounds x="137" y="1857" width="212" height="246" />
+			</element>
+			<element ref="coin">
+				<bounds x="408" y="1857" width="212" height="246" />
+			</element>
+			<element ref="shifter" inputtag="soundbrd:PPI_PORTC" inputmask="0x08">
+				<bounds x="3685" y="1857" width="506" height="591" />
+			</element>
+		</collection>-->
+	</view>
+	<view name="Map_Only">
+		<element ref="map">
+			<bounds x="0" y="0" width="3500" height="1708"/>
+		</element>
+	</view>
+<view name="Flyer_Only"><element ref="flyer"><bounds x="0" y="0" width="828" height="1097"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="1200" height="343"/></marquee></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="1100" height="900"/></element></view></mamelayout>
+
+<!--
+
+- Artwork type: Bezel, Control Panel, Inst. Card
+- Inspired by work originally done by Comboman
+- Map, cpo, and shifter background vectored by Mr. Do based on photos by Comboman
+- Wheel, shifter, and coin slot by Mr. Do
+- Bezel frame by Mr. Do, inspired by Comboman
+- Dash piece cleaned up by Mr. Do
+- Lay file by Mr. Do
+
+-->

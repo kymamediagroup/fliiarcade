@@ -1,0 +1,124 @@
+<!-- sbrkout.lay -->
+
+<mamelayout version="2"><element name="fanart"><image file="../../fanart/sbrkout.png"/></element><element name="cabinet"><image file="../../cabinets/sbrkout.png"/></element><element name="marquee"><image file="../../marquees/sbrkout.png"/></element><element name="flyer"><image file="../../flyers/sbrkout.png"/></element>
+	<element name="bezel">
+		<image file="super_breakout_bezel.png"/>
+	</element>
+	<element name="overlay">
+		<rect>
+			<bounds x="0" y="0" width="1950" height="416"/>
+			<color red="0.125" green="0.125" blue="1"/>
+		</rect>
+		<rect>
+			<bounds x="0" y="416" width="1950" height="321"/>
+			<color red="1" green="0.5" blue="0.0625"/>
+		</rect>
+		<rect>
+			<bounds x="0" y="737" width="1950" height="330"/>
+			<color red="0.25" green="1" blue="0.25"/>
+		</rect>
+		<rect>
+			<bounds x="0" y="1067" width="1950" height="325"/>
+			<color red="1" green="1" blue="0.25"/>
+		</rect>
+	</element>
+	<element name="overlay2">
+		<rect>
+			<bounds x="0" y="0" width="1950" height="83"/>
+			<color red="0.125" green="0.125" blue="1"/>
+		</rect>
+	</element>
+	<element name="acc">
+		<image file="sbreakout_acc.png" alphafile="sbreakout_acc_mask.png"/>
+	</element>
+	<element name="button1" defstate="0">
+		<image file="sbreakout_acc_button_1_off.png" state="0"/>
+		<image file="sbreakout_acc_button_1_on.png" state="1"/>
+	</element>
+	<element name="button2" defstate="0">
+		<image file="sbreakout_acc_button_2_off.png" state="0"/>
+	</element>
+	<element name="button3" defstate="0">
+		<image file="sbreakout_acc_button_3_off.png" state="0"/>
+	</element>
+	<element name="button1press" defstate="0">
+		<image file="sbreakout_acc_button_1_press.png" state="1"/>
+	</element>
+	<element name="button2press" defstate="0">
+		<image file="sbreakout_acc_button_2_press.png" state="1"/>
+	</element>
+	<element name="button3press" defstate="0">
+		<image file="sbreakout_acc_button_3_press.png" state="1"/>
+	</element>
+	<element name="texture">
+		<image file="sbreakout_acc_textures.png" alphafile="sbreakout_acc_textures_mask.png"/>
+	</element>
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="1016" y="798" width="1950" height="2600"/>
+		</screen>
+		<bezel element="overlay">
+			<bounds x="1016" y="798" width="1950" height="1392"/>
+			<color alpha="0.2"/>
+		</bezel>
+		<bezel element="overlay2">
+			<bounds x="1016" y="3155" width="1950" height="83"/>
+			<color alpha="0.2"/>
+		</bezel>
+		<bezel element="bezel">
+			<bounds x="0" y="0" width="4000" height="3662"/>
+		</bezel>
+		<overlay element="overlay">
+			<bounds x="1016" y="798" width="1950" height="1392"/>
+		</overlay>
+		<overlay element="overlay2">
+			<bounds x="1016" y="3155" width="1950" height="83"/>
+		</overlay>
+	</view>
+	<view name="Atari_Classics_Artwork">
+		<bezel element="acc">
+			<bounds x="0" y="0" width="800" height="600"/>
+		</bezel>
+		<bezel name="led0" element="button1">
+            <bounds x="326" y="563" width="34" height="37"/>
+		</bezel>
+		<bezel element="button2">
+            <bounds x="194" y="563" width="35" height="37"/>
+		</bezel>
+		<bezel element="button3">
+            <bounds x="571" y="563" width="35" height="37"/>
+		</bezel>
+		<bezel element="button1press" inputtag="SERVE" inputmask="0x80">
+            <bounds x="326" y="563" width="34" height="37"/>
+		</bezel>
+		<bezel element="button2press" inputtag="START" inputmask="0x40">
+            <bounds x="194" y="563" width="35" height="37"/>
+		</bezel>
+		<bezel element="button3press" inputtag="START" inputmask="0x80">
+            <bounds x="571" y="563" width="35" height="37"/>
+		</bezel>
+		<overlay element="texture">
+			<bounds x="213" y="24" width="375" height="500"/>
+		</overlay>
+		<overlay element="overlay">
+			<bounds x="213" y="24" width="375" height="267.69"/>
+		</overlay>
+		<overlay element="overlay2">
+			<bounds x="213" y="477" width="375" height="15.96"/>
+		</overlay>
+		<screen index="0">
+			<bounds x="213" y="24" width="375" height="500"/>
+		</screen> 
+	</view>
+<view name="Flyer_Only"><element ref="flyer"><bounds x="0" y="0" width="850" height="1097"/></element></view><view name="Marquee_Only"><marquee element="marquee"><bounds x="0" y="0" width="500" height="145"/></marquee></view><view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="600" height="900"/></element></view><view name="Fanart_Only"><element ref="fanart"><bounds x="0" y="0" width="1920" height="1080"/></element></view></mamelayout>
+
+<!--
+
+- Artwork type: Bezel, Overlay
+- Scanned bezel provided by Mr. Do
+- Vectorized by jcroach; color corrected by Ad_Enuff
+- Overlay based on game manual by Mr. Do
+- Artwork type: Arcade Compilation
+- Lay file by Mr. Do
+
+-->

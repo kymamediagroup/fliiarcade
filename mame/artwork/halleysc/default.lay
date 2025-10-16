@@ -1,0 +1,65 @@
+<!-- halleysc.lay -->
+
+<mamelayout version="2"><element name="cabinet"><image file="../../cabinets/halleysc.png"/></element>
+
+<!-- Define Elements -->
+
+	<element name="bezel">
+		<image file="generic_bezel_hc.png"/>
+	</element>
+	<element name="inst">
+		<image file="halleys_comet_inst_card_yellow.png"/>
+	</element>
+	<element name="inst_alt">
+		<image file="halleys_comet_inst_card_blue.png"/>
+	</element>
+	<element name="marquee">
+		<image file="halleys_comet_marquee.png"/>
+	</element>
+	
+<!-- Define Views -->
+	
+	<view name="Upright_Artwork">
+		<screen index="0">
+			<bounds x="905" y="618" width="2190" height="2920"/>
+		</screen>
+		<element ref="marquee">
+			<bounds x="0" y="-1223" width="4000" height="1173"/>
+		</element>
+		<element ref="bezel">
+			<bounds x="0" y="0" width="4000" height="3748"/>
+		</element>
+		<element ref="inst">
+			<bounds x="3191" y="1032" width="783" height="1684"/>
+		</element>
+	</view>
+	<view name="Upright_Artwork_Alt">
+		<screen index="0">
+			<bounds x="905" y="618" width="2190" height="2920"/>
+		</screen>
+		<element ref="marquee">
+			<bounds x="0" y="-1223" width="4000" height="1173"/>
+		</element>
+		<element ref="bezel">
+			<bounds x="0" y="0" width="4000" height="3748"/>
+		</element>
+		<element ref="inst_alt">
+			<bounds x="3191" y="1032" width="783" height="1684"/>
+		</element>
+	</view>
+	<view name="Marquee_Only">
+		<element ref="marquee">
+			<bounds x="0" y="0" width="4000" height="1173"/>
+		</element>
+	</view>
+<view name="Cabinet_Only"><element ref="cabinet"><bounds x="0" y="0" width="174" height="320"/></element></view></mamelayout>
+
+<!--
+
+- Artwork type: Bezel, Marquee, Inst. Card
+- Scanned marquee provided by Ars Invictus
+- Scanned instruction card provided by Mr. Do
+- Cleaned for MAME by Ars Invictus
+- Lay file by Mr. Do
+
+-->

@@ -1,0 +1,40 @@
+//
+//	[artname]:
+//		file       = [filename]
+//		alphafile  = [alphafilename]
+//		layer      = [backdrop|overlay|bezel|marquee|panel|side|flyer]
+//		position   = [left],[top],[right],[bottom]
+//		priority   = [priority]
+//		visible    = [visible]
+//		alpha      = [alpha]
+//		brightness = [brightness]
+//
+
+// thanks to Nathan Strum for the backdrop graphics
+backdrop:
+	file		= invaddlx.png
+	layer		= backdrop
+	priority	= -2
+	visible		= 1
+	position	= 0.0,-0.14,1.29,1.15
+
+// we use an overlay here to change the bright white color used by
+// the game down to a more pleasing blue-tinted light gray
+// this has the side effect of making the game graphics appear a bit
+// transluscent over the backdrop
+overlay:
+	file		= tintover.png
+	alphafile	= tintmask.png
+	layer		= overlay
+	priority	= -1
+	visible		= 1
+	position	= 0.0,0.0,1.0,1.0
+//drkmssh
+// drk-bezel.fr.st
+bezel:
+	file		= invaddx.png
+	alphafile	= invaddmaskmask.png
+	layer		= bezel
+	priority	= 0
+	visible		= 1
+	position	= -0.3175,-0.6891,1.7800,1.6723
