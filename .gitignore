@@ -18,8 +18,6 @@ icons/**/*
 images/boxes/**/*
 
 images/cabinets/s*
-images/cabinets/t*
-images/cabinets/u*
 
 images/logos/a2600/*
 images/logos/nes/*
@@ -45,7 +43,7 @@ mame/roms/.277/**/*
 
 mame/roms/.219/a2600/**/*
 
-# Exclude all Atari cartridges
+# Exclude all Vectrex cartridges
 
 mame/roms/.219/vectrex/**/*
 
