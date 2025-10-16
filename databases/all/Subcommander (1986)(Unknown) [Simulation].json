@@ -1,0 +1,11 @@
+{
+  "name": "Subcommander (1986)(Unknown) [Simulation]",
+  "roms": [
+    "Subcommander (1986)(Unknown) [Simulation]"
+  ],
+  "description": "Subcommander",
+  "system": "dosbox",
+  "year": 1986,
+  "manufacturer": "Unknown",
+  "genre": "Simulation"
+}

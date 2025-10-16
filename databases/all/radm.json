@@ -1,0 +1,1 @@
+{"name":"radm","description":"Rad Mobile (World)","system":"mame","parentSystem":"segas32","roms":["radm"],"biosFiles":[],"hasSamples":false,"nativeResolution":[416,224],"players":1,"controls":{"1":{"buttons":2,"type":"pedal"}},"genre":"Driving","manufacturer":"Sega","year":1990,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

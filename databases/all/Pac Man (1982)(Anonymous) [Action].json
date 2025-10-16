@@ -1,0 +1,11 @@
+{
+  "name": "Pac Man (1982)(Anonymous) [Action]",
+  "roms": [
+    "Pac Man (1982)(Anonymous) [Action]"
+  ],
+  "description": "Pac Man",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "Anonymous",
+  "genre": "Action"
+}

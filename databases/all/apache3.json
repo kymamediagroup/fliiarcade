@@ -1,0 +1,1 @@
+{"name":"apache3","description":"Apache 3","system":"mame","parentSystem":"tatsumi","roms":["apache3"],"biosFiles":[],"hasSamples":false,"nativeResolution":[320,240],"players":1,"controls":{"1":{"buttons":3,"type":"stick"}},"genre":"Shooter","manufacturer":"Tatsumi","year":1988,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

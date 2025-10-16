@@ -1,0 +1,1 @@
+{"name":"crusnwld","description":"Cruis'n World (rev L2.4)","system":"mame","parentSystem":"midvunit","roms":["crusnwld"],"biosFiles":[],"hasSamples":false,"nativeResolution":[512,400],"players":1,"controls":{"1":{"buttons":8,"type":"pedal"}},"genre":"Driving","manufacturer":"Midway","year":1996,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

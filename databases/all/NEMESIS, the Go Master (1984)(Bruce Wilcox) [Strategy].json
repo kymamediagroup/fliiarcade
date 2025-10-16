@@ -1,0 +1,11 @@
+{
+  "name": "NEMESIS, the Go Master (1984)(Bruce Wilcox) [Strategy]",
+  "roms": [
+    "NEMESIS, the Go Master (1984)(Bruce Wilcox) [Strategy]"
+  ],
+  "description": "NEMESIS, the Go Master",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "Bruce Wilcox",
+  "genre": "Strategy"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Tic-Tac-Toe (1982)(Tom Springall) [Strategy]",
+  "roms": [
+    "Tic-Tac-Toe (1982)(Tom Springall) [Strategy]"
+  ],
+  "description": "Tic-Tac-Toe",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "Tom Springall",
+  "genre": "Strategy"
+}

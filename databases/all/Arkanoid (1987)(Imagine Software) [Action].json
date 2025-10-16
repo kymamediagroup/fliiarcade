@@ -1,0 +1,11 @@
+{
+  "name": "Arkanoid (1987)(Imagine Software) [Action]",
+  "roms": [
+    "Arkanoid (1987)(Imagine Software) [Action]"
+  ],
+  "description": "Arkanoid",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "Imagine Software",
+  "genre": "Action"
+}

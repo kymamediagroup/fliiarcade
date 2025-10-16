@@ -1,0 +1,1 @@
+{"name":"safari","description":"Safari (set 1)","system":"mame","parentSystem":"vicdual","roms":["safari"],"biosFiles":[],"hasSamples":false,"nativeResolution":[256,224],"players":1,"controls":{"1":{"buttons":3,"type":"joy","ways":"8"}},"genre":"Shoot-'Em-Up","manufacturer":"Gremlin","year":1977,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

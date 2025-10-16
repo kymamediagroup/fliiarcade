@@ -1,0 +1,11 @@
+{
+  "name": "Video Vegas (1987)(Baudville) [Strategy, Simulation]",
+  "roms": [
+    "Video Vegas (1987)(Baudville) [Strategy, Simulation]"
+  ],
+  "description": "Video Vegas",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "Baudville",
+  "genre": "Strategy/Simulation"
+}

@@ -1,0 +1,1 @@
+{"name":"ripcord","description":"Rip Cord","system":"mame","parentSystem":"circus","roms":["ripcord"],"biosFiles":[],"hasSamples":true,"nativeResolution":[248,256],"players":1,"controls":{"1":{"buttons":2,"type":"paddle"}},"genre":"Sports","manufacturer":"Exidy","year":1979,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

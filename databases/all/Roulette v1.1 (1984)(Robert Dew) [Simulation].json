@@ -1,0 +1,11 @@
+{
+  "name": "Roulette v1.1 (1984)(Robert Dew) [Simulation]",
+  "roms": [
+    "Roulette v1.1 (1984)(Robert Dew) [Simulation]"
+  ],
+  "description": "Roulette v1.1",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "Robert Dew",
+  "genre": "Simulation"
+}

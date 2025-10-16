@@ -1,0 +1,1 @@
+{"name":"hcrash","description":"Hyper Crash (version D)","system":"mame","parentSystem":"nemesis","roms":["hcrash"],"biosFiles":[],"hasSamples":false,"nativeResolution":[256,224],"players":1,"controls":{"1":{"buttons":4,"type":"pedal"}},"genre":"Driving","manufacturer":"Konami","year":1987,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":"07976bc3"}

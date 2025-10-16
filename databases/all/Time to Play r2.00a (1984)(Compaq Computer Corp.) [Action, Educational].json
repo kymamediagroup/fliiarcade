@@ -1,0 +1,11 @@
+{
+  "name": "Time to Play r2.00a (1984)(Compaq Computer Corp.) [Action, Educational]",
+  "roms": [
+    "Time to Play r2.00a (1984)(Compaq Computer Corp.) [Action, Educational]"
+  ],
+  "description": "Time to Play r2.00a",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "Compaq Computer Corp.",
+  "genre": "Action/Educational"
+}

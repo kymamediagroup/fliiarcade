@@ -1,0 +1,11 @@
+{
+  "name": "Crossfire (PCjr) [DC] (1983)(IBM) [Action].jrc",
+  "roms": [
+    "Crossfire (PCjr) [DC] (1983)(IBM) [Action].jrc"
+  ],
+  "description": "Crossfire (PCjr)",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "IBM",
+  "genre": "Action"
+}

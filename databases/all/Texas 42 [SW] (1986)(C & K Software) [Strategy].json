@@ -1,0 +1,11 @@
+{
+  "name": "Texas 42 [SW] (1986)(C & K Software) [Strategy]",
+  "roms": [
+    "Texas 42 [SW] (1986)(C & K Software) [Strategy]"
+  ],
+  "description": "Texas 42",
+  "system": "dosbox",
+  "year": 1986,
+  "manufacturer": "C & K Software",
+  "genre": "Strategy"
+}

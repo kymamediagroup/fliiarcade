@@ -1,0 +1,11 @@
+{
+  "name": "Memory (1983)(International PC Owners) [Strategy]",
+  "roms": [
+    "Memory (1983)(International PC Owners) [Strategy]"
+  ],
+  "description": "Memory",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "International PC Owners",
+  "genre": "Strategy"
+}

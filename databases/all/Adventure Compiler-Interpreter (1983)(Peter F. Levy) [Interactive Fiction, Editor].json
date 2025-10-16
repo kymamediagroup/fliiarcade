@@ -1,0 +1,11 @@
+{
+  "name": "Adventure Compiler-Interpreter (1983)(Peter F. Levy) [Interactive Fiction, Editor]",
+  "roms": [
+    "Adventure Compiler-Interpreter (1983)(Peter F. Levy) [Interactive Fiction, Editor]"
+  ],
+  "description": "Adventure Compiler-Interpreter",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "Peter F. Levy",
+  "genre": "Interactive Fiction/Editor"
+}

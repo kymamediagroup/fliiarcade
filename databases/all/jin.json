@@ -1,0 +1,1 @@
+{"name":"jin","description":"Jin","system":"mame","parentSystem":"williams","roms":["jin"],"biosFiles":[],"hasSamples":false,"nativeResolution":[240,316],"players":1,"controls":{"1":{"buttons":2,"type":"joy","ways":"8"}},"genre":"Puzzle","manufacturer":"Falcon","year":1982,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":"c3f45f70"}

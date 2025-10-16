@@ -1,0 +1,11 @@
+{
+  "name": "PC-Arena Chess [SW] (1985)(Mike & Jim Co) [Strategy]",
+  "roms": [
+    "PC-Arena Chess [SW] (1985)(Mike & Jim Co) [Strategy]"
+  ],
+  "description": "PC-Arena Chess",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "Mike & Jim Co",
+  "genre": "Strategy"
+}

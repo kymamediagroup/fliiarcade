@@ -1,0 +1,1 @@
+{"name":"wallc","description":"Wall Crash (set 1)","system":"mame","parentSystem":"wallc","roms":["wallc"],"biosFiles":[],"hasSamples":false,"nativeResolution":[256,256],"players":1,"controls":{"1":{"buttons":2,"type":"dial"}},"genre":"Breakout","manufacturer":"Midcoin","year":1984,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":"83e3e293"}

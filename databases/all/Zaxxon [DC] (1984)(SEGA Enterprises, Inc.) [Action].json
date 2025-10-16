@@ -1,0 +1,11 @@
+{
+  "name": "Zaxxon [DC] (1984)(SEGA Enterprises, Inc.) [Action]",
+  "roms": [
+    "Zaxxon [DC] (1984)(SEGA Enterprises, Inc.) [Action]"
+  ],
+  "description": "Zaxxon",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "SEGA Enterprises, Inc.",
+  "genre": "Action"
+}

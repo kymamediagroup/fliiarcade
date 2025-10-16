@@ -1,0 +1,11 @@
+{
+  "name": "Lunar Lander (1986)(Ken Freeze) [Action]",
+  "roms": [
+    "Lunar Lander (1986)(Ken Freeze) [Action]"
+  ],
+  "description": "Lunar Lander",
+  "system": "dosbox",
+  "year": 1986,
+  "manufacturer": "Ken Freeze",
+  "genre": "Action"
+}

@@ -1,0 +1,1 @@
+{"name":"bwidow","description":"Black Widow","system":"mame","parentSystem":"bwidow","roms":["bwidow"],"biosFiles":[],"hasSamples":false,"players":1,"controls":{"1":{"type":"doublejoy","ways":"8"}},"buttonLabels":[],"alternating":true,"genre":"Shoot-'Em-Up","manufacturer":"Atari","year":1982,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

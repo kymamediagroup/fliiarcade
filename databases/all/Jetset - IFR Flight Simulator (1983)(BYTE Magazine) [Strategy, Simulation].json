@@ -1,0 +1,11 @@
+{
+  "name": "Jetset - IFR Flight Simulator (1983)(BYTE Magazine) [Strategy, Simulation]",
+  "roms": [
+    "Jetset - IFR Flight Simulator (1983)(BYTE Magazine) [Strategy, Simulation]"
+  ],
+  "description": "Jetset - IFR Flight Simulator",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "BYTE Magazine",
+  "genre": "Strategy/Simulation"
+}

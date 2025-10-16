@@ -1,0 +1,11 @@
+{
+  "name": "Vegas Gambler v1.1 (1987)(Logical Design Works, Inc.) [Simulation]",
+  "roms": [
+    "Vegas Gambler v1.1 (1987)(Logical Design Works, Inc.) [Simulation]"
+  ],
+  "description": "Vegas Gambler v1.1",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "Logical Design Works, Inc.",
+  "genre": "Simulation"
+}

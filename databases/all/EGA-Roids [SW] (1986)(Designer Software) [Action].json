@@ -1,0 +1,11 @@
+{
+  "name": "EGA-Roids [SW] (1986)(Designer Software) [Action]",
+  "roms": [
+    "EGA-Roids [SW] (1986)(Designer Software) [Action]"
+  ],
+  "description": "EGA-Roids",
+  "system": "dosbox",
+  "year": 1986,
+  "manufacturer": "Designer Software",
+  "genre": "Action"
+}

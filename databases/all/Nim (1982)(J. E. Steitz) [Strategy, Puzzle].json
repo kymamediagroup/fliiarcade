@@ -1,0 +1,11 @@
+{
+  "name": "Nim (1982)(J. E. Steitz) [Strategy, Puzzle]",
+  "roms": [
+    "Nim (1982)(J. E. Steitz) [Strategy, Puzzle]"
+  ],
+  "description": "Nim",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "J. E. Steitz",
+  "genre": "Strategy/Puzzle"
+}

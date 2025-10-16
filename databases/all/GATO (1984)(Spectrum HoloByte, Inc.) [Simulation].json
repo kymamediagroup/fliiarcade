@@ -1,0 +1,11 @@
+{
+  "name": "GATO (1984)(Spectrum HoloByte, Inc.) [Simulation]",
+  "roms": [
+    "GATO (1984)(Spectrum HoloByte, Inc.) [Simulation]"
+  ],
+  "description": "GATO",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "Spectrum HoloByte, Inc.",
+  "genre": "Simulation"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Mini Golf (1983)(SoftSide Magazine) [Simulation, Sports]",
+  "roms": [
+    "Mini Golf (1983)(SoftSide Magazine) [Simulation, Sports]"
+  ],
+  "description": "Mini Golf",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "SoftSide Magazine",
+  "genre": "Simulation/Sports"
+}

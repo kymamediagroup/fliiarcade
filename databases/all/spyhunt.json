@@ -1,0 +1,1 @@
+{"name":"spyhunt","description":"Spy Hunter","system":"mame","parentSystem":"mcr3","roms":["spyhunt"],"biosFiles":[],"hasSamples":false,"nativeResolution":[480,480],"players":1,"controls":{"1":{"buttons":5,"type":"pedal"}},"genre":"Shooter","manufacturer":"Bally Midway","year":1983,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

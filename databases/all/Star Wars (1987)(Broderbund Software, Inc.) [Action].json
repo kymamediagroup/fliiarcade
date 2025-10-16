@@ -1,0 +1,11 @@
+{
+  "name": "Star Wars (1987)(Broderbund Software, Inc.) [Action]",
+  "roms": [
+    "Star Wars (1987)(Broderbund Software, Inc.) [Action]"
+  ],
+  "description": "Star Wars",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "Broderbund Software, Inc.",
+  "genre": "Action"
+}

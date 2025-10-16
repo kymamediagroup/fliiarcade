@@ -1,0 +1,11 @@
+{
+  "name": "Boulder Dash [DC] (1984)(First Star Software, Inc.) [Action]",
+  "roms": [
+    "Boulder Dash [DC] (1984)(First Star Software, Inc.) [Action]"
+  ],
+  "description": "Boulder Dash",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "First Star Software, Inc.",
+  "genre": "Action"
+}

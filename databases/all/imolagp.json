@@ -1,0 +1,1 @@
+{"name":"imolagp","description":"Imola Grand Prix (set 1)","system":"mame","parentSystem":"imolagp","roms":["imolagp"],"biosFiles":[],"hasSamples":false,"nativeResolution":[240,208],"players":1,"controls":{"1":{"buttons":3,"type":"paddle"}},"genre":"Driving","manufacturer":"RB Bologna","year":null,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":"f59e426e"}

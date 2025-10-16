@@ -1,0 +1,11 @@
+{
+  "name": "Chess v1.01 (1985)(Psion) [Strategy, Chess]",
+  "roms": [
+    "Chess v1.01 (1985)(Psion) [Strategy, Chess]"
+  ],
+  "description": "Chess v1.01",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "Psion",
+  "genre": "Strategy/Chess"
+}

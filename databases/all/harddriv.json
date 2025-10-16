@@ -1,0 +1,1 @@
+{"name":"harddriv","description":"Hard Drivin' (cockpit, rev 7)","system":"mame","parentSystem":"harddriv","roms":["harddriv"],"biosFiles":[],"hasSamples":false,"nativeResolution":[508,384],"players":1,"controls":{"1":{"type":"pedal"}},"genre":"Driving","manufacturer":"Atari Games","year":1988,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

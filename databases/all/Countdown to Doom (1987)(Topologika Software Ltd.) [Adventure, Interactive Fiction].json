@@ -1,0 +1,11 @@
+{
+  "name": "Countdown to Doom (1987)(Topologika Software Ltd.) [Adventure, Interactive Fiction]",
+  "roms": [
+    "Countdown to Doom (1987)(Topologika Software Ltd.) [Adventure, Interactive Fiction]"
+  ],
+  "description": "Countdown to Doom",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "Topologika Software Ltd.",
+  "genre": "Adventure/Interactive Fiction"
+}

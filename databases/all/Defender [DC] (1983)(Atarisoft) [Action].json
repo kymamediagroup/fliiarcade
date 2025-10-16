@@ -1,0 +1,11 @@
+{
+  "name": "Defender [DC] (1983)(Atarisoft) [Action]",
+  "roms": [
+    "Defender [DC] (1983)(Atarisoft) [Action]"
+  ],
+  "description": "Defender",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "Atarisoft",
+  "genre": "Action"
+}

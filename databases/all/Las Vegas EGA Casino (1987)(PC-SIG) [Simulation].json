@@ -1,0 +1,11 @@
+{
+  "name": "Las Vegas EGA Casino (1987)(PC-SIG) [Simulation]",
+  "roms": [
+    "Las Vegas EGA Casino (1987)(PC-SIG) [Simulation]"
+  ],
+  "description": "Las Vegas EGA Casino",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "PC-SIG",
+  "genre": "Simulation"
+}

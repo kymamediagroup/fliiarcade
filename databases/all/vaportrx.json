@@ -1,0 +1,1 @@
+{"name":"vaportrx","description":"Vapor TRX","system":"mame","parentSystem":"seattle","roms":["vaportrx"],"biosFiles":[],"hasSamples":false,"nativeResolution":[640,480],"players":1,"controls":{"1":{"buttons":6,"type":"stick"}},"genre":"Driving","manufacturer":"Atari Games","year":1998,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":"bec7d3ae"}

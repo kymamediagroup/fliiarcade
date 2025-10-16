@@ -1,0 +1,11 @@
+{
+  "name": "LaserCycle (1983)(Cornerstone Computer Company) [Action]",
+  "roms": [
+    "LaserCycle (1983)(Cornerstone Computer Company) [Action]"
+  ],
+  "description": "LaserCycle",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "Cornerstone Computer Company",
+  "genre": "Action"
+}

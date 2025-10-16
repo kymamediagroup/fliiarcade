@@ -1,0 +1,11 @@
+{
+  "name": "Wizball (1987)(Ocean Software Ltd.) [Action]",
+  "roms": [
+    "Wizball (1987)(Ocean Software Ltd.) [Action]"
+  ],
+  "description": "Wizball",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "Ocean Software Ltd.",
+  "genre": "Action"
+}

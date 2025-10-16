@@ -1,0 +1,11 @@
+{
+  "name": "Arcade 1 v1.2 (1986)(Keypunch Software, Inc.) [Action, Compilation]",
+  "roms": [
+    "Arcade 1 v1.2 (1986)(Keypunch Software, Inc.) [Action, Compilation]"
+  ],
+  "description": "Arcade 1 v1.2",
+  "system": "dosbox",
+  "year": 1986,
+  "manufacturer": "Keypunch Software, Inc.",
+  "genre": "Action/Compilation"
+}

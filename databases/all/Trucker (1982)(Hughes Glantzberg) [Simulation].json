@@ -1,0 +1,11 @@
+{
+  "name": "Trucker (1982)(Hughes Glantzberg) [Simulation]",
+  "roms": [
+    "Trucker (1982)(Hughes Glantzberg) [Simulation]"
+  ],
+  "description": "Trucker",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "Hughes Glantzberg",
+  "genre": "Simulation"
+}

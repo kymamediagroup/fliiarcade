@@ -1,0 +1,1 @@
+{"name":"spcenctr","description":"Space Encounters","system":"mame","parentSystem":"mw8080bw","roms":["spcenctr"],"biosFiles":[],"hasSamples":false,"nativeResolution":[260,224],"players":1,"controls":{"1":{"buttons":1,"type":"positional"}},"genre":"Shoot-'Em-Up","manufacturer":"Midway","year":1980,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

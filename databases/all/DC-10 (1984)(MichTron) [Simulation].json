@@ -1,0 +1,11 @@
+{
+  "name": "DC-10 (1984)(MichTron) [Simulation]",
+  "roms": [
+    "DC-10 (1984)(MichTron) [Simulation]"
+  ],
+  "description": "DC-10",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "MichTron",
+  "genre": "Simulation"
+}

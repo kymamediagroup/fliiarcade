@@ -1,0 +1,11 @@
+{
+  "name": "Spyder (1983)(Mirror Images Software, Inc.) [Action]",
+  "roms": [
+    "Spyder (1983)(Mirror Images Software, Inc.) [Action]"
+  ],
+  "description": "Spyder",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "Mirror Images Software, Inc.",
+  "genre": "Action"
+}

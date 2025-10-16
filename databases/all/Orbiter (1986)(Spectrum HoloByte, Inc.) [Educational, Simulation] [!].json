@@ -1,0 +1,11 @@
+{
+  "name": "Orbiter (1986)(Spectrum HoloByte, Inc.) [Educational, Simulation] [!]",
+  "roms": [
+    "Orbiter (1986)(Spectrum HoloByte, Inc.) [Educational, Simulation] [!]"
+  ],
+  "description": "Orbiter",
+  "system": "dosbox",
+  "year": 1986,
+  "manufacturer": "Spectrum HoloByte, Inc.",
+  "genre": "Educational/Simulation"
+}

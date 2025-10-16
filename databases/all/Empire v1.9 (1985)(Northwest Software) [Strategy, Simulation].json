@@ -1,0 +1,11 @@
+{
+  "name": "Empire v1.9 (1985)(Northwest Software) [Strategy, Simulation]",
+  "roms": [
+    "Empire v1.9 (1985)(Northwest Software) [Strategy, Simulation]"
+  ],
+  "description": "Empire v1.9",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "Northwest Software",
+  "genre": "Strategy/Simulation"
+}

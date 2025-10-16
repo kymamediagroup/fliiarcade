@@ -1,0 +1,11 @@
+{
+  "name": "Billiard v0.10 (1984)(Mike Winlok) [Simulation]",
+  "roms": [
+    "Billiard v0.10 (1984)(Mike Winlok) [Simulation]"
+  ],
+  "description": "Billiard v0.10",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "Mike Winlok",
+  "genre": "Simulation"
+}

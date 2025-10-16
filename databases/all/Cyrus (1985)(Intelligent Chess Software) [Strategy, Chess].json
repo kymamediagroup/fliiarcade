@@ -1,0 +1,11 @@
+{
+  "name": "Cyrus (1985)(Intelligent Chess Software) [Strategy, Chess]",
+  "roms": [
+    "Cyrus (1985)(Intelligent Chess Software) [Strategy, Chess]"
+  ],
+  "description": "Cyrus",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "Intelligent Chess Software",
+  "genre": "Strategy/Chess"
+}

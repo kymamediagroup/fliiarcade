@@ -1,0 +1,1 @@
+{"name":"bronx","description":"Bronx","system":"mame","parentSystem":"nycaptor","roms":["bronx","cyclshtg"],"biosFiles":[],"hasSamples":false,"nativeResolution":[224,256],"players":1,"controls":{"1":{"buttons":1,"type":"lightgun"}},"genre":"Gun","manufacturer":"bootleg","year":1986,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":"","cloneOf":"cyclshtg"}

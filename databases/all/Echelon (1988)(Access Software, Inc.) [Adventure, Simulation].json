@@ -1,0 +1,11 @@
+{
+  "name": "Echelon (1988)(Access Software, Inc.) [Adventure, Simulation]",
+  "roms": [
+    "Echelon (1988)(Access Software, Inc.) [Adventure, Simulation]"
+  ],
+  "description": "Echelon",
+  "system": "dosbox",
+  "year": 1988,
+  "manufacturer": "Access Software, Inc.",
+  "genre": "Adventure/Simulation"
+}

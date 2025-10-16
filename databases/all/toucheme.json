@@ -1,0 +1,1 @@
+{"name":"toucheme","description":"Touche Me","system":"mame","parentSystem":"ladyfrog","roms":["toucheme"],"biosFiles":[],"hasSamples":false,"nativeResolution":[224,256],"players":1,"controls":{"1":{"buttons":1,"type":"joy","ways":"4"}},"genre":"Maze","manufacturer":"unknown","year":null,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

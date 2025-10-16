@@ -1,0 +1,11 @@
+{
+  "name": "Hunt for Red October CGA, The (1988)(Datasoft, Inc.) [Simulation]",
+  "roms": [
+    "Hunt for Red October CGA, The (1988)(Datasoft, Inc.) [Simulation]"
+  ],
+  "description": "Hunt for Red October CGA, The",
+  "system": "dosbox",
+  "year": 1988,
+  "manufacturer": "Datasoft, Inc.",
+  "genre": "Simulation"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Air Traffic Controller [SW] (1988)(MicroComputing Concepts) [Simulation]",
+  "roms": [
+    "Air Traffic Controller [SW] (1988)(MicroComputing Concepts) [Simulation]"
+  ],
+  "description": "Air Traffic Controller",
+  "system": "dosbox",
+  "year": 1988,
+  "manufacturer": "MicroComputing Concepts",
+  "genre": "Simulation"
+}

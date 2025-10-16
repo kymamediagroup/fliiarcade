@@ -1,0 +1,1 @@
+{"name":"turkhunt","description":"Turkey Hunting USA V1.0","system":"mame","parentSystem":"seta2","roms":["turkhunt"],"biosFiles":[],"hasSamples":false,"nativeResolution":[320,240],"players":1,"controls":{"1":{"buttons":2,"type":"lightgun"}},"genre":"Gun","manufacturer":"Sammy USA Corporation","year":2001,"rating":"AAMA - Yellow (Animated Violence Mild)","mature":false,"crc":""}

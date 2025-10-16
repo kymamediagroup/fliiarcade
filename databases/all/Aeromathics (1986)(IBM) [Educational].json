@@ -1,0 +1,11 @@
+{
+  "name": "Aeromathics (1986)(IBM) [Educational]",
+  "roms": [
+    "Aeromathics (1986)(IBM) [Educational]"
+  ],
+  "description": "Aeromathics",
+  "system": "dosbox",
+  "year": 1986,
+  "manufacturer": "IBM",
+  "genre": "Educational"
+}

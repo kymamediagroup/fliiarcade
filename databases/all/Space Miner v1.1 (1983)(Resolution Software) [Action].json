@@ -1,0 +1,11 @@
+{
+  "name": "Space Miner v1.1 (1983)(Resolution Software) [Action]",
+  "roms": [
+    "Space Miner v1.1 (1983)(Resolution Software) [Action]"
+  ],
+  "description": "Space Miner v1.1",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "Resolution Software",
+  "genre": "Action"
+}

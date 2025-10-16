@@ -1,0 +1,11 @@
+{
+  "name": "BlackJack Academy (1987)(MicroIllusions) [Simulation, Cards]",
+  "roms": [
+    "BlackJack Academy (1987)(MicroIllusions) [Simulation, Cards]"
+  ],
+  "description": "BlackJack Academy",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "MicroIllusions",
+  "genre": "Simulation/Cards"
+}

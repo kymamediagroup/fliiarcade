@@ -1,0 +1,1 @@
+{"name":"hotchase","description":"Hot Chase (set 1)","system":"mame","parentSystem":"wecleman","roms":["hotchase"],"biosFiles":[],"hasSamples":false,"nativeResolution":[320,224],"players":1,"controls":{"1":{"buttons":2,"type":"pedal"}},"genre":"Driving","manufacturer":"Konami","year":1988,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":"05f1e553"}

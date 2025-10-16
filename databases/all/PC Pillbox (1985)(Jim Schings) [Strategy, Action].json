@@ -1,0 +1,11 @@
+{
+  "name": "PC Pillbox (1985)(Jim Schings) [Strategy, Action]",
+  "roms": [
+    "PC Pillbox (1985)(Jim Schings) [Strategy, Action]"
+  ],
+  "description": "PC Pillbox",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "Jim Schings",
+  "genre": "Strategy/Action"
+}

@@ -1,0 +1,1 @@
+{"name":"wpksocv2","description":"World PK Soccer V2 (ver 1.1)","system":"mame","parentSystem":"ms32","roms":["wpksocv2"],"biosFiles":[],"hasSamples":false,"nativeResolution":[320,224],"players":1,"controls":{"1":{"type":"pedal","ways":"8"}},"genre":"Sports/Soccer","manufacturer":"Jaleco","year":1996,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

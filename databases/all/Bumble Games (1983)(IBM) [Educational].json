@@ -1,0 +1,11 @@
+{
+  "name": "Bumble Games (1983)(IBM) [Educational]",
+  "roms": [
+    "Bumble Games (1983)(IBM) [Educational]"
+  ],
+  "description": "Bumble Games",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "IBM",
+  "genre": "Educational"
+}

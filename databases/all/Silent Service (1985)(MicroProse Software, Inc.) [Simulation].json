@@ -1,0 +1,11 @@
+{
+  "name": "Silent Service (1985)(MicroProse Software, Inc.) [Simulation]",
+  "roms": [
+    "Silent Service (1985)(MicroProse Software, Inc.) [Simulation]"
+  ],
+  "description": "Silent Service",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "MicroProse Software, Inc.",
+  "genre": "Simulation"
+}

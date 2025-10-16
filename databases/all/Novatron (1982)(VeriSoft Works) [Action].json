@@ -1,0 +1,11 @@
+{
+  "name": "Novatron (1982)(VeriSoft Works) [Action]",
+  "roms": [
+    "Novatron (1982)(VeriSoft Works) [Action]"
+  ],
+  "description": "Novatron",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "VeriSoft Works",
+  "genre": "Action"
+}

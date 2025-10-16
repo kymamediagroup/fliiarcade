@@ -1,0 +1,11 @@
+{
+  "name": "SPOC The Chess Master (1983)(Cypress Software) [Strategy, Chess]",
+  "roms": [
+    "SPOC The Chess Master (1983)(Cypress Software) [Strategy, Chess]"
+  ],
+  "description": "SPOC The Chess Master",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "Cypress Software",
+  "genre": "Strategy/Chess"
+}

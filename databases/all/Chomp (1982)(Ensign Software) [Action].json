@@ -1,0 +1,11 @@
+{
+  "name": "Chomp (1982)(Ensign Software) [Action]",
+  "roms": [
+    "Chomp (1982)(Ensign Software) [Action]"
+  ],
+  "description": "Chomp",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "Ensign Software",
+  "genre": "Action"
+}

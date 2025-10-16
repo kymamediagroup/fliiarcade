@@ -1,0 +1,11 @@
+{
+  "name": "Rubik's Cube (1982)(International PC Owners) [Simulation, Strategy]",
+  "roms": [
+    "Rubik's Cube (1982)(International PC Owners) [Simulation, Strategy]"
+  ],
+  "description": "Rubik's Cube",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "International PC Owners",
+  "genre": "Simulation/Strategy"
+}

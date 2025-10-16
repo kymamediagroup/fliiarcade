@@ -1,0 +1,11 @@
+{
+  "name": "8088 Othello (1985)(M.W. Bayley) [Strategy]",
+  "roms": [
+    "8088 Othello (1985)(M.W. Bayley) [Strategy]"
+  ],
+  "description": "8088 Othello",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "M.W. Bayley",
+  "genre": "Strategy"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Hangman v4.1 [SW] (1983)(Norland Software) [Strategy, Puzzle]",
+  "roms": [
+    "Hangman v4.1 [SW] (1983)(Norland Software) [Strategy, Puzzle]"
+  ],
+  "description": "Hangman v4.1",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "Norland Software",
+  "genre": "Strategy/Puzzle"
+}

@@ -1,0 +1,1 @@
+{"name":"trvquest","description":"Trivia Quest","system":"mame","parentSystem":"trvquest","roms":["trvquest"],"biosFiles":[],"hasSamples":false,"nativeResolution":[256,256],"players":1,"controls":{"1":{"buttons":4,"type":"only_buttons"}},"genre":"Quiz","manufacturer":"Sunn / Techstar","year":1984,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":"b4bcaf33"}

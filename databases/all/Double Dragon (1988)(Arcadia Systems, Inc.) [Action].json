@@ -1,0 +1,11 @@
+{
+  "name": "Double Dragon (1988)(Arcadia Systems, Inc.) [Action]",
+  "roms": [
+    "Double Dragon (1988)(Arcadia Systems, Inc.) [Action]"
+  ],
+  "description": "Double Dragon",
+  "system": "dosbox",
+  "year": 1988,
+  "manufacturer": "Arcadia Systems, Inc.",
+  "genre": "Action"
+}

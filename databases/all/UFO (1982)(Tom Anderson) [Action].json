@@ -1,0 +1,11 @@
+{
+  "name": "UFO (1982)(Tom Anderson) [Action]",
+  "roms": [
+    "UFO (1982)(Tom Anderson) [Action]"
+  ],
+  "description": "UFO",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "Tom Anderson",
+  "genre": "Action"
+}

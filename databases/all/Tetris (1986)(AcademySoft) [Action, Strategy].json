@@ -1,0 +1,11 @@
+{
+  "name": "Tetris (1986)(AcademySoft) [Action, Strategy]",
+  "roms": [
+    "Tetris (1986)(AcademySoft) [Action, Strategy]"
+  ],
+  "description": "Tetris",
+  "system": "dosbox",
+  "year": 1986,
+  "manufacturer": "AcademySoft",
+  "genre": "Action/Strategy"
+}

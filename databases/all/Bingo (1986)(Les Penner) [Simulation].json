@@ -1,0 +1,11 @@
+{
+  "name": "Bingo (1986)(Les Penner) [Simulation]",
+  "roms": [
+    "Bingo (1986)(Les Penner) [Simulation]"
+  ],
+  "description": "Bingo",
+  "system": "dosbox",
+  "year": 1986,
+  "manufacturer": "Les Penner",
+  "genre": "Simulation"
+}

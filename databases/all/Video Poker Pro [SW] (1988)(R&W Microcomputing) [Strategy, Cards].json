@@ -1,0 +1,11 @@
+{
+  "name": "Video Poker Pro [SW] (1988)(R&W Microcomputing) [Strategy, Cards]",
+  "roms": [
+    "Video Poker Pro [SW] (1988)(R&W Microcomputing) [Strategy, Cards]"
+  ],
+  "description": "Video Poker Pro",
+  "system": "dosbox",
+  "year": 1988,
+  "manufacturer": "R&W Microcomputing",
+  "genre": "Strategy/Cards"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "PC-RR (1984)(Lewis Software) [Simulation]",
+  "roms": [
+    "PC-RR (1984)(Lewis Software) [Simulation]"
+  ],
+  "description": "PC-RR",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "Lewis Software",
+  "genre": "Simulation"
+}

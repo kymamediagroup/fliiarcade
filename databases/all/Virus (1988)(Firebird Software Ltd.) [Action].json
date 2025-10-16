@@ -1,0 +1,11 @@
+{
+  "name": "Virus (1988)(Firebird Software Ltd.) [Action]",
+  "roms": [
+    "Virus (1988)(Firebird Software Ltd.) [Action]"
+  ],
+  "description": "Virus",
+  "system": "dosbox",
+  "year": 1988,
+  "manufacturer": "Firebird Software Ltd.",
+  "genre": "Action"
+}

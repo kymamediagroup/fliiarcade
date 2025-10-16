@@ -1,0 +1,11 @@
+{
+  "name": "ADVSYS - An Adventure Writing System v1.2 (1986)(David Betz) [Interactive Fiction, Editor]",
+  "roms": [
+    "ADVSYS - An Adventure Writing System v1.2 (1986)(David Betz) [Interactive Fiction, Editor]"
+  ],
+  "description": "ADVSYS - An Adventure Writing System v1.2",
+  "system": "dosbox",
+  "year": 1986,
+  "manufacturer": "David Betz",
+  "genre": "Interactive Fiction/Editor"
+}

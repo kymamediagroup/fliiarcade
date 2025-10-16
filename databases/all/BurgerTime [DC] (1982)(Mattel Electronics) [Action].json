@@ -1,0 +1,11 @@
+{
+  "name": "BurgerTime [DC] (1982)(Mattel Electronics) [Action]",
+  "roms": [
+    "BurgerTime [DC] (1982)(Mattel Electronics) [Action]"
+  ],
+  "description": "BurgerTime",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "Mattel Electronics",
+  "genre": "Action"
+}

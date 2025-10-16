@@ -1,0 +1,11 @@
+{
+  "name": "Adventure 1 (1984)(PC-SIG) [Adventure, Interactive Fiction]",
+  "roms": [
+    "Adventure 1 (1984)(PC-SIG) [Adventure, Interactive Fiction]"
+  ],
+  "description": "Adventure 1",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "PC-SIG",
+  "genre": "Adventure/Interactive Fiction"
+}

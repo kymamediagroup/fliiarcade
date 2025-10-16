@@ -1,0 +1,11 @@
+{
+  "name": "CrimeLab [SW] (1987)(Bumblebee Enterprises) [Strategy]",
+  "roms": [
+    "CrimeLab [SW] (1987)(Bumblebee Enterprises) [Strategy]"
+  ],
+  "description": "CrimeLab",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "Bumblebee Enterprises",
+  "genre": "Strategy"
+}

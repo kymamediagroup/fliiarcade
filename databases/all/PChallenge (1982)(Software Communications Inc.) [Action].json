@@ -1,0 +1,11 @@
+{
+  "name": "PChallenge (1982)(Software Communications Inc.) [Action]",
+  "roms": [
+    "PChallenge (1982)(Software Communications Inc.) [Action]"
+  ],
+  "description": "PChallenge",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "Software Communications Inc.",
+  "genre": "Action"
+}

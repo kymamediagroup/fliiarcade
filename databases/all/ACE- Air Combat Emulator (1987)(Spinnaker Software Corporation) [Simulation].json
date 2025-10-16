@@ -1,0 +1,11 @@
+{
+  "name": "ACE- Air Combat Emulator (1987)(Spinnaker Software Corporation) [Simulation]",
+  "roms": [
+    "ACE- Air Combat Emulator (1987)(Spinnaker Software Corporation) [Simulation]"
+  ],
+  "description": "ACE- Air Combat Emulator",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "Spinnaker Software Corporation",
+  "genre": "Simulation"
+}

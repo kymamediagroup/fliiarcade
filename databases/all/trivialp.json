@@ -1,0 +1,1 @@
+{"name":"trivialp","description":"Trivial Pursuit - New Edition","system":"mame","parentSystem":"jpmimpct","roms":["trivialp"],"biosFiles":[],"hasSamples":false,"nativeResolution":[400,300],"players":1,"controls":{"1":{"buttons":2,"type":"lightgun"}},"genre":"Quiz","manufacturer":"JPM","year":1996,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

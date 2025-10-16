@@ -1,0 +1,11 @@
+{
+  "name": "Pac-Man [DC] (1983)(Atarisoft) [Action]",
+  "roms": [
+    "Pac-Man [DC] (1983)(Atarisoft) [Action]"
+  ],
+  "description": "Pac-Man",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "Atarisoft",
+  "genre": "Action"
+}

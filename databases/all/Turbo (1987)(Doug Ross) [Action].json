@@ -1,0 +1,11 @@
+{
+  "name": "Turbo (1987)(Doug Ross) [Action]",
+  "roms": [
+    "Turbo (1987)(Doug Ross) [Action]"
+  ],
+  "description": "Turbo",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "Doug Ross",
+  "genre": "Action"
+}

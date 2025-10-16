@@ -1,0 +1,11 @@
+{
+  "name": "Harrier Combat Simulator (1988)(Mindscape, Inc.) [Simulation]",
+  "roms": [
+    "Harrier Combat Simulator (1988)(Mindscape, Inc.) [Simulation]"
+  ],
+  "description": "Harrier Combat Simulator",
+  "system": "dosbox",
+  "year": 1988,
+  "manufacturer": "Mindscape, Inc.",
+  "genre": "Simulation"
+}

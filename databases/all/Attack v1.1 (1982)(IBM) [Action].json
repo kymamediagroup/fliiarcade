@@ -1,0 +1,11 @@
+{
+  "name": "Attack v1.1 (1982)(IBM) [Action]",
+  "roms": [
+    "Attack v1.1 (1982)(IBM) [Action]"
+  ],
+  "description": "Attack v1.1",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "IBM",
+  "genre": "Action"
+}

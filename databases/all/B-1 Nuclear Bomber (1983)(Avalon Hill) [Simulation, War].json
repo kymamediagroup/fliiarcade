@@ -1,0 +1,11 @@
+{
+  "name": "B-1 Nuclear Bomber (1983)(Avalon Hill) [Simulation, War]",
+  "roms": [
+    "B-1 Nuclear Bomber (1983)(Avalon Hill) [Simulation, War]"
+  ],
+  "description": "B-1 Nuclear Bomber",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "Avalon Hill",
+  "genre": "Simulation/War"
+}

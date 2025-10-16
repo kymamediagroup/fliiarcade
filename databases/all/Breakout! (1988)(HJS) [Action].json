@@ -1,0 +1,11 @@
+{
+  "name": "Breakout! (1988)(HJS) [Action]",
+  "roms": [
+    "Breakout! (1988)(HJS) [Action]"
+  ],
+  "description": "Breakout!",
+  "system": "dosbox",
+  "year": 1988,
+  "manufacturer": "HJS",
+  "genre": "Action"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Sam Spade [SW] (1985)(Sanborn Software Systems) [Adventure, Strategy]",
+  "roms": [
+    "Sam Spade [SW] (1985)(Sanborn Software Systems) [Adventure, Strategy]"
+  ],
+  "description": "Sam Spade",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "Sanborn Software Systems",
+  "genre": "Adventure/Strategy"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Imperial Space Command (1986)(IBM) [Strategy]",
+  "roms": [
+    "Imperial Space Command (1986)(IBM) [Strategy]"
+  ],
+  "description": "Imperial Space Command",
+  "system": "dosbox",
+  "year": 1986,
+  "manufacturer": "IBM",
+  "genre": "Strategy"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Adventure-1 (1983)(Scott Adams) [Adventure, Interactive Fiction]",
+  "roms": [
+    "Adventure-1 (1983)(Scott Adams) [Adventure, Interactive Fiction]"
+  ],
+  "description": "Adventure-1",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "Scott Adams",
+  "genre": "Adventure/Interactive Fiction"
+}

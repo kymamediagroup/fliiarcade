@@ -1,0 +1,11 @@
+{
+  "name": "CCHESS - IBM PC Conference Chess v1.2 [SW] (1988)(CABER Software) [Strategy, Chess]",
+  "roms": [
+    "CCHESS - IBM PC Conference Chess v1.2 [SW] (1988)(CABER Software) [Strategy, Chess]"
+  ],
+  "description": "CCHESS - IBM PC Conference Chess v1.2",
+  "system": "dosbox",
+  "year": 1988,
+  "manufacturer": "CABER Software",
+  "genre": "Strategy/Chess"
+}

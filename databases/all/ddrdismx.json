@@ -1,0 +1,1 @@
+{"name":"ddrdismx","description":"Dance Dance Revolution Disney Mix","system":"mame","parentSystem":"nes_vt","roms":["ddrdismx"],"biosFiles":[],"hasSamples":false,"nativeResolution":[256,240],"players":1,"controls":{"1":{"type":"joy","ways":"16"}},"genre":"Rhythm","manufacturer":"Konami","year":2006,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

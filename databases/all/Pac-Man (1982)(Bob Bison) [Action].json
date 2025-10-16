@@ -1,0 +1,11 @@
+{
+  "name": "Pac-Man (1982)(Bob Bison) [Action]",
+  "roms": [
+    "Pac-Man (1982)(Bob Bison) [Action]"
+  ],
+  "description": "Pac-Man",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "Bob Bison",
+  "genre": "Action"
+}

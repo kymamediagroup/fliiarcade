@@ -1,0 +1,11 @@
+{
+  "name": "Roadrunner Rescue (1984)(IBM) [Action]",
+  "roms": [
+    "Roadrunner Rescue (1984)(IBM) [Action]"
+  ],
+  "description": "Roadrunner Rescue",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "IBM",
+  "genre": "Action"
+}

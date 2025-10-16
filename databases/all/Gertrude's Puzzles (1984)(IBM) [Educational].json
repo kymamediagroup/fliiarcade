@@ -1,0 +1,11 @@
+{
+  "name": "Gertrude's Puzzles (1984)(IBM) [Educational]",
+  "roms": [
+    "Gertrude's Puzzles (1984)(IBM) [Educational]"
+  ],
+  "description": "Gertrude's Puzzles",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "IBM",
+  "genre": "Educational"
+}

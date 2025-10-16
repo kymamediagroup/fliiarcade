@@ -1,0 +1,11 @@
+{
+  "name": "Matrix Madness (1984)(IBM) [Puzzle, Educational]",
+  "roms": [
+    "Matrix Madness (1984)(IBM) [Puzzle, Educational]"
+  ],
+  "description": "Matrix Madness",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "IBM",
+  "genre": "Puzzle/Educational"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Adventure in Serenia [DC] (1982)(IBM) [Adventure, Interactive Fiction]",
+  "roms": [
+    "Adventure in Serenia [DC] (1982)(IBM) [Adventure, Interactive Fiction]"
+  ],
+  "description": "Adventure in Serenia",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "IBM",
+  "genre": "Adventure/Interactive Fiction"
+}

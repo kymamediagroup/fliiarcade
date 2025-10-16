@@ -1,0 +1,11 @@
+{
+  "name": "Christian Text Adventure #1 (1986)(Bob Nance) [Adventure, Interactive Fiction]",
+  "roms": [
+    "Christian Text Adventure #1 (1986)(Bob Nance) [Adventure, Interactive Fiction]"
+  ],
+  "description": "Christian Text Adventure #1",
+  "system": "dosbox",
+  "year": 1986,
+  "manufacturer": "Bob Nance",
+  "genre": "Adventure/Interactive Fiction"
+}

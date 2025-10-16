@@ -1,0 +1,11 @@
+{
+  "name": "Star Trek (1981)(Bob Fritz) [Strategy]",
+  "roms": [
+    "Star Trek (1981)(Bob Fritz) [Strategy]"
+  ],
+  "description": "Star Trek",
+  "system": "dosbox",
+  "year": 1981,
+  "manufacturer": "Bob Fritz",
+  "genre": "Strategy"
+}

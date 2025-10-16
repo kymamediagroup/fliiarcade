@@ -1,0 +1,1 @@
+{"name":"hotpinbl","description":"Hot Pinball","system":"mame","parentSystem":"galspnbl","roms":["hotpinbl"],"biosFiles":[],"hasSamples":false,"nativeResolution":[224,512],"players":1,"controls":{"1":{"buttons":4,"type":"only_buttons"}},"genre":"Pinball","manufacturer":"Comad & New Japan System","year":1995,"rating":"AAMA - Red (Sexual Content Strong)","mature":true,"crc":""}

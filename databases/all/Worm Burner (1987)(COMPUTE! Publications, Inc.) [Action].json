@@ -1,0 +1,11 @@
+{
+  "name": "Worm Burner (1987)(COMPUTE! Publications, Inc.) [Action]",
+  "roms": [
+    "Worm Burner (1987)(COMPUTE! Publications, Inc.) [Action]"
+  ],
+  "description": "Worm Burner",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "COMPUTE! Publications, Inc.",
+  "genre": "Action"
+}

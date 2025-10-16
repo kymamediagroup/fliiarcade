@@ -1,0 +1,11 @@
+{
+  "name": "Turbo Gomoku (1985)(Borland International) [Strategy]",
+  "roms": [
+    "Turbo Gomoku (1985)(Borland International) [Strategy]"
+  ],
+  "description": "Turbo Gomoku",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "Borland International",
+  "genre": "Strategy"
+}

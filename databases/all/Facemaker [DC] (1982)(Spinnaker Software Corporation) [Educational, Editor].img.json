@@ -1,0 +1,11 @@
+{
+  "name": "Facemaker [DC] (1982)(Spinnaker Software Corporation) [Educational, Editor].img",
+  "roms": [
+    "Facemaker [DC] (1982)(Spinnaker Software Corporation) [Educational, Editor].img"
+  ],
+  "description": "Facemaker",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "Spinnaker Software Corporation",
+  "genre": "Educational/Editor"
+}

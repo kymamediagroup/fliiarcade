@@ -1,0 +1,11 @@
+{
+  "name": "Arcade Bonanza (1987)(Keypunch Software, Inc.) [Action, Compilation]",
+  "roms": [
+    "Arcade Bonanza (1987)(Keypunch Software, Inc.) [Action, Compilation]"
+  ],
+  "description": "Arcade Bonanza",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "Keypunch Software, Inc.",
+  "genre": "Action/Compilation"
+}

@@ -1,0 +1,1 @@
+{"name":"superbug","description":"Super Bug","system":"mame","parentSystem":"firetrk","roms":["superbug"],"biosFiles":[],"hasSamples":false,"nativeResolution":[240,320],"players":1,"controls":{"1":{"buttons":6,"type":"dial"}},"genre":"Driving","manufacturer":"Atari (Kee Games)","year":1977,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

@@ -1,0 +1,11 @@
+{
+  "name": "Microsoft Flight Simulator v2.1 [DC] (1984)(Microsoft) [Simulation]",
+  "roms": [
+    "Microsoft Flight Simulator v2.1 [DC] (1984)(Microsoft) [Simulation]"
+  ],
+  "description": "Microsoft Flight Simulator v2.1",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "Microsoft",
+  "genre": "Simulation"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Verso (1986)(IBM) [Strategy]",
+  "roms": [
+    "Verso (1986)(IBM) [Strategy]"
+  ],
+  "description": "Verso",
+  "system": "dosbox",
+  "year": 1986,
+  "manufacturer": "IBM",
+  "genre": "Strategy"
+}

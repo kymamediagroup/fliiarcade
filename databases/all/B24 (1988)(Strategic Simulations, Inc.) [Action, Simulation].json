@@ -1,0 +1,11 @@
+{
+  "name": "B24 (1988)(Strategic Simulations, Inc.) [Action, Simulation]",
+  "roms": [
+    "B24 (1988)(Strategic Simulations, Inc.) [Action, Simulation]"
+  ],
+  "description": "B24",
+  "system": "dosbox",
+  "year": 1988,
+  "manufacturer": "Strategic Simulations, Inc.",
+  "genre": "Action/Simulation"
+}

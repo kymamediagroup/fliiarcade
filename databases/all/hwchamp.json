@@ -1,0 +1,1 @@
+{"name":"hwchamp","description":"Heavyweight Champ","system":"mame","parentSystem":"segas16b","roms":["hwchamp"],"biosFiles":[],"hasSamples":false,"nativeResolution":[320,224],"players":1,"controls":{"1":{"type":"pedal"}},"genre":"Sports/Boxing","manufacturer":"Sega","year":1987,"rating":"AAMA - Yellow (Animated Violence Mild)","mature":false,"crc":""}

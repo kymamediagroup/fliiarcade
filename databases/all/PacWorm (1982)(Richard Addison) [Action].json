@@ -1,0 +1,11 @@
+{
+  "name": "PacWorm (1982)(Richard Addison) [Action]",
+  "roms": [
+    "PacWorm (1982)(Richard Addison) [Action]"
+  ],
+  "description": "PacWorm",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "Richard Addison",
+  "genre": "Action"
+}

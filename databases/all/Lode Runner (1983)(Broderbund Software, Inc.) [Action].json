@@ -1,0 +1,11 @@
+{
+  "name": "Lode Runner (1983)(Broderbund Software, Inc.) [Action]",
+  "roms": [
+    "Lode Runner (1983)(Broderbund Software, Inc.) [Action]"
+  ],
+  "description": "Lode Runner",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "Broderbund Software, Inc.",
+  "genre": "Action"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Starfiter v2.1.1 [SW] (1987)(Jagware) [Strategy, Simulation]",
+  "roms": [
+    "Starfiter v2.1.1 [SW] (1987)(Jagware) [Strategy, Simulation]"
+  ],
+  "description": "Starfiter v2.1.1",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "Jagware",
+  "genre": "Strategy/Simulation"
+}

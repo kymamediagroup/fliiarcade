@@ -1,0 +1,1 @@
+{"name":"metlhawk","description":"Metal Hawk","system":"mame","parentSystem":"namcos2","roms":["metlhawk"],"biosFiles":[],"hasSamples":false,"nativeResolution":[224,288],"players":2,"controls":{"1":{"buttons":2,"type":"stick"},"2":{"type":"stick"}},"genre":"Shooter","manufacturer":"Namco","year":1988,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

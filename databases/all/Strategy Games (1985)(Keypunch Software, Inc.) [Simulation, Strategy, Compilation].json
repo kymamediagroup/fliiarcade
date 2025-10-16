@@ -1,0 +1,11 @@
+{
+  "name": "Strategy Games (1985)(Keypunch Software, Inc.) [Simulation, Strategy, Compilation]",
+  "roms": [
+    "Strategy Games (1985)(Keypunch Software, Inc.) [Simulation, Strategy, Compilation]"
+  ],
+  "description": "Strategy Games",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "Keypunch Software, Inc.",
+  "genre": "Simulation/Strategy/Compilation"
+}

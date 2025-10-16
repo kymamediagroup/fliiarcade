@@ -1,0 +1,11 @@
+{
+  "name": "SeaWolf (1982)(International PC Owners) [Action]",
+  "roms": [
+    "SeaWolf (1982)(International PC Owners) [Action]"
+  ],
+  "description": "SeaWolf",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "International PC Owners",
+  "genre": "Action"
+}

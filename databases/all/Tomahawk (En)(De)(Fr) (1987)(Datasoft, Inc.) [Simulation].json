@@ -1,0 +1,11 @@
+{
+  "name": "Tomahawk (En)(De)(Fr) (1987)(Datasoft, Inc.) [Simulation]",
+  "roms": [
+    "Tomahawk (En)(De)(Fr) (1987)(Datasoft, Inc.) [Simulation]"
+  ],
+  "description": "Tomahawk (En)(De)(Fr)",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "Datasoft, Inc.",
+  "genre": "Simulation"
+}

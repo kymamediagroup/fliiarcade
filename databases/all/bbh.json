@@ -1,0 +1,1 @@
+{"name":"bbh","description":"Big Buck Hunter","system":"mame","parentSystem":"iteagle","roms":["iteagle"],"biosFiles":["iteagle"],"hasSamples":false,"nativeResolution":[512,384],"players":1,"controls":{"1":{"buttons":2,"type":"trackball"}},"genre":"Gun","manufacturer":"Incredible Technologies","year":2000,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

@@ -1,0 +1,11 @@
+{
+  "name": "Elevator (1986)(Wordworks Software) [Action]",
+  "roms": [
+    "Elevator (1986)(Wordworks Software) [Action]"
+  ],
+  "description": "Elevator",
+  "system": "dosbox",
+  "year": 1986,
+  "manufacturer": "Wordworks Software",
+  "genre": "Action"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "IBM's Casino (mono) (1985)(Anonymous) [Simulation]",
+  "roms": [
+    "IBM's Casino (mono) (1985)(Anonymous) [Simulation]"
+  ],
+  "description": "IBM's Casino (mono)",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "Anonymous",
+  "genre": "Simulation"
+}

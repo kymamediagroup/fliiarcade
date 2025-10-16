@@ -1,0 +1,11 @@
+{
+  "name": "Slalom (1983)(J. Panek) [Simulation]",
+  "roms": [
+    "Slalom (1983)(J. Panek) [Simulation]"
+  ],
+  "description": "Slalom",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "J. Panek",
+  "genre": "Simulation"
+}

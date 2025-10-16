@@ -1,0 +1,11 @@
+{
+  "name": "Arkanoid (1988)(Taito Corporation) [Action]",
+  "roms": [
+    "Arkanoid (1988)(Taito Corporation) [Action]"
+  ],
+  "description": "Arkanoid",
+  "system": "dosbox",
+  "year": 1988,
+  "manufacturer": "Taito Corporation",
+  "genre": "Action"
+}

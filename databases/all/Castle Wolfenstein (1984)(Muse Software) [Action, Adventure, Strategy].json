@@ -1,0 +1,11 @@
+{
+  "name": "Castle Wolfenstein (1984)(Muse Software) [Action, Adventure, Strategy]",
+  "roms": [
+    "Castle Wolfenstein (1984)(Muse Software) [Action, Adventure, Strategy]"
+  ],
+  "description": "Castle Wolfenstein",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "Muse Software",
+  "genre": "Action/Adventure/Strategy"
+}

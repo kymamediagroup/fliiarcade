@@ -1,0 +1,11 @@
+{
+  "name": "PC Pool Challenges (CGA only) [DC] (1984)(IBM) [Simulation, Sports]",
+  "roms": [
+    "PC Pool Challenges (CGA only) [DC] (1984)(IBM) [Simulation, Sports]"
+  ],
+  "description": "PC Pool Challenges (CGA only)",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "IBM",
+  "genre": "Simulation/Sports"
+}

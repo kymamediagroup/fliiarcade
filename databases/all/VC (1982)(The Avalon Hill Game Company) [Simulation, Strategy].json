@@ -1,0 +1,11 @@
+{
+  "name": "VC (1982)(The Avalon Hill Game Company) [Simulation, Strategy]",
+  "roms": [
+    "VC (1982)(The Avalon Hill Game Company) [Simulation, Strategy]"
+  ],
+  "description": "VC",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "The Avalon Hill Game Company",
+  "genre": "Simulation/Strategy"
+}

@@ -1,0 +1,1 @@
+{"name":"vcop","description":"Virtua Cop","system":"mame","parentSystem":"model2","roms":["vcop"],"biosFiles":[],"hasSamples":false,"nativeResolution":[121,19],"players":2,"controls":{"1":{"buttons":1,"type":"lightgun"},"2":{"buttons":1,"type":"lightgun"}},"genre":"Gun","manufacturer":"Sega","year":1994,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

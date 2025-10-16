@@ -1,0 +1,11 @@
+{
+  "name": "Adventures in Math (1983)(IBM) [Educational][!]",
+  "roms": [
+    "Adventures in Math (1983)(IBM) [Educational][!]"
+  ],
+  "description": "Adventures in Math",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "IBM",
+  "genre": "Educational][!"
+}

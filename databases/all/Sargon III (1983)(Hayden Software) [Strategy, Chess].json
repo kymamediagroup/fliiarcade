@@ -1,0 +1,11 @@
+{
+  "name": "Sargon III (1983)(Hayden Software) [Strategy, Chess]",
+  "roms": [
+    "Sargon III (1983)(Hayden Software) [Strategy, Chess]"
+  ],
+  "description": "Sargon III",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "Hayden Software",
+  "genre": "Strategy/Chess"
+}

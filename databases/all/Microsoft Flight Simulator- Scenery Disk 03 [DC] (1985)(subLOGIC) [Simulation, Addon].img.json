@@ -1,0 +1,11 @@
+{
+  "name": "Microsoft Flight Simulator- Scenery Disk 03 [DC] (1985)(subLOGIC) [Simulation, Addon].img",
+  "roms": [
+    "Microsoft Flight Simulator- Scenery Disk 03 [DC] (1985)(subLOGIC) [Simulation, Addon].img"
+  ],
+  "description": "Microsoft Flight Simulator- Scenery Disk 03",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "subLOGIC",
+  "genre": "Simulation/Addon"
+}

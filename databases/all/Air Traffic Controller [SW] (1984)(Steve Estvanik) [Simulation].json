@@ -1,0 +1,11 @@
+{
+  "name": "Air Traffic Controller [SW] (1984)(Steve Estvanik) [Simulation]",
+  "roms": [
+    "Air Traffic Controller [SW] (1984)(Steve Estvanik) [Simulation]"
+  ],
+  "description": "Air Traffic Controller",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "Steve Estvanik",
+  "genre": "Simulation"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Galaxian [DC] (1983)(Atarisoft) [Action]",
+  "roms": [
+    "Galaxian [DC] (1983)(Atarisoft) [Action]"
+  ],
+  "description": "Galaxian",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "Atarisoft",
+  "genre": "Action"
+}

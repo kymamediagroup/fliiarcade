@@ -1,0 +1,11 @@
+{
+  "name": "PC Star Lanes (1982)(Bernauer, Higgins, Irvine) [Strategy, Simulation]",
+  "roms": [
+    "PC Star Lanes (1982)(Bernauer, Higgins, Irvine) [Strategy, Simulation]"
+  ],
+  "description": "PC Star Lanes",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "Bernauer, Higgins, Irvine",
+  "genre": "Strategy/Simulation"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Bridge Pal [SW] (1987)(WR Software) [Strategy]",
+  "roms": [
+    "Bridge Pal [SW] (1987)(WR Software) [Strategy]"
+  ],
+  "description": "Bridge Pal",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "WR Software",
+  "genre": "Strategy"
+}

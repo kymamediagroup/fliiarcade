@@ -1,0 +1,11 @@
+{
+  "name": "Pylon Racer (demo) (1985)(Mind Systems Corp.) [Action, Simulation]",
+  "roms": [
+    "Pylon Racer (demo) (1985)(Mind Systems Corp.) [Action, Simulation]"
+  ],
+  "description": "Pylon Racer (demo)",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "Mind Systems Corp.",
+  "genre": "Action/Simulation"
+}

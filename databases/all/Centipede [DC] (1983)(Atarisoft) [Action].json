@@ -1,0 +1,11 @@
+{
+  "name": "Centipede [DC] (1983)(Atarisoft) [Action]",
+  "roms": [
+    "Centipede [DC] (1983)(Atarisoft) [Action]"
+  ],
+  "description": "Centipede",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "Atarisoft",
+  "genre": "Action"
+}

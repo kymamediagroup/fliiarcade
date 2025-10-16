@@ -1,0 +1,11 @@
+{
+  "name": "Star Wars (1987)(Domark Ltd.) [Action]",
+  "roms": [
+    "Star Wars (1987)(Domark Ltd.) [Action]"
+  ],
+  "description": "Star Wars",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "Domark Ltd.",
+  "genre": "Action"
+}

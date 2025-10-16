@@ -1,0 +1,1 @@
+{"name":"tacscan","description":"Tac/Scan","system":"mame","parentSystem":"segag80v","roms":["tacscan"],"biosFiles":[],"hasSamples":false,"players":1,"controls":{"1":{"buttons":2,"type":"dial"}},"genre":"Shoot-'Em-Up","manufacturer":"Sega","year":1982,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":"c609b79e"}
