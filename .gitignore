@@ -15,7 +15,6 @@ mame/flyers/*
 mame/artwork/**/*
 mame/nvram/**/*
 mame/manuals/**/*
-mame/samples/**/*
 
 mame/*.wasm.gz
 
