@@ -18,11 +18,6 @@ icons/**/*
 images/boxes/**/*
 images/cabinets/*
 
-
-
-images/logos/**/k*
-images/logos/**/l*
-images/logos/**/m*
 images/logos/**/n*
 images/logos/**/o*
 images/logos/**/p*
@@ -32,7 +27,6 @@ images/logos/**/s*
 
 images/logos/a2600/*
 images/logos/nes/*
-
 
 images/bezels/a2600/*
 images/bezels/nes/*
