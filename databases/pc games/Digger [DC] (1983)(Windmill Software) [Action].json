@@ -1,0 +1,11 @@
+{
+  "name": "Digger [DC] (1983)(Windmill Software) [Action]",
+  "roms": [
+    "Digger [DC] (1983)(Windmill Software) [Action]"
+  ],
+  "description": "Digger",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "Windmill Software",
+  "genre": "Action"
+}

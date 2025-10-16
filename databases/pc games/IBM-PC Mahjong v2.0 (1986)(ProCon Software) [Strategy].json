@@ -1,0 +1,11 @@
+{
+  "name": "IBM-PC Mahjong v2.0 (1986)(ProCon Software) [Strategy]",
+  "roms": [
+    "IBM-PC Mahjong v2.0 (1986)(ProCon Software) [Strategy]"
+  ],
+  "description": "IBM-PC Mahjong v2.0",
+  "system": "dosbox",
+  "year": 1986,
+  "manufacturer": "ProCon Software",
+  "genre": "Strategy"
+}

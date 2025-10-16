@@ -1,0 +1,11 @@
+{
+  "name": "Tank (1983)(International PC Owners) [Action]",
+  "roms": [
+    "Tank (1983)(International PC Owners) [Action]"
+  ],
+  "description": "Tank",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "International PC Owners",
+  "genre": "Action"
+}

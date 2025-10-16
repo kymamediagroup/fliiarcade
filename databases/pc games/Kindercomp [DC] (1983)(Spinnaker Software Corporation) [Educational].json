@@ -1,0 +1,11 @@
+{
+  "name": "Kindercomp [DC] (1983)(Spinnaker Software Corporation) [Educational]",
+  "roms": [
+    "Kindercomp [DC] (1983)(Spinnaker Software Corporation) [Educational]"
+  ],
+  "description": "Kindercomp",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "Spinnaker Software Corporation",
+  "genre": "Educational"
+}

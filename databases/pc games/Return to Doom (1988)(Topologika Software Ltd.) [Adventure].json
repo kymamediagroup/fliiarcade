@@ -1,0 +1,11 @@
+{
+  "name": "Return to Doom (1988)(Topologika Software Ltd.) [Adventure]",
+  "roms": [
+    "Return to Doom (1988)(Topologika Software Ltd.) [Adventure]"
+  ],
+  "description": "Return to Doom",
+  "system": "dosbox",
+  "year": 1988,
+  "manufacturer": "Topologika Software Ltd.",
+  "genre": "Adventure"
+}

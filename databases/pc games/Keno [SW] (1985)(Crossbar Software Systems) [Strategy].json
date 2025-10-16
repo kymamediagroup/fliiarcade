@@ -1,0 +1,11 @@
+{
+  "name": "Keno [SW] (1985)(Crossbar Software Systems) [Strategy]",
+  "roms": [
+    "Keno [SW] (1985)(Crossbar Software Systems) [Strategy]"
+  ],
+  "description": "Keno",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "Crossbar Software Systems",
+  "genre": "Strategy"
+}

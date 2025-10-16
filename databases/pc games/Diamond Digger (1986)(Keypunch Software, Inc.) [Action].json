@@ -1,0 +1,11 @@
+{
+  "name": "Diamond Digger (1986)(Keypunch Software, Inc.) [Action]",
+  "roms": [
+    "Diamond Digger (1986)(Keypunch Software, Inc.) [Action]"
+  ],
+  "description": "Diamond Digger",
+  "system": "dosbox",
+  "year": 1986,
+  "manufacturer": "Keypunch Software, Inc.",
+  "genre": "Action"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Palace Adventure (1987)(PC-SIG) [Adventure, Interactive Fiction]",
+  "roms": [
+    "Palace Adventure (1987)(PC-SIG) [Adventure, Interactive Fiction]"
+  ],
+  "description": "Palace Adventure",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "PC-SIG",
+  "genre": "Adventure/Interactive Fiction"
+}

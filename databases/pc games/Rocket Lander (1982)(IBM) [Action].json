@@ -1,0 +1,11 @@
+{
+  "name": "Rocket Lander (1982)(IBM) [Action]",
+  "roms": [
+    "Rocket Lander (1982)(IBM) [Action]"
+  ],
+  "description": "Rocket Lander",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "IBM",
+  "genre": "Action"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Breakout [SW] (1986)(Hal Strausberg) [Action]",
+  "roms": [
+    "Breakout [SW] (1986)(Hal Strausberg) [Action]"
+  ],
+  "description": "Breakout",
+  "system": "dosbox",
+  "year": 1986,
+  "manufacturer": "Hal Strausberg",
+  "genre": "Action"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Cargo Runner v2.0 [SW] (1987)(SNC Software) [Strategy]",
+  "roms": [
+    "Cargo Runner v2.0 [SW] (1987)(SNC Software) [Strategy]"
+  ],
+  "description": "Cargo Runner v2.0",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "SNC Software",
+  "genre": "Strategy"
+}

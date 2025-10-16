@@ -1,0 +1,11 @@
+{
+  "name": "PT-109 (CGA) (1988)(Spectrum HoloByte, Inc.) [Simulation]",
+  "roms": [
+    "PT-109 (CGA) (1988)(Spectrum HoloByte, Inc.) [Simulation]"
+  ],
+  "description": "PT-109 (CGA)",
+  "system": "dosbox",
+  "year": 1988,
+  "manufacturer": "Spectrum HoloByte, Inc.",
+  "genre": "Simulation"
+}

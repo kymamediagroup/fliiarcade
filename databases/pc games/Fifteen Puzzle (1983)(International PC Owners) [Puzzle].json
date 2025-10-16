@@ -1,0 +1,11 @@
+{
+  "name": "Fifteen Puzzle (1983)(International PC Owners) [Puzzle]",
+  "roms": [
+    "Fifteen Puzzle (1983)(International PC Owners) [Puzzle]"
+  ],
+  "description": "Fifteen Puzzle",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "International PC Owners",
+  "genre": "Puzzle"
+}

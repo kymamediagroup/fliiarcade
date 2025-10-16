@@ -1,0 +1,11 @@
+{
+  "name": "Microsoft Flight Simulator v2.13 [DC] (1986)(Microsoft) [Simulation]",
+  "roms": [
+    "Microsoft Flight Simulator v2.13 [DC] (1986)(Microsoft) [Simulation]"
+  ],
+  "description": "Microsoft Flight Simulator v2.13",
+  "system": "dosbox",
+  "year": 1986,
+  "manufacturer": "Microsoft",
+  "genre": "Simulation"
+}

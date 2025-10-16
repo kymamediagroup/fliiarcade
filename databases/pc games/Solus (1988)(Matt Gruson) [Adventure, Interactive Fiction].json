@@ -1,0 +1,11 @@
+{
+  "name": "Solus (1988)(Matt Gruson) [Adventure, Interactive Fiction]",
+  "roms": [
+    "Solus (1988)(Matt Gruson) [Adventure, Interactive Fiction]"
+  ],
+  "description": "Solus",
+  "system": "dosbox",
+  "year": 1988,
+  "manufacturer": "Matt Gruson",
+  "genre": "Adventure/Interactive Fiction"
+}

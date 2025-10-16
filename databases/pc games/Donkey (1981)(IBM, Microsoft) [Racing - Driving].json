@@ -1,0 +1,11 @@
+{
+  "name": "Donkey (1981)(IBM, Microsoft) [Racing - Driving]",
+  "roms": [
+    "Donkey (1981)(IBM, Microsoft) [Racing - Driving]"
+  ],
+  "description": "Donkey",
+  "system": "dosbox",
+  "year": 1981,
+  "manufacturer": "IBM, Microsoft",
+  "genre": "Racing - Driving"
+}

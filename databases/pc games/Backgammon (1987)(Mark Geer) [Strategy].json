@@ -1,0 +1,11 @@
+{
+  "name": "Backgammon (1987)(Mark Geer) [Strategy]",
+  "roms": [
+    "Backgammon (1987)(Mark Geer) [Strategy]"
+  ],
+  "description": "Backgammon",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "Mark Geer",
+  "genre": "Strategy"
+}

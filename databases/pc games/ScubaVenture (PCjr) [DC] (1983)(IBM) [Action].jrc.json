@@ -1,0 +1,11 @@
+{
+  "name": "ScubaVenture (PCjr) [DC] (1983)(IBM) [Action].jrc",
+  "roms": [
+    "ScubaVenture (PCjr) [DC] (1983)(IBM) [Action].jrc"
+  ],
+  "description": "ScubaVenture (PCjr)",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "IBM",
+  "genre": "Action"
+}

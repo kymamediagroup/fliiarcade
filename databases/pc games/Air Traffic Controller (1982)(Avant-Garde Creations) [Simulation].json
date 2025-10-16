@@ -1,0 +1,11 @@
+{
+  "name": "Air Traffic Controller (1982)(Avant-Garde Creations) [Simulation]",
+  "roms": [
+    "Air Traffic Controller (1982)(Avant-Garde Creations) [Simulation]"
+  ],
+  "description": "Air Traffic Controller",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "Avant-Garde Creations",
+  "genre": "Simulation"
+}

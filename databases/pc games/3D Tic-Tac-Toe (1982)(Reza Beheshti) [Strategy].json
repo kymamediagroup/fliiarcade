@@ -1,0 +1,11 @@
+{
+  "name": "3D Tic-Tac-Toe (1982)(Reza Beheshti) [Strategy]",
+  "roms": [
+    "3D Tic-Tac-Toe (1982)(Reza Beheshti) [Strategy]"
+  ],
+  "description": "3D Tic-Tac-Toe",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "Reza Beheshti",
+  "genre": "Strategy"
+}

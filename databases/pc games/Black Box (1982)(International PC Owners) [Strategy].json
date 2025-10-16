@@ -1,0 +1,11 @@
+{
+  "name": "Black Box (1982)(International PC Owners) [Strategy]",
+  "roms": [
+    "Black Box (1982)(International PC Owners) [Strategy]"
+  ],
+  "description": "Black Box",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "International PC Owners",
+  "genre": "Strategy"
+}

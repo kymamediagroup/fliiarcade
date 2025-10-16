@@ -1,0 +1,11 @@
+{
+  "name": "Gomoku (1986)(Rick Klemetson) [Strategy]",
+  "roms": [
+    "Gomoku (1986)(Rick Klemetson) [Strategy]"
+  ],
+  "description": "Gomoku",
+  "system": "dosbox",
+  "year": 1986,
+  "manufacturer": "Rick Klemetson",
+  "genre": "Strategy"
+}

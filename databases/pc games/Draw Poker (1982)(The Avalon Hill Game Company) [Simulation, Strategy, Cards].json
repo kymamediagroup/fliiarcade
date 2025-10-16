@@ -1,0 +1,11 @@
+{
+  "name": "Draw Poker (1982)(The Avalon Hill Game Company) [Simulation, Strategy, Cards]",
+  "roms": [
+    "Draw Poker (1982)(The Avalon Hill Game Company) [Simulation, Strategy, Cards]"
+  ],
+  "description": "Draw Poker",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "The Avalon Hill Game Company",
+  "genre": "Simulation/Strategy/Cards"
+}

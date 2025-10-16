@@ -1,0 +1,11 @@
+{
+  "name": "Video Trek 88 (1982)(Windmill Software) [Simulation]",
+  "roms": [
+    "Video Trek 88 (1982)(Windmill Software) [Simulation]"
+  ],
+  "description": "Video Trek 88",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "Windmill Software",
+  "genre": "Simulation"
+}

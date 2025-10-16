@@ -1,0 +1,11 @@
+{
+  "name": "Microsoft Flight Simulator v2.12 (Tandy) [DC] (1985)(Microsoft) [Simulation].img",
+  "roms": [
+    "Microsoft Flight Simulator v2.12 (Tandy) [DC] (1985)(Microsoft) [Simulation].img"
+  ],
+  "description": "Microsoft Flight Simulator v2.12 (Tandy)",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "Microsoft",
+  "genre": "Simulation"
+}

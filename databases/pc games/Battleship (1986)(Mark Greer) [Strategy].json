@@ -1,0 +1,11 @@
+{
+  "name": "Battleship (1986)(Mark Greer) [Strategy]",
+  "roms": [
+    "Battleship (1986)(Mark Greer) [Strategy]"
+  ],
+  "description": "Battleship",
+  "system": "dosbox",
+  "year": 1986,
+  "manufacturer": "Mark Greer",
+  "genre": "Strategy"
+}

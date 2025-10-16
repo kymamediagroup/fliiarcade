@@ -1,0 +1,11 @@
+{
+  "name": "Microsoft Adventure [DC] (1981)(IBM) [Adventure, Interactive Fiction].img",
+  "roms": [
+    "Microsoft Adventure [DC] (1981)(IBM) [Adventure, Interactive Fiction].img"
+  ],
+  "description": "Microsoft Adventure",
+  "system": "dosbox",
+  "year": 1981,
+  "manufacturer": "IBM",
+  "genre": "Adventure/Interactive Fiction"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Sub Battle Simulator (1987)(Epyx, Inc.) [Simulation]",
+  "roms": [
+    "Sub Battle Simulator (1987)(Epyx, Inc.) [Simulation]"
+  ],
+  "description": "Sub Battle Simulator",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "Epyx, Inc.",
+  "genre": "Simulation"
+}

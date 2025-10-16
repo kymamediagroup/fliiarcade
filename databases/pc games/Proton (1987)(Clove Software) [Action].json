@@ -1,0 +1,11 @@
+{
+  "name": "Proton (1987)(Clove Software) [Action]",
+  "roms": [
+    "Proton (1987)(Clove Software) [Action]"
+  ],
+  "description": "Proton",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "Clove Software",
+  "genre": "Action"
+}

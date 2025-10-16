@@ -1,0 +1,11 @@
+{
+  "name": "Super Zaxxon [DC] (1984)(SEGA Enterprises Ltd.) [Action]",
+  "roms": [
+    "Super Zaxxon [DC] (1984)(SEGA Enterprises Ltd.) [Action]"
+  ],
+  "description": "Super Zaxxon",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "SEGA Enterprises Ltd.",
+  "genre": "Action"
+}

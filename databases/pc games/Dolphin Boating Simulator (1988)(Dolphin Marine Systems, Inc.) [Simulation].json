@@ -1,0 +1,11 @@
+{
+  "name": "Dolphin Boating Simulator (1988)(Dolphin Marine Systems, Inc.) [Simulation]",
+  "roms": [
+    "Dolphin Boating Simulator (1988)(Dolphin Marine Systems, Inc.) [Simulation]"
+  ],
+  "description": "Dolphin Boating Simulator",
+  "system": "dosbox",
+  "year": 1988,
+  "manufacturer": "Dolphin Marine Systems, Inc.",
+  "genre": "Simulation"
+}

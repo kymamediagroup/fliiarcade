@@ -1,0 +1,11 @@
+{
+  "name": "GNU Chess (1987)(Free Software Foundation, Inc.) [Strategy, Chess]",
+  "roms": [
+    "GNU Chess (1987)(Free Software Foundation, Inc.) [Strategy, Chess]"
+  ],
+  "description": "GNU Chess",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "Free Software Foundation, Inc.",
+  "genre": "Strategy/Chess"
+}

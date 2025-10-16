@@ -1,0 +1,11 @@
+{
+  "name": "PC-Gammon v1.1 (1985)(Viking Software) [Strategy]",
+  "roms": [
+    "PC-Gammon v1.1 (1985)(Viking Software) [Strategy]"
+  ],
+  "description": "PC-Gammon v1.1",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "Viking Software",
+  "genre": "Strategy"
+}

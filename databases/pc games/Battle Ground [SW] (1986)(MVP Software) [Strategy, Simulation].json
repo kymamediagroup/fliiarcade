@@ -1,0 +1,11 @@
+{
+  "name": "Battle Ground [SW] (1986)(MVP Software) [Strategy, Simulation]",
+  "roms": [
+    "Battle Ground [SW] (1986)(MVP Software) [Strategy, Simulation]"
+  ],
+  "description": "Battle Ground",
+  "system": "dosbox",
+  "year": 1986,
+  "manufacturer": "MVP Software",
+  "genre": "Strategy/Simulation"
+}

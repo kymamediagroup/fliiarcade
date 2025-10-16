@@ -1,0 +1,11 @@
+{
+  "name": "Falcon (Tandy) (1987)(Spectrum HoloByte, Inc.) [Simulation][!]",
+  "roms": [
+    "Falcon (Tandy) (1987)(Spectrum HoloByte, Inc.) [Simulation][!]"
+  ],
+  "description": "Falcon (Tandy)",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "Spectrum HoloByte, Inc.",
+  "genre": "Simulation][!"
+}

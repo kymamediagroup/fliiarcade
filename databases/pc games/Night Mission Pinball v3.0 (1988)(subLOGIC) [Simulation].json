@@ -1,0 +1,11 @@
+{
+  "name": "Night Mission Pinball v3.0 (1988)(subLOGIC) [Simulation]",
+  "roms": [
+    "Night Mission Pinball v3.0 (1988)(subLOGIC) [Simulation]"
+  ],
+  "description": "Night Mission Pinball v3.0",
+  "system": "dosbox",
+  "year": 1988,
+  "manufacturer": "subLOGIC",
+  "genre": "Simulation"
+}

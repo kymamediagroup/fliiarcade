@@ -1,0 +1,11 @@
+{
+  "name": "Strike Force Harrier (1988)(Mirrorsoft Ltd.) [Simulation]",
+  "roms": [
+    "Strike Force Harrier (1988)(Mirrorsoft Ltd.) [Simulation]"
+  ],
+  "description": "Strike Force Harrier",
+  "system": "dosbox",
+  "year": 1988,
+  "manufacturer": "Mirrorsoft Ltd.",
+  "genre": "Simulation"
+}

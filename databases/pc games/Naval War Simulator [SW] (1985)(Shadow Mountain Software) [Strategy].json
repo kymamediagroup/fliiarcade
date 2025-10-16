@@ -1,0 +1,11 @@
+{
+  "name": "Naval War Simulator [SW] (1985)(Shadow Mountain Software) [Strategy]",
+  "roms": [
+    "Naval War Simulator [SW] (1985)(Shadow Mountain Software) [Strategy]"
+  ],
+  "description": "Naval War Simulator",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "Shadow Mountain Software",
+  "genre": "Strategy"
+}

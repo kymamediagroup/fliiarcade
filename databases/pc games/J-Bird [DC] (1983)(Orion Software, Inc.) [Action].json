@@ -1,0 +1,11 @@
+{
+  "name": "J-Bird [DC] (1983)(Orion Software, Inc.) [Action]",
+  "roms": [
+    "J-Bird [DC] (1983)(Orion Software, Inc.) [Action]"
+  ],
+  "description": "J-Bird",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "Orion Software, Inc.",
+  "genre": "Action"
+}

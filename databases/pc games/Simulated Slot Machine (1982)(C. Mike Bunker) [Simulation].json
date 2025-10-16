@@ -1,0 +1,11 @@
+{
+  "name": "Simulated Slot Machine (1982)(C. Mike Bunker) [Simulation]",
+  "roms": [
+    "Simulated Slot Machine (1982)(C. Mike Bunker) [Simulation]"
+  ],
+  "description": "Simulated Slot Machine",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "C. Mike Bunker",
+  "genre": "Simulation"
+}

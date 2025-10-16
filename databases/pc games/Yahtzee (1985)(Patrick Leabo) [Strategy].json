@@ -1,0 +1,11 @@
+{
+  "name": "Yahtzee (1985)(Patrick Leabo) [Strategy]",
+  "roms": [
+    "Yahtzee (1985)(Patrick Leabo) [Strategy]"
+  ],
+  "description": "Yahtzee",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "Patrick Leabo",
+  "genre": "Strategy"
+}

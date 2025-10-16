@@ -1,0 +1,11 @@
+{
+  "name": "Test Drive (1987)(Accolade, Inc.) [Racing - Driving, Simulation]",
+  "roms": [
+    "Test Drive (1987)(Accolade, Inc.) [Racing - Driving, Simulation]"
+  ],
+  "description": "Test Drive",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "Accolade, Inc.",
+  "genre": "Racing - Driving/Simulation"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Xonix (1984)(Ilan Rav) [Action]",
+  "roms": [
+    "Xonix (1984)(Ilan Rav) [Action]"
+  ],
+  "description": "Xonix",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "Ilan Rav",
+  "genre": "Action"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Cribbage (1982)(Ensign Software) [Strategy]",
+  "roms": [
+    "Cribbage (1982)(Ensign Software) [Strategy]"
+  ],
+  "description": "Cribbage",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "Ensign Software",
+  "genre": "Strategy"
+}

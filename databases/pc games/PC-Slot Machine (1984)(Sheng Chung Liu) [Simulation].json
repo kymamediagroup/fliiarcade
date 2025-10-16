@@ -1,0 +1,11 @@
+{
+  "name": "PC-Slot Machine (1984)(Sheng Chung Liu) [Simulation]",
+  "roms": [
+    "PC-Slot Machine (1984)(Sheng Chung Liu) [Simulation]"
+  ],
+  "description": "PC-Slot Machine",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "Sheng Chung Liu",
+  "genre": "Simulation"
+}

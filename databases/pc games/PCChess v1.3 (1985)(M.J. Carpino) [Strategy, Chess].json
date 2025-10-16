@@ -1,0 +1,11 @@
+{
+  "name": "PCChess v1.3 (1985)(M.J. Carpino) [Strategy, Chess]",
+  "roms": [
+    "PCChess v1.3 (1985)(M.J. Carpino) [Strategy, Chess]"
+  ],
+  "description": "PCChess v1.3",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "M.J. Carpino",
+  "genre": "Strategy/Chess"
+}

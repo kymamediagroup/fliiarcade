@@ -1,0 +1,11 @@
+{
+  "name": "Under Fire! (1987)(Avalon Hill) [Simulation]",
+  "roms": [
+    "Under Fire! (1987)(Avalon Hill) [Simulation]"
+  ],
+  "description": "Under Fire!",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "Avalon Hill",
+  "genre": "Simulation"
+}

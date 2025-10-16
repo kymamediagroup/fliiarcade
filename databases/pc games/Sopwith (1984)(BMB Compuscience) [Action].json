@@ -1,0 +1,11 @@
+{
+  "name": "Sopwith (1984)(BMB Compuscience) [Action]",
+  "roms": [
+    "Sopwith (1984)(BMB Compuscience) [Action]"
+  ],
+  "description": "Sopwith",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "BMB Compuscience",
+  "genre": "Action"
+}

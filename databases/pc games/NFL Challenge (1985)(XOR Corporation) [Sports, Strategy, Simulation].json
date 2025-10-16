@@ -1,0 +1,11 @@
+{
+  "name": "NFL Challenge (1985)(XOR Corporation) [Sports, Strategy, Simulation]",
+  "roms": [
+    "NFL Challenge (1985)(XOR Corporation) [Sports, Strategy, Simulation]"
+  ],
+  "description": "NFL Challenge",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "XOR Corporation",
+  "genre": "Sports/Strategy/Simulation"
+}

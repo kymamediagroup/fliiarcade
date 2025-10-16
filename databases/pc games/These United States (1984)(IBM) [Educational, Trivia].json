@@ -1,0 +1,11 @@
+{
+  "name": "These United States (1984)(IBM) [Educational, Trivia]",
+  "roms": [
+    "These United States (1984)(IBM) [Educational, Trivia]"
+  ],
+  "description": "These United States",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "IBM",
+  "genre": "Educational/Trivia"
+}

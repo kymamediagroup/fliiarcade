@@ -1,0 +1,11 @@
+{
+  "name": "Tetris (1986)(A. Pajitnov,V. Gerasimov) [Action, Strategy]",
+  "roms": [
+    "Tetris (1986)(A. Pajitnov,V. Gerasimov) [Action, Strategy]"
+  ],
+  "description": "Tetris",
+  "system": "dosbox",
+  "year": 1986,
+  "manufacturer": "A. Pajitnov,V. Gerasimov",
+  "genre": "Action/Strategy"
+}

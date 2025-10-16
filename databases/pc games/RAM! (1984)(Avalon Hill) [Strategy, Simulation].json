@@ -1,0 +1,11 @@
+{
+  "name": "RAM! (1984)(Avalon Hill) [Strategy, Simulation]",
+  "roms": [
+    "RAM! (1984)(Avalon Hill) [Strategy, Simulation]"
+  ],
+  "description": "RAM!",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "Avalon Hill",
+  "genre": "Strategy/Simulation"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Chess88 v2.0 (1984)(Don Berg) [Strategy, Chess]",
+  "roms": [
+    "Chess88 v2.0 (1984)(Don Berg) [Strategy, Chess]"
+  ],
+  "description": "Chess88 v2.0",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "Don Berg",
+  "genre": "Strategy/Chess"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Super Huey UH-IX (1988)(Cosmi Corporation) [Action, Simulation]",
+  "roms": [
+    "Super Huey UH-IX (1988)(Cosmi Corporation) [Action, Simulation]"
+  ],
+  "description": "Super Huey UH-IX",
+  "system": "dosbox",
+  "year": 1988,
+  "manufacturer": "Cosmi Corporation",
+  "genre": "Action/Simulation"
+}

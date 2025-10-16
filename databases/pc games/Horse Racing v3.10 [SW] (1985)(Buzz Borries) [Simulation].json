@@ -1,0 +1,11 @@
+{
+  "name": "Horse Racing v3.10 [SW] (1985)(Buzz Borries) [Simulation]",
+  "roms": [
+    "Horse Racing v3.10 [SW] (1985)(Buzz Borries) [Simulation]"
+  ],
+  "description": "Horse Racing v3.10",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "Buzz Borries",
+  "genre": "Simulation"
+}

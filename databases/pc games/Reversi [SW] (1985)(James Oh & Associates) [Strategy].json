@@ -1,0 +1,11 @@
+{
+  "name": "Reversi [SW] (1985)(James Oh & Associates) [Strategy]",
+  "roms": [
+    "Reversi [SW] (1985)(James Oh & Associates) [Strategy]"
+  ],
+  "description": "Reversi",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "James Oh & Associates",
+  "genre": "Strategy"
+}

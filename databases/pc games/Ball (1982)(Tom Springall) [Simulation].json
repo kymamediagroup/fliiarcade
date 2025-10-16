@@ -1,0 +1,11 @@
+{
+  "name": "Ball (1982)(Tom Springall) [Simulation]",
+  "roms": [
+    "Ball (1982)(Tom Springall) [Simulation]"
+  ],
+  "description": "Ball",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "Tom Springall",
+  "genre": "Simulation"
+}

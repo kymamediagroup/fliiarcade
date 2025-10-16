@@ -1,0 +1,11 @@
+{
+  "name": "Hangman [SW] (1988)(Khobey Software) [Strategy]",
+  "roms": [
+    "Hangman [SW] (1988)(Khobey Software) [Strategy]"
+  ],
+  "description": "Hangman",
+  "system": "dosbox",
+  "year": 1988,
+  "manufacturer": "Khobey Software",
+  "genre": "Strategy"
+}

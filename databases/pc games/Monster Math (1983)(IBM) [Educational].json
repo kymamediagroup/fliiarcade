@@ -1,0 +1,11 @@
+{
+  "name": "Monster Math (1983)(IBM) [Educational]",
+  "roms": [
+    "Monster Math (1983)(IBM) [Educational]"
+  ],
+  "description": "Monster Math",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "IBM",
+  "genre": "Educational"
+}

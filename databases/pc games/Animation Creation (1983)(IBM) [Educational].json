@@ -1,0 +1,11 @@
+{
+  "name": "Animation Creation (1983)(IBM) [Educational]",
+  "roms": [
+    "Animation Creation (1983)(IBM) [Educational]"
+  ],
+  "description": "Animation Creation",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "IBM",
+  "genre": "Educational"
+}

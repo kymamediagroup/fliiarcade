@@ -1,0 +1,11 @@
+{
+  "name": "Tennis (1985)(Imagic) [Simulation, Sports]",
+  "roms": [
+    "Tennis (1985)(Imagic) [Simulation, Sports]"
+  ],
+  "description": "Tennis",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "Imagic",
+  "genre": "Simulation/Sports"
+}

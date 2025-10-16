@@ -1,0 +1,11 @@
+{
+  "name": "Floppy Frenzy [DC] (1982)(Windmill Software) [Action]",
+  "roms": [
+    "Floppy Frenzy [DC] (1982)(Windmill Software) [Action]"
+  ],
+  "description": "Floppy Frenzy",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "Windmill Software",
+  "genre": "Action"
+}

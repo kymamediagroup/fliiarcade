@@ -1,0 +1,11 @@
+{
+  "name": "Casino Games (1982)(IBM) [Simulation, Cards]",
+  "roms": [
+    "Casino Games (1982)(IBM) [Simulation, Cards]"
+  ],
+  "description": "Casino Games",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "IBM",
+  "genre": "Simulation/Cards"
+}

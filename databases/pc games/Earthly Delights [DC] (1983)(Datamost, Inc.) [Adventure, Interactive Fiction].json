@@ -1,0 +1,11 @@
+{
+  "name": "Earthly Delights [DC] (1983)(Datamost, Inc.) [Adventure, Interactive Fiction]",
+  "roms": [
+    "Earthly Delights [DC] (1983)(Datamost, Inc.) [Adventure, Interactive Fiction]"
+  ],
+  "description": "Earthly Delights",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "Datamost, Inc.",
+  "genre": "Adventure/Interactive Fiction"
+}

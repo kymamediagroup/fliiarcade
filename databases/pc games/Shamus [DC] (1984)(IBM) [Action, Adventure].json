@@ -1,0 +1,11 @@
+{
+  "name": "Shamus [DC] (1984)(IBM) [Action, Adventure]",
+  "roms": [
+    "Shamus [DC] (1984)(IBM) [Action, Adventure]"
+  ],
+  "description": "Shamus",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "IBM",
+  "genre": "Action/Adventure"
+}

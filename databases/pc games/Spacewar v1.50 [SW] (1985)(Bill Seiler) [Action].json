@@ -1,0 +1,11 @@
+{
+  "name": "Spacewar v1.50 [SW] (1985)(Bill Seiler) [Action]",
+  "roms": [
+    "Spacewar v1.50 [SW] (1985)(Bill Seiler) [Action]"
+  ],
+  "description": "Spacewar v1.50",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "Bill Seiler",
+  "genre": "Action"
+}

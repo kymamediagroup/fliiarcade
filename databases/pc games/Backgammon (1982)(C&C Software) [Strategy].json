@@ -1,0 +1,11 @@
+{
+  "name": "Backgammon (1982)(C&C Software) [Strategy]",
+  "roms": [
+    "Backgammon (1982)(C&C Software) [Strategy]"
+  ],
+  "description": "Backgammon",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "C&C Software",
+  "genre": "Strategy"
+}

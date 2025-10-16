@@ -1,0 +1,11 @@
+{
+  "name": "RaceMan (1982)(Paul Somerson) [Action]",
+  "roms": [
+    "RaceMan (1982)(Paul Somerson) [Action]"
+  ],
+  "description": "RaceMan",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "Paul Somerson",
+  "genre": "Action"
+}

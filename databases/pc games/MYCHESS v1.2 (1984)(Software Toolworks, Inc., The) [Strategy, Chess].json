@@ -1,0 +1,11 @@
+{
+  "name": "MYCHESS v1.2 (1984)(Software Toolworks, Inc., The) [Strategy, Chess]",
+  "roms": [
+    "MYCHESS v1.2 (1984)(Software Toolworks, Inc., The) [Strategy, Chess]"
+  ],
+  "description": "MYCHESS v1.2",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "Software Toolworks, Inc., The",
+  "genre": "Strategy/Chess"
+}

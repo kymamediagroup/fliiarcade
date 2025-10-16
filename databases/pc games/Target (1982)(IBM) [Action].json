@@ -1,0 +1,11 @@
+{
+  "name": "Target (1982)(IBM) [Action]",
+  "roms": [
+    "Target (1982)(IBM) [Action]"
+  ],
+  "description": "Target",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "IBM",
+  "genre": "Action"
+}

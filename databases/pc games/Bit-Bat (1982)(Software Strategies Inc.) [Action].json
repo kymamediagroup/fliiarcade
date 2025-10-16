@@ -1,0 +1,11 @@
+{
+  "name": "Bit-Bat (1982)(Software Strategies Inc.) [Action]",
+  "roms": [
+    "Bit-Bat (1982)(Software Strategies Inc.) [Action]"
+  ],
+  "description": "Bit-Bat",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "Software Strategies Inc.",
+  "genre": "Action"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "DND [SW] (1984)(R.O. Software) [Role-Playing (RPG)]",
+  "roms": [
+    "DND [SW] (1984)(R.O. Software) [Role-Playing (RPG)]"
+  ],
+  "description": "DND",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "R.O. Software",
+  "genre": "Role-Playing (RPG)"
+}

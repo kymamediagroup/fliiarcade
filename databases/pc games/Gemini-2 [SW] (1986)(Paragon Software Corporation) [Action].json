@@ -1,0 +1,11 @@
+{
+  "name": "Gemini-2 [SW] (1986)(Paragon Software Corporation) [Action]",
+  "roms": [
+    "Gemini-2 [SW] (1986)(Paragon Software Corporation) [Action]"
+  ],
+  "description": "Gemini-2",
+  "system": "dosbox",
+  "year": 1986,
+  "manufacturer": "Paragon Software Corporation",
+  "genre": "Action"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Blackjack (1984)(IBM) [Strategy, Cards]",
+  "roms": [
+    "Blackjack (1984)(IBM) [Strategy, Cards]"
+  ],
+  "description": "Blackjack",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "IBM",
+  "genre": "Strategy/Cards"
+}

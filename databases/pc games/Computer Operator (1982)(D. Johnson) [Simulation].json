@@ -1,0 +1,11 @@
+{
+  "name": "Computer Operator (1982)(D. Johnson) [Simulation]",
+  "roms": [
+    "Computer Operator (1982)(D. Johnson) [Simulation]"
+  ],
+  "description": "Computer Operator",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "D. Johnson",
+  "genre": "Simulation"
+}

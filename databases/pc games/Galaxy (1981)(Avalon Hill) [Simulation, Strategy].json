@@ -1,0 +1,11 @@
+{
+  "name": "Galaxy (1981)(Avalon Hill) [Simulation, Strategy]",
+  "roms": [
+    "Galaxy (1981)(Avalon Hill) [Simulation, Strategy]"
+  ],
+  "description": "Galaxy",
+  "system": "dosbox",
+  "year": 1981,
+  "manufacturer": "Avalon Hill",
+  "genre": "Simulation/Strategy"
+}

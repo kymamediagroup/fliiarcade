@@ -1,0 +1,11 @@
+{
+  "name": "Navcom-6 (1988)(Cosmi Corporation) [Action, Simulation]",
+  "roms": [
+    "Navcom-6 (1988)(Cosmi Corporation) [Action, Simulation]"
+  ],
+  "description": "Navcom-6",
+  "system": "dosbox",
+  "year": 1988,
+  "manufacturer": "Cosmi Corporation",
+  "genre": "Action/Simulation"
+}

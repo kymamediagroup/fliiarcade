@@ -1,0 +1,11 @@
+{
+  "name": "Turbo Chess (1985)(Borland International) [Strategy, Chess]",
+  "roms": [
+    "Turbo Chess (1985)(Borland International) [Strategy, Chess]"
+  ],
+  "description": "Turbo Chess",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "Borland International",
+  "genre": "Strategy/Chess"
+}

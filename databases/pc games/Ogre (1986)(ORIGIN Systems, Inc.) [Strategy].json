@@ -1,0 +1,11 @@
+{
+  "name": "Ogre (1986)(ORIGIN Systems, Inc.) [Strategy]",
+  "roms": [
+    "Ogre (1986)(ORIGIN Systems, Inc.) [Strategy]"
+  ],
+  "description": "Ogre",
+  "system": "dosbox",
+  "year": 1986,
+  "manufacturer": "ORIGIN Systems, Inc.",
+  "genre": "Strategy"
+}

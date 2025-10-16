@@ -1,0 +1,11 @@
+{
+  "name": "Life (1984)(Anonymous) [Simulation]",
+  "roms": [
+    "Life (1984)(Anonymous) [Simulation]"
+  ],
+  "description": "Life",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "Anonymous",
+  "genre": "Simulation"
+}

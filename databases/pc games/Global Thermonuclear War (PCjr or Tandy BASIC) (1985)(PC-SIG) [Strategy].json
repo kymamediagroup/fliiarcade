@@ -1,0 +1,11 @@
+{
+  "name": "Global Thermonuclear War (PCjr or Tandy BASIC) (1985)(PC-SIG) [Strategy]",
+  "roms": [
+    "Global Thermonuclear War (PCjr or Tandy BASIC) (1985)(PC-SIG) [Strategy]"
+  ],
+  "description": "Global Thermonuclear War (PCjr or Tandy BASIC)",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "PC-SIG",
+  "genre": "Strategy"
+}

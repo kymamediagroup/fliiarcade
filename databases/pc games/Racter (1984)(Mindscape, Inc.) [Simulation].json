@@ -1,0 +1,11 @@
+{
+  "name": "Racter (1984)(Mindscape, Inc.) [Simulation]",
+  "roms": [
+    "Racter (1984)(Mindscape, Inc.) [Simulation]"
+  ],
+  "description": "Racter",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "Mindscape, Inc.",
+  "genre": "Simulation"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Jumpman [DC] (1983)(IBM) [Action]",
+  "roms": [
+    "Jumpman [DC] (1983)(IBM) [Action]"
+  ],
+  "description": "Jumpman",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "IBM",
+  "genre": "Action"
+}

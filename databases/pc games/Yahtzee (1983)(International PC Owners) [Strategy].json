@@ -1,0 +1,11 @@
+{
+  "name": "Yahtzee (1983)(International PC Owners) [Strategy]",
+  "roms": [
+    "Yahtzee (1983)(International PC Owners) [Strategy]"
+  ],
+  "description": "Yahtzee",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "International PC Owners",
+  "genre": "Strategy"
+}

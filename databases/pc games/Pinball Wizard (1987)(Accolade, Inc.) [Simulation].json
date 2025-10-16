@@ -1,0 +1,11 @@
+{
+  "name": "Pinball Wizard (1987)(Accolade, Inc.) [Simulation]",
+  "roms": [
+    "Pinball Wizard (1987)(Accolade, Inc.) [Simulation]"
+  ],
+  "description": "Pinball Wizard",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "Accolade, Inc.",
+  "genre": "Simulation"
+}

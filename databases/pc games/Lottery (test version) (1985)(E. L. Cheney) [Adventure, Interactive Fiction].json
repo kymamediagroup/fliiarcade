@@ -1,0 +1,11 @@
+{
+  "name": "Lottery (test version) (1985)(E. L. Cheney) [Adventure, Interactive Fiction]",
+  "roms": [
+    "Lottery (test version) (1985)(E. L. Cheney) [Adventure, Interactive Fiction]"
+  ],
+  "description": "Lottery (test version)",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "E. L. Cheney",
+  "genre": "Adventure/Interactive Fiction"
+}

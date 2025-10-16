@@ -1,0 +1,11 @@
+{
+  "name": "Rocket (1981)(Anonymous) [Simulation]",
+  "roms": [
+    "Rocket (1981)(Anonymous) [Simulation]"
+  ],
+  "description": "Rocket",
+  "system": "dosbox",
+  "year": 1981,
+  "manufacturer": "Anonymous",
+  "genre": "Simulation"
+}

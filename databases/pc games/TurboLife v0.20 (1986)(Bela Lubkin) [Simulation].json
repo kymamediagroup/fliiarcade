@@ -1,0 +1,11 @@
+{
+  "name": "TurboLife v0.20 (1986)(Bela Lubkin) [Simulation]",
+  "roms": [
+    "TurboLife v0.20 (1986)(Bela Lubkin) [Simulation]"
+  ],
+  "description": "TurboLife v0.20",
+  "system": "dosbox",
+  "year": 1986,
+  "manufacturer": "Bela Lubkin",
+  "genre": "Simulation"
+}

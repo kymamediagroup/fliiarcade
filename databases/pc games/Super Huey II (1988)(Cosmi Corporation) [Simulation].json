@@ -1,0 +1,11 @@
+{
+  "name": "Super Huey II (1988)(Cosmi Corporation) [Simulation]",
+  "roms": [
+    "Super Huey II (1988)(Cosmi Corporation) [Simulation]"
+  ],
+  "description": "Super Huey II",
+  "system": "dosbox",
+  "year": 1988,
+  "manufacturer": "Cosmi Corporation",
+  "genre": "Simulation"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Alley Cat [DC] (1984)(IBM) [Action]",
+  "roms": [
+    "Alley Cat [DC] (1984)(IBM) [Action]"
+  ],
+  "description": "Alley Cat",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "IBM",
+  "genre": "Action"
+}

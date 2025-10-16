@@ -1,0 +1,11 @@
+{
+  "name": "Gymnasium Adventure (1987)(PC-SIG) [Adventure, Interactive Fiction]",
+  "roms": [
+    "Gymnasium Adventure (1987)(PC-SIG) [Adventure, Interactive Fiction]"
+  ],
+  "description": "Gymnasium Adventure",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "PC-SIG",
+  "genre": "Adventure/Interactive Fiction"
+}

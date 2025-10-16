@@ -1,0 +1,11 @@
+{
+  "name": "Jetset (1982)(BYTE Magazine) [Simulation]",
+  "roms": [
+    "Jetset (1982)(BYTE Magazine) [Simulation]"
+  ],
+  "description": "Jetset",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "BYTE Magazine",
+  "genre": "Simulation"
+}

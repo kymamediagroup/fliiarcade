@@ -1,0 +1,11 @@
+{
+  "name": "Computer Trivia (1984)(Avalon Hill) [Trivia]",
+  "roms": [
+    "Computer Trivia (1984)(Avalon Hill) [Trivia]"
+  ],
+  "description": "Computer Trivia",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "Avalon Hill",
+  "genre": "Trivia"
+}

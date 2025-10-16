@@ -1,0 +1,11 @@
+{
+  "name": "Tetris (1987)(Spectrum HoloByte, Inc.) [Action, Strategy]",
+  "roms": [
+    "Tetris (1987)(Spectrum HoloByte, Inc.) [Action, Strategy]"
+  ],
+  "description": "Tetris",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "Spectrum HoloByte, Inc.",
+  "genre": "Action/Strategy"
+}

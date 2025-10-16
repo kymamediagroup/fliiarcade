@@ -1,0 +1,11 @@
+{
+  "name": "MasterMind (1987)(Genetic(DNA) Software) [Strategy]",
+  "roms": [
+    "MasterMind (1987)(Genetic(DNA) Software) [Strategy]"
+  ],
+  "description": "MasterMind",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "Genetic(DNA) Software",
+  "genre": "Strategy"
+}

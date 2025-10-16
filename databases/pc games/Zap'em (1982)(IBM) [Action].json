@@ -1,0 +1,11 @@
+{
+  "name": "Zap'em (1982)(IBM) [Action]",
+  "roms": [
+    "Zap'em (1982)(IBM) [Action]"
+  ],
+  "description": "Zap'em",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "IBM",
+  "genre": "Action"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Volcanoes (1985)(IBM) [Educational]",
+  "roms": [
+    "Volcanoes (1985)(IBM) [Educational]"
+  ],
+  "description": "Volcanoes",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "IBM",
+  "genre": "Educational"
+}

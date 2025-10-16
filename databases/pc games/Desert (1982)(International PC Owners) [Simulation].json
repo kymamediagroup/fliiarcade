@@ -1,0 +1,11 @@
+{
+  "name": "Desert (1982)(International PC Owners) [Simulation]",
+  "roms": [
+    "Desert (1982)(International PC Owners) [Simulation]"
+  ],
+  "description": "Desert",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "International PC Owners",
+  "genre": "Simulation"
+}

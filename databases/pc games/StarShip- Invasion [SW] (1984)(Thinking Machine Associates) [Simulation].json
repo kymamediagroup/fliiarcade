@@ -1,0 +1,11 @@
+{
+  "name": "StarShip- Invasion [SW] (1984)(Thinking Machine Associates) [Simulation]",
+  "roms": [
+    "StarShip- Invasion [SW] (1984)(Thinking Machine Associates) [Simulation]"
+  ],
+  "description": "StarShip- Invasion",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "Thinking Machine Associates",
+  "genre": "Simulation"
+}

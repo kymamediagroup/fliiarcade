@@ -1,0 +1,11 @@
+{
+  "name": "Jet v2.0 (1985)(subLOGIC) [Simulation]",
+  "roms": [
+    "Jet v2.0 (1985)(subLOGIC) [Simulation]"
+  ],
+  "description": "Jet v2.0",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "subLOGIC",
+  "genre": "Simulation"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Black Monday (1987)(Keypunch Software, Inc.) [Simulation]",
+  "roms": [
+    "Black Monday (1987)(Keypunch Software, Inc.) [Simulation]"
+  ],
+  "description": "Black Monday",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "Keypunch Software, Inc.",
+  "genre": "Simulation"
+}

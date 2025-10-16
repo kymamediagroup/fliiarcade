@@ -1,0 +1,11 @@
+{
+  "name": "Maxit (1983)(IBM) [Strategy]",
+  "roms": [
+    "Maxit (1983)(IBM) [Strategy]"
+  ],
+  "description": "Maxit",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "IBM",
+  "genre": "Strategy"
+}

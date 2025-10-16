@@ -1,0 +1,11 @@
+{
+  "name": "Mine Shaft [DC] (1983)(IBM) [Action]",
+  "roms": [
+    "Mine Shaft [DC] (1983)(IBM) [Action]"
+  ],
+  "description": "Mine Shaft",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "IBM",
+  "genre": "Action"
+}

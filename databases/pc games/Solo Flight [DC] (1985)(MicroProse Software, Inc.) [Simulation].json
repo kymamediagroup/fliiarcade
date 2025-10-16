@@ -1,0 +1,11 @@
+{
+  "name": "Solo Flight [DC] (1985)(MicroProse Software, Inc.) [Simulation]",
+  "roms": [
+    "Solo Flight [DC] (1985)(MicroProse Software, Inc.) [Simulation]"
+  ],
+  "description": "Solo Flight",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "MicroProse Software, Inc.",
+  "genre": "Simulation"
+}

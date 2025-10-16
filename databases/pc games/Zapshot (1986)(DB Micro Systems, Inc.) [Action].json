@@ -1,0 +1,11 @@
+{
+  "name": "Zapshot (1986)(DB Micro Systems, Inc.) [Action]",
+  "roms": [
+    "Zapshot (1986)(DB Micro Systems, Inc.) [Action]"
+  ],
+  "description": "Zapshot",
+  "system": "dosbox",
+  "year": 1986,
+  "manufacturer": "DB Micro Systems, Inc.",
+  "genre": "Action"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Styx [DC] (1983)(Windmill Software) [Action]",
+  "roms": [
+    "Styx [DC] (1983)(Windmill Software) [Action]"
+  ],
+  "description": "Styx",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "Windmill Software",
+  "genre": "Action"
+}

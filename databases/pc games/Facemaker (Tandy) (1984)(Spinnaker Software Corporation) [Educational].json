@@ -1,0 +1,11 @@
+{
+  "name": "Facemaker (Tandy) (1984)(Spinnaker Software Corporation) [Educational]",
+  "roms": [
+    "Facemaker (Tandy) (1984)(Spinnaker Software Corporation) [Educational]"
+  ],
+  "description": "Facemaker (Tandy)",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "Spinnaker Software Corporation",
+  "genre": "Educational"
+}

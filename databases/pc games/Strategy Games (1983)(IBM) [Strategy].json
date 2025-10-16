@@ -1,0 +1,11 @@
+{
+  "name": "Strategy Games (1983)(IBM) [Strategy]",
+  "roms": [
+    "Strategy Games (1983)(IBM) [Strategy]"
+  ],
+  "description": "Strategy Games",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "IBM",
+  "genre": "Strategy"
+}

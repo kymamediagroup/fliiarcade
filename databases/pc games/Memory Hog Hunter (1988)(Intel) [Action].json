@@ -1,0 +1,11 @@
+{
+  "name": "Memory Hog Hunter (1988)(Intel) [Action]",
+  "roms": [
+    "Memory Hog Hunter (1988)(Intel) [Action]"
+  ],
+  "description": "Memory Hog Hunter",
+  "system": "dosbox",
+  "year": 1988,
+  "manufacturer": "Intel",
+  "genre": "Action"
+}

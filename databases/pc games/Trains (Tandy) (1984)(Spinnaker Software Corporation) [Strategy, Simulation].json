@@ -1,0 +1,11 @@
+{
+  "name": "Trains (Tandy) (1984)(Spinnaker Software Corporation) [Strategy, Simulation]",
+  "roms": [
+    "Trains (Tandy) (1984)(Spinnaker Software Corporation) [Strategy, Simulation]"
+  ],
+  "description": "Trains (Tandy)",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "Spinnaker Software Corporation",
+  "genre": "Strategy/Simulation"
+}

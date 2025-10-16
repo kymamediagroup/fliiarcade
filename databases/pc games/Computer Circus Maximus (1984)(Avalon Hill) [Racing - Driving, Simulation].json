@@ -1,0 +1,11 @@
+{
+  "name": "Computer Circus Maximus (1984)(Avalon Hill) [Racing - Driving, Simulation]",
+  "roms": [
+    "Computer Circus Maximus (1984)(Avalon Hill) [Racing - Driving, Simulation]"
+  ],
+  "description": "Computer Circus Maximus",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "Avalon Hill",
+  "genre": "Racing - Driving/Simulation"
+}

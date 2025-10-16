@@ -1,0 +1,11 @@
+{
+  "name": "Ms. Pac-Man [DC] (1983)(Atarisoft) [Action]",
+  "roms": [
+    "Ms. Pac-Man [DC] (1983)(Atarisoft) [Action]"
+  ],
+  "description": "Ms. Pac-Man",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "Atarisoft",
+  "genre": "Action"
+}

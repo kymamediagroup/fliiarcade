@@ -1,0 +1,11 @@
+{
+  "name": "Checkers (1986)(The Genesis Project) [Strategy]",
+  "roms": [
+    "Checkers (1986)(The Genesis Project) [Strategy]"
+  ],
+  "description": "Checkers",
+  "system": "dosbox",
+  "year": 1986,
+  "manufacturer": "The Genesis Project",
+  "genre": "Strategy"
+}

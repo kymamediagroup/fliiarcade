@@ -1,0 +1,11 @@
+{
+  "name": "Madball [SW] (1985)(Microtec) [Action]",
+  "roms": [
+    "Madball [SW] (1985)(Microtec) [Action]"
+  ],
+  "description": "Madball",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "Microtec",
+  "genre": "Action"
+}

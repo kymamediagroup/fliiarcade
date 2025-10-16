@@ -1,0 +1,11 @@
+{
+  "name": "Lunar Landing (1982)(Bruce Guthrie) [Action, Simulation]",
+  "roms": [
+    "Lunar Landing (1982)(Bruce Guthrie) [Action, Simulation]"
+  ],
+  "description": "Lunar Landing",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "Bruce Guthrie",
+  "genre": "Action/Simulation"
+}

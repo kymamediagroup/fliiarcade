@@ -1,0 +1,11 @@
+{
+  "name": "Cyborg [DC] (1982)(Sentient Software) [Adventure, Interactive Fiction]",
+  "roms": [
+    "Cyborg [DC] (1982)(Sentient Software) [Adventure, Interactive Fiction]"
+  ],
+  "description": "Cyborg",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "Sentient Software",
+  "genre": "Adventure/Interactive Fiction"
+}

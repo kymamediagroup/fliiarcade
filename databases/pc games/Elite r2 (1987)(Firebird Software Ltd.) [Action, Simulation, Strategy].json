@@ -1,0 +1,11 @@
+{
+  "name": "Elite r2 (1987)(Firebird Software Ltd.) [Action, Simulation, Strategy]",
+  "roms": [
+    "Elite r2 (1987)(Firebird Software Ltd.) [Action, Simulation, Strategy]"
+  ],
+  "description": "Elite r2",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "Firebird Software Ltd.",
+  "genre": "Action/Simulation/Strategy"
+}

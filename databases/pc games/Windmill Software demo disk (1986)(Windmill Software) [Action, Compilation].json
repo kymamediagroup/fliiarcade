@@ -1,0 +1,11 @@
+{
+  "name": "Windmill Software demo disk (1986)(Windmill Software) [Action, Compilation]",
+  "roms": [
+    "Windmill Software demo disk (1986)(Windmill Software) [Action, Compilation]"
+  ],
+  "description": "Windmill Software demo disk",
+  "system": "dosbox",
+  "year": 1986,
+  "manufacturer": "Windmill Software",
+  "genre": "Action/Compilation"
+}

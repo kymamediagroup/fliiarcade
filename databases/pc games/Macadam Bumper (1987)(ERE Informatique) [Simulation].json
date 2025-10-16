@@ -1,0 +1,11 @@
+{
+  "name": "Macadam Bumper (1987)(ERE Informatique) [Simulation]",
+  "roms": [
+    "Macadam Bumper (1987)(ERE Informatique) [Simulation]"
+  ],
+  "description": "Macadam Bumper",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "ERE Informatique",
+  "genre": "Simulation"
+}

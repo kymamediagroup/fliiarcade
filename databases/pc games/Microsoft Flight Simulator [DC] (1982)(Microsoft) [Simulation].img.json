@@ -1,0 +1,11 @@
+{
+  "name": "Microsoft Flight Simulator [DC] (1982)(Microsoft) [Simulation].img",
+  "roms": [
+    "Microsoft Flight Simulator [DC] (1982)(Microsoft) [Simulation].img"
+  ],
+  "description": "Microsoft Flight Simulator",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "Microsoft",
+  "genre": "Simulation"
+}

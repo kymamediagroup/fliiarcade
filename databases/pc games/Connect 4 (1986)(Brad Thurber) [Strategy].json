@@ -1,0 +1,11 @@
+{
+  "name": "Connect 4 (1986)(Brad Thurber) [Strategy]",
+  "roms": [
+    "Connect 4 (1986)(Brad Thurber) [Strategy]"
+  ],
+  "description": "Connect 4",
+  "system": "dosbox",
+  "year": 1986,
+  "manufacturer": "Brad Thurber",
+  "genre": "Strategy"
+}

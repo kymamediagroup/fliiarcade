@@ -1,0 +1,11 @@
+{
+  "name": "Over-Reaction (1985)(Home Computer Magazine) [Simulation]",
+  "roms": [
+    "Over-Reaction (1985)(Home Computer Magazine) [Simulation]"
+  ],
+  "description": "Over-Reaction",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "Home Computer Magazine",
+  "genre": "Simulation"
+}

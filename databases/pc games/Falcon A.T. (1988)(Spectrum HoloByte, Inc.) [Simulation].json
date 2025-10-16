@@ -1,0 +1,11 @@
+{
+  "name": "Falcon A.T. (1988)(Spectrum HoloByte, Inc.) [Simulation]",
+  "roms": [
+    "Falcon A.T. (1988)(Spectrum HoloByte, Inc.) [Simulation]"
+  ],
+  "description": "Falcon A.T.",
+  "system": "dosbox",
+  "year": 1988,
+  "manufacturer": "Spectrum HoloByte, Inc.",
+  "genre": "Simulation"
+}

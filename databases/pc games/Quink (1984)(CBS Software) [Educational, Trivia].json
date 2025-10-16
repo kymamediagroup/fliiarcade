@@ -1,0 +1,11 @@
+{
+  "name": "Quink (1984)(CBS Software) [Educational, Trivia]",
+  "roms": [
+    "Quink (1984)(CBS Software) [Educational, Trivia]"
+  ],
+  "description": "Quink",
+  "system": "dosbox",
+  "year": 1984,
+  "manufacturer": "CBS Software",
+  "genre": "Educational/Trivia"
+}

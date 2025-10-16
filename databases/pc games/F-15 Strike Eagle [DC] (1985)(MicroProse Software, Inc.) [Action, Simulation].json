@@ -1,0 +1,11 @@
+{
+  "name": "F-15 Strike Eagle [DC] (1985)(MicroProse Software, Inc.) [Action, Simulation]",
+  "roms": [
+    "F-15 Strike Eagle [DC] (1985)(MicroProse Software, Inc.) [Action, Simulation]"
+  ],
+  "description": "F-15 Strike Eagle",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "MicroProse Software, Inc.",
+  "genre": "Action/Simulation"
+}

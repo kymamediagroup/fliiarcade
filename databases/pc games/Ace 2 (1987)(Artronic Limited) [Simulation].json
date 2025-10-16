@@ -1,0 +1,11 @@
+{
+  "name": "Ace 2 (1987)(Artronic Limited) [Simulation]",
+  "roms": [
+    "Ace 2 (1987)(Artronic Limited) [Simulation]"
+  ],
+  "description": "Ace 2",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "Artronic Limited",
+  "genre": "Simulation"
+}

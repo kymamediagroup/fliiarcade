@@ -1,0 +1,11 @@
+{
+  "name": "Apollo Mission Simulator v1.1 [SW] (1987)(Albert H. Reynolds III) [Simulation]",
+  "roms": [
+    "Apollo Mission Simulator v1.1 [SW] (1987)(Albert H. Reynolds III) [Simulation]"
+  ],
+  "description": "Apollo Mission Simulator v1.1",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "Albert H. Reynolds III",
+  "genre": "Simulation"
+}

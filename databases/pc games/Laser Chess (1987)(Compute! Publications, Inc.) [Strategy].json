@@ -1,0 +1,11 @@
+{
+  "name": "Laser Chess (1987)(Compute! Publications, Inc.) [Strategy]",
+  "roms": [
+    "Laser Chess (1987)(Compute! Publications, Inc.) [Strategy]"
+  ],
+  "description": "Laser Chess",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "Compute! Publications, Inc.",
+  "genre": "Strategy"
+}

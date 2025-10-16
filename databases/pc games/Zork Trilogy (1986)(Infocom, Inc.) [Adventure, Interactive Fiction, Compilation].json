@@ -1,0 +1,11 @@
+{
+  "name": "Zork Trilogy (1986)(Infocom, Inc.) [Adventure, Interactive Fiction, Compilation]",
+  "roms": [
+    "Zork Trilogy (1986)(Infocom, Inc.) [Adventure, Interactive Fiction, Compilation]"
+  ],
+  "description": "Zork Trilogy",
+  "system": "dosbox",
+  "year": 1986,
+  "manufacturer": "Infocom, Inc.",
+  "genre": "Adventure/Interactive Fiction/Compilation"
+}

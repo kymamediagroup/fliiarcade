@@ -1,0 +1,11 @@
+{
+  "name": "Disk Crash [SW] (1985)(Gary Quiring) [Action]",
+  "roms": [
+    "Disk Crash [SW] (1985)(Gary Quiring) [Action]"
+  ],
+  "description": "Disk Crash",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "Gary Quiring",
+  "genre": "Action"
+}

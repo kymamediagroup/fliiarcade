@@ -1,0 +1,11 @@
+{
+  "name": "Microsoft Flight Simulator 3.0 (1988)(Microsoft) [Simulation]",
+  "roms": [
+    "Microsoft Flight Simulator 3.0 (1988)(Microsoft) [Simulation]"
+  ],
+  "description": "Microsoft Flight Simulator 3.0",
+  "system": "dosbox",
+  "year": 1988,
+  "manufacturer": "Microsoft",
+  "genre": "Simulation"
+}

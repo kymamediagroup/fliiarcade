@@ -1,0 +1,11 @@
+{
+  "name": "PC-MAN (1982)(Orion Software, Inc.) [Action]",
+  "roms": [
+    "PC-MAN (1982)(Orion Software, Inc.) [Action]"
+  ],
+  "description": "PC-MAN",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "Orion Software, Inc.",
+  "genre": "Action"
+}

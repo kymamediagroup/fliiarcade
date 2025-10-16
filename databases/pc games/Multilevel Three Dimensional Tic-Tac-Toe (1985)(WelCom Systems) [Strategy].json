@@ -1,0 +1,11 @@
+{
+  "name": "Multilevel Three Dimensional Tic-Tac-Toe (1985)(WelCom Systems) [Strategy]",
+  "roms": [
+    "Multilevel Three Dimensional Tic-Tac-Toe (1985)(WelCom Systems) [Strategy]"
+  ],
+  "description": "Multilevel Three Dimensional Tic-Tac-Toe",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "WelCom Systems",
+  "genre": "Strategy"
+}

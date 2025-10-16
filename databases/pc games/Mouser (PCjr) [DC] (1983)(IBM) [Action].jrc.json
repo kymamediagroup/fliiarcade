@@ -1,0 +1,11 @@
+{
+  "name": "Mouser (PCjr) [DC] (1983)(IBM) [Action].jrc",
+  "roms": [
+    "Mouser (PCjr) [DC] (1983)(IBM) [Action].jrc"
+  ],
+  "description": "Mouser (PCjr)",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "IBM",
+  "genre": "Action"
+}

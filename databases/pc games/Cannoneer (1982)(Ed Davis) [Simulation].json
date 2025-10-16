@@ -1,0 +1,11 @@
+{
+  "name": "Cannoneer (1982)(Ed Davis) [Simulation]",
+  "roms": [
+    "Cannoneer (1982)(Ed Davis) [Simulation]"
+  ],
+  "description": "Cannoneer",
+  "system": "dosbox",
+  "year": 1982,
+  "manufacturer": "Ed Davis",
+  "genre": "Simulation"
+}

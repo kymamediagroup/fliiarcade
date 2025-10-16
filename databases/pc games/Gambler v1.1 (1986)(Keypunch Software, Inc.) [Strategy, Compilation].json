@@ -1,0 +1,11 @@
+{
+  "name": "Gambler v1.1 (1986)(Keypunch Software, Inc.) [Strategy, Compilation]",
+  "roms": [
+    "Gambler v1.1 (1986)(Keypunch Software, Inc.) [Strategy, Compilation]"
+  ],
+  "description": "Gambler v1.1",
+  "system": "dosbox",
+  "year": 1986,
+  "manufacturer": "Keypunch Software, Inc.",
+  "genre": "Strategy/Compilation"
+}

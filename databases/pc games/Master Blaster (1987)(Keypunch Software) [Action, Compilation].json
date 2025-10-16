@@ -1,0 +1,11 @@
+{
+  "name": "Master Blaster (1987)(Keypunch Software) [Action, Compilation]",
+  "roms": [
+    "Master Blaster (1987)(Keypunch Software) [Action, Compilation]"
+  ],
+  "description": "Master Blaster",
+  "system": "dosbox",
+  "year": 1987,
+  "manufacturer": "Keypunch Software",
+  "genre": "Action/Compilation"
+}

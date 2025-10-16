@@ -1,0 +1,11 @@
+{
+  "name": "Bluebush Chess (1983)(Bluebush Software) [Strategy, Chess]",
+  "roms": [
+    "Bluebush Chess (1983)(Bluebush Software) [Strategy, Chess]"
+  ],
+  "description": "Bluebush Chess",
+  "system": "dosbox",
+  "year": 1983,
+  "manufacturer": "Bluebush Software",
+  "genre": "Strategy/Chess"
+}

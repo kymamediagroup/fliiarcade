@@ -1,0 +1,11 @@
+{
+  "name": "FBCOACH [SW] (1985)(Maryland Software, Inc.) [Simulation, Sports]",
+  "roms": [
+    "FBCOACH [SW] (1985)(Maryland Software, Inc.) [Simulation, Sports]"
+  ],
+  "description": "FBCOACH",
+  "system": "dosbox",
+  "year": 1985,
+  "manufacturer": "Maryland Software, Inc.",
+  "genre": "Simulation/Sports"
+}
