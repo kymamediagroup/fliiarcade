@@ -3,9 +3,9 @@ public/**
 !public/**/
 .vscode
 
-# This ZIP is too big for GitHub (needs LFS)
+# This one is too big for GitHub (needs LFS)
 
-mame/samples/twotiger.*
+mame/samples/twotiger.zip
 
 # Temporary to avoid Github server timeout on initial pushes
 
@@ -14,9 +14,7 @@ mame/artwork/**/b*.png
 mame/manuals/**/*
 
 icons/**/a*
-icons/**/k*
-icons/**/l*
-icons/**/m*
+
 icons/**/n*
 icons/**/o*
 icons/**/p*
