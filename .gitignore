@@ -13,8 +13,11 @@ mame/snap/*
 mame/marquees/*
 mame/flyers/*
 mame/artwork/**/*
-mame/nvram/**/*
 mame/manuals/**/*
+
+# This one is too big for GitHub (needs LFS)
+
+mame/samples/twotiger.*
 
 mame/*.wasm.gz
 
