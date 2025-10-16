@@ -3,21 +3,45 @@ public/**
 !public/**/
 .vscode
 
+# This ZIP is too big for GitHub (needs LFS)
+
+mame/samples/twotiger.*
+
 # Temporary to avoid Github server timeout on initial pushes
 
 mame/artwork/**/b*.png
 
 mame/manuals/**/*
 
-# This one is too big for GitHub (needs LFS)
-
-mame/samples/twotiger.*
-
 icons/**/*
 
 images/boxes/**/*
 images/cabinets/*
-images/logos/**/*
+
+images/logos/**/a*
+images/logos/**/b*
+images/logos/**/c*
+images/logos/**/d*
+images/logos/**/e*
+images/logos/**/f*
+images/logos/**/g*
+images/logos/**/h*
+images/logos/**/i*
+images/logos/**/j*
+images/logos/**/k*
+images/logos/**/l*
+images/logos/**/m*
+images/logos/**/n*
+images/logos/**/o*
+images/logos/**/p*
+images/logos/**/q*
+images/logos/**/r*
+images/logos/**/s*
+images/logos/**/t*
+
+images/logos/a2600/*
+images/logos/nes/*
+
 
 images/bezels/a2600/*
 images/bezels/nes/*
