@@ -83,6 +83,16 @@ dosbox/roms/**/*.zip
 
 # ...and their preview videos
 
+!video/previews/alienar.mp4
+!video/previews/carpolo.mp4
+!video/previews/circus.mp4
+!video/previews/crash.mp4
+!video/previews/fax.mp4
+!video/previews/gridlee.mp4
+!video/previews/hardhat.mp4
+!video/previews/looping.mp4
+!video/previews/pong.mp4
+!video/previews/pongd.mp4
 !video/previews/ripcord.mp4
 !video/previews/robby.mp4
 !video/previews/robotbwl.mp4
