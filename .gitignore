@@ -17,7 +17,6 @@ mame/nvram/**/*
 mame/manuals/**/*
 mame/samples/**/*
 
-mame/*.json
 mame/*.wasm.gz
 
 icons/**/*
