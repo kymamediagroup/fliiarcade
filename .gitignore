@@ -29,8 +29,6 @@ images/cabinets/*
 images/logos/**/*
 images/bezels/**/*
 
-sounds/**/*
-
 video/previews/**/*
 
 # Exclude MAME all ROMs and disks
