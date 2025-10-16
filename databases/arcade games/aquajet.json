@@ -1,0 +1,1 @@
+{"name":"aquajet","description":"Aqua Jet (Rev. AJ2 Ver.B)","system":"mame","parentSystem":"namcos22","roms":["aquajet"],"biosFiles":[],"hasSamples":false,"nativeResolution":[640,480],"players":1,"controls":{"1":{"type":"pedal"}},"genre":"Driving","manufacturer":"Namco","year":1996,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

@@ -1,0 +1,1 @@
+{"name":"crusnusa","description":"Cruis'n USA (rev L4.1)","system":"mame","parentSystem":"midvunit","roms":["crusnusa"],"biosFiles":[],"hasSamples":false,"nativeResolution":[512,400],"players":1,"controls":{"1":{"buttons":8,"type":"pedal"}},"genre":"Driving","manufacturer":"Midway","year":1994,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

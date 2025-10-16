@@ -1,0 +1,1 @@
+{"name":"harem","description":"Harem","system":"mame","parentSystem":"scramble","roms":["harem"],"biosFiles":[],"hasSamples":false,"nativeResolution":[224,256],"players":1,"controls":{"1":{"buttons":1,"type":"joy","ways":"8"}},"genre":"Shooter","manufacturer":"I.G.R.","year":1983,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":"c9a2bf73"}

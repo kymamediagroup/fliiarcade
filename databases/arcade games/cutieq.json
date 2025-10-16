@@ -1,0 +1,1 @@
+{"name":"cutieq","description":"Cutie Q","system":"mame","parentSystem":"warpwarp","roms":["cutieq"],"biosFiles":[],"hasSamples":false,"nativeResolution":[224,272],"players":2,"controls":{"1":{"buttons":1,"type":"paddle"},"2":{"type":"paddle"}},"genre":"Breakout","manufacturer":"Namco","year":1979,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

@@ -1,0 +1,1 @@
+{"name":"buggyboy","description":"Buggy Boy/Speed Buggy (cockpit)","system":"mame","parentSystem":"tx1","roms":["buggyboy"],"biosFiles":[],"hasSamples":false,"nativeResolution":[256,240],"players":1,"controls":{"1":{"buttons":1,"type":"pedal"}},"genre":"Driving","manufacturer":"Tatsumi","year":1985,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

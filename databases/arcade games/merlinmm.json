@@ -1,0 +1,1 @@
+{"name":"merlinmm","description":"Merlins Money Maze","system":"mame","parentSystem":"pingpong","roms":["merlinmm"],"biosFiles":[],"hasSamples":false,"nativeResolution":[224,256],"players":1,"controls":{"1":{"type":"joy","ways":"4"}},"genre":"Maze","manufacturer":"Zilec-Zenitone","year":1986,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

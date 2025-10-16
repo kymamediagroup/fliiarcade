@@ -1,0 +1,1 @@
+{"name":"invds","description":"Invinco / Deep Scan","system":"mame","parentSystem":"vicdual","roms":["invds"],"biosFiles":[],"hasSamples":true,"nativeResolution":[224,256],"players":1,"controls":{"1":{"buttons":3,"type":"joy","ways":"2"}},"genre":"Compilation","manufacturer":"Sega","year":1979,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":"9617d796"}

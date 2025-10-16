@@ -1,0 +1,1 @@
+{"name":"ampoker2","description":"American Poker II","system":"mame","parentSystem":"ampoker2","roms":["ampoker2"],"biosFiles":[],"hasSamples":false,"nativeResolution":[288,240],"players":1,"controls":{"1":{"buttons":11,"type":"gambling"}},"genre":"Casino","manufacturer":"Novomatic","year":1990,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

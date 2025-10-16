@@ -1,0 +1,1 @@
+{"name":"tx1","description":"TX-1","system":"mame","parentSystem":"tx1","roms":["tx1"],"biosFiles":[],"hasSamples":false,"nativeResolution":[256,240],"players":1,"controls":{"1":{"buttons":1,"type":"pedal"}},"genre":"Driving","manufacturer":"Tatsumi","year":1983,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

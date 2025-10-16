@@ -1,0 +1,1 @@
+{"name":"hammer","description":"Hammer","system":"mame","parentSystem":"midas","roms":["hammer"],"biosFiles":[],"hasSamples":false,"nativeResolution":[320,224],"players":1,"controls":{"1":{"buttons":1,"type":"lightgun"}},"genre":"Miscellaneous/Gun","manufacturer":"Andamiro","year":2000,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":"9cc4b3ec"}

@@ -1,0 +1,1 @@
+{"name":"hangonjr","description":"Hang-On Jr.","system":"mame","parentSystem":"segae","roms":["hangonjr"],"biosFiles":[],"hasSamples":false,"nativeResolution":[256,192],"players":1,"controls":{"1":{"type":"pedal"}},"genre":"Motorcycle","manufacturer":"Sega","year":1985,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

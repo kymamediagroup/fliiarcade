@@ -1,0 +1,1 @@
+{"name":"eggsplc","description":"Eggs Playing Chicken","system":"mame","parentSystem":"calchase","roms":["eggsplc"],"biosFiles":[],"hasSamples":false,"nativeResolution":[640,480],"players":1,"controls":{"1":{"buttons":24,"type":"keypad"}},"genre":"Action","manufacturer":"The Game Room","year":2002,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":"1eebde64"}

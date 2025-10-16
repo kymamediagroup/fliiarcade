@@ -1,0 +1,1 @@
+{"name":"280zzzap","description":"Datsun 280 Zzzap","system":"mame","parentSystem":"mw8080bw","roms":["280zzzap"],"biosFiles":[],"hasSamples":false,"nativeResolution":[260,224],"players":1,"controls":{"1":{"type":"pedal","buttons":1}},"genre":"Driving","manufacturer":"Midway","year":1976,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

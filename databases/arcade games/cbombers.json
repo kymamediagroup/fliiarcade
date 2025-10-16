@@ -1,0 +1,1 @@
+{"name":"cbombers","description":"Chase Bombers","system":"mame","parentSystem":"undrfire","roms":["cbombers"],"biosFiles":[],"hasSamples":false,"nativeResolution":[320,232],"players":1,"controls":{"1":{"buttons":5,"type":"stick"}},"genre":"Driving","manufacturer":"Taito Corporation Japan","year":1994,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

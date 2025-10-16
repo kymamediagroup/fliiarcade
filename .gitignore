@@ -5,7 +5,6 @@ public/**
 
 # Temporary to avoid Github server timeout on first push
 
-databases/arcade games/*
 databases/pc games/*
 
 mame/artwork/**/*

@@ -1,0 +1,1 @@
+{"name":"nycaptor","description":"N.Y. Captor","system":"mame","parentSystem":"nycaptor","roms":["nycaptor"],"biosFiles":[],"hasSamples":false,"nativeResolution":[256,224],"players":1,"controls":{"1":{"buttons":1,"type":"lightgun"}},"genre":"Gun","manufacturer":"Taito","year":1985,"rating":"AAMA - Yellow (Animated Violence Mild)","mature":false,"crc":""}

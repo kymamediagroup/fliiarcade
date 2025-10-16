@@ -1,0 +1,1 @@
+{"name":"radr","description":"Rad Rally (World)","system":"mame","parentSystem":"segas32","roms":["radr"],"biosFiles":[],"hasSamples":false,"nativeResolution":[416,224],"players":1,"controls":{"1":{"buttons":1,"type":"pedal"}},"genre":"Driving","manufacturer":"Sega","year":1991,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

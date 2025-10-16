@@ -1,0 +1,1 @@
+{"name":"tailg","description":"Tailgunner","system":"mame","parentSystem":"cinemat","roms":["tailg"],"biosFiles":[],"hasSamples":true,"players":1,"controls":{"1":{"buttons":2,"type":"stick"}},"numberOfButtons":2,"buttonLabels":["Fire","Shield"],"genre":"Shooter","manufacturer":"Cinematronics","year":1979,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

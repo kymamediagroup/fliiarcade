@@ -1,0 +1,1 @@
+{"name":"racedriv","description":"Race Drivin' (cockpit, rev 5)","system":"mame","parentSystem":"harddriv","roms":["racedriv"],"biosFiles":[],"hasSamples":false,"nativeResolution":[508,384],"players":1,"controls":{"1":{"type":"pedal"}},"genre":"Driving","manufacturer":"Atari Games","year":1990,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

@@ -1,0 +1,1 @@
+{"name":"deerhunt","description":"Deer Hunting USA V4.3","system":"mame","parentSystem":"seta2","roms":["deerhunt"],"biosFiles":[],"hasSamples":false,"nativeResolution":[320,240],"players":1,"controls":{"1":{"buttons":2,"type":"lightgun"}},"genre":"Gun","manufacturer":"Sammy USA Corporation","year":2000,"rating":"AAMA - Yellow (Animated Violence Mild)","mature":false,"crc":""}

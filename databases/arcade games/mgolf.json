@@ -1,0 +1,1 @@
+{"name":"mgolf","description":"Atari Mini Golf (prototype)","system":"mame","parentSystem":"mgolf","roms":["mgolf"],"biosFiles":[],"hasSamples":false,"nativeResolution":[224,256],"players":1,"controls":{"1":{"buttons":2,"type":"dial"}},"genre":"Sports/Golf","manufacturer":"Atari","year":1978,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

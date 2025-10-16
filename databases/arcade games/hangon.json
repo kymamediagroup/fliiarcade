@@ -1,0 +1,1 @@
+{"name":"hangon","description":"Hang-On (Rev A)","system":"mame","parentSystem":"segahang","roms":["hangon"],"biosFiles":[],"hasSamples":false,"nativeResolution":[320,224],"players":1,"controls":{"1":{"type":"pedal"}},"genre":"Motorcycle","manufacturer":"Sega","year":1985,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

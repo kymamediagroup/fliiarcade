@@ -1,0 +1,1 @@
+{"name":"ladyfrog","description":"Lady Frog","system":"mame","parentSystem":"ladyfrog","roms":["ladyfrog"],"biosFiles":[],"hasSamples":false,"nativeResolution":[224,256],"players":1,"controls":{"1":{"buttons":1,"type":"joy","ways":"4"}},"genre":"Maze","manufacturer":"Mondial Games","year":1990,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":"8c73baa1"}

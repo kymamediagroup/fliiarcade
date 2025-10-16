@@ -1,0 +1,1 @@
+{"name":"hangman","description":"Hangman","system":"mame","parentSystem":"statriv2","roms":["hangman"],"biosFiles":[],"hasSamples":false,"nativeResolution":[320,240],"players":1,"controls":{"1":{"buttons":5,"type":"only_buttons"}},"genre":"Quiz","manufacturer":"Status Games","year":1984,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":"0421b8e0"}

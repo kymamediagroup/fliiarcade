@@ -1,0 +1,1 @@
+{"name":"cfarm","description":"Chicken Farm (Version 2.0)","system":"mame","parentSystem":"lethalj","roms":["cfarm"],"biosFiles":[],"hasSamples":false,"nativeResolution":[236,512],"players":1,"controls":{"1":{"buttons":3,"type":"only_buttons"}},"genre":"Miscellaneous","manufacturer":"LAI Games","year":1999,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

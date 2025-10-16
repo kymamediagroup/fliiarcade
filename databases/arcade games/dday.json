@@ -1,0 +1,1 @@
+{"name":"dday","description":"D-Day","system":"mame","parentSystem":"dday","roms":["dday"],"biosFiles":[],"hasSamples":false,"nativeResolution":[256,224],"players":1,"controls":{"1":{"buttons":1,"type":"paddle"}},"genre":"Shooter","manufacturer":"Olympia","year":1982,"rating":"AAMA - Yellow (Animated Violence Mild)","mature":false,"crc":""}

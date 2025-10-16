@@ -1,0 +1,1 @@
+{"name":"usvsthem","description":"Us vs. Them","system":"mame","parentSystem":"gottlieb","roms":["usvsthem"],"biosFiles":[],"hasSamples":false,"nativeResolution":[704,480],"players":1,"controls":{"1":{"buttons":3,"type":"joy","ways":"8"}},"genre":"Shooter","manufacturer":"Mylstar","year":1984,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":"7734e53f"}

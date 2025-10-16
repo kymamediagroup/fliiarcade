@@ -1,0 +1,1 @@
+{"name":"nitedrvr","description":"Night Driver","system":"mame","parentSystem":"nitedrvr","roms":["nitedrvr"],"biosFiles":[],"hasSamples":false,"nativeResolution":[256,240],"players":1,"controls":{"1":{"buttons":8,"type":"dial"}},"genre":"Driving","manufacturer":"Atari","year":1976,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

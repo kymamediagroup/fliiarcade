@@ -1,0 +1,1 @@
+{"name":"changela","description":"Change Lanes","system":"mame","parentSystem":"changela","roms":["changela"],"biosFiles":[],"hasSamples":false,"nativeResolution":[256,224],"players":1,"controls":{"1":{"buttons":1,"type":"pedal","ways":"2"}},"genre":"Driving","manufacturer":"Taito Corporation","year":1983,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":""}

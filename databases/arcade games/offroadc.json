@@ -1,0 +1,1 @@
+{"name":"offroadc","description":"Off Road Challenge (v1.63)","system":"mame","parentSystem":"midvunit","roms":["offroadc"],"biosFiles":[],"hasSamples":false,"nativeResolution":[512,400],"players":1,"controls":{"1":{"buttons":8,"type":"pedal"}},"genre":"Driving","manufacturer":"Midway","year":1997,"rating":"AAMA - Green (Suitable For All Ages)","mature":false,"crc":"78f8e5db"}
