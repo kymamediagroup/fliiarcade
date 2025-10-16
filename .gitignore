@@ -5,7 +5,26 @@ public/**
 
 # Temporary to avoid Github server timeout on first push
 
-mame/artwork/**/*.png
+mame/artwork/**/a*.png
+mame/artwork/**/b*.png
+mame/artwork/**/c*.png
+mame/artwork/**/d*.png
+mame/artwork/**/e*.png
+mame/artwork/**/f*.png
+mame/artwork/**/g*.png
+mame/artwork/**/h*.png
+mame/artwork/**/i*.png
+mame/artwork/**/j*.png
+mame/artwork/**/k*.png
+mame/artwork/**/l*.png
+mame/artwork/**/m*.png
+mame/artwork/**/n*.png
+mame/artwork/**/o*.png
+mame/artwork/**/p*.png
+mame/artwork/**/q*.png
+mame/artwork/**/r*.png
+mame/artwork/**/s*.png
+
 mame/manuals/**/*
 
 # This one is too big for GitHub (needs LFS)
