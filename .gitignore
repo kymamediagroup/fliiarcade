@@ -13,7 +13,26 @@ mame/artwork/**/b*.png
 
 mame/manuals/**/*
 
-icons/**/*
+icons/**/a*
+icons/**/b*
+icons/**/c*
+icons/**/d*
+icons/**/e*
+icons/**/f*
+icons/**/g*
+icons/**/h*
+icons/**/i*
+icons/**/j*
+icons/**/k*
+icons/**/l*
+icons/**/m*
+icons/**/n*
+icons/**/o*
+icons/**/p*
+icons/**/q*
+icons/**/r*
+icons/**/s*
+icons/**/t*
 
 video/previews/**/*
 
