@@ -18,7 +18,6 @@ mame/manuals/**/*
 mame/samples/**/*
 
 mame/*.json
-mame/*.js.gz
 mame/*.wasm.gz
 
 icons/**/*
