@@ -8,10 +8,7 @@ public/**
 mame/artwork/**/a*.png
 mame/artwork/**/b*.png
 mame/artwork/**/c*.png
-mame/artwork/**/d*.png
-mame/artwork/**/e*.png
-mame/artwork/**/f*.png
-mame/artwork/**/g*.png
+
 
 mame/manuals/**/*
 
