@@ -16,7 +16,25 @@ mame/samples/twotiger.*
 
 icons/**/*
 
-images/backgrounds/*
+images/backgrounds/a*
+images/backgrounds/b*
+images/backgrounds/c*
+images/backgrounds/d*
+images/backgrounds/e*
+images/backgrounds/f*
+images/backgrounds/g*
+images/backgrounds/h*
+images/backgrounds/i*
+images/backgrounds/j*
+images/backgrounds/k*
+images/backgrounds/l*
+images/backgrounds/m*
+images/backgrounds/n*
+images/backgrounds/o*
+images/backgrounds/p*
+images/backgrounds/q*
+images/backgrounds/r*
+
 images/boxes/**/*
 images/cabinets/*
 images/logos/**/*
