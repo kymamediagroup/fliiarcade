@@ -13,9 +13,6 @@ mame/artwork/**/b*.png
 
 mame/manuals/**/*
 
-icons/**/a*
-icons/**/t*
-
 video/previews/**/*
 
 # Console systems not in use yet
