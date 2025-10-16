@@ -7,9 +7,7 @@ public/**
 
 mame/samples/twotiger.zip
 
-# Temporary to avoid Github server timeout on initial pushes
-
-# TODO: Break up, as there are too many bezel.png files for GitHub to process at once
+# Exclude all manuals as not in use yet (if ever)
 
 mame/manuals/**/*
 
@@ -17,7 +15,7 @@ mame/manuals/**/*
 
 video/previews/**/*
 
-# Console systems not in use yet
+# Console systems media as not in use yet
 
 images/boxes/a2600/*
 images/boxes/nes/*
