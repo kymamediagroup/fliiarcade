@@ -15,14 +15,10 @@ mame/samples/twotiger.*
 
 icons/**/*
 
-images/backgrounds/a*
-images/backgrounds/b*
-images/backgrounds/c*
-images/backgrounds/d*
-
 images/boxes/**/*
 images/cabinets/*
 images/logos/**/*
+
 images/bezels/a2600/*
 images/bezels/nes/*
 
