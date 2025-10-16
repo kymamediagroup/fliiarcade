@@ -80,3 +80,13 @@ dosbox/roms/**/*.zip
 !mame/roms/.219/spectar.zip
 !mame/roms/.219/targ.zip
 !mame/roms/.219/victory.zip
+
+# ...and their preview videos
+
+!video/previews/ripcord.mp4
+!video/previews/robby.mp4
+!video/previews/robotbwl.mp4
+!video/previews/sidetrac.mp4
+!video/previews/spectar.mp4
+!video/previews/targ.mp4
+!video/previews/victory.mp4
