@@ -1,0 +1,14 @@
+{
+    "name": "tiny-crate",
+    "description": "Tiny Crate",
+    "system": "web",
+    "players": 1,
+    "genre": "Puzzle",
+    "manufacturer": "Webmaster",
+    "year": 2025,
+    "rating": "ESRB - Everyone (Suitable For All Ages)",
+    "mature": false,
+    "location": "https://html-classic.itch.zone/html/13316886-1254452/index.html",
+    "story": "Tiny Crate is a cute little precision platformer with puzzle elements!\n\nLift and toss crates to traverse over spike pits and reach higher ground!\n\nWeigh down buttons to create platforms and solve the puzzle!\n\nPush yourself and make tight jumps! You got this! <3 (:",
+    "restricted": true
+}

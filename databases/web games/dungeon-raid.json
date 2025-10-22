@@ -1,0 +1,14 @@
+{
+    "name": "dungeon-raid",
+    "description": "Dungeon Raid",
+    "system": "web",
+    "players": 1,
+    "genre": "Maze",
+    "manufacturer": "Webmaster",
+    "year": 2025,
+    "rating": "ESRB - Everyone (Suitable For All Ages)",
+    "mature": false,
+    "location": "https://html-classic.itch.zone/html/14573984/Dungeon%20Raid%20[Web]/index.html",
+    "story": "Dungeon Raid is an adventure card roguelike. Dive deeper and deeper into the dungeon. Use everything you find to defeat enemies and kill the final boss. Good luck! And try not to die... from hunger.",
+    "restricted": true
+}

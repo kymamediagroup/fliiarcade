@@ -1,0 +1,14 @@
+{
+    "name": "super-mario-63-redux-[Tiny Demo]",
+    "description": "Super Mario 63 Redux [Tiny Demo]",
+    "system": "web",
+    "players": 1,
+    "genre": "Platform",
+    "manufacturer": "Webmaster",
+    "year": 2025,
+    "rating": "ESRB - Everyone (Suitable For All Ages)",
+    "mature": false,
+    "location": "https://html-classic.itch.zone/html/7803470/index.html",
+    "story": "This is the Tiny Demo, consisting of the title screen, main menu, and Tutorial 1. To help us improve the game, we encourage you to report bugs and issues using the feedback menu, as this sends the data directly to the team. Feel free to use this for things you like about the game, too! It helps to know what we're doing right as well as what we're doing wrong.",
+    "restricted": true
+}

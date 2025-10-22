@@ -1,0 +1,14 @@
+{
+    "name": "investigator",
+    "description": "Investigator and the Unconventional Weapon",
+    "system": "web",
+    "players": 1,
+    "genre": "Adventure",
+    "manufacturer": "Webmaster",
+    "year": 2025,
+    "rating": "ESRB - Everyone (Suitable For All Ages)",
+    "mature": false,
+    "location": "https://html-classic.itch.zone/html/112981/index.html",
+    "story": "The Investigator is an Alligator who Investigates crime, alongside various faithful sidekicks. With Bobbycat, they investigate various gruesome murders, interrogate suspects, and collect clues, until the time comes to accuse the murderer. The games are basically a very long excuse for me to come up with a bunch of rhyming animal names as well as the most heartfelt groan-inducing puns I can think of.\n\nIn Investigator and the Unconventional Weapon, Investigator and the Vanilla Chinchilla look into the murder of McGuffin the Puffin, found floating face down in the bathtub with a bloodied toilet tank lid on the floor.\n\nThe Investigator Cases are an ongoing series of point-and-click who-dunnits, inspired by games such as Professor Layton and authors such as Agatha Christie. I produce a new super short game every Ludum Dare (i.e., every 3 months)",
+    "restricted": true
+}

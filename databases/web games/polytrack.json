@@ -1,0 +1,14 @@
+{
+    "name": "polytrack",
+    "description": "PolyTrack",
+    "system": "web",
+    "players": 1,
+    "genre": "Driving",
+    "manufacturer": "Webmaster",
+    "year": 2025,
+    "rating": "ESRB - Everyone (Suitable For All Ages)",
+    "mature": false,
+    "location": "https://html-classic.itch.zone/html/14308892/index.html",
+    "story": "PolyTrack is a low-poly racing game with loops, jumps and high speeds, where every millisecond counts. The game is heavily inspired by TrackMania, where you race against the clock to improve your time on different tracks.",
+    "restricted": true
+}

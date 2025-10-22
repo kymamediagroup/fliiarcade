@@ -1,0 +1,14 @@
+{
+    "name": "swordfight",
+    "description": "Swordfight!!",
+    "system": "web",
+    "players": 1,
+    "genre": "Action",
+    "manufacturer": "Webmaster",
+    "year": 2025,
+    "rating": "ESRB - Everyone (Suitable For All Ages)",
+    "mature": false,
+    "location": "https://html-classic.itch.zone/html/14206763/index.html",
+    "story": "Swordfight!! is a top-down fighting game.",
+    "restricted": true
+}

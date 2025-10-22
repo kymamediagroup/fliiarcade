@@ -1,0 +1,14 @@
+{
+    "name": "seedship",
+    "description": "Seedship",
+    "system": "web",
+    "players": 1,
+    "genre": "Strategy",
+    "manufacturer": "Webmaster",
+    "year": 2025,
+    "rating": "ESRB - Everyone (Suitable For All Ages)",
+    "mature": false,
+    "location": "https://html-classic.itch.zone/html/12121226/index.html",
+    "story": "You are the AI controlling a ship filled with 1000 cryogenically frozen colonists, the last survivors of the human race. Your task is to find a suitable planet to be humanity's new home.\n\nPush your luck: do you settle on a not-quite-ideal planet, or keep searching and risk your ship being damaged on the journey? The planets you encounter are randomly generated, and as you travel you encounter random events, so each playthrough is different. See the stories of the colonies you found, and keep trying for a higher score.",
+    "restricted": true
+}

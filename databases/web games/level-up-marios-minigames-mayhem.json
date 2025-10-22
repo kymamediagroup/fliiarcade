@@ -1,0 +1,14 @@
+{
+    "name": "level-up-marios-minigames-mayhem",
+    "description": "Level UP - Mario's Minigames Mayhem",
+    "system": "web",
+    "players": 1,
+    "genre": "Compilation/Platform",
+    "manufacturer": "Webmaster",
+    "year": 2025,
+    "rating": "ESRB - Everyone (Suitable For All Ages)",
+    "mature": false,
+    "location": "https://html-classic.itch.zone/html/15216549/WebGL/index.html",
+    "story": "Have you ever watched a Mario animation on YouTube and wished that you could play it for real? Well that's exactly what this game is all about!\nFeatures:\n\n8 levels, with more coming in future updates!\n3 green coins to find in each level!\nRanks! Try to get the highest rank on each level!\nBoss battles!\nOptional checkpoints and infinite lives modifiers for inexperienced players!\nRe-bindable Controls!\nCheats!",
+    "restricted": true
+}

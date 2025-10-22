@@ -1,0 +1,14 @@
+{
+    "name": "stein-world",
+    "description": "stein.world",
+    "system": "web",
+    "players": 1,
+    "genre": "Maze",
+    "manufacturer": "Webmaster",
+    "year": 2025,
+    "rating": "ESRB - Everyone (Suitable For All Ages)",
+    "mature": false,
+    "location": "https://html-classic.itch.zone/html/1901131/index.html",
+    "story": "Players are able to embark on numerous adventures and can fight a variety of different enemies and monsters. They are able to learn various professions like mining, herbalism or tailoring in order to craft epic pieces of equipment and consumables. They can trade with each other or unite in a group of up to five people to face the numerous threats of the dungeons & wave dungeons together. Stein.world offers a wide range of different types of items, so players can customize their character to their liking. There is no strict class system within the game; the items themselves dictate the play-style.\n\nThat and much more awaits the players within stein.world, while they’re on their epic quest to recover their lost family heirloom: the eponymous family beer stein",
+    "restricted": true
+}

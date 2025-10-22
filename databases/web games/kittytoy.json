@@ -1,0 +1,13 @@
+{
+    "name": "kittytoy",
+    "description": "KittyToy",
+    "system": "web",
+    "players": 1,
+    "genre": "Simulation",
+    "manufacturer": "Webmaster",
+    "year": 2025,
+    "rating": "ESRB - Everyone (Suitable For All Ages)",
+    "mature": false,
+    "location": "https://html-classic.itch.zone/html/10701493/index.html?v=1732313567",
+    "restricted": true
+}

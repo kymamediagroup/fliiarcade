@@ -1,0 +1,14 @@
+{
+    "name": "combo-pool",
+    "description": "Combo Pool",
+    "system": "web",
+    "players": 1,
+    "genre": "Sports/Pool and Dart",
+    "manufacturer": "Webmaster",
+    "year": 2025,
+    "rating": "ESRB - Everyone (Suitable For All Ages)",
+    "mature": false,
+    "location": "https://html-classic.itch.zone/html/9331874/index.html",
+    "story": "Here is Combo Pool, a game made using Pico 8, and winning entry to p8jam2. It's a game where you throw colored marbles against each other. If two marbles of the same color make contact, they merge and upgrade to the next color. Your lifebar diminish with the number of balls on the field. If you lifebar is empty, you enter in a sudden death mode, and your last ball must save you by removing some balls.",
+    "restricted": true
+}

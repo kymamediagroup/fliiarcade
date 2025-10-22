@@ -1,0 +1,14 @@
+{
+    "name": "cantata",
+    "description": "Cantata",
+    "system": "web",
+    "players": 1,
+    "genre": "Adventure",
+    "manufacturer": "Webmaster",
+    "year": 2025,
+    "rating": "ESRB - Everyone (Suitable For All Ages)",
+    "mature": false,
+    "location": "https://html-classic.itch.zone/html/1901131/index.html",
+    "story": "The story is set in Saleste, a vast empire with a long history of expansionism and colonization. Within the empire, technically citizens but not, are the Iredicci. The Iredicci can hear and feel the cordis, the harmonic pulse that connects all living things, and they connect to it through song. Iredicci have excellent hearing, but their defining feature is their voice—they have an echo to their voice, a resonance of two pitches at once.\n\nA simple, nomadic people, the Iredicci were traditionally welcome in all corners of the Saleste Empire. But as steam technology progressed and the push for new resources grew, a prejudice developed against them. Over the years they stopped being welcome. Eventually, their travel was restricted, and the Iredicci were forced to live in settlement camps.\n\nYou are one of the Iredicci, born into such a camp. The elders sing songs of past travels and wonders you have never seen. Ever the optimists, the elders tell you to take heart. To be thankful you are among friends and family. That things can’t possibly get any worse.\n\nUntil they do.\n\nHistorians and politicians would call it The Proelium, a righteous battle against the traitorous Iredicci. What it really was, was the systematic genocide of your people. In one night, soldiers attacked every settlement camp across the empire. No one was spared—not the elders, not the children, not your mother.\n\nIt was mere whim that you snuck out of camp that evening, a mischievous escapade with a friend that ironically saved your life. You are taken in by your friend’s family and kept safe. But with survivors being hunted and killed, you must conceal your identity. So, you pretend to be deaf and mute.\n\nJourney through the empire of Saleste and beyond. Grow from a child into an adult. Make friends, lovers, allies, and enemies. How will they react when your secret comes to light? Will you abandon your song in favor of machine? Join the rebel forces against the tyrant regis? Will you heal the wounds of the realm and restore balance? Or plunge it further into chaos?",
+    "restricted": true
+}

@@ -1,0 +1,14 @@
+{
+    "name": "halloween-scrooge",
+    "description": "Halloween Scrooge",
+    "system": "web",
+    "players": 1,
+    "genre": "Adventure/Holiday/Halloween",
+    "manufacturer": "Webmaster",
+    "year": 2025,
+    "rating": "ESRB - Everyone (Suitable For All Ages)",
+    "mature": false,
+    "location": "https://html-classic.itch.zone/html/11830370/index.html",
+    "story": "October 30th: You’ve just moved to Ravenville, and Halloween is the last thing on your mind, even if it seems like your new town is obsessed with it. You decide you’ll skip the festivities this year as you settle into your new home, expecting teenagers to welcome you to the neighbourhood by egging your house and toilet-papering your trees, per Devil’s Night tradition. Instead, you get a visit from 3 handsome Halloween Ghosts, who try to convince you to stop being a scrooge and give the holiday a chance. Will they convince you that it’s worth getting in the Halloween spirit after all? Or will you just spend the entire time trying to flirt with them?",
+    "restricted": true
+}

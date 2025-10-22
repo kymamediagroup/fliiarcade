@@ -1,0 +1,14 @@
+{
+    "name": "narrow-one",
+    "description": "Narrow One",
+    "system": "web",
+    "players": 1,
+    "genre": "Shooter",
+    "manufacturer": "Webmaster",
+    "year": 2025,
+    "rating": "ESRB - Teen (Suitable For Ages 13+)",
+    "mature": false,
+    "location": "https://html-classic.itch.zone/html/3868136/index.html",
+    "story": "Battle players around the world with your bow and arrow. Defend your castle against invading foes. Steal the flag with the help of your teammates and win the battle. Narrow One is a multiplayer medieval-style bow and arrow shooter, 5v5. Explore the different maps and find the hidden shortcuts.",
+    "restricted": true
+}

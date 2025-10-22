@@ -1,0 +1,14 @@
+{
+    "name": "tales-of-misteria",
+    "description": "Tales of Misteria",
+    "system": "web",
+    "players": 1,
+    "genre": "Adventure",
+    "manufacturer": "Webmaster",
+    "year": 2025,
+    "rating": "ESRB - Everyone (Suitable For All Ages)",
+    "mature": false,
+    "location": "https://html-classic.itch.zone/html/15213497/TalesofMisteria-1.0-web/index.html",
+    "story": "When Kira and Ame return to their hometown of Misteria for their college break, it doesn't really take long for them to hear about a local's murder.\n\nKira wants nothing to do with this case, but when they learn about the circumstances of the murder being strangely similar to a storybook they once read as children... well, obviously they end up entangled with this damn mystery...!",
+    "restricted": true
+}

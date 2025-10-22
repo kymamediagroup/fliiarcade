@@ -1,0 +1,13 @@
+{
+    "name": "wayfarer",
+    "description": "Wayfarer",
+    "system": "web",
+    "players": 1,
+    "genre": "Adventure",
+    "manufacturer": "Webmaster",
+    "year": 2025,
+    "rating": "ESRB - Teen (Suitable For Ages 13+)",
+    "mature": false,
+    "location": "https://html-classic.itch.zone/html/10588802/game/index.html",
+    "story": "Wayfarer is a dark fantasy interactive fiction game. With the storytelling of a novel, the player choice of an RPG, and the dice roll mechanics of a tabletop game, the game creates a unique experience that changes with every playthrough.\n\nCreate and customize your character, improve your skills, and navigate hundreds of branching choices as you journey through the magical city of Velantis.\n\nThe game is currently in development and releases episodically."
+}

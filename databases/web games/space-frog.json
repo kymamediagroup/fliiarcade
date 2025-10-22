@@ -1,0 +1,14 @@
+{
+    "name": "space-frog",
+    "description": "SPACE FROG!",
+    "system": "web",
+    "players": 1,
+    "genre": "Adventure",
+    "manufacturer": "Webmaster",
+    "year": 2025,
+    "rating": "ESRB - Everyone (Suitable For All Ages)",
+    "mature": false,
+    "location": "https://html-classic.itch.zone/html/2766663/index.html",
+    "story": "This is SPACE FROG! a story of a frog in space.\n\nSPACE FROG! is a pick-your-path adventure story made for agbic 2020 - LOW TECH (ancient techniques only) - based on my famicase 2020 submission, uchuu kaeru.",
+    "restricted": true
+}

@@ -1,0 +1,14 @@
+{
+    "name": "vampire-survivors",
+    "description": "Vampire Survivors",
+    "system": "web",
+    "players": 1,
+    "genre": "Action",
+    "manufacturer": "Webmaster",
+    "year": 2025,
+    "rating": "ESRB - Everyone (Suitable For All Ages)",
+    "mature": false,
+    "location": "https://html-classic.itch.zone/html/5185382/index.html",
+    "story": "There exist tales that don't exist.\n\nThe year 2021, Rural Italy, there lived an evil person named Bisconte Draculó, whose many evil magics created a bad world filled with famine and suffering. It's now up to the members of the Belpaese family to end his reign of terror and return good food to the table.\n\nVampire Survivors is currently a time survival game with minimalistic gameplay and roguelite elements.\n\nThere's no place where to hide, all you can do is try to survive a cursed night and get as much gold as possible for the next survivor, before Death inevitably puts an end to your struggles.",
+    "restricted": true
+}

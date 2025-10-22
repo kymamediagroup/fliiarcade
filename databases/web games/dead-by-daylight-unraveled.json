@@ -1,0 +1,14 @@
+{
+    "name": "dead-by-daylight-unraveled",
+    "description": "Dead by Daylight Unraveled",
+    "system": "web",
+    "players": 1,
+    "genre": "Adventure",
+    "manufacturer": "Webmaster",
+    "year": 2025,
+    "rating": "ESRB - Teen (Suitable For Ages 13+)",
+    "mature": true,
+    "location": "https://html-classic.itch.zone/html/15273239/dbd_unraveled/src/index.html",
+    "story": "Hello Wanderer...\n\nIn the shifting fog and mysterious realms beyond, answers wait to be unveiled. A dark revelation must be brought to light.\n\nYour journey begins as a savior—a champion, a messiah, the last beacon of hope amid utter despair. The path won't be easy, but you won't walk it alone. You'll forge unlikely alliances, and escape from this nightmare draws ever nearer.\n\nYet even in this deathless realm, the clock is ticking. You and your fellow survivors stand on borrowed time. Unravel the truth before you're consumed, Wanderer.",
+    "restricted": true
+}
